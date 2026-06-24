@@ -1,0 +1,6 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#15131c"/>
+  <path d="M120 60 L200 240 L280 60" stroke="#5d9173" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="0.55" fill="none"/>
+  <circle cx="200" cy="78" r="11" fill="#5d9173" opacity="0.55"/>
+  <text x="20" y="280" font-family="Work Sans, sans-serif" font-size="11" letter-spacing="2" fill="#5d5870">ARTWORK PLACEHOLDER</text>
+</svg>

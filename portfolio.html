@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio &middot; zuPasha</title>
+  <meta name="description" content="Character design, illustration, and tattoo concept work from zuPasha.">
+  <link rel="icon" type="image/svg+xml" href="images/mark.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="images/mark.svg" alt="">
+        <span class="brand-text">zuPasha<span>TsuPasai &middot; VantaPsy</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+      </button>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="game.html">Game</a></li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Portfolio</p>
+      <h1>Selected work</h1>
+      <p class="hero-tagline">Character design, illustration, and tattoo concepts, organised by what each piece was for.</p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="wrap">
+
+      <!-- EDIT: filter buttons drive the data-category attribute below via js/main.js -->
+      <div class="filter-row">
+        <button class="filter-btn is-active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="featured">Featured</button>
+        <button class="filter-btn" data-filter="character">Character Design</button>
+        <button class="filter-btn" data-filter="illustration">Illustration</button>
+        <button class="filter-btn" data-filter="tattoo">Tattoo Design</button>
+        <button class="filter-btn" data-filter="archive">Archive</button>
+      </div>
+
+      <div class="grid">
+        <div class="card" data-category="featured">
+          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-a.svg" alt="Featured artwork placeholder"></div>
+          <span class="meta">Featured</span>
+          <h3>Placeholder Title</h3>
+          <p>Short note on the piece: medium, year, or what it was for.</p>
+        </div>
+        <div class="card" data-category="character">
+          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-b.svg" alt="Character design placeholder"></div>
+          <span class="meta">Character Design</span>
+          <h3>Placeholder Title</h3>
+          <p>Short note on the piece: medium, year, or what it was for.</p>
+        </div>
+        <div class="card" data-category="illustration">
+          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-c.svg" alt="Illustration placeholder"></div>
+          <span class="meta">Illustration</span>
+          <h3>Placeholder Title</h3>
+          <p>Short note on the piece: medium, year, or what it was for.</p>
+        </div>
+        <div class="card" data-category="tattoo">
+          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-d.svg" alt="Tattoo concept placeholder"></div>
+          <span class="meta">Tattoo Design</span>
+          <h3>Placeholder Title</h3>
+          <p>Short note on the piece: medium, year, or what it was for.</p>
+        </div>
+        <div class="card" data-category="archive">
+          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-a.svg" alt="Archive piece placeholder"></div>
+          <span class="meta">Archive</span>
+          <h3>Placeholder Title</h3>
+          <p>Short note on the piece: medium, year, or what it was for.</p>
+        </div>
+        <div class="card" data-category="character">
+          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-b.svg" alt="Character design placeholder"></div>
+          <span class="meta">Character Design</span>
+          <h3>Placeholder Title</h3>
+          <p>Short note on the piece: medium, year, or what it was for.</p>
+        </div>
+      </div>
+      <!-- EDIT: copy a .card block above for every new piece, set data-category to match a filter button -->
+    </div>
+  </section>
+
+  <section id="commission-note">
+    <div class="wrap center">
+      <p class="eyebrow" style="justify-content:center;">Like what you see?</p>
+      <h2>Commissions are open</h2>
+      <div class="btn-row" style="justify-content:center;">
+        <a class="btn btn-solid" href="contact.html">View commission info</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span data-year>2026</span> zuPasha &middot; TsuPasai. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
+        <a href="mailto:hello@example.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
