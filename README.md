@@ -12,12 +12,12 @@ This is the website for zuPasha, creator of VantaPsy, working under the studio n
 
 ## What's Here
 
-- **Home** — zuPasha, and the three disciplines (games, books, art) that all grow from VantaPsy.
-- **About** — who's behind the work, and the Six Steps of Humanity that shape every major character arc.
-- **Soul Snatcher** — the hub for VantaPsy: Soul Snatcher, the flagship Ren'Py JRPG. Story, characters, screenshots, and where development currently stands.
-- **Books** — the VantaPsy Chronology, starting with the Soul Axiom sub-series, set on the fractured world of Aerisu.
-- **Portfolio** — character design, illustration, and concept work, browsable by category.
-- **Contact** — commission pricing, process, rights and usage terms, and a way to reach out.
+- **Home**: zuPasha, and the three disciplines (games, books, art) that all grow from VantaPsy.
+- **About**: who's behind the work, and the Six Steps of Humanity that shape every major character arc.
+- **Soul Snatcher**: the hub for VantaPsy: Soul Snatcher, the flagship Ren'Py JRPG. Story, characters, screenshots, and where development currently stands.
+- **Books**: the VantaPsy Chronology, starting with the Soul Axiom sub-series, set on the fractured world of Aerisu.
+- **Portfolio**: character design, illustration, and concept work, browsable by category.
+- **Contact**: commission pricing, process, rights and usage terms, and a way to reach out.
 
 ## Status
 
