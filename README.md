@@ -39,7 +39,7 @@ Because every internal link in this site is relative (`game.html`, `css/style.cs
 ## Things that are placeholders right now
 
 - **Images**: `images/placeholder-a.svg` through `placeholder-d.svg` are stand-ins so the layout reads correctly. Swap the `src` on any `<img class="placeholder-art">` for real artwork whenever it's ready. They render at whatever size their container (`.card-figure`) defines, so any reasonably sized image will fit.
-- **Social and email links**: every page footer, plus the contact page, has `instagram.com`, `facebook.com`, and `hello@example.com` placeholders. Search each HTML file for these and swap in your real links. They're marked with `<!-- EDIT -->` comments where it's not obvious from context.
+- **Social and email links**: every page footer, plus the contact page, has `instagram.com`, `facebook.com`, and `zuhayrsapha@gmail.com` placeholders. Search each HTML file for these and swap in your real links. They're marked with `<!-- EDIT -->` comments where it's not obvious from context.
 - **Contact form**: GitHub Pages can't run server-side code, so the form on `contact.html` needs a third-party endpoint to actually deliver inquiries somewhere. The simplest option is [Formspree](https://formspree.io): create a free account, create a form, and replace `YOUR_FORM_ID` in the form's `action` attribute with the ID it gives you. Until that's done, the form will look right but won't send anywhere; the mailto and social links beneath it work immediately.
 - **Game download link**: the button on `game.html` under "Download" points to `#`. Point it at an itch.io page, a GitHub release, or wherever the demo build ends up living.
 

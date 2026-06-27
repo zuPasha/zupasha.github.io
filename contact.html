@@ -5,70 +5,150 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact &middot; zuPasha</title>
   <meta name="description" content="Commission types, pricing, process, and how to get in touch with zuPasha.">
-  <link rel="icon" type="image/svg+xml" href="images/logo.webp">
+  <link rel="icon" type="image/webp" href="images/logo.webp">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="wrap">
-      <a class="brand" href="index.html">
-        <img class="brand-mark" src="images/logo.webp" alt="">
-        <span class="brand-text">zuPasha<span>TsuPasai &middot; VantaPsy</span></span>
-      </a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span>
-      </button>
-      <nav class="main-nav" aria-label="Primary">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="game.html">Game</a></li>
-          <li><a href="books.html">Books</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html" aria-current="page">Contact</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <div data-include="partials/header.html"></div>
 
+<!-- ============================================================ -->
+  <!--  HERO                                                         -->
+  <!-- ============================================================ -->
   <section class="hero">
     <div class="wrap">
       <p class="eyebrow">Contact &amp; Commissions</p>
       <h1>Work with me</h1>
-      <p class="hero-tagline">Character design, illustration, tattoo concepts, and fantasy or narrative artwork.</p>
+      <p class="hero-tagline">Every commission grows out of the same design philosophy behind VantaPsy: meaning and symbolism worked out before a single line gets drawn.</p>
     </div>
   </section>
 
+  <!-- ============================================================ -->
+  <!--  WHAT I OFFER                                                 -->
+  <!-- ============================================================ -->
   <section id="commission-types">
     <div class="wrap">
       <div class="section-head">
         <div>
-          <p class="eyebrow">Commission Types</p>
-          <h2 class="mt-0">What I take on</h2>
+          <p class="eyebrow">What I Offer</p>
+          <h2 class="mt-0">Services</h2>
         </div>
       </div>
+      <p class="lead" style="margin-bottom:2.2rem;">TsuPasai exists to support the creation of VantaPsy. Commissions are fuel, not the goal. Every piece funds the game, grows the portfolio, and brings new people into the world.</p>
       <div class="grid">
         <div class="card">
-          <h3>Character Design</h3>
-          <p>A full character built from a brief: silhouette, palette, and the small details that make them feel lived in.</p>
+          <h3>👤Character Art</h3>
+          <p>Busts, half body, and full body designs. My strongest category, and the foundation everything else builds on.</p>
         </div>
         <div class="card">
-          <h3>Illustration</h3>
-          <p>A finished scene or portrait, painterly and grounded, built around mood and lighting rather than spectacle.</p>
+          <h3>🎨Narrative Illustration</h3>
+          <p>Tattoo concepts, symbolic illustration, modern-fantasy pieces, and poster art. Anything built around a story or a feeling rather than just a likeness.</p>
         </div>
         <div class="card">
-          <h3>Tattoo Concepts</h3>
-          <p>Translating a feeling or a phrase into symbolic imagery, designed to be tattooed rather than just looked at.</p>
+          <h3>🖋️Design</h3>
+          <p>Logos, invitations, and simple branding. Thoughtful design work, not a full graphic design service.</p>
         </div>
         <div class="card">
-          <h3>Fantasy / Narrative Artwork</h3>
-          <p>Worldbuilding visuals and promotional art for other people's settings and stories.</p>
+          <h3>📐Custom Projects</h3>
+          <p>Game assets, pixel art, book covers, UI concepts, or anything unusual. Tell me what you have in mind and we'll talk through whether it's a fit.</p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- ============================================================ -->
+  <!--  PORTFOLIO CTA – in case they skipped it                      -->
+  <!-- ============================================================ -->
+  <section id="portfolio-nudge">
+    <div class="wrap center">
+      <p class="eyebrow" style="justify-content:center;">Before You Reach Out</p>
+      <h2>Know what you're paying for</h2>
+      <p class="lead" style="margin:0 auto;max-width:56ch;">If you haven't seen the art yet, start there. The portfolio is the clearest picture of what a commission with me actually looks like.</p>
+      <div class="btn-row" style="justify-content:center;">
+        <a class="btn btn-solid" href="portfolio.html">See the Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!--  HOW IT WORKS – Process + Payment combined                    -->
+  <!-- ============================================================ -->
+  <section id="how-it-works">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">How It Works</p>
+          <h2 class="mt-0">From idea to finished piece</h2>
+        </div>
+        <p class="lead">You pay after you've seen and approved the sketch. No surprises.</p>
+      </div>
+
+      <!-- The full workflow -->
+      <div style="background:var(--bg-raised); border:1px solid var(--line); border-radius:4px; padding:1.8rem; margin-bottom:2rem;">
+        <div class="workflow-grid">
+          <div style="padding:0.8rem; border-radius:4px; background:var(--bg-raised-2); text-align:center;">
+            <span style="display:block; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--vanta); font-weight:500;">1. Inquiry</span>
+            <span style="display:block; font-size:0.85rem; color:var(--ink-dim); margin-top:0.2rem;">You reach out</span>
+          </div>
+          <div style="padding:0.8rem; border-radius:4px; background:var(--bg-raised-2); text-align:center;">
+            <span style="display:block; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--vanta); font-weight:500;">2. Discover</span>
+            <span style="display:block; font-size:0.85rem; color:var(--ink-dim); margin-top:0.2rem;">What are you trying to say?</span>
+          </div>
+          <div style="padding:0.8rem; border-radius:4px; background:var(--bg-raised-2); text-align:center;">
+            <span style="display:block; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--vanta); font-weight:500;">3. Sketch</span>
+            <span style="display:block; font-size:0.85rem; color:var(--ink-dim); margin-top:0.2rem;">Rough concept</span>
+          </div>
+          <div style="padding:0.8rem; border-radius:4px; background:var(--bg-raised-2); text-align:center;">
+            <span style="display:block; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--vanta); font-weight:500;">4. Revise</span>
+            <span style="display:block; font-size:0.85rem; color:var(--ink-dim); margin-top:0.2rem;">Until it feels right</span>
+          </div>
+          <div style="padding:0.8rem; border-radius:4px; background:var(--bg-raised-2); text-align:center;">
+            <span style="display:block; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--vanta); font-weight:500;">5. Pay</span>
+            <span style="display:block; font-size:0.85rem; color:var(--ink-dim); margin-top:0.2rem;">After approval</span>
+          </div>
+          <div style="padding:0.8rem; border-radius:4px; background:var(--bg-raised-2); text-align:center;">
+            <span style="display:block; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--vanta); font-weight:500;">6. Final Revise</span>
+            <span style="display:block; font-size:0.85rem; color:var(--ink-dim); margin-top:0.2rem;">Based on final design</span>
+          </div>
+          <div style="padding:0.8rem; border-radius:4px; background:var(--bg-raised-2); text-align:center;" class="step-7">
+            <span style="display:block; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--vanta); font-weight:500;">7. Deliver</span>
+            <span style="display:block; font-size:0.85rem; color:var(--ink-dim); margin-top:0.2rem;">Final high-res files</span>
+          </div>
+        </div>
+
+        <!-- Payment breakdown -->
+        <div class="payment-breakdown" style="border-top:1px solid var(--line); padding-top:1.2rem; margin-top:1.2rem;">
+          <div style="background:var(--bg-raised-2); padding:1rem; border-radius:4px; border-left:2px solid var(--vanta);">
+            <p style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--vanta); margin:0 0 0.2rem;">Bust &amp; Half Body</p>
+            <p style="font-size:0.9rem; color:var(--ink); margin:0;">Full payment after sketch approval.</p>
+          </div>
+          <div style="background:var(--bg-raised-2); padding:1rem; border-radius:4px; border-left:2px solid var(--vanta);">
+            <p style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--vanta); margin:0 0 0.2rem;">Full Body &amp; Illustration</p>
+            <p style="font-size:0.9rem; color:var(--ink); margin:0;">50% after sketch approval, 50% before final files. You'll see a watermarked preview first.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Payment methods -->
+      <div class="grid">
+        <div class="card">
+          <span class="meta">South Africa</span>
+          <h3>Local Clients</h3>
+          <p>EFT or standard bank transfer.</p>
+          <p style="margin-top:0.5rem; font-size:0.85rem; color:var(--ink-dim);">Banking details will be provided in your quote or contract.</p>
+        </div>
+        <div class="card">
+          <span class="meta">Everywhere Else</span>
+          <h3>International Clients</h3>
+          <p>Payment through Wise.</p>
+          <p style="margin-top:0.5rem; font-size:0.85rem; color:var(--ink-dim);">I'll send a payment request in USD upon agreement.</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!--  PRICING                                                      -->
+  <!-- ============================================================ -->
   <section id="pricing">
     <div class="wrap">
       <div class="section-head">
@@ -76,48 +156,88 @@
           <p class="eyebrow">Pricing</p>
           <h2 class="mt-0">Starting rates</h2>
         </div>
-        <p class="lead">Initial figures, adjusted per project based on complexity and scope.</p>
+        <p class="lead">Local pricing is the anchor. International clients are quoted the rough USD equivalent and pay through Wise.</p>
       </div>
-      <div class="price-grid">
-        <div class="price-card">
-          <h3>Tattoo Concept</h3>
-          <p class="amount">R800<span> from</span></p>
-          <p class="text-dim">A single symbolic design, refined through one or two revision rounds.</p>
-        </div>
-        <div class="price-card">
-          <h3>Character Illustration</h3>
-          <p class="amount">R1000<span> from</span></p>
-          <p class="text-dim">One character, full colour, with background or simple setting.</p>
-        </div>
-        <div class="price-card">
-          <h3>Custom Work</h3>
-          <p class="amount">Quoted<span> individually</span></p>
-          <p class="text-dim">Larger illustrations, multi-character pieces, or ongoing project work.</p>
-        </div>
+
+      <div class="price-table-wrap">
+        <table class="price-table">
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>South Africa (ZAR)</th>
+              <th>International (USD)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="service">Bust</td>
+              <td>R350&ndash;500</td>
+              <td>$25&ndash;30</td>
+            </tr>
+            <tr>
+              <td class="service">Half Body</td>
+              <td>R500&ndash;700</td>
+              <td>$30&ndash;45</td>
+            </tr>
+            <tr>
+              <td class="service">Full Body</td>
+              <td>R800&ndash;1200</td>
+              <td>$50&ndash;75</td>
+            </tr>
+            <tr>
+              <td class="service">Illustrative / Concept Design<br><span class="text-dim" style="font-size:0.8rem;">Tattoo concepts, symbolic illustration, narrative pieces</span></td>
+              <td>R800&ndash;1800</td>
+              <td>$50&ndash;110</td>
+            </tr>
+            <tr>
+              <td class="service">Design<br><span class="text-dim" style="font-size:0.8rem;">Logos, invitations, simple branding</span></td>
+              <td>R500+</td>
+              <td>$35+</td>
+            </tr>
+            <tr>
+              <td class="service">Custom Projects</td>
+              <td colspan="2">Quoted individually</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+
+      <p class="text-dim" style="margin-top:1.6rem;">These are starting points, not fixed prices. The exact quote depends on complexity within each category. A detailed bust can cost more than a simple full body once the actual effort is comparable.</p>
     </div>
   </section>
 
-  <section id="process">
+  <!-- ============================================================ -->
+  <!--  RIGHTS & USAGE                                               -->
+  <!-- ============================================================ -->
+  <section id="rights-and-usage">
     <div class="wrap">
       <div class="section-head">
         <div>
-          <p class="eyebrow">Process</p>
-          <h2 class="mt-0">How a commission runs</h2>
+          <p class="eyebrow">Rights &amp; Usage</p>
+          <h2 class="mt-0">Who owns what</h2>
         </div>
+        <p class="lead">The short version. The full terms are in the commission agreement you'll receive once a sketch is approved.</p>
       </div>
-      <div class="process-row">
-        <div class="process-step"><span class="num">01</span>Inquiry</div>
-        <div class="process-step"><span class="num">02</span>Discussion</div>
-        <div class="process-step"><span class="num">03</span>Quote</div>
-        <div class="process-step"><span class="num">04</span>Payment</div>
-        <div class="process-step"><span class="num">05</span>Sketch</div>
-        <div class="process-step"><span class="num">06</span>Revision</div>
-        <div class="process-step"><span class="num">07</span>Final Delivery</div>
+      <div class="grid">
+        <div class="card">
+          <h3>It's yours once it's paid for</h3>
+          <p>Once payment is complete, the final artwork is yours outright, including reproduction, distribution, and commercial use.</p>
+        </div>
+        <div class="card">
+          <h3>I keep the right to show it off</h3>
+          <p>Finished commissions get posted to the TsuPasai portfolio and social channels. That's part of how this work keeps going. If you'd rather your piece stayed private, just say so and I'll leave it out.</p>
+        </div>
+        <div class="card">
+          <h3>Credit is your call</h3>
+          <p>Want a credit line when it's shown? I'll add one. Want to stay anonymous? That works too, just let me know which you'd prefer.</p>
+        </div>
       </div>
     </div>
   </section>
 
+  <!-- ============================================================ -->
+  <!--  FAQ                                                         -->
+  <!-- ============================================================ -->
   <section id="faq">
     <div class="wrap">
       <div class="section-head">
@@ -128,81 +248,94 @@
       </div>
       <div class="grid">
         <div class="card">
-          <h3>How do I pay?</h3>
-          <p>EFT, PayShap, Capitec Pay, Standard Bank, or FNB transfer. International clients pay through Wise.</p>
+          <h3>Q. Not sure what you want?</h3>
+          <p>That's actually the most common starting point. The Discover step exists for exactly that. Bring whatever you have, even if it's just a feeling or a memory, and we'll work out the rest together.</p>
         </div>
         <div class="card">
-          <h3>How long does a piece take?</h3>
+          <h3>Q. How long does a piece take?</h3>
           <p>Depends on the queue and the scope of the piece. Timelines are confirmed at the quote stage.</p>
         </div>
         <div class="card">
-          <h3>What can't you take on?</h3>
-          <p>Anything outside character design, illustration, tattoo concepts, and narrative artwork. If you're not sure, ask anyway.</p>
+          <h3>Q. What can't you take on?</h3>
+          <p>Environment illustration, animation, large comics, highly realistic portraiture, and full branding packages aren't part of what I advertise, but I'm open to discussing them privately if it's a good fit. My focus stays on character art, narrative illustration, and design work built around meaning.</p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- ============================================================ -->
+  <!--  GET IN TOUCH                                                 -->
+  <!-- ============================================================ -->
   <section id="contact-form">
-    <div class="wrap" style="max-width:680px;">
+    <div class="wrap" style="max-width:780px;">
       <div class="section-head">
         <div>
           <p class="eyebrow">Get In Touch</p>
-          <h2 class="mt-0">Send an inquiry</h2>
+          <h2 class="mt-0">Let's talk about your project</h2>
         </div>
       </div>
 
-      <!--
-        EDIT: this form needs a place to send submissions, since GitHub Pages
-        cannot run server-side code. The simplest options:
+      <p class="lead" style="margin-bottom:2rem;">
+        I'd love to hear about your idea. Here's how to reach me.
+      </p>
 
-        1. Formspree (free tier, no backend needed):
-           - Create an account at https://formspree.io
-           - Replace YOUR_FORM_ID below with the ID Formspree gives you
-        2. A plain mailto link as a fallback (already in the footer and below)
+      <div class="contact-grid">
+        <!-- Email Card -->
+        <div class="card" style="display:flex; flex-direction:column;">
+          <h3 style="margin-top:0;">Email <span style="color:var(--vanta); font-size:0.8rem; font-weight:400;">(Preferred)</span></h3>
+          <p style="flex-grow:1;">
+            For detailed inquiries, email is the best way to reach me. I check it regularly and can respond in full.
+          </p>
+          <p style="margin-bottom:0.5rem;">
+            <strong>Send to:</strong><br>
+            <a href="mailto:zuhayrsapha@gmail.com" style="font-size:1.1rem; word-break:break-all;">zuhayrsapha@gmail.com</a>
+          </p>
+          <div style="border-top:1px solid var(--line); padding-top:0.8rem; margin-top:0.5rem;">
+            <p style="font-size:0.85rem; color:var(--ink-dim); margin-bottom:0.2rem;"><strong>What to include:</strong></p>
+            <ul style="font-size:0.85rem; color:var(--ink); margin:0; padding-left:1.2rem; line-height:1.6;">
+              <li><strong>Subject:</strong> Please be clear about what you're inquiring about.</li>
+              <li><strong>Introduce yourself:</strong> Who you are, where you're from (if not local) and how you've gotten in contact with me.</li>
+              <li><strong>What you desire:</strong> Vision, references, style, deadlines, budget. You can be as detailed as you'd like, but please try to be clear and concise.</li>
+            </ul>
+          </div>
+        </div>
 
-        Until a form endpoint is wired up, this form will not actually send anywhere.
-      -->
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <div class="form-field">
-          <label for="name">Name</label>
-          <input id="name" name="name" type="text" required>
+        <!-- WhatsApp Card -->
+        <div class="card" style="display:flex; flex-direction:column;">
+          <h3 style="margin-top:0;">WhatsApp <span style="color:var(--ink-dim); font-size:0.8rem; font-weight:400;">(SA / quick questions)</span></h3>
+          <p style="flex-grow:1;">
+            If you're based in South Africa or prefer a faster back-and-forth, you can reach me on WhatsApp.
+          </p>
+          <p style="margin-bottom:0.5rem;">
+            <strong>Message me at:</strong><br>
+            <a href="https://wa.me/27815594089" style="font-size:1.1rem;">+27 81 559 4089</a>
+          </p>
+          <div style="border-top:1px solid var(--line); padding-top:0.8rem; margin-top:0.5rem;">
+            <p style="font-size:0.85rem; color:var(--ink-dim); margin-bottom:0.2rem;"><strong>Please remember:</strong></p>
+            <ul style="font-size:0.85rem; color:var(--ink); margin:0; padding-left:1.2rem; line-height:1.6;">
+              <li><strong>Introduce yourself:</strong> Who you are, where you're from (if not local) and how you've gotten in contact with me.</li>
+              <li><strong>Briefly describe</strong> what you're looking for.</li>
+              <li>Complex projects may need to move to email for detail.</li>
+            </ul>
+          </div>
         </div>
-        <div class="form-field">
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" required>
-        </div>
-        <div class="form-field">
-          <label for="type">Commission type</label>
-          <select id="type" name="type">
-            <option>Character Design</option>
-            <option>Illustration</option>
-            <option>Tattoo Concept</option>
-            <option>Fantasy / Narrative Artwork</option>
-            <option>Something else</option>
-          </select>
-        </div>
-        <div class="form-field">
-          <label for="message">Tell me about the piece</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <button class="btn btn-solid" type="submit">Send Inquiry</button>
-        <p class="form-note">Prefer email or social? Reach me directly at <a href="mailto:hello@example.com">hello@example.com</a>, on <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>, or via <a href="https://wa.me/00000000000" target="_blank" rel="noopener">WhatsApp</a>.</p>
-      </form>
+      </div>
+
+      <p style="text-align:center; color:var(--ink-dim); margin-top:2rem; font-size:0.9rem;">
+        I aim to respond within 48 hours. If you haven't heard back, send a follow-up.
+      </p>
     </div>
   </section>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>&copy; <span data-year>2026</span> zuPasha &middot; TsuPasai. All rights reserved.</p>
-      <div class="footer-links">
-        <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
-        <a href="mailto:hello@example.com">Email</a>
-      </div>
-    </div>
-  </footer>
+  <!-- ============================================================ -->
+  <!--  FOOTER                                                       -->
+  <!-- ============================================================ -->
+  <div data-include="partials/footer.html"></div>
 
-  <script src="js/main.js"></script>
+<script src="js/includes.js"></script>
+
+<script src="js/mailto-fallback.js"></script>
+
+<script src="js/main.js"></script>
 </body>
 </html>

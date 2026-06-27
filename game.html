@@ -1,42 +1,23 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>VantaPsy: Soul Snatcher &middot; zuPasha</title>
-  <meta name="description" content="VantaPsy: Soul Snatcher, an investigative JRPG built in Ren'Py. Overview, story, characters, screenshots, and development status.">
-  <link rel="icon" type="image/svg+xml" href="images/logo.webp">
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="VantaPsy: Soul Snatcher, an investigative JRPG built in Ren'Py. Overview, story, characters, screenshots, and development status." />
+  <link rel="icon" type="image/webp" href="images/logo.webp" />
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="wrap">
-      <a class="brand" href="index.html">
-        <img class="brand-mark" src="images/logo.webp" alt="">
-        <span class="brand-text">zuPasha<span>TsuPasai &middot; VantaPsy</span></span>
-      </a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span>
-      </button>
-      <nav class="main-nav" aria-label="Primary">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="game.html" aria-current="page">Game</a></li>
-          <li><a href="books.html">Books</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <div data-include="partials/header.html"></div>
 
-  <section class="hero">
+<section class="hero">
     <div class="wrap">
       <p class="eyebrow">Flagship Project</p>
       <h1>VantaPsy: Soul Snatcher</h1>
-      <p class="hero-tagline">To lack. To want a soul.</p>
+      <p class="hero-tagline">To lack; To want a soul.</p>
       <p class="lead" style="max-width:62ch;">Persona meets Disco Elysium in a perpetual-night city where your personality shapes combat, relationships, and the mystery itself.</p>
       <div class="tag-row" style="margin-top:1.4rem;">
         <span class="tag">Investigative JRPG</span>
@@ -45,7 +26,7 @@
         <span class="tag">PC: Windows / macOS / Linux</span>
       </div>
       <div class="btn-row">
-        <a class="btn btn-solid" href="#download">Download the demo</a>
+        <a class="btn btn-solid" href="https://zupasha.itch.io/vantapsy-soul-snatcher">Download on itch.io</a>
         <a class="btn" href="contact.html">Get in touch about publishing</a>
       </div>
     </div>
@@ -59,7 +40,8 @@
           <h2 class="mt-0">A city folded in on itself</h2>
         </div>
       </div>
-      <div class="grid" style="grid-template-columns: 1fr 1fr;">
+      <!-- grid with 1fr 1fr, overridden to 1fr on mobile -->
+      <div class="overview-grid">
         <p>Sengetsuki is a coastal town of stacked concrete terraces and ageing infrastructure, locked in eternal night since the airship Nightjar crashed nine years ago. The player takes the role of a Soulless protagonist racing a generous but very real death timer, while investigating the disappearances attributed to a rumoured killer: the Soul Snatcher.</p>
         <p>The map plays like a metroidvania, folded and layered rather than sprawling. Investigation, dialogue, combat, and exploration sit in the same space at once. A conversation can unlock a location. A location can change a relationship. Nothing in VantaPsy happens in isolation.</p>
       </div>
@@ -86,31 +68,69 @@
           <p class="eyebrow">Characters</p>
           <h2 class="mt-0">Who you'll meet</h2>
         </div>
-        <p class="lead">Full bios and art live in the Compendium in-game. Here's the short version of the two leads.</p>
+        <p class="lead">Full bios and art live in the Compendium in-game. Here's the short version of the people you'll actually travel with.</p>
       </div>
-      <div class="grid">
+      <!-- Horizontal scroll container for mobile -->
+      <div class="character-scroll">
         <div class="card">
-          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-a.svg" alt="Zuki character art placeholder"></div>
+          <div class="card-figure"><img class="placeholder-art" src="images/portfolio/character3/orto_zuki.webp" alt="Zuki character art placeholder" /></div>
           <span class="meta">Canonical Protagonist</span>
           <h3>Zuki Sapha</h3>
           <p>Soulless. Curious to a fault, bad at reading rooms, worse at understanding why anyone would cry over a clue. The investigator at the centre of the mystery.</p>
         </div>
         <div class="card">
-          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-b.svg" alt="Luna character art placeholder"></div>
+          <div class="card-figure"><img class="placeholder-art" src="images/portfolio/character3/orto_luna.webp" alt="Luna character art placeholder" /></div>
           <span class="meta">Alternate Protagonist</span>
           <h3>Luna-Bright Sapha</h3>
-          <p>Affinity: White Fox. The older sister who reads every room and carries every responsibility, until combat lets her grin without meaning anything by it.</p>
+          <p>The older sister who reads every room and carries every responsibility, until combat lets her grin without meaning anything by it.</p>
         </div>
         <div class="card">
-          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-c.svg" alt="Party member art placeholder"></div>
+          <div class="card-figure"><img class="placeholder-art" src="images/portfolio/character2/vixpsy.webp" alt="Vixpsy character art placeholder" /></div>
+          <span class="meta">Fairy Companion</span>
+          <h3>Vixpsy</h3>
+          <p>A Pixpsy who joins on the mountain, early enough to see almost everything that follows. Equal parts light source and lorekeeper, narrating the world while everyone else just tries to survive it.</p>
+        </div>
+        <div class="card">
+          <div class="card-figure"><img class="placeholder-art" src="images/portfolio/character3/orto_nat.webp" alt="Nathalia character art placeholder" /></div>
           <span class="meta">Party Member</span>
           <h3>Nathalia "Naxin" Nura</h3>
           <p>Uses strength as armour until the story asks her to find out what strength actually means.</p>
+        </div>
+        <div class="card">
+          <div class="card-figure"><img class="placeholder-art" src="images/portfolio/character3/orto_rakia.webp" alt="Rakia character art placeholder" /></div>
+          <span class="meta">Party Member</span>
+          <h3>Rakia Sapha</h3>
+          <p>The youngest Sapha sibling, treating grief like a problem that can be solved through ritual, superstition, and exactly the right amount of risk.</p>
+        </div>
+        <div class="card">
+          <div class="card-figure"><img class="placeholder-art" src="images/portfolio/character3/orto_xiro.webp" alt="Xiro character art placeholder" /></div>
+          <span class="meta">Party Member</span>
+          <h3>Xiro Xeraphina</h3>
+          <p>Heir to Xeraphina Auto and Zuki's childhood friend. Performs competence so well that even he sometimes forgets he's performing it.</p>
+        </div>
+        <div class="card">
+          <div class="card-figure"><img class="placeholder-art" src="images/portfolio/character3/orto_ezra.webp" alt="Ezra character art placeholder" /></div>
+          <span class="meta">Party Member</span>
+          <h3>Ezra Zealous</h3>
+          <p>A hacker-rebel leader investigating the Soul Snatcher from the outside, carrying a debt he never agreed to and can't quite set down.</p>
+        </div>
+        <div class="card">
+          <div class="card-figure"><img class="placeholder-art" src="images/portfolio/character2/koto4_1.webp" alt="Kiara-Koto character art placeholder" /></div>
+          <span class="meta">Party Member</span>
+          <h3>Kiara-Koto Najma</h3>
+          <p>Two sisters with a tangled, complicated history, recruited late and still working out what coexisting actually looks like for them.</p>
+        </div>
+        <div class="card">
+          <div class="card-figure"><img class="placeholder-art" src="images/portfolio/character3/orto_aysha.webp" alt="Aysha character art placeholder" /></div>
+          <span class="meta">Party Member</span>
+          <h3>Aysha Salinte</h3>
+          <p>A researcher with no clear memory of how long she's actually lived in Sengetsuki. Joins the party to get closer to the mystery everyone else is chasing.</p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- ========== SCREENSHOT GALLERY (rendered by JavaScript) ========== -->
   <section id="screenshots">
     <div class="wrap">
       <div class="section-head">
@@ -119,14 +139,26 @@
           <h2 class="mt-0">From the vertical slice</h2>
         </div>
       </div>
-      <!-- EDIT: swap these placeholders for real screenshots once you have a batch ready -->
-      <div class="grid">
-        <div class="card-figure"><img class="placeholder-art" src="images/placeholder-a.svg" alt="Screenshot placeholder"></div>
-        <div class="card-figure"><img class="placeholder-art" src="images/placeholder-b.svg" alt="Screenshot placeholder"></div>
-        <div class="card-figure"><img class="placeholder-art" src="images/placeholder-c.svg" alt="Screenshot placeholder"></div>
+      <div id="screenshot-gallery" class="gallery-scroll-wrapper">
+        <!-- items injected by main.js -->
       </div>
     </div>
   </section>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div id="lightbox" class="lightbox-overlay" role="dialog" aria-modal="true" aria-label="Image viewer">
+      <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+      <button class="lightbox-nav lightbox-prev" aria-label="Previous image">&#10094;</button>
+      <button class="lightbox-nav lightbox-next" aria-label="Next image">&#10095;</button>
+      <button class="lightbox-reset" id="lightbox-reset" aria-label="Reset zoom">↕</button>
+      <div class="lightbox-content">
+          <div class="lightbox-img-wrap" id="lightbox-wrap">
+              <img id="lightbox-img" src="" alt="" />
+          </div>
+          <p id="lightbox-caption" class="lightbox-caption"></p>
+      </div>
+      <div class="lightbox-counter" id="lightbox-counter"></div>
+  </div>
 
   <section id="development">
     <div class="wrap">
@@ -157,25 +189,20 @@
     <div class="wrap center">
       <p class="eyebrow" style="justify-content:center;">Download</p>
       <h2>Play the vertical slice</h2>
-      <p class="lead" style="margin:0 auto;max-width:56ch;">A demo build covering the prologue mountain section. Link goes live once a build is ready to share publicly.</p>
-      <!-- EDIT: replace # with a real download link (itch.io, GitHub release, etc.) once available -->
+      <p class="lead" style="margin:0 auto;max-width:56ch;">A demo build covering the prologue mountain section.</p>
       <div class="btn-row" style="justify-content:center;">
-        <a class="btn btn-solid" href="#">Download (coming soon)</a>
+        <a class="btn btn-solid" href="https://zupasha.itch.io/vantapsy-soul-snatcher">Download on itch.io</a>
       </div>
     </div>
   </section>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>&copy; <span data-year>2026</span> zuPasha &middot; TsuPasai. All rights reserved.</p>
-      <div class="footer-links">
-        <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
-        <a href="mailto:hello@example.com">Email</a>
-      </div>
-    </div>
-  </footer>
+  <div data-include="partials/footer.html"></div>
 
+<script src="js/includes.js"></script>
+
+<script src="js/mailto-fallback.js"></script>
+
+<script src="js/data.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

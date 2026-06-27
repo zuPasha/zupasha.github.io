@@ -1,121 +1,109 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio &middot; zuPasha</title>
-  <meta name="description" content="Character design, illustration, and tattoo concept work from zuPasha.">
-  <link rel="icon" type="image/svg+xml" href="images/logo.webp">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio &middot; zuPasha</title>
+    <meta name="description" content="Character design, illustration, and tattoo concept work from zuPasha." />
+    <link rel="icon" type="image/webp" href="images/logo.webp" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="wrap">
-      <a class="brand" href="index.html">
-        <img class="brand-mark" src="images/logo.webp" alt="">
-        <span class="brand-text">zuPasha<span>TsuPasai &middot; VantaPsy</span></span>
-      </a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span>
-      </button>
-      <nav class="main-nav" aria-label="Primary">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="game.html">Game</a></li>
-          <li><a href="books.html">Books</a></li>
-          <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
+  <div data-include="partials/header.html"></div>
+
+    <!-- ============================================================== -->
+    <!--  FEATURED GALLERY – horizontal scroll (rendered by JS)          -->
+    <!-- ============================================================== -->
+    <section id="featured-gallery">
+        <div class="wrap">
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">Featured</p>
+                    <h2 class="mt-0">Highlighted works</h2>
+                </div>
+            </div>
+            <div id="portfolio-featured" class="gallery-scroll-wrapper">
+                <!-- injected by main.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================== -->
+    <!--  FOLDER GRID – each folder expands to show its images          -->
+    <!-- ============================================================== -->
+    <section id="portfolio-folders">
+        <div class="wrap">
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">Categories</p>
+                    <h2 class="mt-0">Browse by Category</h2>
+                </div>
+            </div>
+
+            <!-- folder cards rendered by JS -->
+            <div id="folder-grid" class="folder-grid">
+                <!-- injected by main.js -->
+            </div>
+
+            <!-- expanded folder content (grid of images) -->
+            <div id="folder-content" class="folder-content">
+                <!-- rendered by main.js when a folder is clicked -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================== -->
+    <!--  LIGHTBOX (shared with featured + folder images)               -->
+    <!-- ============================================================== -->
+    <div id="lightbox" class="lightbox-overlay" role="dialog" aria-modal="true" aria-label="Image viewer">
+        <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-nav lightbox-prev" aria-label="Previous image">&#10094;</button>
+        <button class="lightbox-nav lightbox-next" aria-label="Next image">&#10095;</button>
+        <button class="lightbox-reset" id="lightbox-reset" aria-label="Reset zoom">↕</button>
+        <div class="lightbox-content">
+            <div class="lightbox-img-wrap" id="lightbox-wrap">
+                <img id="lightbox-img" src="" alt="" />
+            </div>
+            <p id="lightbox-caption" class="lightbox-caption"></p>
+        </div>
+        <div class="lightbox-counter" id="lightbox-counter"></div>
     </div>
-  </header>
 
-  <section class="hero">
-    <div class="wrap">
-      <p class="eyebrow">Portfolio</p>
-      <h1>Selected work</h1>
-      <p class="hero-tagline">Character design, illustration, and tattoo concepts, organised by what each piece was for.</p>
+    <!-- ============================================================== -->
+    <!--  COMMISSION CTA                                                -->
+    <!-- ============================================================== -->
+    <section id="commission-note">
+        <div class="wrap center">
+            <p class="eyebrow" style="justify-content:center;">Like what you see?</p>
+            <h2>Commissions are open</h2>
+            <div class="btn-row" style="justify-content:center;">
+                <a class="btn btn-solid" href="contact.html">View commission info</a>
+            </div>
+        </div>
+    </section>
+
+  <div data-include="partials/footer.html"></div>
+
+<!-- floating navigation buttons -->
+    <div id="scroll-top" class="scroll-btn" title="Go to top">↑</div>
+    <div id="scroll-bottom" class="scroll-btn" title="Go to bottom">↓</div>
+
+    <!-- floating category selector (mobile) -->
+    <div id="category-fab" class="category-fab">
+        <button class="fab-toggle" id="fab-toggle" aria-label="Toggle categories">
+            <span class="fab-icon">📂</span>
+        </button>
+        <div class="fab-menu" id="fab-menu">
+            <!-- injected by main.js -->
+        </div>
     </div>
-  </section>
 
-  <section id="gallery">
-    <div class="wrap">
+    <script src="js/includes.js"></script>
 
-      <!-- EDIT: filter buttons drive the data-category attribute below via js/main.js -->
-      <div class="filter-row">
-        <button class="filter-btn is-active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="featured">Featured</button>
-        <button class="filter-btn" data-filter="character">Character Design</button>
-        <button class="filter-btn" data-filter="illustration">Illustration</button>
-        <button class="filter-btn" data-filter="tattoo">Tattoo Design</button>
-        <button class="filter-btn" data-filter="archive">Archive</button>
-      </div>
+    <script src="js/mailto-fallback.js"></script>
 
-      <div class="grid">
-        <div class="card" data-category="featured">
-          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-a.svg" alt="Featured artwork placeholder"></div>
-          <span class="meta">Featured</span>
-          <h3>Placeholder Title</h3>
-          <p>Short note on the piece: medium, year, or what it was for.</p>
-        </div>
-        <div class="card" data-category="character">
-          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-b.svg" alt="Character design placeholder"></div>
-          <span class="meta">Character Design</span>
-          <h3>Placeholder Title</h3>
-          <p>Short note on the piece: medium, year, or what it was for.</p>
-        </div>
-        <div class="card" data-category="illustration">
-          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-c.svg" alt="Illustration placeholder"></div>
-          <span class="meta">Illustration</span>
-          <h3>Placeholder Title</h3>
-          <p>Short note on the piece: medium, year, or what it was for.</p>
-        </div>
-        <div class="card" data-category="tattoo">
-          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-d.svg" alt="Tattoo concept placeholder"></div>
-          <span class="meta">Tattoo Design</span>
-          <h3>Placeholder Title</h3>
-          <p>Short note on the piece: medium, year, or what it was for.</p>
-        </div>
-        <div class="card" data-category="archive">
-          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-a.svg" alt="Archive piece placeholder"></div>
-          <span class="meta">Archive</span>
-          <h3>Placeholder Title</h3>
-          <p>Short note on the piece: medium, year, or what it was for.</p>
-        </div>
-        <div class="card" data-category="character">
-          <div class="card-figure"><img class="placeholder-art" src="images/placeholder-b.svg" alt="Character design placeholder"></div>
-          <span class="meta">Character Design</span>
-          <h3>Placeholder Title</h3>
-          <p>Short note on the piece: medium, year, or what it was for.</p>
-        </div>
-      </div>
-      <!-- EDIT: copy a .card block above for every new piece, set data-category to match a filter button -->
-    </div>
-  </section>
-
-  <section id="commission-note">
-    <div class="wrap center">
-      <p class="eyebrow" style="justify-content:center;">Like what you see?</p>
-      <h2>Commissions are open</h2>
-      <div class="btn-row" style="justify-content:center;">
-        <a class="btn btn-solid" href="contact.html">View commission info</a>
-      </div>
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>&copy; <span data-year>2026</span> zuPasha &middot; TsuPasai. All rights reserved.</p>
-      <div class="footer-links">
-        <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
-        <a href="mailto:hello@example.com">Email</a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="js/main.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
