@@ -12,6 +12,22 @@
 
   <div data-include="partials/header.html"></div>
 
+  <!-- ============================================================ -->
+  <!--  COMMISSION STATUS                                            -->
+  <!--  TO SWITCH: change "is-open" to "is-closed" below (or back).  -->
+  <!-- ============================================================ -->
+  <section id="commission-status">
+    <div class="wrap">
+      <div class="status-banner is-closed">
+        <span class="status-dot" aria-hidden="true"></span>
+        <p class="status-message">
+          <span class="when-open">Commissions are <strong>open</strong>. New inquiries are welcome.</span>
+          <span class="when-closed">Commissions are <strong>closed</strong> for now. Feel free to reach out about future availability, but I'm not taking on new work at the moment.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
 <!-- ============================================================ -->
   <!--  HERO                                                         -->
   <!-- ============================================================ -->
@@ -333,9 +349,8 @@
   <div data-include="partials/footer.html"></div>
 
 <script src="js/includes.js"></script>
-
 <script src="js/mailto-fallback.js"></script>
-
+<script src="js/commission-status.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

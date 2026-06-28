@@ -536,6 +536,21 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   }
+
+  // ============================================================
+  //  COMMISSION STATUS BANNER (contact page)
+  // ============================================================
+  const statusBanner = document.querySelector('.status-banner');
+  if (statusBanner) {
+    // Read the global flag (default to true if undefined)
+    const isOpen = typeof window.COMMISSIONS_OPEN === 'boolean'
+      ? window.COMMISSIONS_OPEN
+      : true;
+
+    // Remove both possible classes, then add the correct one
+    statusBanner.classList.remove('is-open', 'is-closed');
+    statusBanner.classList.add(isOpen ? 'is-open' : 'is-closed');
+  }
   
 
   // ============================================================
