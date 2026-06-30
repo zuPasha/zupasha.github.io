@@ -6,4 +6,4 @@
 //
 // true  = commissions open
 // false = commissions closed
-window.COMMISSIONS_OPEN = false;
+window.COMMISSIONS_OPEN = true;
