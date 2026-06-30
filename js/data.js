@@ -200,7 +200,7 @@ const PORTFOLIO_DATA = {
     {
       src: "images/portfolio/character/fire_emblem_char_col1_trans.webp",
       alt: 'Commision Work - Fire Emblem Char',
-      caption: 'Commissioned by Jac'
+      caption: 'Commissioned by JacStone24'
     },
     {
       src: "images/portfolio/character/mothers_day.webp",
@@ -254,8 +254,8 @@ const PORTFOLIO_DATA = {
         { src: "images/portfolio/character/luna_new_design_purple_trans.webp", alt: "Luna New Design Purple Trans", caption: "" },
         { src: "images/portfolio/character/mothers_day.webp", alt: "Mothers Day", caption: "" },
 
-        { src: "images/portfolio/character/fire_emblem_char_col1_trans.webp", alt: "Fire Emblem Char Col1 Trans", caption: "Commissioned by Jac" },
-        { src: "images/portfolio/character/fire_emblem_char_col2_trans.webp", alt: "Fire Emblem Char Col2 Trans", caption: "Commissioned by Jac" },
+        { src: "images/portfolio/character/fire_emblem_char_col1_trans.webp", alt: "Fire Emblem Char Col1 Trans", caption: "Commissioned by JacStone24" },
+        { src: "images/portfolio/character/fire_emblem_char_col2_trans.webp", alt: "Fire Emblem Char Col2 Trans", caption: "Commissioned by JacStone24" },
 
         { src: "images/portfolio/character/female_week.webp", alt: "Female Week", caption: "Commissioned by JJBEATS: https://linktr.ee/jjbeats99" },
         { src: "images/portfolio/character/female_week4.webp", alt: "Female Week4", caption: "Commissioned by JJBEATS: https://linktr.ee/jjbeats99" },
@@ -488,7 +488,7 @@ const PORTFOLIO_DATA = {
       label: 'Character Sketches',
       icon: '✏️',
       images: [
-  
+
   { src: "images/portfolio/character3/orto_aysha.webp", alt: "Orto Aysha", caption: "" },
   { src: "images/portfolio/character3/orto_zuki.webp", alt: "Orto Zuki", caption: "" },
   { src: "images/portfolio/character3/orto_ezra.webp", alt: "Orto Ezra", caption: "" },
@@ -512,13 +512,12 @@ const PORTFOLIO_DATA = {
   { src: "images/portfolio/character3/anima.webp", alt: "Anima", caption: "" },
   { src: "images/portfolio/character3/luna_orto_sketch.webp", alt: "Luna Orto Sketch", caption: "" },
   { src: "images/portfolio/character3/mirosi_sketch.webp", alt: "Mirosi Sketch", caption: "" },
-  { src: "images/portfolio/character3/fire_emblem_char.webp", alt: "Fire Emblem Char", caption: "Commissioned by Jac" },
+  { src: "images/portfolio/character3/fire_emblem_char.webp", alt: "Fire Emblem Char", caption: "Commissioned by JacStone24" },
   { src: "images/portfolio/character3/ichi2.webp", alt: "Ichi2", caption: "Commissioned by JJBEATS: https://linktr.ee/jjbeats99" },
   { src: "images/portfolio/character3/aniki_new_sketch_nobeard.webp", alt: "Aniki New Sketch Nobeard", caption: "Commissioned by JJBEATS: https://linktr.ee/jjbeats99" },
   { src: "images/portfolio/character3/diaz_new_sketch.webp", alt: "Diaz New Sketch", caption: "Commissioned by JJBEATS: https://linktr.ee/jjbeats99" },
   { src: "images/portfolio/character3/nonary_new_sketch.webp", alt: "Nonary New Sketch", caption: "Commissioned by JJBEATS: https://linktr.ee/jjbeats99" },
-  { src: "images/portfolio/character3/Fav Char.webp", alt: "Fav Char", caption: "" },
-  
+  { src: "images/portfolio/character3/Fav Char.webp", alt: "Fav Char", caption: "" }
 ]
     },
 
@@ -529,6 +528,7 @@ const PORTFOLIO_DATA = {
       images: [
     
   { src: "images/portfolio/illustration/aysha_ruin3.webp", alt: "Aysha Ruin", caption: "" },
+  { src: "images/portfolio/illustration/kelly_tattoo_sketch.webp", alt: "Kelly Tattoo Sketch", caption: "" },
   { src: "images/portfolio/illustration/lz_selfie_small.webp", alt: "Lz Selfie Small", caption: "" },
   { src: "images/portfolio/illustration/anz_full.webp", alt: "Aysha and Zuki", caption: "" },
   { src: "images/portfolio/illustration/Chibi zuki8.webp", alt: "Chibi Zuki8", caption: "" },
@@ -1021,7 +1021,6 @@ const PORTFOLIO_DATA = {
         { src: "images/portfolio/archive/throne3.webp", alt: "Throne3", caption: "" },
         { src: "images/portfolio/archive/zuki2_pose.webp", alt: "Zuki2 Pose", caption: "" },
         { src: "images/portfolio/archive/kiara_fullbody.webp", alt: "Kiara Fullbody", caption: "" },
-        { src: "images/portfolio/archive/Aysha's_Ice_Designs.webp", alt: "Aysha'S Ice Designs", caption: "" }
 ]
     }
   ]
