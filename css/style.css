@@ -233,6 +233,25 @@ p { margin: 0 0 1em; color: var(--ink); }
   }
 }
 
+/* ========== BOOKS PAGE – HERO BACKGROUND ========== */
+.page-books .hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/portfolio/illustration/bahamut_vs_lunarkos_wip.webp');
+  background-size: 40%;
+  background-position: right;
+  background-repeat: no-repeat;
+  opacity: 0.75;
+  z-index: 0;
+}
+
+/* ensure hero text and existing gradient remain above */
+.page-books .hero .wrap {
+  position: relative;
+  z-index: 1;
+}
+
 /* --------------------------------- hero --------------------------------- */
 
 .hero {
