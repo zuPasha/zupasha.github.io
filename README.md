@@ -21,7 +21,7 @@ This is the website for zuPasha, creator of VantaPsy, working under the studio n
 
 ## Status
 
-The game is in active development, the Chronology is written and being prepared for release, and commissions are open to help fund both. The site reflects that: built and live, but still filling in around the edges as art, screenshots, and book covers come together. Anything that looks unfinished is a placeholder, not a mistake.
+The game is in active development, the Chronology is written and being prepared for release, and commissions are open to help fund both. The site reflects that: built and live, but still filling in around the edges as art, screenshots, and book covers come together. Anything that looks unfinished is a placeholder, not a mistake. 
 
 ---
 
