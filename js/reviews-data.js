@@ -29,11 +29,11 @@ window.REVIEWS_DATA = [
      review: "The entire process was seamless from start to finish. Zuhayr designed a piece based on the specific elements I shared with him, but what stood out the most was the time he took to ask what each element meant to me. He encouraged me to describe them through words, images, and the feelings they carried. That level of care made the experience incredibly personal. The piece he created captured everything I felt and everything I had hoped for. It was more than just artwork—it told my story. Zuhayr is an incredibly talented artist, and I can't recommend him highly enough."
    },
 
-   // {
-   //   name: "JJBEATS",
-   //   commissionType: "Various Character Designs",
-   //   image: { src: "images/portfolio/character/female_week4.webp", alt: "Moon and tree tattoo concept" },
-   //   blurb: "These three fuckers",
-   //   review: "COMMANDER KIDD is a small, firm woman with short reddish hair (Scottish-inspired), cropped and practical. A red bandana is tied tightly around her head, a few strands escaping. Her face is sharp, her expression one of annoyed exasperation. She wears practical military-style gear – a fitted jacket with reinforced shoulders, cargo trousers, sturdy boots. She leans on her elbow on the table, her head in her palm, looking at the mech pilots with a 'these fuckers' expression. She looks like someone who has seen too much chaos caused by men who think they're invincible."
-   // }
+    {
+      name: "JJBEATSVT",
+      commissionType: "Various Character Designs",
+      image: { src: "images/portfolio/character/female_week4.webp", alt: "Moon and tree tattoo concept" },
+      blurb: "FATE OF THE CARDS",
+      review: "ZuPasha is an artist who is continues to work on his craft. He thrives on wanting to become the best he can be so he can perfect the stories he wants to create. I am glad I have been able to witness his growth as artist and hope I can continue doing so. May he continue to have passion he what he loves to do."
+    }
 ];
