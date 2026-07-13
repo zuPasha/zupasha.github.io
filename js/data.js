@@ -247,8 +247,11 @@ const PORTFOLIO_DATA = {
       icon: '🧍',
       images: [
         
-        { src: "images/portfolio/character/fm_col.webp", alt: "Fm Col", caption: "" },
+        
         { src: "images/portfolio/character/fmgirl_shad.webp", alt: "Fmgirl Shad", caption: "" },
+        { src: "images/portfolio/character/aadam.webp", alt: "Aadam", caption: "" },
+        
+        { src: "images/portfolio/character/fm_col.webp", alt: "Fm Col", caption: "" },
 
         { src: "images/portfolio/character/luna_action.webp", alt: "Luna Action", caption: "" },
         { src: "images/portfolio/character/luna_new_design_purple_trans.webp", alt: "Luna New Design Purple Trans", caption: "" },
@@ -1022,6 +1025,8 @@ const PORTFOLIO_DATA = {
         { src: "images/portfolio/archive/throne3.webp", alt: "Throne3", caption: "" },
         { src: "images/portfolio/archive/zuki2_pose.webp", alt: "Zuki2 Pose", caption: "" },
         { src: "images/portfolio/archive/kiara_fullbody.webp", alt: "Kiara Fullbody", caption: "" },
+        { src: "images/portfolio/archive/Ezra's_Energy_Designs.webp", alt: "Ezra'S Energy Designs", caption: "" },
+        { src: "images/portfolio/archive/Kiara's_Light_Designs.webp", alt: "Kiara'S Light Designs", caption: "" },
 ]
     }
   ]
