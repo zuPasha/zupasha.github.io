@@ -1027,10 +1027,6 @@ const PORTFOLIO_DATA = {
         { src: "images/portfolio/archive/throne3.webp", alt: "Throne3", caption: "" },
         { src: "images/portfolio/archive/zuki2_pose.webp", alt: "Zuki2 Pose", caption: "" },
         { src: "images/portfolio/archive/kiara_fullbody.webp", alt: "Kiara Fullbody", caption: "" },
-        { src: "images/portfolio/archive/Ezra's_Energy_Designs.webp", alt: "Ezra'S Energy Designs", caption: "" },
-        { src: "images/portfolio/archive/Kiara's_Light_Designs.webp", alt: "Kiara'S Light Designs", caption: "" },
-        { src: "images/portfolio/archive/Ezra's_Energy_Designs.webp", alt: "Ezra'S Energy Designs", caption: "" },
-        { src: "images/portfolio/archive/Kiara's_Light_Designs.webp", alt: "Kiara'S Light Designs", caption: "" },
 ]
     }
   ]
