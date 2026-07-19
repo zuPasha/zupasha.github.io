@@ -709,6 +709,8 @@ const PORTFOLIO_DATA = {
     
   
   { src: "images/portfolio/design/tsupasai_1.webp", alt: "Tsupasai 1", caption: "" },
+  { src: "images/portfolio/design/tsupasai_dark.webp", alt: "Tsupasai Dark", caption: "" },
+  { src: "images/portfolio/design/tsupasai_mid.webp", alt: "Tsupasai Mid", caption: "" },
   { src: "images/portfolio/design/tsupasai.webp", alt: "Tsupasai", caption: "" },
   { src: "images/portfolio/design/vp.webp", alt: "Vp", caption: "" },
   { src: "images/portfolio/design/zuLogo_trans_white2.webp", alt: "Zulogo Trans White2", caption: "" },
@@ -751,7 +753,7 @@ const PORTFOLIO_DATA = {
   { src: "images/portfolio/design/attic_chest_puzzle_dial_sword_hover.webp", alt: "Attic Chest Puzzle Dial Sword Hover", caption: "" },
   
   { src: "images/portfolio/design/ztextbox.webp", alt: "Ztextbox", caption: "" },
-  { src: "images/portfolio/design/SYP_logo(test09).webp", alt: "Syp Logo(Test09)", caption: "" }
+  { src: "images/portfolio/design/SYP_logo(test09).webp", alt: "Syp Logo(Test09)", caption: "" },
 ]
     },
     {
@@ -1025,6 +1027,8 @@ const PORTFOLIO_DATA = {
         { src: "images/portfolio/archive/throne3.webp", alt: "Throne3", caption: "" },
         { src: "images/portfolio/archive/zuki2_pose.webp", alt: "Zuki2 Pose", caption: "" },
         { src: "images/portfolio/archive/kiara_fullbody.webp", alt: "Kiara Fullbody", caption: "" },
+        { src: "images/portfolio/archive/Ezra's_Energy_Designs.webp", alt: "Ezra'S Energy Designs", caption: "" },
+        { src: "images/portfolio/archive/Kiara's_Light_Designs.webp", alt: "Kiara'S Light Designs", caption: "" },
         { src: "images/portfolio/archive/Ezra's_Energy_Designs.webp", alt: "Ezra'S Energy Designs", caption: "" },
         { src: "images/portfolio/archive/Kiara's_Light_Designs.webp", alt: "Kiara'S Light Designs", caption: "" },
 ]
