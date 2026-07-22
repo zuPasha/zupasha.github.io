@@ -569,4 +569,110 @@ document.addEventListener('DOMContentLoaded', function () {
       window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
     });
   }
+
+  // ============================================================
+  //  HEADER & TIMELINE MINIMISE BUTTONS (with re-initialisation)
+  // ============================================================
+
+  function initMinimiseButtons() {
+    // ---- Header minimise ----
+    const header = document.querySelector('.site-header');
+    const headerMinBtn = document.querySelector('.header-minimise');
+    const headerExpandBar = document.getElementById('header-expand-bar');
+    const headerExpandBtn = headerExpandBar ? headerExpandBar.querySelector('.expand-btn') : null;
+
+    if (header && headerMinBtn && headerExpandBar && headerExpandBtn) {
+      // Remove old listeners to prevent duplicates
+      const newMinBtn = headerMinBtn.cloneNode(true);
+      headerMinBtn.parentNode.replaceChild(newMinBtn, headerMinBtn);
+      // Re-fetch the reference
+      const freshMinBtn = document.querySelector('.header-minimise');
+      const freshExpandBtn = document.querySelector('#header-expand-bar .expand-btn');
+
+      // Restore saved state
+      if (localStorage.getItem('vantapsy_header_collapsed') === 'true') {
+        header.classList.add('is-collapsed');
+        freshMinBtn.classList.add('is-collapsed');
+        freshMinBtn.textContent = 'Maximise ▼';
+        headerExpandBar.classList.add('is-visible');
+      }
+
+      freshMinBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        const isCollapsed = header.classList.toggle('is-collapsed');
+        this.classList.toggle('is-collapsed');
+        this.textContent = isCollapsed ? 'Maximise ▼' : '▲';
+        headerExpandBar.classList.toggle('is-visible', isCollapsed);
+        localStorage.setItem('vantapsy_header_collapsed', isCollapsed ? 'true' : 'false');
+        window.dispatchEvent(new Event('resize'));
+      });
+
+      if (freshExpandBtn) {
+        freshExpandBtn.addEventListener('click', function () {
+          header.classList.remove('is-collapsed');
+          freshMinBtn.classList.remove('is-collapsed');
+          freshMinBtn.textContent = '▲';
+          headerExpandBar.classList.remove('is-visible');
+          localStorage.setItem('vantapsy_header_collapsed', 'false');
+          window.dispatchEvent(new Event('resize'));
+        });
+      }
+    }
+
+    // ---- Timeline minimise ----
+    const timeline = document.querySelector('.lore-timeline');
+    const timelineMinBtn = document.querySelector('.timeline-minimise');
+    const timelineExpandBar = document.getElementById('timeline-expand-bar');
+    const timelineExpandBtn = timelineExpandBar ? timelineExpandBar.querySelector('.expand-btn') : null;
+
+    if (timeline && timelineMinBtn && timelineExpandBar && timelineExpandBtn) {
+      // Remove old listeners
+      const newTimelineBtn = timelineMinBtn.cloneNode(true);
+      timelineMinBtn.parentNode.replaceChild(newTimelineBtn, timelineMinBtn);
+      const freshTimelineBtn = document.querySelector('.timeline-minimise');
+      const freshTimelineExpandBtn = document.querySelector('#timeline-expand-bar .expand-btn');
+
+      // Restore saved state
+      if (localStorage.getItem('vantapsy_timeline_collapsed') === 'true') {
+        timeline.classList.add('is-collapsed');
+        freshTimelineBtn.classList.add('is-collapsed');
+        freshTimelineBtn.textContent = 'Maximise ▼';
+        timelineExpandBar.classList.add('is-visible');
+      }
+
+      freshTimelineBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        const isCollapsed = timeline.classList.toggle('is-collapsed');
+        this.classList.toggle('is-collapsed');
+        this.textContent = isCollapsed ? 'Maximise ▼' : '▲';
+        timelineExpandBar.classList.toggle('is-visible', isCollapsed);
+        localStorage.setItem('vantapsy_timeline_collapsed', isCollapsed ? 'true' : 'false');
+        // Dispatch custom event for renderer.js to pick up
+        document.dispatchEvent(new CustomEvent('timelineToggled'));
+        window.dispatchEvent(new Event('resize'));
+      });
+
+      if (freshTimelineExpandBtn) {
+        freshTimelineExpandBtn.addEventListener('click', function () {
+          timeline.classList.remove('is-collapsed');
+          freshTimelineBtn.classList.remove('is-collapsed');
+          freshTimelineBtn.textContent = '▲';
+          timelineExpandBar.classList.remove('is-visible');
+          localStorage.setItem('vantapsy_timeline_collapsed', 'false');
+          document.dispatchEvent(new CustomEvent('timelineToggled'));
+          window.dispatchEvent(new Event('resize'));
+        });
+      }
+    }
+  }
+
+  // Initialise on DOM ready
+  document.addEventListener('DOMContentLoaded', initMinimiseButtons);
+
+  // Also re-initialise when partials are loaded (header re-injected)
+  document.addEventListener('partials:loaded', function () {
+    // Small delay to ensure DOM is updated
+    setTimeout(initMinimiseButtons, 50);
+  });
+
 });

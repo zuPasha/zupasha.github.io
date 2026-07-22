@@ -124,6 +124,72 @@ p { margin: 0 0 1em; color: var(--ink); }
   padding-bottom: 1rem;
 }
 
+/* ---- header minimise button ---- */
+.header-minimise {
+  position: absolute;
+  bottom: 0.3rem;
+  right: 0.8rem;
+  background: none;
+  border: none;
+  color: var(--ink-dim);
+  font-size: 0.7rem;
+  cursor: pointer;
+  padding: 0.2rem 0.3rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+  line-height: 1;
+  z-index: 10;
+}
+.header-minimise:hover {
+  color: var(--ink-bright);
+}
+.header-minimise.is-collapsed {
+  transform: rotate(180deg);
+}
+
+/* ---- collapsed header ---- */
+.site-header.is-collapsed {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0;
+  border-bottom: none;
+  transition: max-height 0.3s ease, padding 0.3s ease, border-color 0.3s ease;
+}
+.site-header.is-collapsed .wrap {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.site-header.is-collapsed .header-minimise {
+  display: none;
+}
+/* ---- expand bar (for header & timeline) ---- */
+.expand-bar {
+  position: relative;
+  display: none;  /* hidden by default */
+  justify-content: right;
+  padding: 0.2rem 0;
+  background: var(--bg-raised);
+  border-bottom: 1px solid var(--line);
+  border-top: 1px solid var(--line);
+  margin-top: -1px; /* overlap border */
+}
+.expand-bar .expand-btn {
+  background: none;
+  border: none;
+  color: var(--ink-dim);
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  transition: color 0.2s ease;
+}
+.expand-bar .expand-btn:hover {
+  color: var(--ink-bright);
+}
+
+/* Show expand bar when header is collapsed via class */
+.expand-bar.is-visible {
+  display: flex !important;
+}
+
 .brand {
   display: flex;
   align-items: center;

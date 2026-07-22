@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lore &middot; zuPasha</title>
+  <meta name="description" content="The VantaPsy Chronology: a browsable lore compendium for Aerisu, the world behind Soul Snatcher and the VantaPsy books.">
+  <link rel="icon" type="image/webp" href="images/logo.webp">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/lore.css">
+</head>
+<body class="page-lore">
+
+  <div data-include="partials/header.html"></div>
+
+  <div class="lore-app" id="lore-app">
+
+    <!-- ============================== TIMELINE ============================== -->
+    <nav class="lore-timeline" id="lore-timeline" aria-label="Chronology timeline">
+      <div class="lore-timeline-track" id="lore-timeline-track">
+        <!-- rendered by js/lore/renderer.js -->
+      </div>
+      <button class="timeline-minimise" aria-label="Minimise timeline" title="Minimise timeline">▲</button>
+    </nav>
+    <!-- Expand bar for timeline -->
+    <div id="timeline-expand-bar" class="expand-bar" style="display:none;">
+      <button class="expand-btn" aria-label="Expand timeline" title="Expand timeline">Timeline ▼</button>
+    </div>
+
+    <div class="lore-body">
+
+      <!-- =============================== SIDEBAR =============================== -->
+      <aside class="lore-sidebar" id="lore-sidebar" aria-label="Browse entries">
+        <div class="lore-tabs" id="lore-tabs" role="tablist" aria-label="Categories">
+          <!-- rendered by js/lore/renderer.js -->
+        </div>
+        <div class="lore-age-filter">
+          <label for="lore-age-select">Age</label>
+          <select id="lore-age-select">
+            <option value="">All Ages</option>
+          </select>
+        </div>
+        <div class="lore-entry-list" id="lore-entry-list">
+          <!-- rendered by js/lore/renderer.js -->
+        </div>
+      </aside>
+
+      <!-- ============================ CONTENT AREA ============================ -->
+      <main class="lore-content" id="lore-content">
+        <!-- Primer or entry, rendered by js/lore/renderer.js -->
+      </main>
+
+    </div>
+  </div>
+
+  <!-- mobile sidebar overlay controls -->
+  <div class="lore-sidebar-scrim" id="lore-sidebar-scrim"></div>
+  <button class="lore-fab" id="lore-fab" aria-label="Browse lore categories" aria-expanded="false" aria-controls="lore-sidebar">
+    <span aria-hidden="true">&#128218;</span>
+  </button>
+
+  <div data-include="partials/footer.html"></div>
+
+<script src="js/includes.js"></script>
+
+<script src="js/mailto-fallback.js"></script>
+
+<script src="js/lore/manifest.js"></script>
+
+<script src="js/lore/renderer.js"></script>
+
+<script src="js/lore/loader.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
