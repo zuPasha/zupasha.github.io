@@ -7,6 +7,9 @@
 //
 // window.LoreRenderer.init(entries) is called once by loader.js
 // after every manifest file has loaded.
+//
+// EXPUNGEMENT: Any text wrapped in ~~double tildes~~ is replaced
+// with [EXPUNGED] and is never shown to the user.
 
 window.LoreRenderer = (function () {
 
@@ -29,7 +32,7 @@ window.LoreRenderer = (function () {
   ];
 
   var MOBILE_BREAKPOINT = 760;
-  var GAP_COUNT = AGES.length - 1; // 5 gaps between 6 nodes
+  var GAP_COUNT = AGES.length - 1;
 
   // ---- state ----
   var entries = [];
@@ -39,12 +42,24 @@ window.LoreRenderer = (function () {
   var activeEntryId = null;
   var descriptionMode = 'simple';
   var searchQuery = '';
-  var searchAll = false;   // false = current category only, true = all entries
+  var searchAll = false;
 
   // ---- cached elements ----
   var els = {};
   var tooltipEl = null;
   var tooltipTimeout = null;
+
+  // ============================================================
+  //  EXPUNGEMENT HANDLER
+  // ============================================================
+  /**
+   * Permanently replaces ~~text~~ with [EXPUNGED].
+   * The original content is never shown to the user.
+   */
+  function expungeText(text) {
+    if (!text) return text;
+    return text.replace(/~~(.*?)~~/g, '[EXPUNGED]');
+  }
 
   // ============================================================
   //  PARSER
@@ -121,7 +136,11 @@ window.LoreRenderer = (function () {
 
   function renderLoreProse(text, currentId) {
     if (!text) return '';
-    var sections = parseLoreText(text);
+
+    // Expunge content BEFORE parsing so it never reaches the user
+    var processedText = expungeText(text);
+
+    var sections = parseLoreText(processedText);
     var html = '';
 
     for (var i = 0; i < sections.length; i++) {
@@ -154,7 +173,7 @@ window.LoreRenderer = (function () {
     wireStaticUI();
     buildSidebarStructure();
     createSearch();
-    wireEntryListScroll();   // FIXED version
+    wireEntryListScroll();
     watchHeaderHeight();
     createTooltip();
 
@@ -227,7 +246,8 @@ window.LoreRenderer = (function () {
     if (categoryLabelText) badgeText.push(categoryLabelText);
     badgesEl.textContent = badgeText.join('  ·  ');
 
-    shortEl.textContent = entry.short || '(No description)';
+    // Expunge the short description in tooltips too
+    shortEl.textContent = entry.short ? expungeText(entry.short) : '(No description)';
 
     var rect = link.getBoundingClientRect();
     var tooltipWidth = Math.min(320, window.innerWidth - 24);
@@ -297,7 +317,6 @@ window.LoreRenderer = (function () {
     tooltipEl.querySelector('.tooltip-badges').textContent = badgesText;
     tooltipEl.querySelector('.tooltip-short').textContent = shortText;
 
-    // Position relative to the age node
     var rect = element.getBoundingClientRect();
     var tooltipWidth = Math.min(320, window.innerWidth - 24);
     var left = rect.left + (rect.width / 2) - (tooltipWidth / 2);
@@ -307,11 +326,9 @@ window.LoreRenderer = (function () {
     tooltipEl.style.left = left + 'px';
     tooltipEl.style.top = (rect.bottom + 8) + 'px';
 
-    // Remove any "above" positioning from previous uses
     tooltipEl.classList.remove('is-above');
     tooltipEl.classList.add('is-visible');
 
-    // Check if it goes off the bottom of the screen
     var actualHeight = tooltipEl.offsetHeight;
     var bottomEdge = rect.bottom + 8 + actualHeight + 12;
     if (bottomEdge > window.innerHeight) {
@@ -320,7 +337,7 @@ window.LoreRenderer = (function () {
         tooltipEl.style.top = aboveTop + 'px';
         tooltipEl.classList.add('is-above');
     }
-}
+  }
 
   // ============================================================
   //  STATIC UI WIRING
@@ -364,7 +381,6 @@ window.LoreRenderer = (function () {
     window.addEventListener('resize', debounce(measure, 150));
   }
 
-  // Recalculate timeline height when timeline collapses/expands
   function updateTimelineHeight() {
     var timeline = document.querySelector('.lore-timeline');
     if (timeline) {
@@ -374,9 +390,7 @@ window.LoreRenderer = (function () {
     }
   }
 
-  // Call after timeline toggle
   document.addEventListener('timelineToggled', updateTimelineHeight);
-  // Call initially
   setTimeout(updateTimelineHeight, 100);
 
   function isMobile() {
@@ -491,8 +505,6 @@ window.LoreRenderer = (function () {
   // ============================================================
   //  TIMELINE
   // ============================================================
-  // Inside renderTimeline() – the loop that builds the track
-
   function renderTimeline() {
       if (!els.timelineTrack) return;
 
@@ -523,9 +535,7 @@ window.LoreRenderer = (function () {
 
       els.timelineTrack.innerHTML = html;
 
-      // --- Delegate event listeners once on the track ---
       if (!els.timelineTrack._listenersAdded) {
-          // Click: age node → first event; entry node → select that entry
           els.timelineTrack.addEventListener('click', function (e) {
               var ageNode = e.target.closest('.timeline-age-node');
               if (ageNode) {
@@ -534,7 +544,6 @@ window.LoreRenderer = (function () {
                   if (firstEvent) {
                       selectEntry(firstEvent.id);
                   } else {
-                      // fallback: filter the sidebar by this age
                       activeAgeFilter = ageId;
                       if (els.ageSelect) els.ageSelect.value = activeAgeFilter;
                       renderEntryList();
@@ -549,20 +558,15 @@ window.LoreRenderer = (function () {
               }
           });
 
-          // Hover: show age preview tooltip
           els.timelineTrack.addEventListener('mouseover', function (e) {
               var ageNode = e.target.closest('.timeline-age-node');
               if (ageNode) {
                   showAgeTooltip(ageNode.getAttribute('data-age-id'), ageNode);
-              } else {
-                  // Let the cross-link tooltip manage itself, but hide age tooltip if we leave an age node
-                  // We'll handle this in mouseout
               }
           });
 
           els.timelineTrack.addEventListener('mouseout', function (e) {
               var related = e.relatedTarget;
-              // If we're moving to another age node, don't hide yet
               if (related && related.closest && related.closest('.timeline-age-node')) return;
               hideTooltip();
           });
@@ -570,7 +574,6 @@ window.LoreRenderer = (function () {
           els.timelineTrack._listenersAdded = true;
       }
 
-      // Ensure the age select dropdown stays in sync (optional)
       if (els.ageSelect && activeAgeFilter) {
           els.ageSelect.value = activeAgeFilter;
       }
@@ -592,7 +595,6 @@ window.LoreRenderer = (function () {
 
     var html = '<div class="timeline-entry-nodes">';
 
-    // Helper: add a row of nodes at a given vertical percentage
     function addNodes(list, topPct) {
         list.forEach(function (e, idx) {
             var n = idx + 1;
@@ -604,12 +606,12 @@ window.LoreRenderer = (function () {
         });
     }
 
-    addNodes(events, 30);   // top row
-    addNodes(others, 70);   // bottom row
+    addNodes(events, 30);
+    addNodes(others, 70);
 
     html += '</div>';
     return html;
-}
+  }
 
   function ageIndex(ageId) {
     for (var i = 0; i < AGES.length; i++) {
@@ -678,14 +680,12 @@ window.LoreRenderer = (function () {
   function renderEntryList() {
     if (!els.entryList) return;
 
-    // First apply category and age filters
     var filtered = entries.filter(function (e) {
       var categoryMatch = e.category === activeCategory;
       var ageMatch = activeAgeFilter === '' || e.age === activeAgeFilter;
       return categoryMatch && ageMatch;
     });
 
-    // Then apply search if present
     if (searchQuery) {
       var query = searchQuery.toLowerCase();
 
@@ -696,14 +696,14 @@ window.LoreRenderer = (function () {
           if (e.name && e.name.toLowerCase().includes(query)) return true;
           if (e.aliases && e.aliases.some(function (a) { return a.toLowerCase().includes(query); })) return true;
           var fullText = (e.short || '') + ' ' + (e.full || '');
-          return fullText.toLowerCase().includes(query);
+          return expungeText(fullText).toLowerCase().includes(query);
         });
       } else {
         filtered = filtered.filter(function (e) {
           if (e.name && e.name.toLowerCase().includes(query)) return true;
           if (e.aliases && e.aliases.some(function (a) { return a.toLowerCase().includes(query); })) return true;
           var fullText = (e.short || '') + ' ' + (e.full || '');
-          return fullText.toLowerCase().includes(query);
+          return expungeText(fullText).toLowerCase().includes(query);
         });
       }
 
@@ -729,7 +729,6 @@ window.LoreRenderer = (function () {
     var lastAge = null;
 
     filtered.forEach(function (e) {
-      // --- Add age separator when moving to a new age (only if filter is "All Ages") ---
       if (activeAgeFilter === '' && lastAge !== null && e.age !== lastAge) {
         var ageLabelText = ageLabel(e.age);
         html += '<div class="lore-age-separator">' + ageLabelText + '</div>';
@@ -751,49 +750,58 @@ window.LoreRenderer = (function () {
       });
     });
   }
+
   // ============================================================
   //  CONTENT AREA — Primer
   // ============================================================
   function renderPrimer() {
-    activeEntryId = null;
-    renderTimeline();
-    renderEntryList();
+  activeEntryId = null;
+  renderTimeline();
+  renderEntryList();
 
-    if (!els.content) return;
+  if (!els.content) return;
 
-    var ageIntros = [
-      'Age of Men — the world before the Moon. Solmara rose as an empire of scholars and soldiers who believed order could be perfected. Hoshimira bent the knee as vassal. Sahran was born from exile, the outcast kin of Hoshimira driven into scorching deserts. The Curse was a distant whisper. The Scorching Sun ruled an unchanging sky. The Vanta Explosion crystallised Elysium, and the world prepared to break.',
-      'Age of Gods — the sky shattered. Lunarkos fell. Bahamut rose from the planet\'s core. The collision tore the boundary between soul and matter. Gods ascended from the wreckage. The Moon was born, scarred and veined. The world was remade in fire, light, and divine will.',
-      'Age of Fairytales — from ash, myth took root. The Nine Spirits wove the Barrier between realms. The Phumenar sought the Orb. The First Separation cracked the Rift. Gods and mortals learned to coexist. History became legend, and legend became truth.',
-      'Age of Magic — magic became the skeleton of civilisation. Dragons soared. The Ashtar marched. Death gardens bloomed. Sorcery intertwined with steel. The world rebuilt itself on arcane foundations. Wonder was woven into the everyday.',
-      'Age of Knowledge — the age of codification and pathology. The Diviners systematised the soul. Orthogenesis engineered new life: the Borenfegens. Magic receded. Technology advanced. The world tried to understand itself, and lost something in the process.',
-      'Age of Decay — the present. Perpetual night over Sengetsuki. The Curse in every bloodline. The sun a pale memory on Sundays. Technology and magic wear thin. The accumulated weight of every age presses down, and the world holds its breath for the end, or simply another loop.'
-    ];
+  var ageIntros = [
+    'Age of Men — the world before the Moon. Solmara rose as an empire of scholars and soldiers who believed order could be perfected. Hoshimira bent the knee as vassal. Sahran was born from exile, the outcast kin of Hoshimira driven into scorching deserts. The Curse was a distant whisper. The Scorching Sun ruled an unchanging sky. The Vanta Explosion crystallised Elysium, and the world prepared to break.',
+    'Age of Gods — the sky shattered. Lunarkos fell. Bahamut rose from the planet\'s core. The collision tore the boundary between soul and matter. Gods ascended from the wreckage. The Moon was born, scarred and veined. The world was remade in fire, light, and divine will.',
+    'Age of Fairytales — from ash, myth took root. The Nine Spirits wove the Barrier between realms. The Phumenar sought the Orb. The First Separation cracked the Rift. Gods and mortals learned to coexist. History became legend, and legend became truth.',
+    'Age of Magic — magic became the skeleton of civilisation. Dragons soared. The Ashtar marched. Death gardens bloomed. Sorcery intertwined with steel. The world rebuilt itself on arcane foundations. Wonder was woven into the everyday.',
+    'Age of Knowledge — the age of codification and pathology. The Diviners systematised the soul. Orthogenesis engineered new life: the Borenfegens. Magic receded. Technology advanced. The world tried to understand itself, and lost something in the process.',
+    'Age of Decay — the present. Perpetual night over Sengetsuki. The Curse in every bloodline. The sun a pale memory on Sundays. Technology and magic wear thin. The accumulated weight of every age presses down, and the world holds its breath for the end, or simply another loop.'
+  ];
 
-    var html = '' +
-      '<div class="lore-primer">' +
-      '<p class="eyebrow">The VantaPsy Chronology</p>' +
-      '<h2>A Quick Primer</h2>' +
-      '<p>Aerisu breathes in loops. Time folds back on itself. The VantaPsy Chronology maps every turn of that breath. It is the full lore document for VantaPsy: Soul Snatcher, holding the world\'s history, its gods, its magic, and the Curse that runs through everything.</p>' +
-      '<p>Six ages shape the record. The Age of Men ends with the Crystallisation of Elysium. The Age of Gods watches Lunarkos fall and the Shattering tear the sky. The Age of Fairytales rebuilds civilisation around magic. The Age of Magic fights the War for the Orb of Souls. The Age of Knowledge leads into the present darkness. The Age of Decay stands now: nine years of night, a city folded by time, a goddess asleep in an orphanage.</p>' +
-      '<p>Vanta is the name for lack and longing, the hollow that knows itself hollow. The Curse is what happens when Vanta festers, when desire consumes or collapses inward. The Chronology follows the Curse from the first Black Blood victims to the Frallation marks on Soulless teenagers in Sengetsuki today.</p>' +
-      '<p>The game follows two Soulless protagonists hunting the disappearances of Soulless children. They are running out of time. The Chronology explains what a soul actually is, why the sun never rises, and how desire shapes everything.</p>' +
-      '<p>You do not need this document to play. The game tells its own story. But for anyone who wants the full weight of Aerisu beneath their feet, the Chronology waits. Read what you like. The loop holds the rest.</p>' +
-      '<hr style="border:1px solid var(--line);margin:2rem 0;">' +
-      '<h2>How to use this page</h2>' +
-      '<p>The timeline above tracks six ages of Aerisu. Within each age, the timeline shows two rows of nodes: the top row lists the main <strong>Events</strong> in chronological order, while the bottom row displays all other categories (People, Places, Concepts, etc.) ordered by relevance.</p><p>Select any entry and its age expands to show where that entry sits in time relative to everything else.</p><p>The sidebar on the left lists every entry by category, with an age filter underneath it if you want to narrow things further. You can also search for entries by name, alias, or content.</p><p>Inside an entry, a Simple / Advanced toggle switches between a short version and the full breakdown, and any name you recognise from elsewhere in the Chronology is automatically linked, so you can follow the world wherever it leads.</p>' +
-      '<ul class="primer-age-list">' +
-      ageIntros.map(function (line) {
+  var html = '' +
+    '<div class="lore-primer">' +
+    '<p class="eyebrow">The VantaPsy Chronology</p>' +
+    '<h2>A Quick Primer</h2>' +
+    '<p>Aerisu remembers itself as time recurs, carrying the Echoes of the past into the future. The VantaPsy Chronology traces that history across six ages, following the civilizations, Spirits, souls, magic, and forces that have shaped the world.</p>' +
+    '<p>The Age of Men ends with the Crystallisation of Elysium. The Age of Gods sees Lunarkos descend and the Shattering reshape the world. The Age of Fairytales rebuilds civilisation around magic. The Age of Magic brings the War for the Orb of Souls. The Age of Knowledge gives way to the present darkness. The Age of Decay now stretches across nine years of night, with a city folded by time and a goddess sleeping within an orphanage.</p>' +
+    '<p>Magic is potential made manifest through Resonance. Every living thing, memory, desire, and action participates in the same cosmic frame, leaving Echoes that can persist through souls, cultures, places, and even the Stars. Lux connects and sustains these systems. Vanta arises from lack and desire, and when desire becomes self-perpetuating, it becomes the Curse.</p>' +
+    '<p>The Chronology follows these forces through Aerisu: the nature of the soul, the Spiral Veins beneath the world, the Spirits and their domains, the memories carried through Recursion, and the many ways existence can bloom, decay, and become something else.</p>' +
+    '<p>New to the Chronology? Start with the <a href="#" class="lore-crosslink" data-entry-id="cosmology">VantaPsy Cosmology</a> for a concise overview of the fundamental structure of Aerisu and VantaPsy as a whole.</p>' +
+    '<hr style="border:1px solid var(--line);margin:2rem 0;">' +
+    '<h2>How to use this page</h2>' +
+    '<p>The timeline above tracks six ages of Aerisu. Within each age, the timeline shows two rows of nodes: the top row lists the main <strong>Events</strong> in chronological order, while the bottom row displays all other categories (People, Places, Concepts, etc.) ordered by relevance.</p><p>Select any entry and its age expands to show where that entry sits in time relative to everything else.</p><p>The sidebar on the left lists every entry by category, with an age filter underneath it if you want to narrow things further. You can also search for entries by name, alias, or content.</p><p>Inside an entry, a Simple / Advanced toggle switches between a short version and the full breakdown, and any name you recognise from elsewhere in the Chronology is automatically linked, so you can follow the world wherever it leads.</p>' +
+    '<ul class="primer-age-list">' +
+    ageIntros.map(function (line) {
       var parts = line.split(' — ');
       return '<li><strong>' + parts[0] + '</strong> ' + parts[1] + '</li>';
-      }).join('') +
-      '</ul>' +
-      '<p class="text-dim">This page is a work in progress. Entries are being added as the Chronology and the game come together.</p>' +
-      '</div>';
+    }).join('') +
+    '</ul>' +
+    '<p class="text-dim">This page is a work in progress. Entries are being added as the Chronology and the game come together.</p>' +
+    '</div>';
 
-    els.content.innerHTML = html;
-    setupTooltips();
-  }
+  els.content.innerHTML = html;
+  setupTooltips();
+
+  // Wire up any crosslinks in the primer
+  els.content.querySelectorAll('.lore-crosslink').forEach(function (link) {
+    link.addEventListener('click', function (evt) {
+      evt.preventDefault();
+      selectEntry(link.getAttribute('data-entry-id'));
+    });
+  });
+}
 
   // ============================================================
   //  CONTENT AREA — entry view
@@ -881,7 +889,7 @@ window.LoreRenderer = (function () {
       return '' +
         '<button type="button" class="lore-related-card" data-entry-id="' + e.id + '">' +
         '<span class="related-name">' + escapeHtml(e.name) + '</span>' +
-        '<span class="related-snippet">' + escapeHtml(truncate(e.short, 90)) + '</span>' +
+        '<span class="related-snippet">' + escapeHtml(truncate(e.short ? expungeText(e.short) : '', 90)) + '</span>' +
         '</button>';
     }).join('');
     return '<div class="lore-related"><h4>Related Entries</h4><div class="lore-related-grid">' + cards + '</div></div>';
@@ -927,7 +935,7 @@ window.LoreRenderer = (function () {
   }
 
   // ============================================================
-  //  SIDEBAR STRUCTURE & SCROLL (FIXED)
+  //  SIDEBAR STRUCTURE & SCROLL
   // ============================================================
   function buildSidebarStructure() {
     var sidebar = els.sidebar;
@@ -971,7 +979,6 @@ window.LoreRenderer = (function () {
     var rafId = null;
 
     entryList.addEventListener('scroll', function() {
-      // Cancel any pending animation frame
       if (rafId) {
         cancelAnimationFrame(rafId);
       }
@@ -979,8 +986,6 @@ window.LoreRenderer = (function () {
       rafId = requestAnimationFrame(function() {
         var scrollTop = entryList.scrollTop;
 
-        // Only toggle if the scroll position has changed significantly
-        // to avoid rapid toggling from layout shifts
         if (Math.abs(scrollTop - lastScrollTop) < 3) {
           rafId = null;
           return;
@@ -998,6 +1003,11 @@ window.LoreRenderer = (function () {
     });
   }
 
-  return { init: init };
+  // ============================================================
+  //  PUBLIC API
+  // ============================================================
+  return {
+    init: init
+  };
 
 })();

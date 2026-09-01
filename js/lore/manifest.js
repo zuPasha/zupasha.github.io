@@ -24,12 +24,29 @@
 // replace them ahead of the actual Chronology release.
 
 window.LORE_MANIFEST = [
-  "js/lore/events/events.js",
+  "js/lore/events/age-of-men.js",
+  "js/lore/events/age-of-gods.js",
+  "js/lore/events/age-of-fairytales.js",
+  "js/lore/events/age-of-magic.js",
+  "js/lore/events/age-of-knowledge.js",
+
+  "js/lore/places/hoshimira.js",
+  "js/lore/places/sahran.js",
+  "js/lore/places/solmara.js",
   "js/lore/places/places.js",
-  "js/lore/entities/people.js",
-  "js/lore/concepts/concepts.js",
-  "js/lore/substances/objects.js",
-  // "js/lore/events/age-of-men.js",
-  // "js/lore/entities/gods-major.js",
-  // "js/lore/concepts/soul.js"
+
+  "js/lore/entities/gods-major.js",
+  "js/lore/entities/gods-lesser.js",
+  "js/lore/entities/big-names.js",
+
+  "js/lore/concepts/soul.js",
+  "js/lore/concepts/vanta.js",
+  "js/lore/concepts/cosmic.js",
+  "js/lore/concepts/cosmology.js",
+  "js/lore/concepts/spirit.js",
+  "js/lore/concepts/magic.js",
+  "js/lore/concepts/frallation.js",
+  "js/lore/concepts/practice.js",
+  "js/lore/concepts/philosophies.js",
+  "js/lore/concepts/borenfegen.js",
 ];
