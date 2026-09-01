@@ -183,6 +183,11 @@ const IMAGE_DATA = {
 const PORTFOLIO_DATA = {
   featured: [
     {
+      src: "images/portfolio/illustration/VantaPsy_EoTA_Cover_notext.webp",
+      alt: 'EoTA cover art',
+      caption: ''
+    },
+    {
       src: "images/portfolio/illustration/aysha_ruin3.webp",
       alt: 'Aysha Ruin',
       caption: ''
@@ -529,7 +534,9 @@ const PORTFOLIO_DATA = {
       label: 'Illustration',
       icon: '🎨',
       images: [
-    
+
+  { src: "images/portfolio/illustration/VantaPsy_EoTA_Cover_notext.webp", alt: "Vantapsy Eota Cover Notext", caption: "" },
+  { src: "images/portfolio/illustration/VantaPsy_EoTA_Cover_title.webp", alt: "Vantapsy Eota Cover Title", caption: "" },
   { src: "images/portfolio/illustration/aysha_ruin3.webp", alt: "Aysha Ruin", caption: "" },
   { src: "images/portfolio/illustration/kelly_tattoo_sketch.webp", alt: "Kelly Tattoo Sketch", caption: "" },
   { src: "images/portfolio/illustration/lz_selfie_small.webp", alt: "Lz Selfie Small", caption: "" },
