@@ -183,6 +183,11 @@ const IMAGE_DATA = {
 const PORTFOLIO_DATA = {
   featured: [
     {
+      src: "images/portfolio/illustration/VantaPsy_EoTA_Cover_notext.webp",
+      alt: 'EoTA cover art',
+      caption: ''
+    },
+    {
       src: "images/portfolio/illustration/aysha_ruin3.webp",
       alt: 'Aysha Ruin',
       caption: ''
@@ -529,7 +534,9 @@ const PORTFOLIO_DATA = {
       label: 'Illustration',
       icon: '🎨',
       images: [
-    
+
+  { src: "images/portfolio/illustration/VantaPsy_EoTA_Cover_notext.webp", alt: "Vantapsy Eota Cover Notext", caption: "" },
+  { src: "images/portfolio/illustration/VantaPsy_EoTA_Cover_title.webp", alt: "Vantapsy Eota Cover Title", caption: "" },
   { src: "images/portfolio/illustration/aysha_ruin3.webp", alt: "Aysha Ruin", caption: "" },
   { src: "images/portfolio/illustration/kelly_tattoo_sketch.webp", alt: "Kelly Tattoo Sketch", caption: "" },
   { src: "images/portfolio/illustration/lz_selfie_small.webp", alt: "Lz Selfie Small", caption: "" },
@@ -541,6 +548,7 @@ const PORTFOLIO_DATA = {
   { src: "images/portfolio/illustration/aysha_cover_wide.webp", alt: "Aysha Cover Wide", caption: "" },
   { src: "images/portfolio/illustration/bg abyss.webp", alt: "Bg Abyss", caption: "" },
   { src: "images/portfolio/illustration/throne_wide_char7.webp", alt: "Throne Wide Char7", caption: "" },
+  { src: "images/portfolio/illustration/aspe_text2.webp", alt: "Aspe Text2", caption: "Commissioned by MaddChesire" },
   { src: "images/portfolio/illustration/main_menu.webp", alt: "Main Menu", caption: "" },
   { src: "images/portfolio/illustration/banner.webp", alt: "Banner", caption: "" },
   { src: "images/portfolio/illustration/Soul Birth cover2.webp", alt: "Soul Birth Cover2", caption: "" },
@@ -569,7 +577,6 @@ const PORTFOLIO_DATA = {
   { src: "images/portfolio/illustration/leigh_persona4.webp", alt: "Leigh Persona4", caption: "Fanart of LeighXP" },
   { src: "images/portfolio/illustration/p3 cover.webp", alt: "P3 Cover", caption: "Fanart of Persona 3" },
   { src: "images/portfolio/illustration/profile-min.webp", alt: "Profile-Min", caption: "" },
-  
 ]
     },
 

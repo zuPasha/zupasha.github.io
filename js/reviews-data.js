@@ -32,8 +32,16 @@ window.REVIEWS_DATA = [
     {
       name: "JJBEATSVT",
       commissionType: "Various Character Designs",
-      image: { src: "images/portfolio/character/female_week4.webp", alt: "Moon and tree tattoo concept" },
+      image: { src: "images/portfolio/character/female_week4.webp", alt: "JJBEATSVT character" },
       blurb: "FATE OF THE CARDS",
       review: "ZuPasha is an artist who is continues to work on his craft. He thrives on wanting to become the best he can be so he can perfect the stories he wants to create. I am glad I have been able to witness his growth as artist and hope I can continue doing so. May he continue to have passion he what he loves to do."
+    },
+
+    {
+      name: "MaddChesire",
+      commissionType: "ASPE",
+      image: { src: "images/portfolio/illustration/aspe_text2.webp", alt: "A Single Precious Egg" },
+      blurb: "A Single Precious Egg",
+      review: "Quick, efficient, good communication and helped create exactly what I wanted above my expectations"
     }
 ];
