@@ -30,7 +30,7 @@ What they found moved beyond ordinary understanding.`,
     name: "Tomenos",
     aliases: ["Tomenos"],
     category: "entities",
-    age: "age-of-men",
+    age: "age-of-fairytales",
     short: "Trains move through the Veins along the currents that run beneath the world. One of these trains belongs to Tomenos.",
     full: `Tomenos and The Vein Trains
 Trains move through the Veins along the currents that run beneath the world.
@@ -106,7 +106,7 @@ Beneath Zorya they govern domains. Fear and resentment coil in them, but they fa
     name: "Xeraphina",
     aliases: ["Xeraphina", "Angels"],
     category: "entities",
-    age: "age-of-men",
+    age: "age-of-gods",
     short: "She was drunk the first time Anima found her. By the late Age of Men, Xeraphina had made her peace with the ending.",
     full: `Xeraphina
 She was drunk the first time Anima found her. By the late Age of Men, Xeraphina had already made her peace with the ending. Lunarkos hung in the sky and grew larger every year and she had decided that a world with a visible countdown did not deserve the energy of pretending otherwise.
@@ -165,7 +165,7 @@ Seven lights crossing the clouds. After the Shattering, the pilots scattered. Th
     name: "Exandrian Strategic Industries Group",
     aliases: ["Exandrian Strategic Industries Group", "ESIG", "E.S.I.G"],
     category: "entities",
-    age: "age-of-men",
+    age: "age-of-gods",
     short: "E.S.I.G. was always the infrastructure, the holding structure, the name on the contract that made the contract deniable.",
     full: `Exandrian Strategic Industries Group
 E.S.I.G. was always the infrastructure, the holding structure, the name on the contract that made the contract deniable.
@@ -180,7 +180,7 @@ After Operation C.a.R., E.S.I.G. expanded. More contracts. More programs. Whethe
     name: "Project DAEDALUS",
     aliases: ["Project DAEDALUS"],
     category: "entities",
-    age: "age-of-men",
+    age: "age-of-gods",
     short: "DAEDALUS wasn't a god, but it borrowed the posture of one. Officially, it was a private military program under ESIG.",
     full: `Project DAEDALUS
 DAEDALUS wasn't a god, but it borrowed the posture of one.
@@ -286,7 +286,7 @@ He continues. The forge stays alive. The hammer falls without interval. Qayyin. 
     name: "The Ashtar",
     aliases: ["Ashtar"],
     category: "entities",
-    age: "age-of-knowledge",
+    age: "age-of-magic",
     short: "In Sahran the forges pulse without end. The Ashtar rises as the answer to every challenge, weaving a hierarchy of service and skill.",
     full: `The Ashtar
 In Sahran the forges pulse without end. The Ashtar rises as the answer to every challenge, weaving a hierarchy of service and skill from youngest recruits to highest commanders.
@@ -338,17 +338,17 @@ Ephimer believed the Curse was not a punishment but a passage. He named it The D
 
   // Zephyr
   {
-    id: "zephyr-sahran",
-    name: "Zephyr of Sahran",
-    aliases: ["Zephyr of Sahran", "Synthetic White Blood"],
+    id: "zephyr",
+    name: "Zephyr",
+    aliases: ["Zephyr"],
     category: "entities",
     age: "age-of-men",
     short: "Zephyr started where Veyra's work ended. Veyra wanted to understand. Zephyr wanted to use. She saw metamorphosis; he saw a mechanism to be mastered.",
-    full: `Zephyr of Sahran - Synthetic White Blood
+    full: `Zephyr of Sahran
 Zephyr started where Veyra's work ended, but his eyes were fixed on a different horizon. Veyra wanted to understand. Zephyr wanted to use. She saw metamorphosis; he saw a mechanism to be mastered.
 His answer was Synthetic White Blood. He built it from the bones of his experiments on the White Blooded, twisting despair into a tool. Not meant to cure the Curse, but to still it.
 The substance is translucent, almost shimmering. It stills the mind. It strips away desire, free will, the messy push and pull of a soul. What's left is a perfect puppet. They can think. They can act. They follow routines and orders without question. But there is no why left inside them, only the ghost of a should.
 But Zephyr wasn't satisfied with puppets. His research spiralled out. Bioweapons, sorcery, the cold calculus of markets. He learned to treat the Curse not as an affliction but as a resource. His experiments, often on the youngest and most lost, sought the soul's raw substance. He found a way to pull it out, to crystallise it. Fragments of soul, encased in mineral. He called them Heart Crystals. Later, everyone else would know them as Soul Shards.`,
-    related: ["synthetic-white-blood", "veyra-megami", "heart-crystals"]
+    related: ["blood-types", "veyra-megami", "soul-shards"]
   }
 );

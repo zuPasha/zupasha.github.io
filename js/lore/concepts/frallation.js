@@ -10,7 +10,7 @@ window.LORE_ENTRIES.push(
     name: "Frallation",
     aliases: ["Frallation"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-magic",
     short: "Magic seeps through the Rift into Aerisu as constant pressure. Generations rise beneath it, each carrying deeper resonance. Frallation forms where that weight presses against flesh.",
     full: `Frallation
 Magic seeps through the Rift and settles into Aerisu as a constant pressure within every living thing. Generations rise beneath it, each carrying deeper resonance with Lux and Vanta. The soul grows dense, and the body receives weight that gathers beneath the skin.
@@ -24,9 +24,9 @@ At its height, the body yields. Some collapse arrives as quiet fading. Some unfo
   {
     id: "frallation-stages",
     name: "Frallation Stages",
-    aliases: ["Soulless", "Frallation", "Curse"],
+    aliases: ["Frallation Stages"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-magic",
     short: "Frallation follows a recognised sequence: Stage One (contained disturbance), Stage Two (fixation), Stage Three (fragmentation), Stage Four (loss of integration).",
     full: `Clinical Progression of Frallation - The Stages of Frallation
 Frallation follows a recognised sequence.
@@ -53,7 +53,7 @@ Across all stages, unexpressed desire and unresolved identity gather weight and 
     name: "Soul Regulation",
     aliases: ["Soul Regulation", "Regulation"],
     category: "concepts",
-    age: "age-of-knowledge",
+    age: "age-of-magic",
     short: "The soul moves with the body. Soul regulation is the practice of shaping what the soul shows while the body lives. Breathing exercises, grounding, and visualisation anchor the Affinity to stillness.",
     full: `Soul Regulation
 The soul moves with the body. When a person rises from sleep, their Affinity stirs beside them. When a person tires, their Affinity slows. This visibility is the foundation of soul regulation.

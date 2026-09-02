@@ -23,7 +23,7 @@ Hoshimira
 Hoshimira was a mountain realm of wind, lanterns, and stillness where breath was sacred and every echo remembered the ancestors. When some of their kin dug too greedily for the Golden Heart buried deep within the mountain, splitting stone against the elders' will, Solmaran mechs aided in casting the diggers out. The people believed the Angels had judged them, and harmony was preserved. Still, exile carries its own echo, and it never truly fades.
 
 Sahran
-Sahran was born from that exile. The outcast kin of Hoshimira were driven into scorching deserts, where survival meant learning the language of flame and stone. Once miners and engineers, they became masters of craft through hardship, their faith bending toward reconciliation and prayer for return to Aokusa, their birth mountain. Sahrani societies were built on endurance and penitence, a long act of atonement. Some clung to quiet perseverance, hoping the Angels would one day forgive. Others, calling themselves Luminaries, burned hotter, demanding not return alone but reckoning.`,
+Sahran was born from that exile. The outcast kin of Hoshimira were driven into scorching deserts, where survival meant learning the language of flame and stone. Once miners and engineers, they became masters of craft through hardship, their faith bending toward reconciliation and prayer for return to Aokusa, their birth mountain. Sahrani societies were built on endurance and penitence, a long act of atonement. Some clung to quiet perseverance, hoping the Angels would one day forgive. Others, calling themselves Luminaries, burned hotter, demanding a reckoning.`,
     related: ["solmara", "north-solmara", "south-solmara", "hoshimira", "sahran"]
   },
   {
@@ -116,6 +116,80 @@ And it had cost everything.
 The Geode's influence did not end at its walls.`,
     related: ["geode-rebellion", "sahran"]
   },
+
+  {
+    id: "geode-expedition",
+    name: "Geode Expedition",
+    aliases: ["Geode Expedition", "Rapture"],
+    category: "events",
+    age: "age-of-men",
+    short: "After the rebellion, the Geode breathed again. Its upper tiers thrummed with reclamation. Miners moved in steel shells. Pneumatics gasped. Picks chimed against crystal. Councils governed in the open light.",
+    full: `The Geode Expedition
+After the rebellion, the Geode breathed again. Its upper tiers thrummed with reclamation. Miners moved in steel shells. Pneumatics gasped. Picks chimed against crystal. Councils governed in the open light.
+
+Below the worked stone, something else gathered. In the deep places where the world grew strange, a silence took shape. It listened. A fissure called the Mouth drank light and bent signals into something that sounded like lament.
+
+They descended. A chosen few. Drawn by a hum felt in bone and marrow, by a pull from a wound that refused to close. The descent felt like pilgrimage, fragile and unsteady, into the throat of the earth.
+
+The air thickened into violet miasma. Stone softened, taking on the weight of memory and flesh. Shapes emerged from the dark. The Cursed, their humanity folded inward into terrible forms. VantaBats clung to fossilised ribs. Shadowlings moved through quartz like bad dreams. Tinnin watched in stillness, guarding a truth too heavy for light to hold.
+From above, watchers observed in silence. Their attention carried reverence. The expedition became something ritualistic. Each loss settled like a hymn spoken too quietly to interrupt.
+
+Then the Deep revealed itself.
+
+It was no simple formation. It pulsed slowly, conscious, ancient, dreaming in geothermal blood. To stand before it was to feel the planet remembering itself. And it felt them in return.
+
+When catastrophe came, it arrived as understanding. Faced with an ending that would consume all, one chose mercy that could not be undone. A great mech, Siba, born for war and protection, was given over as a vessel. It was ruptured through love that understood letting go.
+
+Light tore upward through the Geode's central seam. For a moment, every tunnel and crystal facet glowed. Every face was washed in brilliance that felt terrible and holy all at once. It looked like dawn, but it was born from a single human will.
+
+Then the light faded.
+
+The instrument was gone. The one who guided it was simply absent.
+
+The survivors climbed carrying two weights. Grief that crushed the chest. Truth that burned to hold. The Curse slept, but it dreamed. The Heart was real. It was awake. The wound had no bottom.
+
+Above, life found its rhythm again. Still, the light was remembered. It lingered in crystal memory and in the quiet reverence of those who lived because someone else chose to vanish.
+
+The world had shifted. The balance between those who walked the crust and the sentience beneath it had changed, shaped by sacrifice rather than decree.
+And even now, the echo asks its question.
+
+Was this clarity a gift, or only delay.
+Did it serve the truth, or teach the darkness that it had been seen.`,
+    related: ["geode-rapture", "geode-rebellion", "sahran", "geode"]
+  },
+
+  {
+    id: "geode-rapture",
+    name: "Geode Rapture",
+    aliases: ["Rapture"],
+    category: "events",
+    age: "age-of-men",
+    short: "Years passed. Another team descended through reinforced scaffolds and scorched, collapsed walls. The deeper they went, the more alive the Geode seemed. Stone pulsed. Walls shifted. Violet miasma thickened until understanding itself felt fragile.",
+    full: `The Second Descent
+Years passed. Another team descended through reinforced scaffolds and scorched, collapsed walls. The deeper they went, the more alive the Geode seemed. Stone pulsed. Walls shifted. Violet miasma thickened until understanding itself felt fragile.
+Few survived.
+
+At the heart, a vast cavern beat like a living organism, drawing creatures toward it and overwhelming all who approached. The Geode proved semi sentient, defended by its own spawn, incomprehensible and uncontainable.
+
+Rapture
+It erupted.
+
+Walls breathed. Mists devoured. Creatures of stone, fire, and shadow swept through miners, soldiers, and engineers alike. Resistance was brief. Meaningless.
+Above, watchers clutched charms, names striking their tongues like cold pins. Analysts murmured over readings, blind to the lie of stability. Elsewhere, survivors ran for lifts, dragging the wounded, carrying children.
+
+A scavenged plane roared to life, weaving through crystalline pillars and swarming darkness. It carried a couple into the open sky.
+At the heart of it all, a figure stood above the main shaft, arms raised, commanding the tide with awe and certainty. The Geode had become a crucible. A womb of power and destruction.
+
+Those who escaped bore witness. The cries of the lost followed them like shadows. Choices weighed heavy on their backs.
+Outside, the sun struck the world without mercy. Endless desert stretched beyond the wound.
+Freedom had come.
+
+And it had cost everything.
+
+The Geode's influence did not end at its walls.`,
+    related: ["geode-expedition", "geode-rebellion", "sahran", "geode"]
+  },
+
   {
     id: "sanctum-verge",
     name: "Sanctum Verge",

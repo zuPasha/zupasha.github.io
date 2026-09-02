@@ -10,7 +10,7 @@ window.LORE_ENTRIES.push(
     name: "The Autarchs",
     aliases: ["Autarch", "Autarchs", "Autarchian", "Tarch"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Autarchs believe humanity stands above all else. There are no gods, no divine intervention. Only humanity must save itself.",
     full: `The Autarchs
 The Autarchs believe that humanity stands above all else. There are no gods watching over the world, no higher powers to appeal to, no divine intervention waiting to save anyone. There is only humanity, and humanity must save itself.
@@ -26,7 +26,7 @@ In the modern era, the Autarchs persist as a leading power across much of Aerisu
     name: "The Primarchs",
     aliases: ["Primarch", "Primarchs", "Autarch", "Autarchs"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Primarchs are the nationalists and capitalists of the Autarch tradition. They believe progress must be organised, directed, and protected.",
     full: `The Primarchs - Autarch Subsect
 The Primarchs are the nationalists and capitalists of the Autarch tradition. They believe that progress must be organised, directed, and protected.
@@ -41,7 +41,7 @@ In the Crown Nations and across Solmara, the Primarchs hold the levers of practi
     name: "The Thanatarchs",
     aliases: ["Thanatarch", "Thanatarchs", "Autarch", "Autarchs"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Thanatarchs emerged from Silealyros. They acknowledge death cannot be defeated but refuse to accept it gracefully.",
     full: `The Thanatarchs - Autarch Subsect
 The Thanatarchs emerged from the philosophy of Silealyros, from the Market of Flesh where the body is treated as the last true asset.
@@ -57,7 +57,7 @@ They are dying kings ruling over empty thrones.`,
     name: "The Luminaries",
     aliases: ["Luminaries", "Luminary"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Luminaries are people of hope, believers in the light of the sun and the coming of a new age. They believe the Scorching Sun will return.",
     full: `The Luminaries
 The Luminaries are people of hope, believers in the light of the sun and the coming of a new age. They call themselves Luminaries, bearers of light. Their detractors call them Evershinites, or worse, Evershites.
@@ -72,7 +72,7 @@ They gather on beaches and coastal cities when Sunday comes, watching the sunris
     name: "The Pyraeon",
     aliases: ["Pyraeon", "Luminaries", "Luminary"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Pyraeon are the radical extremists of the Luminary tradition. They believe the world must purge itself of progress.",
     full: `The Pyraeon - Luminary Subsect
 The Pyraeon are the radical extremists of the Luminary tradition. They believe that the world must purge itself of progress, that technology and industry and government are plagues that must be burned away.
@@ -88,7 +88,7 @@ They are militants, willing to die and to kill for their vision of a world retur
     name: "The Solarii",
     aliases: ["Solarii", "Luminaries", "Luminary"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Solarii are a secluded monastic order who worship the sun as a literal god. They reject modern innovation but value craftsmanship and tradition.",
     full: `The Solarii - Luminary Subsect
 The Solarii are a secluded, insular, almost monastic order who worship the sun as a literal god. They reject modern innovation but value craftsmanship, art, and tradition, believing that true creation comes from human hands rather than machines.
@@ -103,7 +103,7 @@ They hate the moon, believing that its presence corrupts people into stagnation 
     name: "The Vesperites",
     aliases: ["Vesperites", "Vesperite", "Moon Baby", "Nightstray", "Gloamer", "Sundrifter"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Vesperites are the common people, those who suffered under the sun and found relief in its setting. In the Age of Decay, they despise Sundays and the Luminaries.",
     full: `The Vesperites
 The Vesperites are the common people of Aerisu, those who suffered under the sun and found relief in its setting. They are called Nightstrays and Gloamers and Sundrifters.
@@ -121,7 +121,7 @@ Moon Babies is an insult used by other ideologies to dismiss Vesperites as naive
     name: "The Yorushika",
     aliases: ["Yorushika", "Vesperites", "Vesperite"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Yorushika are pacifist activists within the Vesperite tradition. They organise sit-ins and silent protests, campaign for weapon dismantlement, and refuse to fight even when attacked.",
     full: `The Yorushika - Vesperite Subsect
 The Yorushika are pacifist activists within the Vesperite tradition. They organise massive sit-ins and silent protests to disrupt government and military actions.
@@ -137,7 +137,7 @@ The Yorushika are not passive. They are active in their pacifism, working consta
     name: "The Psycrata",
     aliases: ["Psycrata"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Psycrata are scholars and magic-users who believe true advancement comes from wisdom and knowledge. They reject mechanisation.",
     full: `The Psycrata
 The Psycrata are scholars and magic-users who believe that true advancement comes from wisdom, knowledge, and the mastery of natural forces.
@@ -153,7 +153,7 @@ They hold the vaults where Soul Shards are studied and sealed. They perform the 
     name: "The AEvicara",
     aliases: ["AEvicara", "Psycrata"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The AEvicara are mystics who believe knowledge should be sought through experience and reincarnation. They embrace fate and cycles.",
     full: `The AEvicara - Psycrata Subsect
 The AEvicara are mystics who believe that knowledge should be sought through experience and reincarnation. They see death as a transition to a new life, with past wisdom carrying over through the soul.
@@ -169,7 +169,7 @@ The more structured Psycrata view them as dogmatic and reckless. The AEvicara se
     name: "The Odyraphim",
     aliases: ["Odyraphim", "Psycrata"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Odyraphim are keepers of hidden truth, intellectuals operating between politics and power. Their public face is an academic society.",
     full: `The Odyraphim - Psycrata Subsect
 The Odyraphim are keepers of hidden truth, intellectuals who operate in the spaces between politics and power. Their official public face is an academic society studying magic, technology, and celestial movements.
@@ -185,7 +185,7 @@ Xeraphina Auto operates as a key faction within the Odyraphim. The Odyraphim wat
     name: "The Vantari",
     aliases: ["Vantari", "Nihilists", "Nihilist"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Vantari have embraced the Curse. They believe darkness is not an affliction but a calling. Most necromancers trace their lineage to Vantari traditions.",
     full: `The Vantari
 The Vantari are those who have embraced the Curse. They believe that the darkness is not an affliction but a calling, that true life begins only when Vanta fully seeps into the soul.
@@ -201,7 +201,7 @@ The Diviners officially condemn them. Unofficially, the Diviners study their tec
     name: "The Hollowed",
     aliases: ["Hollowed", "Vantari"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Hollowed are the most common Vantari, fully consumed by the Curse. They drift aimlessly, seeking oblivion. They worship Vanta as an unknowable force.",
     full: `The Hollowed - Vantari Subsect
 The Hollowed are the most common Vantari, fully consumed by the Curse and lost to its nihilistic pull. They drift aimlessly, seeking oblivion and embracing darkness as the true end of all things.
@@ -216,7 +216,7 @@ They worship Vanta as an unknowable force, embracing its hold over them without 
     name: "The Duskwalkers",
     aliases: ["Duskwalkers", "Duskwalker", "Vantari"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Duskwalkers resist the Curse long enough to wield its power. They can command the Hollowed. Despite intelligence, they share the same nihilistic worldview.",
     full: `The Duskwalkers - Vantari Subsect
 The Duskwalkers are a rarer sect of Vantari who resist the Curse long enough to wield its power. They can command the Hollowed, directing them as tools for their own agendas.

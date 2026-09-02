@@ -6,19 +6,16 @@ window.LORE_ENTRIES = window.LORE_ENTRIES || [];
 window.LORE_ENTRIES.push(
   // Nature of Magic
   {
-    id: "nature-of-magic",
-    name: "Nature of Magic",
-    aliases: ["Nature of Magic"],
+    id: "magic",
+    name: "Magic",
+    aliases: ["Magic"],
     category: "concepts",
     age: "age-of-magic",
-    short: "Magic flows as the Soul acting upon the world. It expresses the two primal currents, Lux and Vanta, to shape reality.",
-    full: `Nature of Magic
-Magic flows as the Soul acting upon the world. It expresses the two primal currents, Lux and Vanta, to shape reality.
-Three principles govern every act of magic, always in this sequence.
-Understanding stands first. Precise knowledge of the system to be changed forms the foundation. Without understanding, magic becomes erratic guesswork.
-Intent follows. The moral and emotional orientation behind the act determines how power moves. Purpose, restraint, desire all colour the flow.
-Connection completes the triad. The depth of a Soul's resonance with reality and the chosen current sets the capacity. Connection dictates the volume of power drawn, the stability of effects, the toll exacted from the caster.
-These principles rule every magical working. Understanding provides the structure. Intent gives direction. Connection supplies the strength.`,
+    short: "Magic is potential expressed through interaction, governed by Understanding, Intent and Connection, and channelled through Lux or Vanta across Matter, Energy, Life and Mind.",
+    full: `Magic
+Magic is potential expressed through interaction. The capacity inherent within a being or system to transform, affect, or connect. It is the natural consequence of what something is capable of becoming. Every working operates through a strict sequence of three governing principles: Understanding provides the structural knowledge of the target system; Intent determines the moral and emotional orientation shaping the energy; and Connection establishes the depth of attunement to the world's fundamental currents.
+
+These workings channel through two primal forces. Lux-aspected magic upholds order, coherence, and structural integrity, sealing and preserving form. Vanta-aspected magic yields raw, transformative power driven by hunger and lack, breaking existing boundaries at the risk of consuming the caster. Manifesting across the broad schools of Matter, Energy, Life, and Mind, magic is simply the soul acting directly upon existence, converting internal potential into outward consequence.`,
     related: ["soul-types", "schools-of-magic", "primal-dichotomy"]
   },
 
@@ -31,12 +28,17 @@ These principles rule every magical working. Understanding provides the structur
     age: "age-of-magic",
     short: "Three primary types of casters exist in Aerisu: Soulful, Cursed, and Soulless. Each channels power in distinct ways.",
     full: `Soul Types and Casting
-Magic flows through the Soul, shaped by its nature and condition. Three primary types of casters exist in Aerisu.
-Soulful casters possess high integrity, studied knowledge, and deep connection. Magic moves through them like water along a clear channel. They approach magic with reverence and responsibility.
-Cursed casters carry heavy Vanta saturation and desire-first impulses. Magic surges from raw emotion. It arrives powerful but unstable. Collateral effects follow naturally.
-Soulless casters lack the channel entirely. Their souls hold unchecked potential with no pathway for expression. This produces Frallation. The Separation Ritual is the established remedy.
-Magic remains a moral-scientific practice. Power deepens through knowledge and stronger Soul connection. No true shortcuts exist beyond the perilous ones.`,
-    related: ["nature-of-magic", "soulless", "separation-ritual"]
+
+Magic flows through the Soul, shaped by its nature and condition. Aerisu recognises three primary caster types.
+
+Soulful casters possess high Soul integrity, studied knowledge and deep Connection. Magic moves through them like water through a clear channel, allowing deliberate and responsible control.
+
+Cursed casters carry heavy Vanta saturation and desire-first impulses. Their magic surges from raw emotion, making it powerful but unstable and prone to collateral effects.
+
+Soulless casters lack the channel through which the Soul expresses its potential. That unchecked potential produces Frallation, for which the Separation Ritual is the established remedy.
+
+Magic remains both a moral and scientific practice. Power deepens through knowledge and stronger Soul Connection, while shortcuts exist only through dangerous means.`,
+    related: ["magic", "soulless", "separation-ritual"]
   },
 
   // Schools of Magic
@@ -60,7 +62,7 @@ Mind encompasses consciousness and perception. Subdomains include Psy, cognition
 
 Vanta and Lux in Practice
 Lux provides precision, stability, and restoration. Vanta delivers raw power, transformation, and acceleration. The interplay shapes a mage's path. Balanced practitioners wield both. Those who favour Lux grow rigid. Those who embrace Vanta become Cursed.`,
-    related: ["nature-of-magic", "psy", "primal-dichotomy"]
+    related: ["magic", "psy", "primal-dichotomy"]
   },
 
   // Psy
@@ -96,7 +98,7 @@ Crystals do not replace understanding. They lower the threshold of connection, a
 Crystals carry danger. Overuse fosters dependency. The Soul leans on the crystal rather than cultivating its own bond. Withdrawal brings sharp pain.
 Corrupted Lux screams when activated, fracturing perception. Vantagems whisper constantly, seeding obsessive thoughts.
 Societies impose strict regulations. Fengua controls Raikami trade. Some kingdoms forbid crystals outright. Others build economies around them.`,
-    related: ["nature-of-magic", "raikami", "soul-shards"]
+    related: ["magic", "raikami", "soul-shards"]
   },
 
   // Separation Ritual
@@ -105,7 +107,7 @@ Societies impose strict regulations. Fengua controls Raikami trade. Some kingdom
     name: "Separation Ritual",
     aliases: ["Separation Ritual"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-magic",
     short: "During adolescence, the ritual draws the soul outward from the body. The spirit emerges as an Affinity while remaining bound through the Strand. Relieves Frallation.",
     full: `The Separation Ritual
 Relief from Frallation arrives through a union of knowledge and ritual craft. The Psycrata study souls with patient discipline, while Hoshimiran priests preserve ancient ceremonies.
@@ -126,7 +128,7 @@ The Strand glows quietly between body and spirit, while Affinities walk beside t
     name: "Affinities",
     aliases: ["Affinities", "The Strand"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-magic",
     short: "The Strand forms a living tether of will and identity. Once externalised, the soul reveals its nature through a living manifestation called an Affinity.",
     full: `The Strand and Affinities
 The Strand forms as a living tether of will and identity. Through it the soul continues to flow into thought, sensation, and action.
@@ -143,7 +145,7 @@ Harm done to an Affinity strikes the soul directly. The pain echoes through both
     name: "Elementals",
     aliases: ["Elementals", "Elements", "Magic"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-magic",
     short: "The Strand carries a narrow channel between body and soul. Through this bond each individual discovers a single domain of magic that flows with natural clarity.",
     full: `Elementals
 The Strand carries a narrow channel between body and soul. Through this bond each individual discovers a single domain of magic that flows with natural clarity. This alignment becomes known as the Elemental.

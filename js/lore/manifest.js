@@ -49,4 +49,6 @@ window.LORE_MANIFEST = [
   "js/lore/concepts/practice.js",
   "js/lore/concepts/philosophies.js",
   "js/lore/concepts/borenfegen.js",
+
+  "js/lore/substances/substances.js",
 ];

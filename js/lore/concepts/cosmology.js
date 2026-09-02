@@ -4,11 +4,11 @@
   window.LORE_ENTRIES.push({
     id: 'cosmology',
     name: 'VantaPsy Cosmology',
-    aliases: ['cosmos', 'recursion', 'the spiral', 'becoming'],
+    aliases: ['Cosmology', 'Chronology', 'Universe'],
     category: 'concepts',
     age: 'age-of-decay',
     short: 'A concise overview of how Aerisu works: potential, resonance, echoes, recursion, and the becoming of souls. The fundamental framework for understanding everything else in the Chronology.',
-    related: ['soul', 'vanta', 'cosmic', 'spirit', 'magic', 'frallation', 'practice', 'philosophies', 'borenfegen'],
+    related: ["age-of-men", 'soul', 'vantapsy', 'cursed-soul', 'the-grimoire', 'magic', 'soulless', 'frallation'],
     full: `VantaPsy's cosmology is fundamentally concerned with potential, relationship, desire, consequence, memory and becoming. They describe how the world works at every scale, from a person's soul to Aerisu itself.
 
 The entire framework is built upon a single question: What gives a person a soul? This question extends beyond individuals to encompass systems, the world and everything within it. VantaPsy is the name for the philosophical structure that emerges from asking this question across every scale, the recognition that soul is not a possession but a pattern of becoming.

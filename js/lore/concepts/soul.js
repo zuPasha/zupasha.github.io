@@ -10,7 +10,7 @@ window.LORE_ENTRIES.push(
     name: "The Soul",
     aliases: ["Soul"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-magic",
     short: "The soul is not a thing you have. It is a thing you do. The soul is formed through motion, through the journey from lack to echo, through choices made with awareness and carried with consequence.",
     full: `The Soul
 The soul is not a thing you have. It is a thing you do.
@@ -28,11 +28,11 @@ The soul is your echo made conscious. It is what you will leave when you are gon
   {
     id: "soul-resonance",
     name: "Soul Resonance",
-    aliases: ["Soul Resonance", "Soul Residue", "Resonance", "Soul Signature"],
+    aliases: ["Soul Resonance", "Soul Essence", "Soul Residue", "Resonance", "Soul Signature", "soul-resonance", "Soul Connection"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-magic",
     short: "Soul Resonance is the residue left by anything that acts, that wills, that becomes. A soul is not a static possession but a pattern shaped through motion, and wherever that pattern presses against the world, it leaves a trace.",
-    full: `Soul Resonance / Residue
+    full: `Soul Resonance
 Soul Resonance is the residue left by anything that acts, that wills, that becomes. A soul is not a static possession but a pattern shaped through motion, and wherever that pattern presses against the world, it leaves a trace. The signature of a life is as unique as the lines of a hand.
 This signature can be read. Scanners track beings through crowds. Doors open for matched resonance. The Soulless Brand functions as a siphon that reads resonance trapped inside a body. The Burn Mark was designed to obscure that signature.
 Resonance is the medium through which the Loop remembers. Echoes are resonance grown heavy enough to press through time. Death gardeners cultivate the residue of endings. The Veins carry resonance like blood.
@@ -48,7 +48,7 @@ Resonance carries the shape of memory. It is the signature of existence, and it 
     name: "Soul Capturing",
     aliases: ["Soul Capturing"],
     category: "concepts",
-    age: "age-of-fairytales",
+    age: "age-of-magic",
     short: "Soul Capturing is the deliberate extraction and preservation of a soul's essence, the art of turning consciousness into commodity. It emerged from Zephyr's original experiments.",
     full: `Soul Capturing
 Soul Capturing is the deliberate extraction and preservation of a soul's essence, the art of turning consciousness into commodity. It emerged from Zephyr's original experiments, from his discovery that souls could be drawn from living bodies and crystallised into Heart Crystals.
@@ -65,7 +65,7 @@ Soul Capturing faces condemnation across most of Aerisu, but condemnation does n
     name: "VantaPsy",
     aliases: ["VantaPsy"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "Vanta - to lack or to want. Psy - the Psyche, Mind, Soul, Heart. VantaPsy means to lack a soul, or to want one. We are born incomplete and must spend our lives reaching toward wholeness.",
     full: `VantaPsy
 Vanta - to lack or to want
@@ -83,9 +83,9 @@ VantaPsy means to begin in absence and spend your life reaching toward presence,
   {
     id: "soulless",
     name: "Soulless",
-    aliases: ["Soulless", "Frallation"],
+    aliases: ["Soulless"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-knowledge",
     short: "Soulless is a modern term for individuals who fail the Separation Ritual. Lacking an Affinity, they cannot wield Magic. The growing magical energy within them eventually overwhelms their bodies, typically leading to death between 18 and 26.",
     full: `Soulless
 Soulless is a relatively modern term, used to describe individuals who fail the Separation Ritual. Lacking an Affinity, they cannot wield Magic. The growing magical energy within them eventually overwhelms their bodies, typically leading to death between the ages of 18 and 26.
@@ -100,9 +100,9 @@ The Soulless condition reflects Vanta's deeper nature. The internal void, the bl
   {
     id: "soulless-cont",
     name: "Soulless (Continued)",
-    aliases: ["Soulless", "Frallation", "Curse", "Soul", "Magic"],
+    aliases: ["Soulless Extra"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-knowledge",
     short: "The term Soulless describes those who fail the Separation Ritual. Without an Affinity, they cannot wield magic. The growing energy within them eventually overwhelms the body.",
     full: `Soulless Cont.
 The term Soulless describes those who fail the Separation Ritual. Without an Affinity, they cannot wield magic. The growing energy within them eventually overwhelms the body, leading to death typically between the ages of eighteen and twenty-six.

@@ -66,7 +66,7 @@ Hoshimira and Fengua share the same spirits. The same gods watch. The same yokai
     name: "Hvitara",
     aliases: ["Hvitara"],
     category: "entities",
-    age: "age-of-gods",
+    age: "age-of-fairytales",
     short: "In the far north, where the sea freezes and the sky burns with lights that have no name, there is a presence the Norrvekt have always known. She is called the Frost Mother.",
     full: `Hvitara - Serpent of the Northern Sea
 In the far north, where the sea freezes and the sky burns with lights that have no name, there is a presence the Norrvekt have always known. They call her the Frost Mother, the Winter Queen, the One Who Freezes. Her true name is Hvitara.

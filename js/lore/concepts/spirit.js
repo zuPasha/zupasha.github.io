@@ -50,7 +50,7 @@ They move through every crystal shard, every Soul Shard, every shadow that stirs
     name: "The Spiral Journey",
     aliases: ["The Spiral", "Elysium", "Orb of Souls", "Spiral Journey"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-fairytales",
     short: "The Spiral Veins are a process. A journey that every soul must take. The stations are confrontations with the self, opportunities to see clearly what was avoided in life.",
     full: `The Journey into Elysium
 

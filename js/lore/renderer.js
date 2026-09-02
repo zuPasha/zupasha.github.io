@@ -145,7 +145,7 @@ window.LoreRenderer = (function () {
 
     for (var i = 0; i < sections.length; i++) {
       var section = sections[i];
-      var linkedContent = renderProseWithLinks(section.content, currentId);
+      var linkedContent = colorizeText(renderProseWithLinks(section.content, currentId));
 
       if (section.type === 'header') {
         html += '<h3>' + linkedContent + '</h3>';
@@ -247,7 +247,7 @@ window.LoreRenderer = (function () {
     badgesEl.textContent = badgeText.join('  ·  ');
 
     // Expunge the short description in tooltips too
-    shortEl.textContent = entry.short ? expungeText(entry.short) : '(No description)';
+    shortEl.innerHTML = entry.short ? colorizeText(escapeHtml(expungeText(entry.short))) : '(No description)';
 
     var rect = link.getBoundingClientRect();
     var tooltipWidth = Math.min(320, window.innerWidth - 24);
@@ -475,6 +475,42 @@ window.LoreRenderer = (function () {
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;');
+  }
+
+  // Fixed palette of colors the lore data is allowed to request.
+  // Data files write {{key}}text{{/key}} instead of raw HTML, so the
+  // markup survives escapeHtml() and still can't inject arbitrary tags.
+  var LORE_COLORS = {
+    red: '#B64250',
+    white: '#E7F0EF',
+    synthwhite: '#D2F2F5',
+    black: '#525252',
+    green: '#86AF58',
+    gold: '#C5A169',
+    blue: '#276BAA',
+    pink: '#D898A5',
+    purple: '#6C56B7'
+  };
+
+  var COLOR_TAG_RE = /\{\{(\w+)\}\}([\s\S]*?)\{\{\/\1\}\}/g;
+
+  // Turns {{color}}text{{/color}} into a real <span> once we're already
+  // working with HTML-safe (escaped) text. Unknown color keys just drop
+  // the markers and keep the text.
+  function colorizeText(html) {
+    if (!html) return html;
+    return html.replace(COLOR_TAG_RE, function (match, key, inner) {
+      var color = LORE_COLORS[key.toLowerCase()];
+      if (!color) return inner;
+      return '<span style="color: ' + color + ';">' + inner + '</span>';
+    });
+  }
+
+  // For plain-text contexts (tooltips, truncated snippets) that never
+  // render HTML: drop the color markers instead of converting them.
+  function stripColorMarkup(text) {
+    if (!text) return text;
+    return text.replace(COLOR_TAG_RE, '$2');
   }
 
   function escapeRegExp(text) {
@@ -889,7 +925,7 @@ window.LoreRenderer = (function () {
       return '' +
         '<button type="button" class="lore-related-card" data-entry-id="' + e.id + '">' +
         '<span class="related-name">' + escapeHtml(e.name) + '</span>' +
-        '<span class="related-snippet">' + escapeHtml(truncate(e.short ? expungeText(e.short) : '', 90)) + '</span>' +
+        '<span class="related-snippet">' + escapeHtml(truncate(e.short ? stripColorMarkup(expungeText(e.short)) : '', 90)) + '</span>' +
         '</button>';
     }).join('');
     return '<div class="lore-related"><h4>Related Entries</h4><div class="lore-related-grid">' + cards + '</div></div>';

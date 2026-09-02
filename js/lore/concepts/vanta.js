@@ -10,7 +10,7 @@ window.LORE_ENTRIES.push(
     name: "Vanta (Concept)",
     aliases: ["Vanta"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "To lack. To want. To begin. Vanta is the void within the self, the hollow that knows it is hollow, and the ache that rises from recognition of that absence.",
     full: `Vanta as a Concept
 To lack. To want. To begin.
@@ -24,9 +24,9 @@ Vanta is the opposite of wholeness yet indispensable. Without Vanta, there is no
   {
     id: "cursed-soul",
     name: "Cursed Soul",
-    aliases: ["Cursed Soul"],
+    aliases: ["Cursed Soul", "Curse"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Curse is the tangible consequence of a soul unmoored from its own essence. To fall to the Curse is to descend into Vanta, the root condition of lack and longing.",
     full: `The Cursed Soul
 The Curse is the tangible consequence of a soul unmoored from its own essence. To fall to the Curse is to descend into Vanta, the root condition of lack and longing. Untended, Vanta becomes dangerous, collapsing inward as numbness or expanding outward as insatiable hunger.
@@ -41,9 +41,9 @@ Redemption is possible but rare. Those on the edges may yet be guided back. For 
   {
     id: "physical-curse",
     name: "Physical Curse",
-    aliases: ["Physical Curse"],
+    aliases: ["Physical Curse", "Cursed"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "Cursing leaves marks on the body as well as the soul. The most visible manifestation is the corruption of blood. Those who fall deeply into Vanta may develop Black Blood or White Blood.",
     full: `The Physical Curse
 Cursing leaves marks on the body as well as the soul. The most visible manifestation is the corruption of blood. Those who fall deeply into Vanta may develop Black Blood, thick and acidic and corrosive, capable of burning flesh and corroding metal.
@@ -51,7 +51,7 @@ The Black Blooded are often mindless and wrathful, driven by an instinctive hung
 Yet some Cursed learn to harness their Vanta, channelling it into prolonged life, heightened perception, or godlike power. Such beings carry scars of corruption but retain self direction.
 The nature of one's descent shapes their condition. The Black Blooded emerge from heat and hardship, prone to rage and outward destruction. The White Blooded arise in cold, oppressive conditions, their suffering internalised and contemplative.
 The experience of becoming Cursed is intensely personal. Some are wracked with hallucinations. Others slip into hollow silence. The Cursed are a spectrum of corruption.`,
-    related: ["cursed-soul", "black-blood", "white-blood"]
+    related: ["cursed-soul", "blood-types"]
   },
 
   // Memetic Curse
@@ -60,7 +60,7 @@ The experience of becoming Cursed is intensely personal. Some are wracked with h
     name: "Memetic Curse",
     aliases: ["Memetic Curse"],
     category: "concepts",
-    age: "age-of-men",
+    age: "age-of-decay",
     short: "The Curse moves through awareness itself. Seeing, hearing, or even thinking of the Curse is enough to make one vulnerable. Dreams and whispers carry it, turning perception into a vector.",
     full: `The Memetic Curse
 The Curse moves through awareness itself. Seeing, hearing, or even thinking of the Curse is enough to make one vulnerable. Dreams and whispers and hallucinations carry it, turning perception into a vector.

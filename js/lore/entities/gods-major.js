@@ -130,7 +130,7 @@ She was Zuki Kusanagi. The first Tsukuyomi. The moon's earliest face. And somewh
     name: "Ash Salinte",
     aliases: ["Ash Salinte"],
     category: "entities",
-    age: "age-of-men",
+    age: "age-of-fairytales",
     short: "Some are remembered for what they achieved. Others for what they refused to abandon. Ash Salinte belongs to the latter.",
     full: `Ash Salinte
 Some are remembered for what they achieved. Others for what they refused to abandon. Ash Salinte belongs to the latter.
