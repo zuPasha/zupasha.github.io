@@ -554,6 +554,63 @@ document.addEventListener('DOMContentLoaded', function () {
   
 
   // ============================================================
+  //  BOOK DESCRIPTION "READ MORE" EXPANDERS (books.html)
+  // ============================================================
+  const bookDescs = document.querySelectorAll('.book-desc');
+
+  bookDescs.forEach(function (desc) {
+    const cover = desc.querySelector('.book-cover');
+    const toggle = desc.nextElementSibling;
+    if (!cover || !toggle || !toggle.classList.contains('read-more-toggle')) return;
+
+    const label = toggle.querySelector('.label');
+
+    function setCollapsed(isCollapsed) {
+      if (isCollapsed) {
+        desc.style.maxHeight = cover.offsetHeight + 'px';
+        desc.classList.add('is-collapsed');
+        toggle.setAttribute('aria-expanded', 'false');
+        if (label) label.textContent = 'Read more';
+      } else {
+        desc.style.maxHeight = desc.scrollHeight + 'px';
+        desc.classList.remove('is-collapsed');
+        toggle.setAttribute('aria-expanded', 'true');
+        if (label) label.textContent = 'Read less';
+      }
+    }
+
+    // Only collapse if the description actually runs past the cover —
+    // short blurbs stay fully visible with no toggle shown at all.
+    function measure() {
+      desc.style.maxHeight = 'none';
+      desc.classList.remove('is-collapsed');
+      const fullHeight = desc.scrollHeight;
+      const coverHeight = cover.offsetHeight;
+
+      if (fullHeight <= coverHeight + 20) {
+        toggle.style.display = 'none';
+        return;
+      }
+
+      toggle.style.display = '';
+      setCollapsed(true);
+    }
+
+    toggle.addEventListener('click', function () {
+      setCollapsed(!desc.classList.contains('is-collapsed'));
+    });
+
+    window.addEventListener('load', measure);
+    window.addEventListener('resize', function () {
+      // Keep the fold aligned with the cover if the layout reflows,
+      // but leave an already-expanded reader's view alone.
+      if (desc.classList.contains('is-collapsed')) measure();
+    });
+
+    measure();
+  });
+
+  // ============================================================
   //  SCROLL BUTTONS
   // ============================================================
   const topBtn = document.getElementById('scroll-top');
