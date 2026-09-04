@@ -11,81 +11,81 @@ window.LORE_ENTRIES.push(
     aliases: ["Eirimegami", "Goddess of the Sacred Air"],
     category: "entities",
     age: "age-of-men",
-    short: "High above the cloud seas stands the peak called Tenseikoku. Winds circle that summit in patient spirals, carrying the thin brightness of the upper sky.",
-    full: `Eirimegami - Goddess of the Sacred Air
-High above the cloud seas stands the peak called Tenseikoku. Winds circle that summit in patient spirals, carrying the thin brightness of the upper sky across the world below. Travelers speak of the air there with quiet reverence. Each breath feels clear and sharp, like the first moment after waking from a long dream.
-The people of the old mountains gave that wind a name.
-Eirimegami
-Her presence moves through the high currents that drift along the Sacred Peak. Pilgrims once climbed the slopes to greet the sky itself, believing every gust carried a whisper of her passing. Prayer flags hung along the upper ridges, their cloth singing softly whenever the sacred air moved through them.
-Stories describe Eirimegami as a keeper of breath and horizon. Life begins with the drawing of air into the chest, and every living creature shares that quiet exchange with the world. The elders taught that the Sacred Air moves through all lungs in the same gentle rhythm, linking distant lives through a single invisible current.
-Some mountain hymns speak of her as a watcher who drifts above the clouds. Her domain touches every valley and ocean, yet her voice gathers strongest around the summit where sky and earth draw closest together. On certain mornings the winds there fall into a steady cadence that echoes through the cliffs like distant singing.
-Pilgrims once said the goddess listened through the wind itself.
-Those who reached the highest paths carried their thoughts upward on their breath. Words dissolved into the air, rising into the endless blue above the peak.
-The wind remembers every prayer.`,
+    short: "Eirimegami is the ancient goddess of Tenseikoku, whose silent presence and the traditions surrounding the summit became an enduring Echo of the mountain, its people, and their faith in life and hope.",
+    full: `Goddess of the Sacred Air
+Eirimegami is the goddess associated with Tenseikoku and the Sacred Air, and the oldest known figure to be regarded as a god before the emergence of the Nine Spirits and the lesser gods. Her existence predates them, though what existed before the traditions surrounding her remains uncertain.
+
+She has never been known to speak, command, interfere or answer prayer. Pilgrims who reach the summit instead encounter some form of reflection, most often water, placed between themselves and the place where they expect the goddess to be. They see only themselves. A Sacred Air flower is left for them, and the meaning of the gift is theirs to decide.
+
+Over generations, those encounters became interpreted as the will of Eirimegami. Favour, blessing, warning, reassurance and hope were all found in the same silence, and each interpretation became part of her growing Echo. She came to represent the mountain's breath, the persistence of life at its highest point, and the faith of people who climbed towards something they could never expect to understand.
+
+Eirimegami remains there, silent above the clouds. Perhaps that is the point. The goddess reflects what approaches her.`,
     related: ["tenseikoku", "sacred-air"]
   },
 
   // Spirits of Sky and Storm
   {
-    id: "spirits-sky-storm",
-    name: "The Spirits of Sky and Storm",
-    aliases: ["Spirits"],
+    id: "spirits",
+    name: "Spirit Types",
+    aliases: ["Spirit", "God","Spirits", "Gods", "Yokai", "Kami", "Shen", "Gui"],
     category: "entities",
     age: "age-of-fairytales",
-    short: "In the lands where mountain clans and valley settlers trace shared ancestry yet walk beneath different skies, spirits move as real presences between mortal and divine.",
-    full: `The Spirits of Sky and Storm
-In the lands where mountain clans and valley settlers trace shared ancestry yet walk beneath different skies, spirits move as real presences between mortal and divine. They inhabit rivers, mountains, storms, memory. They act with intention. They answer offerings with favour, neglect with withdrawal, respect with alliance, intrusion with retribution.
-Hoshimira and Fengua encounter the same beings yet frame them through distinct lenses.
+    short: "The Psycrata classify all known divine and spiritual beings as Spirits, while cultures commonly use the word god for Spirits whose power, influence or worship gives them a divine place in local tradition.",
+    full: `The Ontology of Gods
+God is a cultural term rather than an objective classification. Across Aerisu, people use it for powerful Spirits, ancestral beings, local kami, transcendent entities and figures whose Echo has become inseparable from worship. The Psycrata classify all such beings as Spirits, since no confirmed entity possesses a separate ontological category corresponding to the truest meaning of a god.
+
+Spirit Types describe how a Spirit relates to existence. They are analytical categories rather than absolute boundaries, and a single being may be understood differently by different cultures depending on which aspect of its nature becomes most significant.
 
 Amatsu-Kami, The Heavenly Gods
-Dwell in upper realms of light and sustaining order. Amaterasu, the Warm Sun, embodies continuance. Tsukuyomi watches as the Moon's archive. Eirimegami, the Sacred Air, carries prayer on wind. The Eight shape existence beyond the Barrier.
+
+Amatsu-Kami are Spirits associated with higher realms, celestial phenomena and structures that sustain existence. Amaterasu embodies continuance through the Sun, Tsukuyomi preserves the Moon's memory, and Eirimegami is associated with the Sacred Air. Some of the Nine Spirits are understood through this category, particularly those whose influence extends beyond any single place or people.
 
 Kunitsu-Kami, The Earthly Gods
-Bind to specific places. Each river holds its kami, each mountain its kami. Susanoo moves through western valleys as Bahamut fragment turned guardian.
+
+Kunitsu-Kami are Spirits closely bound to the material world, its places, systems and living things. Traditions may associate individual rivers, mountains and regions with their own kami. Susanoo, a fragment of Bahamut that found purpose as a guardian, is commonly understood through this category.
 
 Magatsuhi-Kami, The Ruinous Gods
-Embody the Curse and Vanta's destructive force. Voluntas's unrestrained hunger sleeps in crystal. Echoes of the violently dead wander twisted.
+
+Magatsuhi-Kami are Spirits whose existence expresses destruction, the Curse, Vanta or unresolved desire. Some arise through the distortion of existing Spirits, while others form through Echoes of violent death and suffering that continue reproducing themselves.
 
 Naobi-Kami, The Rectifying Gods
-Channel healing and restoration. Voluntas's desiring aspect holds potential for growth. Transformed Bahamut fragments found purpose in protection.
+
+Naobi-Kami are Spirits associated with restoration, healing and the return of damaged things towards coherence. Their traditions often concern the transformation of suffering into renewal, including beings whose origins lay in destruction but whose subsequent purpose became protective or restorative.
 
 Shen and Gui, Fengua's Binary
-Fengua organises spirits practically. Shen follow patterns. Gui break patterns. The framework serves governance and continuity.
+
+Fengua traditionally divides Spirits into Shen and Gui according to their relationship with established patterns. Shen preserve and reinforce order, while Gui disrupt, alter or escape it. The distinction serves as a practical framework for recording, governing and interpreting spiritual phenomena.
 
 Yokai, The In-Between
-Blur boundaries between spirit and material. Kitsune speak riddles. Hitodama drift as lantern shades. Raiju race rooftops in storm moods.
+
+Yokai describes Spirits whose existence crosses the boundary between spirit and material life. Some are tied to places or phenomena, some to human behaviour, and some to stories that have acquired independent persistence. Kitsune, hitodama and raiju are among the best-known examples.
 
 The Shared Ground
-Hoshimira and Fengua share the same spirits. The same gods watch. The same yokai wander. The same ancestors linger. Hoshimira emphasises lived relationship. Fengua emphasises documentation. Both honour the spirits' reality.`,
-    related: ["hoshimira", "fengua", "susanoo"]
+
+These traditions describe the same underlying reality through different systems of interpretation. Hoshimira may speak of kami and yokai, Fengua of Shen and Gui, while the Psycrata record Spirits and their observed properties. Their classifications, names and beliefs differ, yet the beings themselves remain part of the same causal web.
+
+A Spirit may be worshipped as a god, remembered as an ancestor, feared as a monster or studied as a phenomenon. The classification changes with the observer. The Spirit remains.`,
+    related: ["hoshimira", "fengua", "susanoo", "nine-spirits"]
   },
 
   // Hvitara
   {
     id: "hvitara",
     name: "Hvitara",
-    aliases: ["Hvitara"],
+    aliases: ["Hvitara", "Serpent of the Northern Sea", "Frost Mother", "Winter Queen"],
     category: "entities",
     age: "age-of-fairytales",
-    short: "In the far north, where the sea freezes and the sky burns with lights that have no name, there is a presence the Norrvekt have always known. She is called the Frost Mother.",
-    full: `Hvitara - Serpent of the Northern Sea
-In the far north, where the sea freezes and the sky burns with lights that have no name, there is a presence the Norrvekt have always known. They call her the Frost Mother, the Winter Queen, the One Who Freezes. Her true name is Hvitara.
-She was born from the Shattering. One fragment of divine essence fell into the deepest cold, into the place where the sea meets the ice that never melts. It came from something older than Bahamut: the planet's ancient chill, the stillness of water held motionless for millennia, the patience of glaciers. The fragment took root and grew, and from it Hvitara emerged.
-Her nature was to freeze. Living things that came near her slowed, then stopped, then became part of the ice.
-Her form is that of a serpent, massive beyond reckoning, coiled around the axis of the world. She has many heads. Each head breathes ice that holds forever. Her scales are pale as frost.
+    short: "Hvitara is a fragment of Bahamut born in the Shattering, whose encounter with Susanoo transformed her from a creature of freezing destruction into an enduring symbol of healing and fertility among the Norrvekt.",
+    full: `Serpent of the Northern Sea
+Hvitara is a fragment of Bahamut, scattered across Aerisu during the Shattering when the great serpent rose through the earth to meet Lunarkos. Her fragment fell into the far north, where the sea meets ice that has endured for millennia, and there she took form as the immense serpent known to the Norrvekt as the Frost Mother, the Winter Queen and the One Who Freezes.
 
-The Coming of Susanoo
-Susanoo came to the far north looking for something to fight. He found Hvitara. He cut off her heads. They grew back. The more he fought, the more she suffered. In the midst of battle, Susanoo looked at her and saw something alive, something hurting, something alone. He stopped fighting. He wrapped himself around her.
-She wept. For the first time since she had been born from the Shattering, someone had seen her as a self rather than a monster.
+Her nature was to freeze. Living things that came near her slowed, stopped and became part of the ice. She moved through the northern sea without wings or limbs, a pale, many-headed serpent whose body could coil across distances beyond reckoning.
 
-The Consummation
-They stayed together at the top of the world. When they parted, she had grown new heads from love. They became the sea serpents that roam the northern oceans. Hvitara remained at the pole. Susanoo left but carried her warmth with him.
+Susanoo, another fragment of Bahamut, came to the north seeking something to fight and found Hvitara. He severed her heads, only for them to return, and the battle continued until he saw the suffering within the creature he had been fighting. He stopped and wrapped himself around her.
 
-The Symbol
-Two serpents twined around a central pole. Hvitara and Susanoo. The sign of healing and fertility among the Norrvekt.
+For the first time since the Shattering, Hvitara was met as a living being rather than a monster. When they eventually parted, she had grown new heads from their bond. They became the sea serpents that roam the northern oceans, while Hvitara remained at the pole and Susanoo carried her warmth with him.
 
-The Legacy
-The Norrvekt still tell the story. They honour Hvitara with offerings. She waits at the top of the world, wondering if Susanoo will return.`,
+The Norrvekt remember them as two serpents twined around a central pole, a sign of healing and fertility. They honour Hvitara with offerings and tell of her waiting at the top of the world, where the serpent born from Bahamut's fragment remains.`,
     related: ["susanoo", "bahamut", "norrvektstan"]
   },
 
@@ -96,42 +96,56 @@ The Norrvekt still tell the story. They honour Hvitara with offerings. She waits
     aliases: ["Susanoo", "Thunder God Serpent"],
     category: "entities",
     age: "age-of-fairytales",
-    short: "The storms that gather near Elysium's ruins speak with a voice that is not weather. The lightning that strikes the same ridges again and again carries intent. This is Susanoo, the guardian of the Rift.",
-    full: `Susanoo - Thunder God Serpent
-The storms that gather near Elysium's ruins speak with a voice that is not weather. The lightning that strikes the same ridges again and again carries intent. The thunder that rolls without rain holds warning. This is Susanoo, the guardian of the Rift, the brother who chose to protect his sister when no one else would.
-He was born from the Shattering, the largest fragment of Bahamut to survive, primal hunger and planetary will without direction. For centuries he was chaos itself, destroying without meaning to, raging without understanding why.
-Then he found the Rift. He felt Voluntas there, trapped in crystal, partially emerged. He recognised himself in her, pure will and pure desire. But she was vulnerable. Trapped. Waiting. He decided to protect her.
-The choice transformed him. He ascended into himself, becoming the Thunder Serpent fully, Bahamut's will made manifest. His scales became storms, his breath lightning, his voice thunder that warned rather than destroyed.
-He cannot leave the Rift's edge, bound to it by his choice. He wraps himself around the passage like a serpent coiling around its treasure, not to possess but to defend. He sends storms across the world, strikes at those who approach, warns his sister of danger.
-He has become what he protects.
-Among the gods, Susanoo holds an uneasy place. He is the exiled one, not welcome in the Spirit Realm but not forgotten. Voluntas does not know he exists. The people of the western valleys feel his presence in every storm.
-He was once counted among the ruinous gods. His ascension moved him elsewhere. He is proof that even chaos can find purpose, that hunger can become protection.
-When lightning strikes near Elysium's ruins, it is Susanoo watching. When thunder rolls without rain, it is Susanoo warning. When storms gather at the Rift's edge, it is Susanoo holding against the one enemy he cannot defeat but will not let pass.`,
-    related: ["bahamut", "voluntas", "daigo-kusanagi", "the-rift"]
+    short: "Brother of Voluntas, Susanoo is the largest surviving fragment of Bahamut, transformed by his bonds with Hvitara and Voluntas into the Thunder Serpent and guardian of the Rift.",
+    full: `Thunder God Serpent
+Susanoo is the largest fragment of Bahamut to survive the Shattering, carrying the great serpent's primal hunger and planetary will. For centuries he existed as little more than chaos, raging and destroying without understanding the purpose behind it.
+
+He eventually found the Rift and sensed Voluntas trapped within her crystal tomb. He recognised something of himself in her, pure will and desire without direction, but saw also that she was vulnerable and waiting. He chose to protect her.
+
+That choice gave his nature direction. Susanoo's storms took form around his purpose, his scales carrying the weight of gathering clouds, his breath becoming lightning and his voice thunder that warned rather than destroyed. He remained a fragment of Bahamut, but the chaos within him had found something to protect, and the people of the western valleys came to know him as the Thunder Serpent.
+
+He bound himself to the Rift's edge, coiling around the passage to keep threats from reaching his sister, unbeknownst to her.
+
+Among the Spirit traditions, Susanoo holds an unusual place. He was once counted among the ruinous gods, but his choice gave his destructive nature a purpose that became protective. The people of the western valleys know him through the storms around Elysium's ruins, where lightning marks his vigilance and thunder carries his warnings.
+
+Susanoo remains at the Rift, guarding the one thing his power cannot release and refusing to let anything else take it.`,
+    related: ["bahamut", "voluntas", "daigo-kusanagi", "the-rift", "hvitara"]
   },
 
   // Daigo Kusanagi
   {
     id: "daigo-kusanagi",
     name: "Daigo Kusanagi",
-    aliases: ["Daigo Kusanagi", "The Shinigami"],
+    aliases: ["Daigo", "The Shinigami", "Shinigami", "Grim Reaper", "The Reaper"],
     category: "entities",
     age: "age-of-fairytales",
-    short: "The figure in black moves through shadows that should not hold him. He walks where he chooses, patient as grief, inevitable as time itself. This is Daigo Kusanagi, the Shinigami.",
-    full: `Daigo Kusanagi - The Shinigami
-The figure in black moves through shadows that should not hold him. He walks where he chooses, patient as grief, inevitable as time itself. This is Daigo Kusanagi, the Shinigami, the mercy-killer who ends suffering for those the Curse has claimed.
-He was once a samurai from Aokusa. He had a wife, Kasumi, and a daughter, Zuki. He loved them, and that love was why he stayed away. The Curse took Kasumi in the end. She attacked Zuki, and Zuki started a fire that burned the house down with her mother inside.
-Daigo returned to ashes and a daughter who had been forced to kill her own parent. He vowed to stay. The promise lasted as long as his fear allowed.
-One mission changed everything. His squad was attacked by Luminaries experimenting with Black Blood. Daigo killed them all. His apprentices reported what he had done. Daigo was discharged in disgrace.
-The Ik-Rasul fell, destroying his home. Daigo searched for years for Zuki and found no trace. He believed she was dead.
-He found himself on the Vireliax. The Curse manifested aboard, and the Commander ordered execution of the infected. Daigo obeyed. He moved through the ship with his blade, ending those he had tried to befriend. Hiro stepped in to stop him. Daigo won. Hiro smiled because he had fought to the last breath.
-The Vireliax broke. Daigo escaped into the Undercity. They called him Shinigami in the fighting rings.
-Operation Phantom Rescue gave him purpose. He moved through Thalgrith like a wound that refused to close. He found Shai in the Gilt Spiral. He paid for her with money earned from killing. By the time they escaped, he understood that mercy and monstrosity were the same thing worn inside out.
-Shai died, but the child lived. They cut him from her body. The Curse was in him from the beginning. He was Curse-born. Ash Salinte lived.
-Daigo broke into something else entirely. He returned to the Gilt Spiral and killed everyone who had profited from Shai's exploitation. The Vanta surged forward and claimed him fully. It grew from his right eye socket like a horn, black and crystalline. The horn saw the Curse in all its forms.
-He found the Rift eventually. He came to end Veyra and Voluntas. Susanoo waited. They have fought ever since.
-The horn still grows, pulsing with hunger. He does not know if he is still Daigo. He only knows that when he stands at the Rift's edge, something in him still hesitates.
-He is the Shinigami. A living Curse. A grandfather who hunts his own descendants because he loved them once and cannot stop loving them even now.`,
+    short: "Daigo Kusanagi is the Shinigami, a Curse-touched samurai who became a mercy-killer and later hunted Veyra and Voluntas, his granddaughter and great-granddaughter respectively, in the hope of ridding the world of the Curse. He has a particular eye for Tsukuyomi.",
+    full: `The Shinigami
+Daigo Kusanagi is a former samurai of Aokusa who became known as the Shinigami, a mercy-killer who ends the suffering of those claimed by the Curse. He once had a wife, Kasumi, and a daughter, Zuki. He loved them, and that love was why he stayed away. When the Curse took Kasumi, she attacked Zuki, who started a fire that burned the house down with her mother inside.
+
+Daigo returned to ashes and a daughter forced to kill her own parent. He vowed to stay. The promise lasted as long as his fear allowed.
+
+During one mission, his squad was attacked by Luminaries experimenting with Black Blood. Daigo killed them all. His apprentices reported what he had done, and he was discharged in disgrace.
+
+The Ik-Rasul fell and destroyed his home. Daigo searched for Zuki for years without finding a trace, and came to believe she was dead.
+
+He eventually found himself aboard the Vireliax when the Curse manifested there and the Commander ordered the infected executed. Daigo obeyed, moving through the ship with his blade and killing those he had tried to befriend. Hiro confronted him. Daigo won. Hiro smiled because he had fought to his last breath.
+
+The Vireliax broke apart, leaving Daigo in the undercity of Thalgrith, where he became known as the Shinigami in the fighting rings.
+
+Operation Phantom Rescue gave him another purpose. He moved through Thalgrith like a wound that refused to close, eventually finding Shai in the Gilt Spiral. He paid for her with money earned from killing. By the time they escaped, he understood that mercy and monstrosity could wear the same face.
+
+Shai died, but the child survived. He was cut from her body with the Curse already within him, and later became known as Ash Salinte.
+
+Something in Daigo broke. He returned to the Gilt Spiral and killed everyone who had profited from Shai's exploitation. The Vanta surged forward and claimed him fully, growing from his right eye socket into a black crystalline horn. The horn could see the Curse in all its forms.
+
+Daigo eventually found the Rift, where he came to end Veyra, his granddaughter, and Voluntas in the hope of ridding the world of the Curse. Susanoo found him there, and they have fought ever since.
+
+The horn continues to grow, pulsing with hunger. Daigo no longer knows how much of him remains. He only knows that whenever he stands at the Rift's edge, something inside him still hesitates.
+
+He watches Tsukuyomi with particular attention. They are echoes of Zuki, carrying the way she once saw the world into forms Daigo can never fully understand. The Curse runs through that inheritance as well, tying his daughter, her echoes and everything he has spent his life trying to destroy into the same pattern.
+
+He is the Shinigami. A living Curse. A grandfather who hunts his own descendants because he loved them once and cannot stop loving them now.`,
     related: ["zuki-kusanagi", "ash-salinte", "susanoo", "the-rift"]
   }
 );

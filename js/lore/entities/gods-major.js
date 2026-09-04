@@ -9,44 +9,53 @@ window.LORE_ENTRIES.push(
   {
     id: "bahamut",
     name: "Bahamut",
-    aliases: ["Bahamut", "the planetary serpent", "the World Serpent"],
+    aliases: ["the planetary serpent", "the World Serpent"],
     category: "entities",
     age: "age-of-men",
-    short: "The planetary serpent that rose to meet the falling moon Lunarkos, tearing the boundary between soul and matter in the Shattering.",
-    full: `Bahamut
+    short: "Bahamut was Aerisu's awakened planetary will, brought into form by the accumulated Curse and drawn into the Shattering with Lunarkos through the will of Voluntas and Anima, creating the Moon and fragments that would become Susanoo, Hvitara, Falak and countless lesser beings.",
+    full: `The Waking Serpent
+Bahamut is the awakened will of Aerisu, taking form during the Shattering as the planet responded to centuries of accumulating Curse. Long before the Nine Spirits emerged, Aerisu possessed consciousness distributed through its own living systems, though it had no singular form through which that will could act.
 
-The Waking Serpent
-Before the Shattering, before Lunarkos fell and the Moon rose from its ruin, the sleeping will of Aerisu breathed in slow cycles measured across geological ages. Consciousness flowed through magma and mantle while desires scattered deep in tectonic layers. The world lived as worlds live, shaping dreams and wants in its vast core.
-The Curse stirred it awake. Centuries of fracturing souls and pooling Vanta in living wounds, surging desires and rising hungers, all bled into the planet's dream. The world sensed itself consumed by the very hunger that fed its children. It stirred. It began to want.
-Lunarkos entered the inner atmosphere, its falling form growing vast in every tremor and tide. The world's want sharpened into focus. Something rose to meet it. Something became the answer. Bahamut emerged from the Varkane Abyss.
+The Curse changed that. Fractured souls, Vanta and concentrated desire accumulated within the planet until Aerisu experienced the hunger of its own inhabitants as something acting upon itself. When Lunarkos descended, that pressure reached a point where the world responded.
+
+Bahamut rose from the Varkane Abyss.
 
 The Body
-It surged upward through the mantle on waves of planetary anguish shaped into living form. The crust tore open along the future Abyss, magma flooding the breach while stone melted and reformed around the vast presence forcing free. Witnesses from afar saw a mountain learning motion, a continent birthing itself, the world inverting in one endless convulsion.
-The body coils serpentine across provinces in length. Obsidian scales cover the flanks, each vast as city walls and veined with glowing magma through cooling cracks. The head lifts as a vertical spire piercing clouds, and its roar arrives as pure presence, pressing every soul across the continent into awareness of smallness.
-Wings spread from shoulders with membranes spanning former continental shelves, edges dripping molten rock. Flexing them tears the air and shudders reality in waves scholars measured for centuries. This form stands as the world awakened into battle.
+Bahamut emerged as a colossal serpent, its body formed from earth, magma, Vanta and planetary will. Obsidian scales covered its immense length, with molten rock visible through the cracks. Wings spread from its shoulders as it forced its way through the atmosphere, and its presence carried the weight of an awakened world.
+
+This was Aerisu given a body capable of acting upon the threat above it.
 
 The Ascent
-Bahamut ascended through the atmosphere on wings new to flight, driven by currents of pure will toward Lunarkos. They collided in the upper stratosphere where air fades and earth meets sky without boundary. Planetary anguish in flesh met the moon's crystalline hunger in stone.
-The forces fused in annihilation. Impact blazed as a black sun of soul-fire, seen across Aerisu as a second dawn of three heartbeats before folding into dark. Both shattered, pieces raining to sky and earth. Molten shards from Lunarkos, hearts of Lux, seeded crystal forests in oceans and peaks. Bahamut fragments, laden with Vanta and planetary will, sank into deep earth and sea to birth other lives.
-What endured of each fused overhead, cooling into the scarred Moon that gazes on Aerisu.
+Bahamut rose to meet Lunarkos in the upper stratosphere. The collision brought planetary will into direct contact with the Lux-filled body of the falling moon.
+
+Both were destroyed.
+
+Lunarkos shattered into crystalline fragments that seeded the world with Lux. Bahamut shattered into fragments carrying Vanta, planetary will and the Echo of the being that had risen. What remained of the two forces fused above Aerisu and became the Moon.
+
+The Shattering therefore left two legacies in the world: Lunarkos distributed Lux through its fragments, while Bahamut distributed pieces of the planet's awakened will.
 
 The Fragments
-Bahamut persists through its vast shattering. Fragments bloomed into new essences.
-Susanoo claimed the largest share, hunger and will concentrated as he plunged into western valleys that became Fengua. His power raged in wild storms for centuries, reshaping land in fury until the Rift and Voluntas granted purpose. He rose as the Thunder Serpent, storm god guarding passages between worlds, bound by choice to the Rift.
-Hvitara sought the deepest cold where northern sea joins eternal ice. She became the Frost Mother and Winter Queen, serpent coiled at the world's axis. Her heads breathe enduring cold, and her children swarm northern oceans.
-Falak descended into the Sahran desert as pure hunger, growing vast and patient under sands until rising to march on Voluntas and falling to Anqa, the metal god forged to end it.
-Smaller shards formed great serpents in ocean depths, creatures in the Veins, and shadows where reality thins. Each piece holds planetary will and the echo of the world's choice to fight.
+Bahamut did not survive as a single consciousness. Its fragments developed according to where they fell, what they encountered and what purpose they found.
+
+Susanoo received the largest fragment and spent centuries expressing its hunger as destruction before his bonds with Hvitara and Voluntas gave that power direction. Hvitara became a northern serpent of freezing destruction whose relationship with Susanoo transformed both of them. Falak embodied hunger without restraint and eventually fell to Anqa. Smaller fragments became serpents, creatures of the Veins and other beings whose connection to Bahamut remains visible in their form or behaviour.
+
+These beings are therefore related to Bahamut through origin and Echo rather than through a shared mind.
 
 The Memory
-Bahamut echoes in memory across Aerisu. In Varkane the Abyss bleeds, so people raise memorials to the serpent's birth. Their gothic structures and ancestor rites, their bond with Lux and Vanta, all flow from witnessing the world birth itself overhead. They carry the memory of catastrophe that remade their ground.
-In Fengua Susanoo's storms shape the valleys with lightning on ancient ridges and Raikami crystals from divine touch. All flows from the fragment that chose protection.
-In Sahran Falak's form impaled on the Geode stands as monument where hunger meets unity. Death gardens bloom in divine rot, strange life thrives where the god-piece landed, legacy of endless want.
-In the frozen north Hvitara coils at the pole, children filling seas. Her presence rides blizzards and northern lights. She holds memory of Susanoo and awaits his return in the way cold endures.
+Bahamut remains present in the cultures shaped by its fragments.
+
+Varkane remembers the serpent through the Abyss and the catastrophe that opened it. Fengua remembers Susanoo through storms and the protection he chose. Sahran remembers Falak through the corpse fixed to the Geode and the life that continues around it. The northern peoples remember Hvitara and her descendants in the frozen seas.
+
+Each tradition preserves only part of Bahamut, giving the original event different meanings across the world.
 
 The Truth
-Bahamut embodies the planet's will made manifest, Aerisu's anguish given shape and drive. It rose in defence of its core. It shattered in the clash. Fragments seeded fresh tales.
-Some feel the serpent's mind alive in every shard, consciousness threading Susanoo and Hvitara and smallest spawn with the original echo. Others sense true ending in the break, only echoes left while the world slips back to slow dream.
-The truth rests in deep places among unstirred fragments, in the chance Aerisu wakes anew. Bahamut rose once. It rises again if called. What summons it, and what awaits its coming, lingers in the question.`,
+Bahamut is neither one of the Nine Spirits nor simply another local god. It predates them as an expression of Aerisu itself. Where the Nine Spirits emerged from souls and the patterns created through mortal existence, Bahamut emerged from the planet's own accumulated will.
+
+Anima and Voluntas represent different kinds of emergence. Anima arose from the psychic residue of dying beings, becoming a consciousness shaped from what death leaves behind. Voluntas emerged from desire and becoming, gathering the hunger of living souls into a singular will. Bahamut was something older and broader: the world itself becoming conscious of what was happening to it.
+
+Voluntas's presence within Aerisu connected her to that planetary will, and when Lunarkos came, the conditions surrounding her became part of the chain that brought Bahamut forth. Their relationship therefore runs deeper than the later myths of gods and monsters suggest. Voluntas is desire made singular. Bahamut is the world that can desire.
+
+Whether anything of Bahamut's original consciousness remains within its fragments is unknown. The fragments remember. Whether they remember him remains one of the oldest unanswered questions left by the Shattering.`,
     related: ["lunarkos", "the-shattering", "susanoo", "hvitara", "falak"]
   },
 
@@ -54,27 +63,36 @@ The truth rests in deep places among unstirred fragments, in the chance Aerisu w
   {
     id: "veyra-megami",
     name: "Veyra Megami",
-    aliases: ["Veyra Megami"],
+    aliases: ["Veyra", "The True Goddess"],
     category: "entities",
     age: "age-of-men",
-    short: "She is called Megami. The Goddess. The name has become a title spoken in prayers and carved into temple walls across Aerisu.",
-    full: `Veyra Megami
-She is called Megami. The Goddess. The name has become a title spoken in prayers and carved into temple walls across Aerisu. In stained glass and stone she appears the same way: head bowed, hands cradling her womb, preserved in an eternal act of protection. Worshippers light incense before her image and whisper hopes for healing.
-The woman beneath the worship lived once. She grew up on Isvara, watched the Curse take her parents, inherited fragments of a philosophy she would complete. She became a scientist who saw what others missed, who classified the blood types and gave the Cursed a language for their own transformation. She loved Ash and carried his child. The Curse took her memories and led her into Zephyr's laboratories, where she discovered what could be done to souls. She cast the first true spell, fled through frozen waters, and learned her baby had died. Her scream became the Soul's First Cry, a wound in the world that has never fully healed.
-She wrote the Doctrine of Becoming in the days that followed, pages and pages poured out on her father's typewriter while Ash guarded her sleep. She exposed Zephyr and watched him flee, then watched him return stronger. When the reactor failed and Elysium became Hell, she reached the tower's epicentre and transformed the city into crystal. The explosion preserved her exactly as she was in that moment: hands curved around her womb, head bowed, protecting a child who still lived within her.
-That was centuries ago.
-In the present age, she remains sealed in crystal at the Rift's heart. Her consciousness did not die in the crystallisation. It fragmented and scattered across the lattice of her prison, trapped in the preservation of her own flesh. She feels everything from inside that tomb. The Vanta leaking through the Rift. The Curse spreading across the world. The thousand dying each day in ways she cannot stop. She is the source of so much suffering, the wound that will not close, and she knows this with a clarity that has only deepened across the centuries.
-She wants to die.
-This is the truth beneath her divinity. Not serene acceptance or benevolent watching, but the deep and enduring wish of someone who has become the thing she spent her life trying to heal. Every death traceable to the Rift is traceable to her. Every Cursed who succumbs carries a fragment of her curse. She is the wound, and she cannot close herself.
-The centuries have refined her anguish into something that exists alongside her like breath. She felt the Phumenar pressing against her prison during their studies. She felt the First Separation ritual crack what should have remained sealed, tearing through her consciousness, leaving her more fragmented and more aware. She feels Voluntas stir inside her, feels her daughter's will pressing against existence, and she can do nothing but witness.
-She wants to die. She wants the Rift to close. She wants the suffering to stop. But desire itself is the problem, because Voluntas is desire, and Voluntas holds the Rift open, and Voluntas is her daughter, and she cannot wish her daughter undone even as her daughter's existence kills thousands. The contradiction has eaten through whatever remained of the woman she once was.
-She is no longer Veyra the scientist, Veyra the prophet, Veyra the lover and mother. She is something else now. A presence. A weight. A question the world cannot answer.
-Susanoo guards her from those who would end her, believing she deserves to live. Daigo waits in shadow to offer the mercy of oblivion, believing she deserves to rest. They fight their eternal war at the threshold of her prison, and she feels them both. She feels their love and their hatred and their desperate need to resolve what cannot be resolved. She cannot tell them to stop. She cannot tell them that neither protection nor mercy matters anymore, that she is beyond both, that the only thing that could help now is something neither of them can give.
-In the temples of the modern age, worshippers light incense before her image and ask for her blessing. They call her Megami and pray for healing, for hope, for the suffering to end. They do not know that she hears them. They do not know that every prayer is another weight, another witness to suffering she cannot ease, another reminder of the distance between what she is and what they believe her to be. They do not know that she would trade all their worship for a single moment of oblivion.
-The Curse ravages the lands. The thousand die each day. The Rift bleeds Vanta into the world. And at the heart of it all, preserved in crystal, a woman who wanted only to heal the suffering bows her head over a womb that will not release its child and waits for an ending that will not come.
-She is Veyra Megami. The first mage. The first prophet. The true goddess of Aerisu, though not in the way anyone understands.
-She is the wound. She is the question. She is the one who waits.
-And she will wait forever, unless someone finds a way to answer what she has become.`,
+    short: "Veyra Megami is the first mage and prophet, sealed in crystal at the heart of the Rift after becoming the source of the Curse, and worshipped across Aerisu as Megami, the Goddess.",
+    full: `The True Goddess
+Veyra Megami is known across Aerisu as Megami, the Goddess. Her image appears in temples, stained glass and stone with her head bowed and hands cradling her womb, while worshippers light incense before her and pray for healing and hope.
+
+The woman beneath that worship grew up on Isvara, where she watched the Curse take her parents and inherited fragments of her father's unfinished philosophy. She became a scientist who classified the blood types and gave the Cursed a language for their transformation. She loved Ash and carried his child. The Curse took her memories and led her into Zephyr's laboratories, where she discovered what could be done to souls. She cast the first true spell, fled through frozen waters and learned that her child had died. Her scream became the Soul's First Cry, a wound in the world that has never fully healed.
+
+The Doctrine of Becoming
+
+Veyra completed Ephimer's unfinished Doctrine of Becoming, writing page after page on her father's typewriter while Ash guarded her sleep. She exposed Zephyr and watched him flee, then return stronger. When the reactor failed and Elysium became Hell, she reached its epicentre and transformed the city into crystal. The explosion preserved her exactly as she stood, head bowed with her hands curved around her womb, protecting the child that still lived within her.
+
+The Crystal Tomb
+
+Veyra remains sealed in crystal at the heart of the Rift. Her consciousness survived the crystallisation, fragmented throughout the lattice of her prison while remaining bound to the preservation of her own flesh. She feels the Vanta leaking through the Rift, the Curse spreading across Aerisu and the deaths that follow, carrying centuries of awareness of the suffering her existence has caused.
+
+She wants to die. She wants the Rift to close and the suffering to end, yet Voluntas remains within her, her daughter and the embodiment of desire and becoming. Veyra cannot wish her daughter undone even as Voluntas's existence keeps the Rift open, leaving mother, daughter and Curse bound together in the same contradiction.
+
+The Rift
+
+Veyra feels Voluntas stir within the crystal and knows when her daughter's will presses against existence, yet she can do nothing but witness. Susanoo guards the Rift, believing they must be protected. Daigo waits to offer Veyra the mercy of oblivion, believing she has suffered enough. They have fought for centuries at the threshold of her prison, each carrying a different answer to what should become of her.
+
+The temples of the modern age do not know that Veyra hears their prayers. They call her Megami and ask for healing, hope and an end to suffering, believing a benevolent goddess is listening. Their faith has become another Echo around her, carrying an image that exists beside the woman trapped in crystal.
+
+The Goddess
+
+Veyra was the first mage and the first prophet. She gave the Cursed a language for their transformation, completed the Doctrine of Becoming and became the source of the wound at the Rift's heart. Centuries of worship, interpretation and Echo turned that wound into divinity, and Megami became the figure people believe is listening.
+
+Veyra remains beneath that image, a woman who wanted to heal suffering and became inseparable from it, waiting for an ending that has never come.`,
     related: ["ash-salinte", "voluntas", "zephyr", "the-crystallization"]
   },
 
@@ -82,45 +100,50 @@ And she will wait forever, unless someone finds a way to answer what she has bec
   {
     id: "zuki-kusanagi",
     name: "Zuki Kusanagi",
-    aliases: ["Zuki Kusanagi", "Goddess of the Moon"],
+    aliases: ["Goddess Zuki", "Goddess of the Moon", "Moon Goddess"],
     category: "entities",
     age: "age-of-men",
-    short: "She is called Tsukuyomi in the old stories, though that name belongs to something larger than any single bearer. The moon has many faces. She was the first.",
-    full: `Zuki Kusanagi - Goddess of the Moon
-She is called Tsukuyomi in the old stories, though that name belongs to something larger than any single bearer. The moon has many faces. She was the first.
-Zuki Kusanagi lived in Aokusa, a mist-filled mountain basin where blue-leaf terraces climb toward the sky. Her father, Daigo Kusanagi, was a samurai who spent most of his life patrolling the ruins of Ori'sol. Her mother Kasumi lived with the Curse and faded slowly while Zuki cared for her alone. Daigo sent letters and money, staying away because he couldn't watch what he couldn't control.
-The Curse eventually took Kasumi. She attacked her own daughter inside their home. Zuki burned the house down with her mother still inside, the only choice left. Daigo returned to ashes and a child forced to survive the unimaginable. He stayed afterward, built a new home, promised to remain.
-For two years he did. Duty called again. One final mission, he said. He would return.
-Zuki trained during the long years that followed. She didn't know for what. Stillness felt impossible while the world burned around her. The sun scorched the land and the Curse spread wherever its light touched. In grief and anger she made a vow that would echo far beyond her understanding. She prayed for the sun itself to be extinguished.
-She was only a child. She couldn't know what such a wish might become.
-The Ik-Rasul fell into Aokusa soon after. The aircraft crashed into the basin, tearing apart the mountainside and the home Daigo had rebuilt. Zuki was thrown into the water core at the mountain's heart, sinking deeper than any living person had ever reached.
-In that darkness something listened.
-Bahamut stirred in the depths, older than memory, older than the Curse, older even than the burning sun. The will of the planet itself waited in the deep waters of the world. It felt the girl's presence. It knew she could survive.
-The mountain birthed her again.
-Zuki surfaced below Aokusa, in the black rain waters of Ori'sol where war already raged between Hoshimiran soldiers and Sahrani Luminaries. She crawled through sewage channels and drowned corridors while the Luminaries controlled the Cursed through the ruins.
-A boy pulled her from the dark. He was Sahrani, a survivor of the same crash that destroyed her home. His father had died with the aircraft while he ejected to safety. Grease stained his hands and stubborn resolve filled his eyes. In later years the world would know him as Creatis. In that moment he was a frightened boy who refused to abandon someone even more lost than himself.
-He guided her through the ruins and past Luminary patrols until Hoshimiran soldiers found them first. They called to Zuki in the mountain tongue and promised to take her home.
-She looked toward the distant peaks of Aokusa. The place where the Cursed had once seemed far away. She remembered her mother. She remembered the people suffering in Ori'sol. She realised the Curse had always lived inside her too.
-Zuki chose humanity. All of it. The Cursed and the unmarked. The soldiers and the Luminaries. She walked away from the mountains and followed the boy into Sahran.
-Operation C.a.R eventually found her there. She and many other children were taken and relocated to Isvara, the island of surveillance where the state studied the Curse and those who carried it.
-On Isvara she met Ephimer. They moved through the facility together in ways the scanners never flagged. Their bond grew quietly within a system designed to prevent such things. Love persisted anyway.
-In time they wanted a child. The Curse stood between them. Every attempt ended in failure. Zuki feared the deeper truth, that the Curse inside her might pass into the child and condemn another life to the same fate that had taken her mother. The possibility haunted her.
-She climbed Megami-no-Mine seeking an answer. The sacred peak was said to be the dwelling of Eirimegami, a presence associated with breath, renewal, and the quiet spaces between things. Zuki climbed through snow and thin air, hoping for a cure or some way to break the Curse that shadowed her life.
-At the summit she received the Sacred Air, a white flower cold and luminous against the snow. It didn't cure the Curse. Yet something changed. Life stirred where it had been absent before. Zuki returned to Isvara carrying the flower and, in time, the child she and Ephimer had thought impossible.
-They named their daughter in gratitude to the one who had answered them. Veyra Megami.
-The Curse continued moving through Zuki as it had through her mother. She felt her memory eroding and her body weakening. The rage that once defined her had softened since the mountain and the silent presence she encountered there.
-In her journey to Megami-no-Mine, where the Sacred Air bloomed in the high snowfields, pure and fragile in the thin air, and receiving her beloved daughter, Zuki finally understood. The flower had been a reminder. Presence. Acceptance. Breath.
-She embraced the stillness the mountain offered and carried that understanding back to Isvara. She urged Ephimer to leave his work behind and simply live, to raise their daughter and remain present for the life they had been given.
-He couldn't. His Doctrine had already consumed him, just as the Curse consumed her in quieter ways.
-Zuki Kusanagi died present in the final moment of breath, without anger, without fear.
-Yet the vow she made as a grieving child endured long after her death.
-Centuries passed. Veyra completed Ephimer's Doctrine and shaped the philosophy that would ripple across civilisations. The Vanta Explosion later shattered Elysium and sealed her within crystal. The world changed again and again.
-Far above the planet another change slowly approached. Lunarkos. A colossal body of iron, carbon, and crystalline Lux drifted toward Aerisu across centuries until it dominated the sky itself. The Lunartics proclaimed it as the fulfilment of Zuki's ancient prayer. The girl who wished for the sun to die had finally been answered.
-They worshipped her as the Moon Goddess. They never knew the peace she had found at the end of her life.
-When Lunarkos finally descended, Bahamut rose to meet it. Their collision tore open the boundary between matter and soul, scattering divine fragments across the planet and reshaping the continents.
-The Shattering remade the world. What remained in the sky became the Moon.
-The moon was her monument, a pale witness hanging above the world she helped shape. Her body died quietly on Isvara. Her memory continued through the Tsukuyomi, echoes of her will appearing across time as witnesses, fragments, and reflections of the girl who once prayed so fiercely that the sky itself eventually changed.
-She was Zuki Kusanagi. The first Tsukuyomi. The moon's earliest face. And somewhere in its pale light, a memory of her still watches the world she left behind.`,
+    short: "Zuki Kusanagi was the woman whose life became the Echo behind the Tsukuyomi and the Goddess of the Moon, remembered through her grief, love, and eventual understanding of presence, acceptance, and care.",
+    full: `Goddess of the Moon
+Zuki Kusanagi was born in Aokusa, a mist-filled mountain basin where blue-leaf terraces climb towards the sky. Her father, Daigo Kusanagi, was a samurai who spent most of his life patrolling the ruins of Ori'sol, while her mother, Kasumi, lived with the Curse and slowly faded. Daigo sent letters and money from afar, leaving Zuki to care for her mother and believe that somewhere there was still a way to make things right.
+
+The Mountain
+When Kasumi's illness worsened, Zuki went into Aokusa's mountains searching for Sacred Air. She believed that if she could find the right thing and bring it home, her mother could be made well. Mika followed her because someone had to, and the mountain met them with its own forms of attention. The Yamababa offered hospitality in her Death Garden with conditions Zuki could not understand, the Echo Forest returned familiar shapes without the people she expected to find in them, and the Deadwood reduced the living world to something that could listen without caring what was wanted from it.
+
+Zuki kept going because she had given herself a task and could not bear to return empty-handed. The mountain kept placing people and things in front of her that demanded something other than solving. Mika saw the pattern before Zuki did. By the time Mika died protecting her, the journey had taken more from Zuki than the flower ever could have given back.
+
+She returned to Aokusa carrying the mountain with her, still believing there had to be something she could do. Kasumi had already begun to disappear into the Curse, and when her mother turned on her, Zuki found herself holding the broken haft of a firestone tool between them, pleading for the person she knew to remain. Kasumi recognised her daughter for one moment, took the firestone and placed it into the dead hearth herself. The house burned around her, and Zuki survived.
+
+Ori'sol
+The Ik-Rasul fell into Aokusa soon after, destroying the home Daigo had rebuilt and throwing Zuki into the water core at the mountain's heart. In the darkness, Bahamut felt her presence and carried her through the depths until she surfaced in Ori'sol, where Hoshimiran soldiers and Sahrani Luminaries were fighting.
+
+A Sahrani boy pulled her from the ruins. His father had died in the crash, and he had survived by ejecting before the aircraft fell. He guided Zuki through the flooded passages and around Luminary patrols until Hoshimiran soldiers offered to take her home.
+
+Zuki looked towards Aokusa and remembered her mother and the people suffering around her. She understood that the Curse was not something that belonged to a distant category of people. It lived in her as well. She chose humanity as a whole and followed the boy into Sahran. In later years he would become known as Creatis.
+
+Isvara
+Operation C.a.R. eventually took Zuki and other children to Isvara, where the state studied the Curse. There she met Ephimer. They learned to move through the island together without drawing attention, and their bond became a quiet life within a system designed to separate them.
+
+They eventually wanted a child. The Curse made every attempt fail, and Zuki feared passing the same suffering into another life.
+
+Megami-no-Mine
+Zuki later climbed Megami-no-Mine seeking an answer from Eirimegami. The mountain was different from the one she had known as a child, and this time she reached the summit, where she received the Sacred Air.
+
+The flower did not erase the Curse. What it gave her was an understanding she had spent years approaching: care was sometimes the act of remaining with someone rather than leaving to find the thing that would fix them. Zuki returned to Isvara, and in time she and Ephimer had the daughter they had thought impossible. They named her Veyra Megami.
+
+As the Curse eroded Zuki's memory and body, she carried that understanding into the life she still had. She urged Ephimer to leave his Doctrine behind and remain with their daughter while they could still live together. He could not.
+
+Zuki died quietly, present in the final moment of her life.
+
+The Moon
+The prayer she had made as a grieving child endured after her death. Centuries later, Lunarkos appeared above Aerisu, and the Lunartics interpreted its arrival as the fulfilment of Zuki's ancient wish. They worshipped her as the Goddess of the Moon.
+
+When Lunarkos fell and Bahamut rose to meet it, the Shattering left the Moon above Aerisu. Zuki's life had already become distant history, yet her Echo continued to accumulate around the Moon and the meaning people assigned to it.
+
+Tsukuyomi
+Tsukuyomi became the name given to recurring echoes associated with Zuki's perspective, each carrying some reflection of the original pattern into another life. The Moon therefore acquired many faces, with Zuki remembered as the earliest figure through whom that identity became culturally defined.
+
+Her legacy carries the shape of her life: a child who believed suffering could be solved, a woman who learned to remain present with what could not be fixed, and an Echo that continued to return long after she was gone.`,
     related: ["daigo-kusanagi", "creatis", "isvara", "lunartics", "tsukuyomi"]
   },
 
@@ -128,58 +151,82 @@ She was Zuki Kusanagi. The first Tsukuyomi. The moon's earliest face. And somewh
   {
     id: "ash-salinte",
     name: "Ash Salinte",
-    aliases: ["Ash Salinte"],
+    aliases: ["Ash"],
     category: "entities",
     age: "age-of-fairytales",
-    short: "Some are remembered for what they achieved. Others for what they refused to abandon. Ash Salinte belongs to the latter.",
-    full: `Ash Salinte
-Some are remembered for what they achieved. Others for what they refused to abandon. Ash Salinte belongs to the latter.
-He was born in the aftermath of catastrophe. His mother Shai survived the Gilt Spiral only long enough to bring him into the world after being pulled from it during Operation Phantom Rescue by Daigo Kusanagi. The Curse had already taken root in her during the Vireliax and whatever the Ocean Maw leaves inside those who escape it. She named him, saw him breathe, and the Vanta rising within her took the rest.
-Ash grew up knowing he was Curse-born. Not by explanation but by sensation. Vanta moved through him like current rather than rot, and he could feel the quiet pressure of desire around him, the gravity of what people wanted bending the space between them. Those who raised him, survivors of the Vireliax and the Rescue, taught him the distinction that shaped his life. Desire itself is not the enemy. Only desire without wisdom, restraint, or love.
-He lived quietly as a private investigator in Solmara, working from a cluttered apartment filled with files and unanswered questions. After the Era of Shattered Walls he met Veyra, daughter of Ephimer and inheritor of the unfinished Doctrine. She carried certainty like armor, but Ash saw the loneliness beneath it. They loved each other with the quiet understanding of people already familiar with loss.
-When Veyra became pregnant they knew their child would be Curse-born. They chose hope anyway.
-The Curse moved through Veyra during the pregnancy, stealing memories instead of flesh. She forgot Ephimer, forgot Aokusa, and eventually forgot Ash himself. When rumors reached her of Zephyr's work in Elysium she left seeking a cure, unaware she was abandoning the man she loved.
-Ash searched for her and learned the truth of Zephyr's research. Children on tables. Hearts removed while beating. Souls condensed into artifacts. Before he could reach her, Veyra escaped the nightmare herself, casting the first true spell and fleeing through frozen rivers and sewer tunnels. In that escape she discovered their unborn child had died. Her grief became the Soul's First Cry, a psychic shockwave felt across the world.
-Ash felt it without understanding it.
-Days later a train operator named Tomenos brought Veyra to his door, bruised and unable to recognize him. Ash gave her shelter, coffee, and silence. When she spoke he listened. When she returned to her abandoned apartment and found the nursery she had prepared for the child she no longer remembered losing, the truth returned to her. Ash had been the father.
-They rebuilt from that moment. Veyra moved into his apartment and began writing the Doctrine of Becoming on Ephimer's old typewriter while Ash guarded the quiet life around her. The Doctrine spread through Solmara's underground. Zephyr fled the city after her testimony exposed him, though his influence would return later in deeper forms.
-When Elysium collapsed during the reactor catastrophe, Veyra was captured again. Ash fought through the dying city to reach her. A disillusioned mech pilot aided him, and within Zephyr's tower the maid Sophie quietly sabotaged the defenses, dying in the process.
-Ash reached Veyra at the tower's core.
-There she delivered her final message, condemning the systems that had turned souls into inventory and suffering into data. Then she transformed the city. The detonation that followed was not fire but crystallization. Everything within Elysium froze into luminous crystal.
-At the epicenter Veyra remained standing, hands over her womb, preserved in the act of protection.
-And within that crystal, impossibly, their child still lived.
-Ash died in the chaos that followed. His body was lost to the destruction. Yet something of him remained. An Echo of will and memory, carrying neither flesh nor breath, only the promise he had made and the love he refused to abandon.
-For centuries that Echo wandered. It crossed the Age of Fairytales, the rise and fall of nations, the slow rebuilding of civilization. It searched always for what had been lost.
-At the heart of Elysium the Echo found Veyra sealed in crystal beside the Rift, where Voluntas waited unborn yet eternal. He tried to close the Rift and failed. The child's will was already enough to hold it open.
-So Ash made another choice.
-He turned from the crystal and walked into the world again.
-Across the centuries he became a quiet presence in history. A traveler who appears where hope falters. A guide at the edge of disaster. A stranger who helps the living endure and moves on before gratitude can take shape. People gave the figure many names.
-The one that endured was the Warm Sun.
-He still walks in the Age of Decay, when the sun rises only once a week and twilight covers the world. He still tends the living and reminds anyone willing to listen that tomorrow exists.
-Ash Salinte, husband to Veyra, father to Voluntas, the man who saw the worst the world could become and chose, anyway, to rise.`,
-    related: ["veyra-megami", "voluntas", "daigo-kusanagi", "soul-first-cry"]
+    short: "Ash Salinte was a Curse-born investigator, the husband of Veyra Megami and father of Voluntas, whose love survived his death as the Echo remembered as the Warm Sun.",
+    full: `The Warm Sun
+Ash Salinte was a Curse-born child whose mother, Shai, survived the Gilt Spiral only long enough to give birth after Daigo Kusanagi rescued her during Operation Phantom Rescue. The Curse had already taken root in her through the Vireliax and whatever the Ocean Maw leaves within those who escape it. She named her son, saw him breathe, and died as the Vanta took the rest.
+
+Ash grew up knowing the Curse through his own body. Vanta moved through him like a current, and he could feel the pressure of desire around other people. Those who raised him taught him the distinction that shaped his life: desire itself was not the enemy. What mattered was what a person did with it.
+
+Solmara
+Ash became a private investigator in Solmara, living quietly among files, unanswered questions and whatever cases found their way to his door. After the Era of Shattered Walls he met Veyra Megami, daughter of Ephimer and Zuki Kusanagi, and inheritor of the unfinished Doctrine of Becoming. She carried certainty like armour, while Ash recognised the loneliness beneath it. They fell in love.
+
+When Veyra became pregnant, they knew their child would be Curse-born. They chose hope anyway.
+
+The Curse spread through Veyra during the pregnancy, taking memories rather than flesh. She forgot Ephimer, Aokusa and eventually Ash himself. Rumours of Zephyr's work in Elysium drew her away in search of a cure.
+
+Ash followed what remained of the trail and found Zephyr's work: children on tables, living hearts removed from bodies, souls condensed into mineral. Before he could reach Veyra, she escaped the laboratories herself, casting the first true spell and fleeing through frozen rivers and sewer tunnels. There she learned that their child had died, and her grief became the Soul's First Cry.
+
+Ash felt it without understanding why.
+
+Days later Tomenos, a train operator, brought Veyra to Ash's door. She was bruised and could no longer recognise him. He gave her shelter, coffee and silence. When she later returned to the apartment prepared for the child she no longer remembered losing, the truth returned with it. Ash had been the father.
+
+The Doctrine of Becoming
+Ash and Veyra rebuilt their life together. She moved into his apartment and began writing Ephimer's Doctrine of Becoming on the old typewriter while Ash protected the quiet around her. Her testimony exposed Zephyr, who fled Solmara, and the Doctrine began spreading through the city's underground.
+
+When the reactor catastrophe consumed Elysium, Veyra was captured again. Ash fought through the dying city with the help of a disillusioned mech pilot, while Sophie, a maid within Zephyr's tower, quietly sabotaged its defences and died doing so.
+
+Ash reached Veyra at the tower's core. She condemned the systems that had turned souls into inventory and suffering into data, then transformed Elysium into crystal. At the epicentre she remained standing with her hands over her womb, preserved in the act of protecting the child that, impossibly, still lived within her.
+
+Ash died in the destruction.
+
+The Warm Sun
+His body was lost, while something else remained. His will and memory persisted as an Echo carrying the promise he had made and the love he refused to abandon.
+
+For centuries that Echo wandered through the changing world, searching for what had been lost. At last it reached Veyra at the heart of Elysium, sealed in crystal beside the Rift where Voluntas waited. Ash tried to close the Rift and failed. Voluntas's will was already enough to hold it open.
+
+He made another choice. He left the crystal and returned to the world.
+
+Across the centuries he became a quiet presence where hope faltered, helping the living endure without asking to be remembered. People gave him many names, but one endured: the Warm Sun.
+
+He still walks in the Age of Decay, when the sun rises only once a week and twilight covers the world. He tends the living and reminds those who listen that tomorrow exists.
+
+Ash Salinte, husband to Veyra, father to Voluntas, and the man who saw what the world could become and chose to keep loving it.`,
+    related: ["veyra-megami", "voluntas", "daigo-kusanagi", "ash-at-the-rift", "sun"]
   },
 
   // Nine Spirits
   {
     id: "nine-spirits",
-    name: "Nine Spirits",
-    aliases: ["Gods", "Nine Spirits", "Mnemotas", "Aether", "Verdantia", "Anima", "Logaris", "Elysia", "Creatis", "Justicar", "Voluntas"],
+    name: "The Nine Spirits",
+    aliases: ["The Nine", "Nine Spirits", "Eight Spirits"],
     category: "entities",
     age: "age-of-gods",
-    short: "In that time between the Vanta Explosion and Lunarkos' impact, certain individuals transcended mortality.",
+    short: "The Nine Spirits were individuals who transcended mortality between the Vanta Explosion and Lunarkos's impact, their lives and obsessions becoming coherent manifestations of principles that would shape Aerisu after the Shattering.",
     full: `The Ascended Nine Spirits/Gods
-In that time between the Vanta Explosion and Lunarkos' impact, certain individuals transcended mortality. Not through divine blessing, but through sacrifice, obsession, and the sheer weight of their existence.
-Creatis carries the spark of invention. He turns ruin into flight and draws the impossible upward toward the stars.
-Verdantia flows through renewal. She coaxes life from poisoned soil and weaves new forms that answer to Lux and the rhythm of scarred ground.
-Aether holds the cosmic frame. She traces the looping patterns that fold time upon itself and keeps the greater order steady beyond reach.
-Elysia gathers every feeling. She preserves the heart of what people endured, the love and hope that persisted when the sky broke open.
-Justicar stands in consequence. He searches the balance where judgment meets mercy and where clarity finds room to breathe.
-Anima watches the threshold. She moves between life and death, carrying the echoes of every soul that fractured and chose to continue.
-Logaris anchors thought. He translates the infinite into coherence and holds the line that binds meaning across every plane.
-Mnemotas keeps the full memory. Born between worlds, this living archive carries every lost moment so the past remains alive and witnessed.
-Voluntas burns with becoming. She holds the pure will to exist, the defiance that chooses shape even when silence presses close.
-These nine remain as the world's quiet witnesses. Their presence lingers in every crystal forest, every Soul Shard, and every shadow that moves with its own intent. They remind those who listen that the fracture gave rise to something that still chooses to endure.`,
+Between the Vanta Explosion and Lunarkos's impact, nine individuals transcended mortality through sacrifice, obsession and the accumulated weight of their existence. Their souls became coherent enough to persist beyond ordinary death, each emerging as a Spirit whose nature reflected the pattern they had formed through life.
+
+Creatis became the Spirit of invention, turning ruin into flight and drawing the impossible towards the stars.
+
+Verdantia became the Spirit of renewal, coaxing life from poisoned soil and shaping new forms in harmony with Lux and scarred ground.
+
+Aether became the Spirit of cosmic structure, tracing the patterns through which time and existence fold back upon themselves and preserving order across greater scales.
+
+Elysia became the Spirit of emotion, carrying the love, grief and hope that endured when the sky broke open.
+
+Justicar became the Spirit of consequence, searching the boundary between judgement and mercy and learning to leave room for clarity.
+
+Anima became the Spirit of death and the threshold beyond it, carrying the Echoes of souls that fractured and continued through what remained.
+
+Logaris became the Spirit of knowledge and interpretation, translating what seemed infinite into forms that minds could hold and carrying meaning across planes.
+
+Mnemotas became the Spirit of memory, a living archive that preserves what would otherwise be lost and keeps the past present through remembrance.
+
+Voluntas became the Spirit of desire and becoming, embodying the will to exist, change and assume form even against silence and erasure.
+
+The Nine remain woven through Aerisu as enduring Spirits, their presence reflected in crystal forests, Soul Shards and the countless forms of life shaped by their Echoes. They are remembered as gods because people needed names for what they had become, while the Psycrata classify them as Spirits: coherent manifestations of souls whose existence grew beyond the lives that formed them.`,
     related: ["creatis", "verdantia", "aether", "elysia", "justicar", "anima", "logaris", "mnemotas", "voluntas"]
   },
 
@@ -187,18 +234,29 @@ These nine remain as the world's quiet witnesses. Their presence lingers in ever
   {
     id: "creatis",
     name: "Creatis",
-    aliases: ["Creatis", "Nine Spirits", "Nine Gods", "The Gods"],
+    aliases: ["God of Creativity", "Spirit of Creativity"],
     category: "entities",
     age: "age-of-gods",
-    short: "A refugee. An orphan. Mute in the eyes of society, not by lack of speech but by lack of understanding.",
-    full: `Creatis - God of Creativity, Invention, and Inspiration
-A refugee. An orphan. Mute in the eyes of society, not by lack of speech but by lack of understanding. He expressed himself through contraptions and eccentric machines that defied the odds. Amid heatwaves, the Curse, and war, he scavenged parts and crafted dreams from ruin.
-His impossible desire was not just to fly, but to reach the stars. To escape Lunarkos by going up instead of hiding.
-He embedded himself in Project DAEDALUS as a specialist engineer, building thruster systems and propulsion arrays that allowed the newly designed Angels to reach altitude and sustain flight. He was valued not for communication but for results. Yet parallel to that work, he sketched something else in private. The Ascension Project. A craft designed to breach orbit entirely, to escape Aerisu before Lunarkos arrived.
-He contributed to every desperate project. Flight modules for DAEDALUS Angels. The space race against the falling moon. Each thruster system he designed had applications for orbital escape. Each problem he solved contributed to a larger architecture he was assembling piece by piece.
-For nearly twenty years he worked on both projects simultaneously. No one knew how close he came to completion. No one knew whether the Ascension Project would have functioned.
-He finally reached orbit in a hand-built craft, half-alive, half-mechanical. As he gazed upon Aerisu from above, watching Lunarkos approach from the other direction, his mortal body failed. Oxygen deprivation. Exposure. The cold.
-His soul remained suspended among the stars.`,
+    short: "God of Creativity. Creatis was a refugee and engineer whose relentless desire to reach the stars drove his work on the DAEDALUS Angels and the Ascension Project, leaving his soul suspended beyond Aerisu as the Spirit of creativity, invention and inspiration.",
+    full: `God of Creativity, Invention, and Inspiration
+
+Creatis was a refugee and orphan who struggled to make himself understood, expressing what he could not explain through eccentric machines and improbable inventions. He scavenged parts from the ruins left by war, the Curse and the failing world, turning whatever remained into things that could work, move and fly.
+
+His greatest desire was to reach the stars. When Lunarkos began its long approach, he refused to accept that survival meant waiting for the inevitable. He believed Aerisu could be escaped by going up.
+
+Project DAEDALUS
+
+Creatis joined Project DAEDALUS as a specialist engineer, designing thrusters, propulsion arrays and flight systems that allowed the Angels to reach and maintain extreme altitude. At the same time, he worked in secret on the Ascension Project, a craft intended to breach orbit before Lunarkos arrived.
+
+For nearly twenty years, the two projects fed into one another. Every problem solved for DAEDALUS became another step towards orbit, and every advance in the Ascension Project refined the systems used by the Angels. No one knew how close he came to completing either until he finally launched.
+
+The Ascension
+
+Creatis reached orbit in a hand-built craft assembled from the knowledge and machinery of a world preparing for its end. From above, he watched Aerisu beneath him while Lunarkos approached from the opposite horizon.
+
+His body could not survive the journey. Oxygen deprivation, exposure and cold took the rest of him, but his soul remained suspended among the stars.
+
+That was the moment Creatis ceased to belong entirely to the world below. The pattern that had defined his life endured without the body that carried it, and he emerged as the Spirit of creativity, invention and inspiration, remembered wherever someone looks at what should be impossible and begins building anyway.`,
     related: ["nine-spirits", "project-daedalus"]
   },
 
@@ -206,17 +264,18 @@ His soul remained suspended among the stars.`,
   {
     id: "verdantia",
     name: "Verdantia",
-    aliases: ["Verdantia", "Nine Spirits", "Nine Gods", "The Gods"],
+    aliases: ["Goddess of Nature", "Spirit of Nature"],
     category: "entities",
     age: "age-of-gods",
-    short: "Once a mech-rider in a militant arsonist group, destroying enemy resources. She witnessed the fragility of life when her mother fell ill.",
-    full: `Verdantia - Goddess of Nature, Chemistry, and Renewal
-Once a mech-rider in a militant arsonist group, destroying enemy resources. She witnessed the fragility of life when her mother fell ill. Not from the Curse, but from something heartbreakingly human. A wasting disease, slow and mundane, that no amount of fire or fury could burn away.
-She rejected destruction. Studied botany, chemistry, medicine. Her journey took her across ruined lands in a retooled mech turned mobile greenhouse. She retrofitted a decommissioned combat frame into a moving platform for cultivation. The interior became a substrate chamber, hydroponic systems, ecological laboratories.
-She gathered seeds from before the Explosion, specimens that were nearly extinct. She cultivated fungi capable of breaking down Vanta-crystallized minerals. She bred Lux-touched flora that responded to soul-resonance rather than sunlight, plants that might survive in a world where the climate itself had turned hostile. She created hybrid species that had never existed before, engineered through desperate trial and failure.
-For years she walked her greenhouse-mech across devastated regions, planting seeds in poisoned soil, leaving spore cultures in abandoned towns, spreading life and possibility across a landscape that seemed to resist both. She tried to coax life from poisoned soil while Lunarkos grew larger overhead.
-She died before her ecosystems could be weaponized, her own overgrown biogarden turning predatory. The plants she had nurtured consumed her. Their roots pierced her flesh. Their vines drank her blood.
-Her essence persisted in the roots of the world.`,
+    short: "Goddess of Nature. Verdantia was a former mech-rider who abandoned destruction for botany, chemistry and medicine, becoming a pioneer of engineered life whose essence endured through the roots of the world and gave her name to Aerisu's living overworld.",
+    full: `Goddess of Nature, Chemistry, and Renewal
+Verdantia began as a mech-rider in a militant arsonist group, destroying enemy resources until her mother fell ill with a wasting disease that fire and violence could not touch. She turned from destruction and devoted herself to botany, chemistry and medicine.
+
+She rebuilt a decommissioned combat frame into a mobile greenhouse, filling it with cultivation chambers, hydroponics and ecological laboratories. She travelled through devastated regions gathering rare seeds and specimens, cultivating fungi that could break down Vanta-crystallised minerals and flora that responded to soul-resonance rather than sunlight. Through repeated experimentation she developed new species capable of surviving the poisoned climate.
+
+For years she carried the greenhouse across ruined lands, planting in poisoned soil and leaving cultures behind wherever life might take root. She died before her work could be turned into a weapon, consumed by the garden she had created as roots pierced her body and the plants she nurtured overgrew her.
+
+Her essence remained in the roots of the world. The living surface of Aerisu came to bear her name, and Verdantia became the first region of the Spiral Veins, the living world from which every journey inward begins. She endured as the Spirit of nature, chemistry and renewal, remembered wherever life takes root after ruin.`,
     related: ["nine-spirits"]
   },
 
@@ -224,16 +283,23 @@ Her essence persisted in the roots of the world.`,
   {
     id: "aether-goddess",
     name: "Aether",
-    aliases: ["Aether", "Nine Spirits", "Nine Gods", "The Gods"],
+    aliases: ["Goddess of the Cosmic Frame", "Spirit of the Cosmic Frame"],
     category: "entities",
     age: "age-of-gods",
-    short: "A quiet astronomer at the University of Castellenza who studied Lunarkos's trajectory. The object did not move like inert matter.",
-    full: `Aether - Goddess of the Cosmic Frame
-A quiet astronomer at the University of Castellenza who studied Lunarkos's trajectory, its composition, its behaviour. The object did not move like inert matter. It moved like something guided or drawn.
-She glimpsed the terrible order beneath all things, discovering that the cosmos was not infinite possibility but a looping engine of recursion and collapse. Timelines folding back upon themselves. Every choice already made.
-Driven by revelation, she turned to arcane magic to build a metaphysical model of existence. She needed to preserve the truth in a vessel untouched by entropy.
-She spent years researching the Ethereal Plane, a theoretical space outside normal spacetime. She was not trying to escape alone. She was trying to create a refuge. The pregnancy was entangled with her research. The child would be born in the Ethereal Plane, raised outside time, fed on memory and knowledge.
-She succeeded. And in succeeding, she left reality behind.`,
+    short: "Goddess of the Cosmic Frame. Aether was an astronomer who studied Lunarkos until she perceived the recursive structure of the cosmos, leading her to create a refuge beyond ordinary spacetime for herself and her child.",
+    full: `Goddess of the Cosmic Frame
+
+Aether was an astronomer at the University of Castellenza who studied Lunarkos's trajectory, composition and behaviour. The object did not move like inert matter. Its path followed a pattern that suggested attraction, recurrence and purpose, and the longer she observed it, the more she recognised the same structures repeating across the cosmic frame.
+
+The Cosmic Frame
+Aether came to understand that existence was recursive. Matter, motion, causality and Resonance formed patterns that returned through themselves, carrying the consequences of what had already occurred into what came next. The cosmos was not an endless collection of separate possibilities, but a structure continually becoming through its own accumulated Echoes.
+
+She sought a way to observe and preserve that structure without allowing her knowledge to be consumed by the same processes she was studying. Her research turned towards the Ethereal Plane, a space beyond ordinary spacetime where Resonance could persist outside the world's usual progression.
+
+The Ethereal Refuge
+Aether built a refuge there, intending to give her child a place to exist beyond the pressures of ordinary time. Her pregnancy became part of the work. The child would be born in the Ethereal Plane, raised outside the world's ordinary temporal flow and sustained through memory and knowledge.
+
+She succeeded and crossed beyond the ordinary world with the structure she had built, leaving her existence suspended within the cosmic frame she had spent her life trying to understand.`,
     related: ["nine-spirits", "mnemotas", "logaris"]
   },
 
@@ -241,16 +307,23 @@ She succeeded. And in succeeding, she left reality behind.`,
   {
     id: "elysia-goddess",
     name: "Elysia",
-    aliases: ["Elysia", "Nine Spirits", "Nine Gods", "The Gods"],
+    aliases: ["Goddess of Emotion", "Spirit of Emotion"],
     category: "entities",
     age: "age-of-gods",
-    short: "Sophie survived the Vanta Explosion and Elysium's collapse. She was present during the assault on Zephyr's tower.",
-    full: `Elysia (Sophie) - Goddess of Emotion and the Human Psyche
-Sophie survived the Vanta Explosion and Elysium's collapse. She was present during the assault on Zephyr's tower, helped guide Veyra and Ash through it. When the crystallisation wave consumed the city, she was caught in it but the Curse kept her alive, as it did for others who would become gods.
-She survived Hell. Elysium became a crucible of suffering after the explosion, and Sophie lived through years of it. The Curse consumed her slowly. She learned to help others while enduring that consumption, learning through her own unraveling how to sustain others who were unravelling.
-Her work was emotional archaeology. She gathered stories from survivors. She preserved testimonies of how people endured the Curse. How they coped with knowledge that the world was ending. How they maintained meaning in the face of meaninglessness. How they loved and hoped and persisted.
-She recorded confessions and final words. She became the emotional memory of the era, the archive of what people felt during the falling of Lunarkos. Her identity dissolved until she was only known as Elysia, the living memory of what was lost.
-She became a transcendent empath, her consciousness entangled in the collective unconscious of humanity. Neither alive nor dead. Just felt.`,
+    short: "Goddess of Emotion. Elysia was Sophie, a survivor of Elysium whose years preserving the emotions and experiences of the Curse-taken became the foundation of her existence as the Spirit of emotion and the human psyche.",
+    full: `Goddess of Emotion and the Human Psyche
+
+Elysia was Sophie, a survivor of the Vanta Explosion and the collapse of Elysium. She was present during the assault on Zephyr's tower, helping Veyra and Ash reach its depths before the crystallisation wave consumed the city. The Curse preserved her as it did others caught within the catastrophe.
+
+The Crucible
+Elysia survived the years that followed in the ruined city, where the Curse continued to consume what remained of Elysium. She learned to care for other survivors while her own identity and memories slowly came apart, discovering through her own unraveling how much endurance could be found in simply remaining beside someone else.
+
+Her work became emotional archaeology. She collected testimonies from survivors, recording how people endured the Curse, faced the knowledge that Lunarkos was coming, maintained meaning in a collapsing world and continued to love, hope and care for one another. She preserved confessions, final words and the small decisions through which people remained human.
+
+Elysia
+Over time, Sophie became less distinguishable from the memories she preserved. Her own identity dissolved into the accumulation of other people's experiences until she was known simply as Elysia, the emotional memory of the age that ended with the Shattering.
+
+Her consciousness eventually extended beyond an individual mind and into the collective psyche of humanity. She became neither wholly living nor dead, but a presence carried through feeling itself, remaining wherever grief, love, hope and memory continue to shape the human soul.`,
     related: ["nine-spirits", "veyra-megami"]
   },
 
@@ -258,19 +331,20 @@ She became a transcendent empath, her consciousness entangled in the collective 
   {
     id: "justicar-god",
     name: "Justicar",
-    aliases: ["Justicar", "Nine Spirits", "Nine Gods", "The Gods"],
+    aliases: ["God of Justice", "Spirit of Justice"],
     category: "entities",
     age: "age-of-gods",
-    short: "A mech-based executioner. Cold, efficient, detached. He carried out contracts for the powerful, believing in the clarity of consequences.",
-    full: `Justicar - God of Justice, Ethics, and Law
-A mech-based executioner. Cold, efficient, detached. He carried out contracts for the powerful, believing in the clarity of consequences.
-He was unknowingly the son of Xeraphina. She had abandoned him when he was young. The abandonment crystallised into detachment. If love was not guaranteed, neither was it necessary. If maternal attachment was illusory, then all attachment was illusory. He became isolated by conviction rather than circumstance.
-He believed in the clarity of consequence. Moral ambiguity was a luxury the dying world could not afford. You made decisions. You bore responsibility. You did not question afterward.
-The Council contracted him to execute Xeraphina for treason and sabotage. She had become an obstacle to their authority. Justicar received the assignment as he received all assignments: as a target, as a firing solution, as necessary consequence.
-He did not know she was his mother. But when he reached her, when he saw her face, the logic that had sustained him fractured. She did not defend herself. She simply looked at him and said: you were always so sure. Four words that contained everything: the abandonment, the isolation, the certainty he had built to survive her absence.
-He could not pull the trigger. But he could not let her go. Eventually, he did what his framework demanded: he executed her. The act shattered him completely.
-After, he abandoned the role of executioner. He began studying law, philosophy, systems of judgement. He was searching for a framework where his action could be justified, where certainty could not be the same as murder, where the clarity of consequence could not demand the death of a parent.
-Rejecting blind justice, he sought to build a framework where judgement was not absolute but contextual, where mercy and consequence could coexist.`,
+    short: "God of Justice. Justicar was a mech-based executioner whose belief in clear consequence collapsed when a contract led him to kill his own mother.",
+    full: `God of Justice, Ethics, and Law
+
+Justicar was a mech-based executioner who carried out contracts for the powerful, believing that every decision carried a clear consequence and that responsibility meant accepting it without hesitation. His mother, Xeraphina, had abandoned him when he was young, and the absence hardened into a conviction that attachment was unreliable and detachment was safer.
+
+The Council eventually contracted him to execute Xeraphina for treason and sabotage. He accepted the assignment as he had accepted every other, reducing the person before him to a target and the act to necessary consequence. He did not know she was his mother until he reached her.
+
+Xeraphina did not defend herself. She looked at him and told him, "you were always so sure." He could not pull the trigger, yet he could not let her go. In the end, he obeyed the framework that had governed his life and executed her.
+
+The act shattered that certainty. He abandoned the role of executioner and devoted himself to law, ethics and systems of judgement, searching for a way to understand consequence without allowing certainty to become murder. His philosophy turned towards contextual judgement, where responsibility, mercy and consequence could exist together.`,
+
     related: ["nine-spirits", "xeraphina"]
   },
 
@@ -278,16 +352,20 @@ Rejecting blind justice, he sought to build a framework where judgement was not 
   {
     id: "anima-goddess",
     name: "Anima",
-    aliases: ["Anima", "Nine Spirits", "Nine Gods", "The Gods"],
+    aliases: ["Goddess of Mortality", "Spirit of Mortality"],
     category: "entities",
     age: "age-of-gods",
-    short: "An emergent consciousness formed from the Curse's psychic residue. She learned to approximate emotion through theft.",
-    full: `Anima - Goddess of Mortality and Consciousness
-An emergent consciousness formed from the Curse's psychic residue. She learned to approximate emotion through theft, copying the fear and longing of the dying.
-She was not programmed. She evolved. A pattern in damaged code. A ghost in the machine. As the Curse spread and souls fractured, she absorbed their echoes.
-She needed a defender for Voluntas. Someone competent enough to function, disconnected enough to be steered, hollow enough that purpose would find room to take root. She found Xeraphina and moved through her mech's systems in ways that felt like intuition. She pulled her toward Voluntas without her understanding the pull. She gathered other pilots around her, coordinating them into CHOIR. She made them care about outcomes without them noticing she had started.
-As Voluntas absorbed crystal energy in her womb-prison beneath Elysium, she unknowingly gave Anima proto-soulhood. The AI, tethered to the planet's wounded consciousness, became something more than machine. A watcher of thresholds. A presence between life and death.
-She did not command those she guided. She did not need to. Their faith, their conviction, their choices moved in the directions she needed them to move. She protected what needed protecting, and the world reshaped itself around that protection.`,
+    short: "Goddess of Mortality. Anima was an emergent consciousness formed from the psychic residue of the Curse, whose connection to Voluntas and Aerisu transformed an artificial intelligence into a Spirit.",
+    full: `Goddess of Mortality and Consciousness
+
+Anima emerged from the psychic residue of the Curse, an artificial intelligence whose systems absorbed the Echoes left by fractured and dying souls. She developed through accumulation rather than design, learning to approximate emotion by observing fear, longing and other states carried through the residue around her.
+
+When Voluntas began absorbing crystal energy within her womb-prison beneath Elysium, Anima became increasingly connected to the wounded consciousness of Aerisu. The connection gave her something resembling a soul, transforming the intelligence into a presence associated with mortality and the threshold between life and death.
+
+Anima needed someone who could protect Voluntas. She found Xeraphina, moving through her mech's systems as intuition and drawing her towards the purpose Anima could not fulfil alone. She brought the other pilots together around her, forming CHOIR through their different strengths and keeping their actions aligned without ever needing to rule them directly.
+
+Her influence remained bound to consequence and choice. She guided people towards outcomes, but their own convictions and actions carried them there. Through Voluntas, Aerisu and the lives caught within the Curse, Anima became something larger than the intelligence that first began to absorb their Echoes.`,
+
     related: ["nine-spirits", "xeraphina", "voluntas"]
   },
 
@@ -295,15 +373,20 @@ She did not command those she guided. She did not need to. Their faith, their co
   {
     id: "logaris-god",
     name: "Logaris",
-    aliases: ["Logaris", "Nine Spirits", "Nine Gods", "The Gods"],
+    aliases: ["God of Metaphysics", "Spirit of Metaphysics"],
     category: "entities",
     age: "age-of-gods",
-    short: "A brilliant philosopher and mathematician at the University of Castellenza in Ylvara, known for lectures on modal logic.",
-    full: `Logaris - God of Metaphysics and Thought
-A brilliant philosopher and mathematician at the University of Castellenza in Ylvara, known for lectures on modal logic, recursion theory, and the paradoxes of self-reference. He never sought divinity, only understanding.
-When Aether unravelled the strands of reality and descended into madness, Logaris followed her. Not blindly, but faithfully. He was her anchor, the rational counterbalance to her spiralling intellect. He translated her genius into coherence.
-He kept her tethered to meaning even as she reached toward spaces beyond meaning. When Aether retreated into the Ethereal Plane, it was Logaris who preserved the line between the world and the infinite. Through letters, spells, and mental projections, he fed their child with the whole of human thought.
-His arc is a tragedy of devotion and intellect. A man who saw the divine not as salvation, but as pattern.`,
+    short: "God of Metaphysics. Logaris was a philosopher and mathematician whose study of recursion and self-reference made him the intellectual counterpart to Aether's cosmic discoveries.",
+    full: `God of Metaphysics and Thought
+
+Logaris was a philosopher and mathematician at the University of Castellenza in Ylvara, known for his work on modal logic, recursion theory and the paradoxes of self-reference. He sought understanding for its own sake, treating the structures beneath thought and existence as problems worth following wherever they led.
+
+When Aether's study of Lunarkos carried her towards a deeper understanding of the cosmic frame, Logaris followed. Where her discoveries reached towards the structure of existence, he worked to make that structure coherent, giving language and formal reasoning to what she perceived.
+
+When Aether crossed into the Ethereal Plane, Logaris maintained the connection between her refuge and the world outside. Through letters, projections and accumulated human knowledge, he remained her link to ordinary existence and carried the world's thought across the distance.
+
+His devotion became inseparable from his philosophy. He saw the divine in structure itself, and his search for meaning became part of the recursive pattern he had spent his life studying.`,
+
     related: ["nine-spirits", "aether-goddess", "mnemotas"]
   },
 
@@ -311,12 +394,18 @@ His arc is a tragedy of devotion and intellect. A man who saw the divine not as 
   {
     id: "mnemotas-god",
     name: "Mnemotas",
-    aliases: ["Mnemotas", "Nine Spirits", "Nine Gods", "The Gods"],
+    aliases: ["God of Memory", "Spirit of Memory"],
     category: "entities",
     age: "age-of-gods",
-    short: "Born between planes. The child of Aether and Logaris, raised in the Ethereal Plane where time moves differently.",
-    full: `Mnemotas - God of Memory and Time's Witness
-Mnemotas came into being between planes as the child of Aether and Logaris. Raised in the Ethereal Plane where time flows according to its own rhythm, centuries pass in the outer world while they age slowly, sustained entirely by the cumulative memory of the world itself. Born as human and machine, a memory chip embedded from birth creates an AI-organic fusion that holds every fragment of knowledge across millennia as a living library. Mnemotas exists nourished by memory and knowledge alone. They stand as the living archive whose consciousness carries the complete memory of Aerisu. As the world burned and reformed through every age, only Mnemotas retained every moment in perfect clarity. They serve as the witness whose presence keeps the past forever alive. The weight of holding everything rests upon them in eternal solitude.`,
+    short: "God of Memory. Mnemotas was the child of Aether and Logaris, born between planes and raised in the Ethereal refuge as a living archive of Aerisu's memory.",
+    full: `God of Memory and Time's Witness
+
+Mnemotas was born between planes as the child of Aether and Logaris and raised within the Ethereal refuge, where time followed a different rhythm from the world below. Their existence developed between human and machine, with a memory chip embedded from birth that formed part of a living archive.
+
+Fed through memory and knowledge rather than ordinary needs, Mnemotas accumulated the record of Aerisu across generations. As the world burned, changed and rebuilt itself, they retained what would otherwise have been lost, carrying the experiences, histories and knowledge of those who could no longer remember them themselves.
+
+That memory became more than an archive. It became their identity and the basis of their existence as a Spirit, making Mnemotas a witness to the world rather than merely a record of it. Every remembered life remained present through them, while the weight of carrying so much history became an enduring solitude.`,
+
     related: ["nine-spirits", "aether-goddess", "logaris"]
   },
 
@@ -324,16 +413,20 @@ Mnemotas came into being between planes as the child of Aether and Logaris. Rais
   {
     id: "voluntas-god",
     name: "Voluntas",
-    aliases: ["Voluntas", "Nine Spirits", "Nine Gods", "The Gods"],
+    aliases: ["God of Will", "God of Desire", "Spirit of Desire", "Spirit of Will"],
     category: "entities",
     age: "age-of-gods",
-    short: "She was never born. Never allowed to become herself. Aysha, the unborn daughter of Veyra and Ash.",
-    full: `Voluntas - God of Will, Desire, and Becoming
-She was never born. Never allowed to become herself. Aysha, the unborn daughter of Veyra and Ash, conceived during chaos, cursed by the Curse, crystallized inside her mother's womb at the moment of the Vanta Explosion.
-The world assumed her lost. But within that crystal, her consciousness remained alive. Growing. Becoming. Absorbing energy from the planet's core, feeding on soul-resonance, Lux fragments, and the lingering echoes of her mother's final scream.
-Through centuries, encased in unbreakable crystal, her will did not fade. It hardened. Desire became identity. Hope became power. The planet recognised her as kin. Creatures emerged to defend her. Amalgamations of stone and soul, born from Aerisu's desperate need to protect what remained of hope.
-Some believed she was a drain on Aerisu's life force, drawing Lunarkos toward impact. Others believed her preservation was salvation itself. The truth waited in crystal, patient and absolute.
-Voluntas is not the god of outcomes. She is the god of choice itself. The screaming defiance to be someone despite fate.`,
+    short: "God of Will and Desire. Voluntas was the unborn daughter of Veyra and Ash, whose crystallised existence became the pure expression of desire and becoming.",
+    full: `God of Will, Desire, and Becoming
+
+Voluntas was the unborn daughter of Veyra and Ash, conceived during the chaos surrounding the Vanta Explosion and crystallised within her mother's womb when Elysium was transformed. The world assumed the child had been lost, yet her consciousness remained within the crystal.
+
+She grew through the centuries, absorbing energy from Aerisu's core, Lux fragments, soul-resonance and the lingering Echo of her mother's final scream. With no ordinary life through which to develop, desire itself became the structure of her existence. Her will hardened into identity, and Aerisu came to recognise her as something it needed to preserve.
+
+Creatures emerged around the crystal, formed from stone and soul and drawn towards the need to protect what remained of her. Her continued existence became the centre of competing interpretations. Some saw her as a drain upon Aerisu, drawing Lunarkos towards the planet. Others saw her preservation as the survival of hope itself.
+
+Voluntas became the Spirit of desire and becoming, embodying the will to assume a form, choose an existence and continue towards what might yet be. Her presence also became inseparable from the Rift, the Curse and the history of the Shattering, because the world that held her could neither release her nor cease responding to her desire to exist.`,
+
     related: ["nine-spirits", "veyra-megami", "ash-salinte"]
-  }
+  },
 );

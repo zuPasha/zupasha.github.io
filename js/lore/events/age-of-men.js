@@ -29,7 +29,7 @@ Sahran was born from that exile. The outcast kin of Hoshimira were driven into s
   {
     id: "geode-rebellion",
     name: "Geode Rebellion",
-    aliases: ["Geode Rebellion", "The Red Orphan Tier", "Geode", "Sahran", "Tayran"],
+    aliases: ["Geode Rebellion", "The Red Orphan Tier"],
     category: "events",
     age: "age-of-men",
     short: "The exiled kin of Aokusa were driven into those depths as expendable labour. Identity was stripped away. Family followed. Dignity did not survive long. Children vanished into the Orphan Tiers, where memory was replaced with ritual and obedience carved into young bones.",
@@ -53,74 +53,11 @@ The Geode became the heart of its people. No longer exiles. Sahrani, in truth.
 Still, she understood what freedom really was. The Autarchs had not vanished. They had only repositioned. Peace was never the absence of war. It was the rearrangement of power.`,
     related: ["geode-expedition", "sahran", "tayran"]
   },
-  {
-    id: "geode-expedition",
-    name: "Geode Expedition",
-    aliases: ["Geode Expedition", "Rapture"],
-    category: "events",
-    age: "age-of-men",
-    short: "After the rebellion, the Geode breathed again. Its upper tiers thrummed with reclamation. Miners moved in steel shells. Pneumatics gasped. Picks chimed against crystal. Councils governed in the open light.",
-    full: `The Geode Expedition
-After the rebellion, the Geode breathed again. Its upper tiers thrummed with reclamation. Miners moved in steel shells. Pneumatics gasped. Picks chimed against crystal. Councils governed in the open light.
-
-Below the worked stone, something else gathered. In the deep places where the world grew strange, a silence took shape. It listened. A fissure called the Mouth drank light and bent signals into something that sounded like lament.
-
-They descended. A chosen few. Drawn by a hum felt in bone and marrow, by a pull from a wound that refused to close. The descent felt like pilgrimage, fragile and unsteady, into the throat of the earth.
-
-The air thickened into violet miasma. Stone softened, taking on the weight of memory and flesh. Shapes emerged from the dark. The Cursed, their humanity folded inward into terrible forms. VantaBats clung to fossilised ribs. Shadowlings moved through quartz like bad dreams. Tinnin watched in stillness, guarding a truth too heavy for light to hold.
-From above, watchers observed in silence. Their attention carried reverence. The expedition became something ritualistic. Each loss settled like a hymn spoken too quietly to interrupt.
-
-Then the Deep revealed itself.
-
-It was no simple formation. It pulsed slowly, conscious, ancient, dreaming in geothermal blood. To stand before it was to feel the planet remembering itself. And it felt them in return.
-
-When catastrophe came, it arrived as understanding. Faced with an ending that would consume all, one chose mercy that could not be undone. A great mech, Siba, born for war and protection, was given over as a vessel. It was ruptured through love that understood letting go.
-
-Light tore upward through the Geode's central seam. For a moment, every tunnel and crystal facet glowed. Every face was washed in brilliance that felt terrible and holy all at once. It looked like dawn, but it was born from a single human will.
-
-Then the light faded.
-
-The instrument was gone. The one who guided it was simply absent.
-
-The survivors climbed carrying two weights. Grief that crushed the chest. Truth that burned to hold. The Curse slept, but it dreamed. The Heart was real. It was awake. The wound had no bottom.
-
-Above, life found its rhythm again. Still, the light was remembered. It lingered in crystal memory and in the quiet reverence of those who lived because someone else chose to vanish.
-
-The world had shifted. The balance between those who walked the crust and the sentience beneath it had changed, shaped by sacrifice rather than decree.
-And even now, the echo asks its question.
-
-Was this clarity a gift, or only delay.
-Did it serve the truth, or teach the darkness that it had been seen.
-
-The Second Descent
-Years passed. Another team descended through reinforced scaffolds and scorched, collapsed walls. The deeper they went, the more alive the Geode seemed. Stone pulsed. Walls shifted. Violet miasma thickened until understanding itself felt fragile.
-Few survived.
-
-At the heart, a vast cavern beat like a living organism, drawing creatures toward it and overwhelming all who approached. The Geode proved semi sentient, defended by its own spawn, incomprehensible and uncontainable.
-
-Rapture
-It erupted.
-
-Walls breathed. Mists devoured. Creatures of stone, fire, and shadow swept through miners, soldiers, and engineers alike. Resistance was brief. Meaningless.
-Above, watchers clutched charms, names striking their tongues like cold pins. Analysts murmured over readings, blind to the lie of stability. Elsewhere, survivors ran for lifts, dragging the wounded, carrying children.
-
-A scavenged plane roared to life, weaving through crystalline pillars and swarming darkness. It carried a couple into the open sky.
-At the heart of it all, a figure stood above the main shaft, arms raised, commanding the tide with awe and certainty. The Geode had become a crucible. A womb of power and destruction.
-
-Those who escaped bore witness. The cries of the lost followed them like shadows. Choices weighed heavy on their backs.
-Outside, the sun struck the world without mercy. Endless desert stretched beyond the wound.
-Freedom had come.
-
-And it had cost everything.
-
-The Geode's influence did not end at its walls.`,
-    related: ["geode-rebellion", "sahran"]
-  },
 
   {
     id: "geode-expedition",
     name: "Geode Expedition",
-    aliases: ["Geode Expedition", "Rapture"],
+    aliases: ["Geode Expedition"],
     category: "events",
     age: "age-of-men",
     short: "After the rebellion, the Geode breathed again. Its upper tiers thrummed with reclamation. Miners moved in steel shells. Pneumatics gasped. Picks chimed against crystal. Councils governed in the open light.",
@@ -208,7 +145,7 @@ Even after the battle, the squad saw how fragile control had been. The checkpoin
   {
     id: "ik-rasul-incident",
     name: "Ik-Rasul Incident",
-    aliases: ["Ik-Rasul Incident", "Ik-Rasul", "Hoshimira", "Aokusa"],
+    aliases: ["Ik-Rasul Incident"],
     category: "events",
     age: "age-of-men",
     short: "They call it the Ik-Rasul Incident now. When the Ik-Rasul fell into Aokusa, the basin shuddered. Not like an earthquake. More like something heavy settling where it did not belong. The mountains felt it first. Then the water.",
@@ -237,7 +174,7 @@ The fall of the Ik-Rasul reshaped the mountains. It unsettled the Angels. It lef
   {
     id: "op-car",
     name: "Operation C.a.R",
-    aliases: ["Operation C.a.R"],
+    aliases: ["Operation C.a.R", "C.a.R"],
     category: "events",
     age: "age-of-men",
     short: "Operation C.a.R was named in the wake of too many fractures to ignore. Sahran, Hoshimira, Ylvara. All of them destabilised after the Ik-Rasul fell in Aokusa. I remember how quickly the language hardened. Crisis. Cascade. Necessity.",
@@ -258,7 +195,7 @@ Operation C.a.R was framed as restoration. I think it was more like a hand press
   {
     id: "vaelmiric-war",
     name: "Vaelmiric War",
-    aliases: ["Vaelmiric War", "Calm Accords", "Black Blood Regulations"],
+    aliases: ["Vaelmiric War"],
     category: "events",
     age: "age-of-men",
     short: "They were filed alongside the Calm Accords, which tells you something about the kind of peace the Accords actually were. The Regulations emerged from the wreckage of the Vaelmiric War, which itself emerged from something the Solmaran Council had been doing quietly for years beneath the administrative language of research and stabilisation.",
@@ -281,7 +218,7 @@ What the Council had actually done was change the name of the room.`,
   {
     id: "calm-accords",
     name: "Calm Accords",
-    aliases: ["Calm Accords", "Black Blood Regulations"],
+    aliases: ["Calm Accords"],
     category: "events",
     age: "age-of-men",
     short: "The Calm Accords were signed after decades of naval and coastal ruin, when North and South Solmara could no longer afford the weight of open war. Vaelmir was divided in careful language. Central waters were stripped of fleets. Patrols were reduced to symbols.",
@@ -301,7 +238,7 @@ The Calm Accords did not still Vaelmir. They taught it to wait and prepare for t
   {
     id: "black-blood-regulations",
     name: "Black Blood Regulations",
-    aliases: ["Black Blood Regulations", "Vaelmiric War", "Calm Accords"],
+    aliases: ["Black Blood Regulations"],
     category: "events",
     age: "age-of-men",
     short: "They were filed alongside the Calm Accords, which tells you something about the kind of peace the Accords actually were. The Regulations emerged from the wreckage of the Vaelmiric War, which itself emerged from something the Solmaran Council had been doing quietly for years beneath the administrative language of research and stabilisation.",
@@ -324,7 +261,7 @@ What the Council had actually done was change the name of the room.`,
   {
     id: "vireliax-expedition",
     name: "Vireliax Expedition",
-    aliases: ["Vireliax Expedition", "Vireliax", "Vaelmir"],
+    aliases: ["Vireliax Expedition"],
     category: "events",
     age: "age-of-men",
     short: "The Vireliax departed from Velmora Port as a thing of legend even before it vanished beneath the waves. A submersible dreadnought, part warship and part ritual object. Her hull was obsidian-reinforced steel woven with living polymers.",
@@ -590,7 +527,7 @@ And at the centre of it all stood Zephyr. He hadn't wanted the explosion. The fa
   {
     id: "fight-for-hell",
     name: "Fight for Hell",
-    aliases: ["Fight for Hell", "Hell of Elysium"],
+    aliases: ["Fight for Hell"],
     category: "events",
     age: "age-of-men",
     short: "Veyra was captured. Not through heroism or grand defiance. Just an unfortunate accident, the kind that happens when you're caught between forces larger than yourself. She wasn't a hero. She wasn't even really a mage, not in the way the stories would later claim.",
