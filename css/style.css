@@ -1168,38 +1168,12 @@ section + section { border-top: 1px solid var(--line); }
 }
 
 .book-row {
-  display: flex;
-  align-items: center;
-  gap: var(--gap);
   padding: clamp(2rem, 5vw, 3rem) 0;
 }
 
 .book-row + .book-row { border-top: 1px solid var(--line); }
 
-.book-row--reverse { flex-direction: row-reverse; }
-
-.book-row-figure {
-  flex: 0 0 clamp(200px, 30%, 320px);
-}
-
-.book-cover {
-  aspect-ratio: 6400 / 10249;
-  width: 100%;
-  border-radius: 3px;
-  overflow: hidden;
-  border: 1px solid var(--line);
-}
-
-.book-cover img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.book-row-body {
-  flex: 1 1 auto;
-  min-width: 0;
-}
+.book-row-body { min-width: 0; }
 
 .book-row-body .meta-line {
   display: block;
@@ -1208,17 +1182,90 @@ section + section { border-top: 1px solid var(--line); }
   margin: -0.4rem 0 1rem;
 }
 
+/* Cover floats so the description wraps around it, rather than sitting
+   in a fixed two-column layout that leaves dead space under a short cover. */
+.book-desc {
+  position: relative;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+
+.book-desc::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.book-cover {
+  float: left;
+  aspect-ratio: 6400 / 10249;
+  width: clamp(160px, 26%, 260px);
+  margin: 0 var(--gap) 1rem 0;
+  border-radius: 3px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+
+.book-row--reverse .book-cover {
+  float: right;
+  margin: 0 0 1rem var(--gap);
+}
+
+.book-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.book-desc p:last-of-type { margin-bottom: 0; }
+
+/* fade the clipped edge while collapsed, as a "there's more" cue */
+.book-desc.is-collapsed::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3.4em;
+  background: linear-gradient(to bottom, transparent, var(--bg));
+  pointer-events: none;
+}
+
+.read-more-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  margin-top: 1rem;
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--vanta);
+  font-family: var(--body);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.read-more-toggle:hover { color: var(--ink-bright); }
+
+.read-more-toggle .chevron {
+  display: inline-block;
+  font-size: 0.7em;
+  transition: transform 0.2s ease;
+}
+
+.read-more-toggle[aria-expanded="true"] .chevron { transform: rotate(180deg); }
+
 @media (max-width: 760px) {
-  .book-row,
-  .book-row--reverse {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  .book-row-figure {
-    flex: 0 0 auto;
+  .book-cover,
+  .book-row--reverse .book-cover {
+    float: none;
     width: 100%;
     max-width: 280px;
-    margin: 0 auto;
+    margin: 0 auto 1.4rem;
   }
 }
 
@@ -1227,7 +1274,7 @@ section + section { border-top: 1px solid var(--line); }
 /* Home page featured grid */
 .featured-grid {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--gap);
 }
 .featured-text {
@@ -1241,6 +1288,28 @@ section + section { border-top: 1px solid var(--line); }
   height: auto;
   border-radius: 4px;
   border: 1px solid var(--line);
+}
+
+/* The tagline's own top margin is meant to separate it from a page's
+   h1 in the hero. Inside a featured strip it follows a .section-head,
+   which already carries its own bottom margin — so drop the double gap. */
+.featured-text .hero-tagline {
+  margin-top: 0;
+}
+
+/* Home page – featured book strip (Echoes of The Anechoic). Reuses
+   .book-cover's portrait framing, but narrower than the landscape
+   Soul Snatcher image above it so it doesn't tower over the text. */
+#featured-book .featured-image {
+  flex: 0 0 clamp(200px, 28%, 280px);
+}
+#featured-book .book-cover { width: 100%; }
+
+@media (max-width: 760px) {
+  #featured-book .featured-image {
+    max-width: 240px;
+    margin: 0 auto;
+  }
 }
 
 /* Game page overview grid */
