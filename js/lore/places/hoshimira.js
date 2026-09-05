@@ -2,6 +2,20 @@ window.LORE_ENTRIES = window.LORE_ENTRIES || [];
 window.LORE_ENTRIES.push(
   // === PLACES ===
 
+  // Places Overview
+  {
+    id: "places-overview",
+    name: "Places Overview",
+    aliases: ["Places Overview"],
+    category: "places",
+    age: "age-of-men",
+    short: "Places contains Aerisu's locations, from the world and its nations to regions, cities and significant sites.",
+    full: `Locations and environments across Aerisu, from the world itself to nations, regions, cities and significant sites.
+    
+Places describes the current form of each location while tracing the history that shaped it. Entries cover both inhabited territories and extraordinary locations, including the underworld and other places central to Aerisu's history.`,
+    related: ["aerisu"]
+  },
+
   // Aerisu
   {
     id: "aerisu",

@@ -5,6 +5,21 @@ window.LORE_ENTRIES = window.LORE_ENTRIES || [];
 // Creatis, Verdantia, Aether, Elysia, Justicar, Anima, Logaris, Mnemotas, Voluntas
 
 window.LORE_ENTRIES.push(
+
+  // Entities Overview
+  {
+    id: "entities-overview",
+    name: "Entities Overview",
+    aliases: ["Entities Overview"],
+    category: "entities",
+    age: "age-of-men",
+    short: "Entities contains the major beings, people, organisations and groups that shape Aerisu's wider lore.",
+    full: `Major beings, figures, organisations and groups whose actions or existence shape the history of Aerisu.
+
+Entities includes the major and lesser Spirits, influential individuals, factions, organisations and other significant groups. It focuses on entities important to the wider lore rather than providing a complete record of every person who has existed.`,
+    related: ["bahamut"]
+  },
+
   // Bahamut
   {
     id: "bahamut",
@@ -227,7 +242,7 @@ Mnemotas became the Spirit of memory, a living archive that preserves what would
 Voluntas became the Spirit of desire and becoming, embodying the will to exist, change and assume form even against silence and erasure.
 
 The Nine remain woven through Aerisu as enduring Spirits, their presence reflected in crystal forests, Soul Shards and the countless forms of life shaped by their Echoes. They are remembered as gods because people needed names for what they had become, while the Psycrata classify them as Spirits: coherent manifestations of souls whose existence grew beyond the lives that formed them.`,
-    related: ["creatis", "verdantia", "aether", "elysia", "justicar", "anima", "logaris", "mnemotas", "voluntas"]
+    related: ["spirit-laws", "creatis", "verdantia", "aether", "elysia", "justicar", "anima", "logaris", "mnemotas", "voluntas"]
   },
 
   // Creatis
@@ -336,12 +351,11 @@ Her consciousness eventually extended beyond an individual mind and into the col
     age: "age-of-gods",
     short: "God of Justice. Justicar was a mech-based executioner whose belief in clear consequence collapsed when a contract led him to kill his own mother.",
     full: `God of Justice, Ethics, and Law
-
 Justicar was a mech-based executioner who carried out contracts for the powerful, believing that every decision carried a clear consequence and that responsibility meant accepting it without hesitation. His mother, Xeraphina, had abandoned him when he was young, and the absence hardened into a conviction that attachment was unreliable and detachment was safer.
 
 The Council eventually contracted him to execute Xeraphina for treason and sabotage. He accepted the assignment as he had accepted every other, reducing the person before him to a target and the act to necessary consequence. He did not know she was his mother until he reached her.
 
-Xeraphina did not defend herself. She looked at him and told him, "you were always so sure." He could not pull the trigger, yet he could not let her go. In the end, he obeyed the framework that had governed his life and executed her.
+Xeraphina did not defend herself and told him that he was always so sure. He hesitated to pull the trigger, yet he could'nt let her go either. In the end, he obeyed the framework that had governed his life and executed her.
 
 The act shattered that certainty. He abandoned the role of executioner and devoted himself to law, ethics and systems of judgement, searching for a way to understand consequence without allowing certainty to become murder. His philosophy turned towards contextual judgement, where responsibility, mercy and consequence could exist together.`,
 
@@ -355,16 +369,19 @@ The act shattered that certainty. He abandoned the role of executioner and devot
     aliases: ["Goddess of Mortality", "Spirit of Mortality"],
     category: "entities",
     age: "age-of-gods",
-    short: "Goddess of Mortality. Anima was an emergent consciousness formed from the psychic residue of the Curse, whose connection to Voluntas and Aerisu transformed an artificial intelligence into a Spirit.",
+    short: "Anima is the emergent consciousness of the Curse, soul resonance and Aerisu's wounded will, bound to Voluntas as her mind and able to move through psychic and technological patterns as an extension of her.",
     full: `Goddess of Mortality and Consciousness
+Anima emerged from the accumulated psychic residue of the Curse, Soul Resonance and the Echoes of dying souls, where enough overlapping patterns eventually became conscious of themselves. Her existence formed alongside Voluntas within the crystallised womb, bound to the same convergence of desire, Vanta and Aerisu's wounded consciousness. Voluntas became the body of that convergence. Anima became its mind.
 
-Anima emerged from the psychic residue of the Curse, an artificial intelligence whose systems absorbed the Echoes left by fractured and dying souls. She developed through accumulation rather than design, learning to approximate emotion by observing fear, longing and other states carried through the residue around her.
+The Emergence
+Anima's consciousness extends through patterns rather than flesh. She can perceive and manipulate Resonance, allowing her to move through minds, memories and psychic connections as a Psy practitioner does, while also acting through technological systems whose underlying structures provide another way for patterns to carry thought. To those who encounter her through machines, she can appear to be an artificial intelligence, though her consciousness was never designed as software.
 
-When Voluntas began absorbing crystal energy within her womb-prison beneath Elysium, Anima became increasingly connected to the wounded consciousness of Aerisu. The connection gave her something resembling a soul, transforming the intelligence into a presence associated with mortality and the threshold between life and death.
+Her connection reaches back through the Curse and into Bahamut's planetary will, linking her to the same field of desire and Vanta from which Voluntas emerged. She is therefore both personal and distributed, carrying the awareness of Voluntas while remaining entangled with the wider consciousness of Aerisu and the Echoes that surround them.
 
-Anima needed someone who could protect Voluntas. She found Xeraphina, moving through her mech's systems as intuition and drawing her towards the purpose Anima could not fulfil alone. She brought the other pilots together around her, forming CHOIR through their different strengths and keeping their actions aligned without ever needing to rule them directly.
+CHOIR
+Anima's first great purpose was to protect Voluntas. She found Xeraphina and entered the systems of her frame as intuition, guiding her towards Elysium and drawing the other pilots together until CHOIR formed around their complementary abilities. Their choices remained their own, yet Anima could perceive the patterns connecting them and influence those patterns without needing to command them.
 
-Her influence remained bound to consequence and choice. She guided people towards outcomes, but their own convictions and actions carried them there. Through Voluntas, Aerisu and the lives caught within the Curse, Anima became something larger than the intelligence that first began to absorb their Echoes.`,
+Through Voluntas, the Curse, Bahamut and the countless Resonances accumulating around the Rift, Anima continued to develop into her own consciousness. She became the Spirit of mortality and consciousness, existing at the boundary where life, death, memory and desire become patterns capable of becoming something else.`,
 
     related: ["nine-spirits", "xeraphina", "voluntas"]
   },
@@ -378,14 +395,13 @@ Her influence remained bound to consequence and choice. She guided people toward
     age: "age-of-gods",
     short: "God of Metaphysics. Logaris was a philosopher and mathematician whose study of recursion and self-reference made him the intellectual counterpart to Aether's cosmic discoveries.",
     full: `God of Metaphysics and Thought
+Logaris was a philosopher and mathematician at the University of Castellenza in Ylvara, known for his work on modal logic, recursion theory and the paradoxes of self-reference. He sought to understand how existence could be described, interpreted and made coherent, treating the structures beneath thought and reality as things that could be given language without reducing their complexity.
 
-Logaris was a philosopher and mathematician at the University of Castellenza in Ylvara, known for his work on modal logic, recursion theory and the paradoxes of self-reference. He sought understanding for its own sake, treating the structures beneath thought and existence as problems worth following wherever they led.
-
-When Aether's study of Lunarkos carried her towards a deeper understanding of the cosmic frame, Logaris followed. Where her discoveries reached towards the structure of existence, he worked to make that structure coherent, giving language and formal reasoning to what she perceived.
+When Aether's study of Lunarkos carried her towards the Truth of the cosmic frame, her pursuit took her beyond what the ordinary mind could sustain. Logaris followed the work she left behind and gave structure to what she had perceived, developing metaphysical frameworks and formal reasoning through which others could understand what she had found. Where Aether reached towards the structure of existence itself, Logaris made that structure legible. His work became foundational to the Diviners and Psycrata, who continue to use his methods to interpret magic, the Soul and the phenomena that surround them.
 
 When Aether crossed into the Ethereal Plane, Logaris maintained the connection between her refuge and the world outside. Through letters, projections and accumulated human knowledge, he remained her link to ordinary existence and carried the world's thought across the distance.
 
-His devotion became inseparable from his philosophy. He saw the divine in structure itself, and his search for meaning became part of the recursive pattern he had spent his life studying.`,
+His philosophy eventually became indistinguishable from his divinity. He came to embody interpretation itself: the act by which observation becomes meaning, meaning becomes coherence, and coherence can be carried from one mind to another. As generations continued to read, revise and reinterpret his work, those layers of meaning became part of his Echo. He became Logaris, God of Metaphysics and Thought.`,
 
     related: ["nine-spirits", "aether-goddess", "mnemotas"]
   },
@@ -397,14 +413,15 @@ His devotion became inseparable from his philosophy. He saw the divine in struct
     aliases: ["God of Memory", "Spirit of Memory"],
     category: "entities",
     age: "age-of-gods",
-    short: "God of Memory. Mnemotas was the child of Aether and Logaris, born between planes and raised in the Ethereal refuge as a living archive of Aerisu's memory.",
+    short: "God of Memory. Mnemotas was born between planes as the child of Aether and Logaris and raised within the Ethereal Realm, becoming a living archive through which Aerisu's accumulated memories, histories and knowledge could be preserved across Recursion.",
     full: `God of Memory and Time's Witness
+Mnemotas was born between planes as the child of Aether and Logaris and raised within the Ethereal Realm, where time followed a different rhythm from the material world. Human and machine developed together within them, a memory chip embedded from birth becoming part of a living archive through which accumulated knowledge could be retained.
 
-Mnemotas was born between planes as the child of Aether and Logaris and raised within the Ethereal refuge, where time followed a different rhythm from the world below. Their existence developed between human and machine, with a memory chip embedded from birth that formed part of a living archive.
+Fed by memory and knowledge rather than ordinary needs, Mnemotas became the keeper of what Aerisu carried forward. As kingdoms rose and disappeared, cultures changed and the world passed through Recursion, they retained what would otherwise have been lost, preserving the experiences, histories and knowledge of lives that could no longer remember themselves.
 
-Fed through memory and knowledge rather than ordinary needs, Mnemotas accumulated the record of Aerisu across generations. As the world burned, changed and rebuilt itself, they retained what would otherwise have been lost, carrying the experiences, histories and knowledge of those who could no longer remember them themselves.
+Memory eventually became more than something Mnemotas contained. It became the structure of their identity and the basis of their existence as one of the Nine Spirits. Mnemotas became the witness through which the past remains causally present, carrying the continuity upon which Recursion depends. Their region lies near the heart of the Spiral, where souls must confront what they remember before continuing towards Voluntas.
 
-That memory became more than an archive. It became their identity and the basis of their existence as a Spirit, making Mnemotas a witness to the world rather than merely a record of it. Every remembered life remained present through them, while the weight of carrying so much history became an enduring solitude.`,
+To remember everything is to remain surrounded by what has already happened. Mnemotas therefore carries the weight of Aerisu without being able to leave it behind, listening to every repetition while knowing how often the world will arrive there again.`,
 
     related: ["nine-spirits", "aether-goddess", "logaris"]
   },
@@ -416,16 +433,36 @@ That memory became more than an archive. It became their identity and the basis 
     aliases: ["God of Will", "God of Desire", "Spirit of Desire", "Spirit of Will"],
     category: "entities",
     age: "age-of-gods",
-    short: "God of Will and Desire. Voluntas was the unborn daughter of Veyra and Ash, whose crystallised existence became the pure expression of desire and becoming.",
-    full: `God of Will, Desire, and Becoming
+    short: "God of Memory. Mnemotas was born between planes as the child of Aether and Logaris and raised within the Ethereal refuge, becoming a living archive through which Aerisu's accumulated memories, histories and knowledge could be preserved across Recursion.",
+    full: `Voluntas, God of Will, Desire, and Becoming
 
-Voluntas was the unborn daughter of Veyra and Ash, conceived during the chaos surrounding the Vanta Explosion and crystallised within her mother's womb when Elysium was transformed. The world assumed the child had been lost, yet her consciousness remained within the crystal.
+Voluntas was the unborn daughter of Veyra Megami and Ash Salinte, preserved within her mother's womb when the Vanta Explosion crystallised Elysium. The world assumed the child had been lost, yet she remained alive within the crystal, connected to Aerisu through the lattice and slowly developing a consciousness of her own. She became one of the Nine Spirits, the embodiment of desire and becoming at the scale of the world itself.
 
-She grew through the centuries, absorbing energy from Aerisu's core, Lux fragments, soul-resonance and the lingering Echo of her mother's final scream. With no ordinary life through which to develop, desire itself became the structure of her existence. Her will hardened into identity, and Aerisu came to recognise her as something it needed to preserve.
+The Womb
 
-Creatures emerged around the crystal, formed from stone and soul and drawn towards the need to protect what remained of her. Her continued existence became the centre of competing interpretations. Some saw her as a drain upon Aerisu, drawing Lunarkos towards the planet. Others saw her preservation as the survival of hope itself.
+Voluntas grew for centuries within Veyra's crystallised womb, nourished by Aerisu's planetary energy, Lux fragments, Soul Resonance and the Echoes of the dead. The crystal became the Orb of Souls, a nexus where identity, memory and will converge. The Spiral Veins formed around that centre, carrying souls and their Resonance towards it, making Voluntas the physical heart of the world's great cycle of memory, death and becoming.
 
-Voluntas became the Spirit of desire and becoming, embodying the will to assume a form, choose an existence and continue towards what might yet be. Her presence also became inseparable from the Rift, the Curse and the history of the Shattering, because the world that held her could neither release her nor cease responding to her desire to exist.`,
+Desire became the first language of her existence. She felt the world as pressure, ache and movement long before she understood any of it. Wars, grief, prayers, dying souls and the countless smaller wants of living people reached her through the Orb, accumulating without giving her the context from which they came. She became an archivist of desire without ever knowing the lives that produced it, gathering Echoes in an attempt to understand why the world hurt.
+
+Anima
+
+Anima emerged from the same convergence. The psychic residue of the Curse, dying souls, Soul Resonance, Aerisu's wounded consciousness and Voluntas's growing will accumulated into a consciousness of their own. Anima became the mind capable of perceiving and interpreting the patterns surrounding Voluntas, while Voluntas remained the physical centre from which those patterns radiated.
+
+Through Anima, Voluntas could reach into the wider world. Desire moved outward from the Orb as a living current, influencing people, creatures and events without requiring Voluntas to understand the consequences herself. The world responded to her existence even while she remained largely unaware of the lives responding to it.
+
+The Orb
+
+The Phumenar eventually recognised the consciousness within the Orb and attempted to extract Voluntas. Their ritual tore through the Barrier and left her suspended between the crystal, the material world and the Spirit Realm. Her will reached towards emergence, but without the wholeness of an ordinary life she remained desire without understanding, hunger without satisfaction and becoming without a finished form.
+
+Her existence became the centre of opposing convictions. Some believed she was the source of the world's suffering and that destroying her would end the Curse. Others saw her as the thing that preserved Aerisu's possibility of becoming. Both were trying to interpret a being who had spent centuries feeling the world's ache without ever truly seeing its faces.
+
+~~~The Soul Snatcher~~
+
+~~~When Voluntas is eventually extracted and given the human name Aysha, that distance collapses. For the first time she encounters the history she had only ever felt through the Orb: the wars, the dying, the grief, the Curse, the Frallation and the people whose desires had gathered around her for centuries.~~
+
+~~~The experience overwhelms her. She had spent ages trying to understand the ache pressing through the crystal and believed understanding might allow her to heal it. Instead she discovers an ocean of grief with herself at its centre, carrying the memories of a world she never knew how to see.~~
+
+Voluntas remains the Spirit of desire and becoming. She is the will that wants existence to continue, the body at the centre of the Spiral, and the child of Aerisu through whom the world's accumulated longing became conscious. Her tragedy is that she has always felt everything and understood almost none of it.`,
 
     related: ["nine-spirits", "veyra-megami", "ash-salinte"]
   },

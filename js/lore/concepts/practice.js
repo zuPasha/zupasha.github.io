@@ -4,21 +4,38 @@ window.LORE_ENTRIES = window.LORE_ENTRIES || [];
 // Order: Chi, Psy Hacking, Death Gardening
 
 window.LORE_ENTRIES.push(
+
+  // Soul Regulation
+  {
+    id: "soul-regulation",
+    name: "Soul Regulation",
+    aliases: ["Soul Regulation", "Regulation"],
+    category: "concepts",
+    age: "age-of-magic",
+    short: "Soul Regulation is the practice of directing one's Resonance through conscious action, using breathing, grounding, visualisation and physical discipline to regulate how that Resonance is expressed and carried forward. For the Soulless, it can reduce the pressure of an internalised soul and slow Frallation.",
+    full: `Soul Regulation is the practice of deliberately directing one's Resonance through controlled behaviour, attention and action. Because choices, emotions, movement and intention all leave Resonance, changing how one acts changes the pattern that those actions produce.
+
+Breathing, grounding, visualisation and physical discipline help regulate attention and behaviour, allowing Resonance to be directed deliberately rather than accumulating through uncontrolled reaction. In hospitals, this makes regulation part of patient care: a person's agitation can affect their Affinity, while steadier conduct produces a steadier expression of Resonance.
+
+For the Soulless, regulation is especially important because their soul remains internalised and the resulting pressure drives Frallation. Meditation, breathwork and physical exercise provide ways to direct that pressure outward through deliberate action, opening blocked pathways and reducing the strain placed upon the body.
+
+Soul Regulation is therefore a practice of agency. By becoming conscious of how they act and where their Resonance goes, a person can influence the pattern they are continuing to create.`,
+    related: ["chi", "affinities", "soulless", "frallation"]
+  },
+
   // Chi
   {
     id: "chi",
     name: "Chi",
-    aliases: ["Chi", "Soul Regulation"],
+    aliases: ["Chi"],
     category: "concepts",
     age: "age-of-magic",
-    short: "Chi is what happens when soul regulation becomes a lifetime. The monks of Fengua drain the red of wanting from their veins and replace it with the green of acceptance.",
-    full: `Chi
-Chi is what happens when soul regulation becomes a lifetime. The monks of Fengua take that foundation and press further, until the blood itself shifts colour and the soul learns a new way of moving.
-The discipline centres on the relationship between desire and resonance. Through decades of meditation, the monk drains the red of wanting from their veins and replaces it with the green of acceptance.
-Green blood is the visible mark of this transformation. Pale as new leaves, deep as forest shadow. It carries no hunger, no rage, no inward collapse.
-Chi grants practical gifts beyond the body. A trained practitioner senses resonance trails left on conductive surfaces and follows them with electric magic.
-Yet Chi is not only stillness. A practitioner who channels their Chi can focus breath, reinforce bone, sharpen a strike, harden a guard, accelerate healing, or hold aggression in a controlled flame.
-Chi flows in the high valleys of Fengua, where Susanoo once moved through every storm. It is balance chosen over power, stillness held against hunger.`,
+    short: "Chi is the discipline through which Soul Regulation becomes a lifelong practice, allowing practitioners to control desire and Resonance through breath, movement and deliberate action. Green blood marks this transformation, while refined Resonance enables physical reinforcement, accelerated recovery and the tracking of Resonance through conductive materials.",
+    full: `Chi is the discipline through which Soul Regulation becomes a way of life. Originating in the high valleys of Fengua, its practitioners spend decades refining the relationship between desire, Resonance and the body until their discipline produces a visible physiological change. Their blood gradually turns green, reflecting a state in which desire has been brought under conscious control and no longer drives the soul towards hunger or inward collapse.
+
+Chi is expressed through breath, movement and deliberate action. Practitioners can direct Resonance through the body to reinforce bone, sharpen strikes, strengthen defences, accelerate recovery and contain aggression with precision. Their attunement also allows them to perceive Resonance trails across conductive materials, making electric magic particularly effective for tracking and detection.
+
+Chi developed alongside Fengua's traditions of observation, discipline and harmony with the world, and remains closely associated with its monks and high valleys.`,
     related: ["soul-regulation", "fengua", "blood-types"]
   },
 
@@ -26,20 +43,41 @@ Chi flows in the high valleys of Fengua, where Susanoo once moved through every 
   {
     id: "death-gardening",
     name: "Death Gardening",
-    aliases: ["Death Gardening"],
+    aliases: ["Necromantic Horticulture", "Death Garden"],
     category: "concepts",
     age: "age-of-magic",
-    short: "The tribes of Ereboska grasped what others learned only after centuries. Death feeds growth. When a living being dies, its magical essence seeps into the soil and transforms into nourishment plants absorb.",
-    full: `Death Gardening, Necromantic Horticulture
-The tribes of Ereboska grasped what others learned only after centuries. Death feeds growth. When a living being dies, its magical essence seeps into the soil. This residue transforms into nourishment plants absorb, shaping their form, speed, and properties.
-Death gardeners read this residue as farmers read soil. Certain deaths produce night-blooming flowers. Others yield healing fruit. Warriors slain in battle feed thorny plants. Elders passing peacefully nourish tall trees.
-Death gardeners perform ritual deaths where individuals offer their lives to sustain the tribe. Volunteers choose this path. Elders offer themselves willingly. The choice lies in meaning.
-Death gardens are curated spaces. Each plant traces to specific deaths. Beauty emerges unsettling. Colours saturate beyond nature. Petals form patterns resembling symbols or faces.
-Beyond cultivation, death gardeners wield Vanta and necromantic control. They accelerate growth by channelling residue through their bodies into soil. This extends to Vein entrances.
-Death garden produce forms a primary export. Fruits grant clarity from scholar deaths. Vegetables enhance endurance from warrior ends.
-Death gardening reveals death as resource, ending as beginning, wasteland as bloomable ground.`,
+    short: "Death Gardening is Ereboska's practice of cultivating plants through the magical Residue released by death, with the manner and nature of each death shaping what grows. Death Gardeners also use necromancy to direct this process, producing food, medicine, materials and memorial growth from deliberate endings.",
+    full: `Necromantic Horticulture
+Death Gardening is the practice developed by the tribes of Ereboska around a simple discovery: death feeds growth. When a living being dies, its magical essence enters the surrounding soil as Residue, carrying qualities shaped by the life, circumstances and manner of death. Death Gardeners learned to read these traces and cultivate particular plants from particular endings. Violent deaths can produce rapid, aggressive growth, while peaceful deaths tend towards slower and subtler forms. Generations of observation turned this into a precise discipline.
+
+Ritual Death
+Death Gardeners may prepare ritual deaths in which a person willingly offers their final Resonance to sustain the community. The dying can be guided towards chosen soil and seeds, with the method, state of mind and manner of death influencing what eventually grows. Elders, the sick and others who choose this path may regard their death as an act of continuation, feeding children, medicine, food or materials for those who remain.
+
+Death Gardens
+Gardens are cultivated around the specific deaths that nourish them, producing food, medicine, construction materials and stranger growths that retain traces of their sources. Colours become unnaturally vivid, flowers form familiar patterns, bark can resemble skin, and some plants carry impressions of the lives that fed them. Different tribes developed specialised forms, including hallucinogenic fruits, black-barked forests and medicinal herbs.
+
+Necromancy and Trade
+Death Gardeners use Vanta and necromancy to direct Residue, accelerate growth and shape roots and vines. Their knowledge extends to Vein Mouths, where accumulated death gathers around the boundaries below. Gardens can reinforce these thresholds, absorb toxins and mark or stabilise passages. Ereboskan produce became a major export, with carefully cultivated fruits, vegetables and herbs valued for effects derived from the lives that nourished them. Memorial gardens and trees can also be grown from a person's final Resonance.
+
+Death Gardening remains one of Ereboska's defining traditions, turning barren ground into fertile ground through an intimate understanding of death, Resonance and renewal.`,
     related: ["ereboska", "blossoming-death", "vantari"]
-  }
+  },
+
+  // Vein Guides
+  {
+    id: "vein-guides",
+    name: "Vein Guides",
+    aliases: [],
+    category: "concepts",
+    age: "age-of-magic",
+    short: "Ereboskan specialists who navigate the Veins through generations of accumulated knowledge and necromantic awareness, guiding travellers safely through the world's hidden underworld.",
+    full: `The Vein Guides are Ereboskan specialists who navigate the Veins beneath the wasteland, carrying generations of practical knowledge about their changing passages, hazards and inhabitants. Their communities formed around the Vein Mouths, where guiding became a respected craft passed from elder to apprentice.
+
+Necromantic tradition gives them an unusual awareness of death within the tunnels. They can recognise the movement of souls and places where the living world thins towards the deeper realms, guiding travellers with the patience and caution demanded by the underworld.
+
+Scholars, miners, treasure hunters and pilgrims all seek their services, and a guide's reputation rests on bringing people safely through the depths.`,
+    related: ["ereboska", "blossoming-death", "vantari", "the-veins", "the-spiral"]
+  },
 
   // Psy Hacking
   {
@@ -48,14 +86,14 @@ Death gardening reveals death as resource, ending as beginning, wasteland as blo
     aliases: ["Psy Hacker", "Psycker", "Psycho"],
     category: "concepts",
     age: "age-of-knowledge",
-    short: "A Psy Hacker (Psycker) bypasses years of meditation by using technology. They hack into Psy the way a programmer hacks into a system, reading and manipulating thoughts through machines.",
-    full: `Psy Hacking
-The formal study of Psy magic belongs to those with patience. The Diviners call themselves Psychics. Psy Hackers are what happens when patience runs out.
-A Psycker bypasses years of meditation by using technology. They build devices that read resonance for them, that convert Psy currents into data.
-The most distinctive aspect is memetics. A Psycker learns to plant suggestions through symbols, phrases, and cultural triggers.
-Psycker is the casual term, carrying respect in the underground. Psycho is derogatory, describing someone who has pushed too far, who has hacked so many minds they no longer understand truth.
-Some Psychos become weapons. The Diviners hunt them when they become dangerous.
-The distinction between Psychic and Psycker is not always clear. One path requires years of discipline. The other requires a willingness to break the rules. Both can lead to the same destination, but one is slower and safer.`,
+    short: "Psy Hacking is the technological practice of analysing and manipulating Psy through devices that convert Soul Resonance into data. Psy Hackers are especially associated with memetics, using symbols, language and cultural triggers to influence minds and behaviour.",
+    full: `Psy Hacking is the technological approach to Psy, using devices and computation to analyse, manipulate and transmit patterns of Soul Resonance. Where trained Psychics develop this understanding through prolonged discipline, Psy Hackers build tools that read Psy currents and convert them into usable information.
+
+Its most distinctive field is memetics. Psy Hackers study how symbols, phrases, behaviours and cultural associations carry Resonance between minds, allowing suggestions to be embedded into communications and environments. Their work can influence perception, memory, behaviour and collective belief with remarkable subtlety.
+
+Psycker is the common term for practitioners and carries a degree of respect within underground communities. Psycho describes those who have pushed the practice into dangerous territory, particularly through repeated interference with minds and Resonance until their own grasp of identity and truth begins to deteriorate. Some become weapons or psychological hazards, drawing the attention of the Diviners.
+
+The distinction between Psychic and Psycker is therefore primarily one of method. Both work with Psy and can reach comparable levels of understanding, though one develops the discipline internally while the other builds ways to circumvent it.`,
     related: ["psy", "soul-resonance", "diviners"]
   },
   

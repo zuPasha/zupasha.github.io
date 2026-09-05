@@ -54,7 +54,7 @@ The questions are yet to be answered. They're still being discovered, still bein
   {
     id: "orthogenesis",
     name: "Orthogenesis",
-    aliases: ["Orthogenesis", "Silealyros", "Borenfegen"],
+    aliases: ["Orthogenesis"],
     category: "events",
     age: "age-of-knowledge",
     short: "In Solmara's far north, where the Vaelmir Sea crashes against shores of rusted steel and neon light, Silealyros emerged from the long shadow of the Vaelmiric War with its philosophy sharpened to a blade's edge.",

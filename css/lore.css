@@ -531,6 +531,14 @@
   max-width: 68ch;
 }
 
+/* When the desktop sidebar is collapsed, let the prose reclaim the space
+   that the sidebar has released instead of keeping the same 68ch width. */
+@media (min-width: 761px) {
+  .lore-body:has(.lore-sidebar.is-collapsed) .lore-prose {
+    max-width: 100%;
+  }
+}
+
 .lore-prose p { margin: 0 0 1.1em; }
 
 .lore-prose h3 {

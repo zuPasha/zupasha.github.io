@@ -29,6 +29,7 @@ window.LORE_MANIFEST = [
   "js/lore/events/age-of-fairytales.js",
   "js/lore/events/age-of-magic.js",
   "js/lore/events/age-of-knowledge.js",
+  "js/lore/events/age-of-decay.js",
 
   "js/lore/places/hoshimira.js",
   "js/lore/places/sahran.js",
@@ -42,13 +43,13 @@ window.LORE_MANIFEST = [
   "js/lore/concepts/soul.js",
   "js/lore/concepts/vanta.js",
   "js/lore/concepts/cosmic.js",
-  "js/lore/concepts/cosmology.js",
   "js/lore/concepts/spirit.js",
   "js/lore/concepts/magic.js",
   "js/lore/concepts/frallation.js",
   "js/lore/concepts/practice.js",
-  "js/lore/concepts/philosophies.js",
   "js/lore/concepts/borenfegen.js",
+  "js/lore/concepts/philosophies.js",
+  "js/lore/concepts/cosmology.js",
 
   "js/lore/substances/substances.js",
 ];

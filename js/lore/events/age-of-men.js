@@ -2,6 +2,20 @@ window.LORE_ENTRIES = window.LORE_ENTRIES || [];
 window.LORE_ENTRIES.push(
   // === EVENTS ===
 
+  // Events Overview
+  {
+    id: "events-overview",
+    name: "Events Overview",
+    aliases: ["Events Overview"],
+    category: "events",
+    age: "age-of-men",
+    short: "Events is the chronology of Aerisu, covering its major historical and cosmological events across the successive Ages.",
+    full: `Chronology of Aerisu's major historical and cosmological events.
+    
+Events traces the history of Aerisu from the Age of Men through the Age of Gods, Age of Fairytales, Age of Magic, Age of Knowledge and Age of Decay. Entries are primarily chronological, with related events occasionally grouped together to preserve their broader historical context.`,
+    related: ["age-of-men"]
+  },
+
   // Age of Men
   {
     id: "age-of-men",

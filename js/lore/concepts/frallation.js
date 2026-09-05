@@ -11,59 +11,37 @@ window.LORE_ENTRIES.push(
     aliases: ["Frallation"],
     category: "concepts",
     age: "age-of-magic",
-    short: "Magic seeps through the Rift into Aerisu as constant pressure. Generations rise beneath it, each carrying deeper resonance. Frallation forms where that weight presses against flesh.",
-    full: `Frallation
-Magic seeps through the Rift and settles into Aerisu as a constant pressure within every living thing. Generations rise beneath it, each carrying deeper resonance with Lux and Vanta. The soul grows dense, and the body receives weight that gathers beneath the skin.
-The condition begins quietly. Tremors move through hands. Heat collects beneath the surface. Senses grow crowded as the soul presses outward.
-Lines rise along natural paths, following tendon, rib, spine, jaw. They settle into the skin like roots or fractures. Within these structures, finer traces appear: thin markings that form shapes approaching meaning.
-At its height, the body yields. Some collapse arrives as quiet fading. Some unfolds through violent failure. In rare cases, a late-Separation occurs, where the soul detaches without destroying the body.`,
-    related: ["soulless", "frallation-stages", "separation-ritual"]
+    short: "Frallation is the body's collapse under the pressure of an internalised soul, caused when the soul cannot be externalised through Separation. It progresses from tremors, heat and crowded senses to Resonant markings beneath the skin and eventual physical failure, though a rare late Separation can allow the soul to detach without destroying the body.",
+    full: `Frallation is the body's collapse when an internalised soul can no longer contain its own pressure. Magic entering Aerisu through the Rift settles into living things as a constant pressure, while generations accumulate deeper Resonance with Lux and Vanta. As the soul grows denser, that pressure gathers beneath the skin and begins searching for passage through the body's limits.
+
+The condition begins with tremors, heat beneath the skin and increasingly crowded senses as the soul presses outward through nerve and thought. Lines then rise along the body's natural paths, following tendon, rib, spine and jaw like roots or fractures. These structures form a network that distributes the pressure across the body, while finer markings gather within them, forming incomplete shapes that reflect the mind's attempt to comprehend what it carries.
+
+As the pressure deepens, the body eventually yields. Life thins beneath the strain, whether through quiet fading or violent failure. In rare cases, a late Separation allows the soul to detach without destroying the body.`,
+    related: ["soulless", "frallation-stages", "separation-ritual", "frallation-marks"]
   },
 
   // Frallation Stages
   {
     id: "frallation-stages",
     name: "Frallation Stages",
-    aliases: ["Frallation Stages"],
+    aliases: ["Stages of Frallation", "Progression of Frallation", "Frallation Progression"],
     category: "concepts",
     age: "age-of-magic",
-    short: "Frallation follows a recognised sequence: Stage One (contained disturbance), Stage Two (fixation), Stage Three (fragmentation), Stage Four (loss of integration).",
-    full: `Clinical Progression of Frallation - The Stages of Frallation
-Frallation follows a recognised sequence.
+    short: "Frallation progresses from containment to fixation, fragmentation and finally disintegration, with increasing soul pressure altering the body, perception, memory and sense of self at each stage. The markings develop alongside these changes, from faint roots and sparse script to dense, disordered structures, while a rare late Separation can occur at the final stage.",
+    full: `Clinical Progression of Frallation
+Frallation progresses through four stages in which the body's strain is accompanied by changes in perception, memory and identity. The markings provide a visible record of the soul's increasing pressure.
 
-Stage One
-The body registers excess resonance as contained disturbance. Fine tremors, low internal heat, shallow sleep with dense dreams. Root markings appear as faint vein-like lines. Script remains fragmented. The person retains clarity.
+Stage I: Containment
+Fine tremors, internal heat, shallow sleep and heightened sensory awareness mark the earliest stage. Memory favours emotionally significant experiences, drawing attention inward, while faint root markings appear along areas of tension and sparse script begins to form. The individual remains clear and in control.
 
-Stage Two
-Shift from containment into fixation. Extended tremor, fatigue, persistent fever. Visual disturbances overlay perception. Memory reorganises around personal meaning. Root structures spread across torso and limbs. Script aligns in recurring forms.
+Stage II: Fixation
+Persistent tremor, fatigue and fever accompany visual disturbances and increasingly selective memory. Particular desires, thoughts or identities become anchors around which emotion and behaviour begin to cycle. Root structures spread across the body and script develops recurring forms. The individual remains aware, but their sense of self narrows around these fixations.
 
-Stage Three
-Fragmentation. Body operates under continuous strain. Perception becomes saturated. Memory loses continuity. Identity condenses around central fixations. Root markings concentrate around chest and joints. Script gathers into dense formations.
+Stage III: Fragmentation
+Continuous physical strain gives way to unstable movement, breathing and rhythm. Perception becomes saturated with hallucination, while memory loses sequence and reconnects through the logic of dominant desires and beliefs. Identity increasingly condenses around those fixations. Root markings concentrate into dense structures and script layers across them, while speech and behaviour repeatedly return to the same ideas.
 
-Stage Four
-Complete loss of integration. Physical systems fail. Awareness fragments. Identity disperses. Behaviour emerges from internal states. Root structures lose coherence. Script spreads beyond pathways. In rare instances, the soul separates while the body remains.
-
-Across all stages, unexpressed desire and unresolved identity gather weight and shape perception, memory, and behaviour.`,
+Stage IV: Disintegration
+The body loses its ability to maintain itself, with disrupted breathing, irregular heartbeat and involuntary movement. Awareness fragments, memory breaks into isolated impressions and identity loses a stable centre. Internal phenomena become indistinguishable from the external world, directing behaviour through impulse, residual desire and persistent imagery. Root structures lose coherence and script spreads beyond anatomical pathways. Some collapse completely; in rare cases, a late Separation allows the soul to detach while the body survives.`,
     related: ["frallation", "frallation-marks", "soulless"]
   },
-
-  // Soul Regulation
-  {
-    id: "soul-regulation",
-    name: "Soul Regulation",
-    aliases: ["Soul Regulation", "Regulation"],
-    category: "concepts",
-    age: "age-of-magic",
-    short: "The soul moves with the body. Soul regulation is the practice of shaping what the soul shows while the body lives. Breathing exercises, grounding, and visualisation anchor the Affinity to stillness.",
-    full: `Soul Regulation
-The soul moves with the body. When a person rises from sleep, their Affinity stirs beside them. When a person tires, their Affinity slows. This visibility is the foundation of soul regulation.
-In hospitals, soul regulation forms part of every staff member's training. Breathing exercises steady the chest and the soul together. Grounding techniques anchor the Affinity to stillness. Mental visualisation stills the external form.
-
-Regulation for the Soulless
-Soulless individuals carry their souls inside. The pressure of containment drives Frallation, but regulation can slow the progression. Meditation focused on the heart opens blocked pathways. Breathwork imagines the soul expanding and contracting within the body's boundaries. Physical exercise channels internal energy outward.
-
-What Regulation Reveals
-The soul responds to intention. A person who calms their breathing calms their Affinity. A person who opens their heart eases the internal pressure of Frallation. The separation between body and soul is not a severance. It is a conversation conducted through the Strand.`,
-    related: ["affinities", "soulless", "frallation"]
-  }
 );

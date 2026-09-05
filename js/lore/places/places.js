@@ -17,7 +17,7 @@ After the Shattering reshaped the world, certain Hoshimiran clans descended from
 The people beneath those storm paths changed in subtle ways. Hierarchies formed around responsibility. Order sustained life in the valleys. In the Age of Fairytales, forests and hills filled with wandering spirits. Many carried small echoes of Susanoo's essence. Raikami crystals deepened this culture, entering tools and rituals. Storm towers rose across the valleys, prayer woven into engineering.
 
 Through patience and record-keeping, the valley people aligned their civilisation with thunder. They honoured Susanoo by studying his patterns until they could predict strikes and direct that force into usefulness. This became the foundation of Fengua.`,
-    related: ["susanoo", "hoshimira"]
+    related: ["chi", "susanoo", "hoshimira"]
   },
 
   // Underworld
@@ -46,7 +46,7 @@ The Rift stands as a permanent wound between the material world and the Spirit R
   {
     id: "the-veins",
     name: "The Veins",
-    aliases: ["The Veins", "Veins"],
+    aliases: ["Veins"],
     category: "places",
     age: "age-of-fairytales",
     short: "An ancient tunnel network beneath Aerisu. Threads through stone, water, and buried memory. Carries the rails of Tomenos and guides souls to the Spiral and the Orb.",
@@ -54,7 +54,7 @@ The Rift stands as a permanent wound between the material world and the Spirit R
 Souls enter these passages after death. Breath leaves the body and the spirit drifts through disorientation before the tunnels gather around it. Many souls remember a distant rumble rolling through the dark stone, followed by the glow of a train light approaching through the cavern. The living sometimes reach the Veins as well. Entrances lie scattered across forgotten spaces where stone opens deeper than expected. When living breath crosses into the tunnels, the Veins accept the traveller within their slow current. Life in the Veins gathers around that current. Shapes drift through the tunnels, formed from centuries of passing souls and lingering sediment of memory.
 
 They run beneath Aerisu as part of its deeper anatomy, threading through stone, water, and buried memory. Cities rise above them and forests spread their roots through the soil above. Mountains settle across their currents and oceans press their weight downward, yet the Veins continue their quiet circulation. They form a circulatory network beneath the crust, channels through which a slow current travels through the body of the world. The current carries something that resembles blood in motion, though its nature reaches deeper than matter alone. Many describe it as memory flowing through stone.`,
-    related: ["tomenos", "the-spiral", "ereboska"]
+    related: ["tomenos", "the-spiral", "ereboska", "vein-guides"]
   },
   {
     id: "the-spiral",
