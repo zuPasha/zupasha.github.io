@@ -23,8 +23,8 @@ Magic is therefore the outward expression of potential through Resonance, turnin
   // Soul Types and Casting
   {
     id: "soul-types",
-    name: "Soul Types and Casting",
-    aliases: ["Soul Types", "Caster", "Casting"],
+    name: "Soul Type Casting",
+    aliases: ["Soul Type", "Caster", "Casting"],
     category: "concepts",
     age: "age-of-magic",
     short: "Soulful casters direct their Resonance through developed understanding, intent and Connection; Cursed casters channel Vanta-saturated desire with greater instability; Soulless casters cannot externalise their potential through Separation, leaving it internalised and producing Frallation.",
@@ -43,8 +43,8 @@ Casting therefore depends upon more than magical knowledge. Understanding gives 
   // Schools of Magic
   {
     id: "schools-of-magic",
-    name: "The Four Schools of Magic",
-    aliases: ["Types of Magic", "Types of Magic", "Magic School", "Magic Schools", "Schools of Magic"],
+    name: "Schools of Magic",
+    aliases: ["Types of Magic", "Types of Magic", "Magic School", "Magic Schools", "Four Schools of Magic"],
     category: "concepts",
     age: "age-of-magic",
     short: "Magic reaches four fundamental domains: Matter, which governs physical substance; Energy, which governs flow, motion and their relationships; Life, which governs biological systems; and Mind, which governs consciousness, perception and connection. Each can be expressed through Lux, which reinforces coherence and restoration, or Vanta, which drives transformation through lack and desire.",
@@ -82,6 +82,22 @@ Psy is also the basis of Soul Capturing and soul transference, which manipulate 
 
 Because Psy works directly with patterns of mind and identity, its effects can persist through the Resonance they alter. Every intervention leaves traces, and practitioners who push too deeply into another psyche risk carrying those patterns into themselves.`,
     related: ["schools-of-magic", "soul", "soul-capturing", "psy-hacking"]
+  },
+
+  // Mythwrighting
+  {
+    id: "mythwrighting",
+    name: "Mythwrighting",
+    aliases: ["Mythwrighting"],
+    category: "concepts",
+    age: "age-of-magic",
+    short: "Mythwrighting is a branch of Mind magic through which persistent stories and collective belief acquire Resonance, allowing their Echoes to influence reality and, through the Loop, reinforce the conditions of their own existence.",
+    full: `Mythwrighting is a branch of Mind magic that allows persistent stories and collective belief to acquire Resonance and influence reality. Through the Loop's recursive nature, sufficiently established myths can send their Echoes backward through time, creating conditions that reinforce the story itself.
+
+Mythwrighting operates through interpretation rather than objective truth. A belief can be mistaken and still become causally significant when repeated through cultural memory, ritual and behaviour. The resulting Echo may manifest as an influence, event or pattern associated with the myth.
+
+The strength of a myth depends on the Resonance accumulated through belief and repetition. Individual belief can begin the process, but widespread cultural conviction gives an Echo greater persistence and reach.`,
+    related: ["schools-of-magic", "rise-of-myth"]
   },
 
   // Crystals and Amplification

@@ -5,30 +5,22 @@ window.LORE_ENTRIES.push(
   // Age of Gods
   {
     id: "approaching-end",
-    name: "Approaching End",
-    aliases: ["Approaching End", "Age of Gods", "The World Beneath the Falling Moon"],
+    name: "Age of Gods",
+    aliases: ["Approaching End"],
     category: "events",
     age: "age-of-gods",
-    short: "Lunarkos was falling. It descended over centuries, a near-planetary body fifty-seven kilometres across, visible in the sky like a moon that grew larger with each passing year. Carbon-sheathed, iron-cored, and alive in ways that defied understanding.",
+    short: "Several hundred years after the Crystallisation of Elysium, Lunarkos became visible above Aerisu, prompting desperate efforts to stop or escape its descent. Engineers, scholars, pilots and survivors developed competing solutions, while ESIG deployed its DAEDALUS frames and others embraced the collision as divine judgement. Amid this crisis, the conditions that would eventually create the gods began to form.",
     full: `The Approaching End
+Several hundred years after the Crystallisation of Elysium, Lunarkos became visible in the skies of Aerisu. The fifty-seven-kilometre-wide, near-planetary body had been approaching for centuries, growing larger with each passing year. Carbon-sheathed around an iron core, it contained a crystalline heart in which Lux pulsed as a lattice of living light that bloomed upon encountering soul-rich environments.
 
-Lunarkos was falling.
-It descended over centuries, a near-planetary body fifty-seven kilometres across, visible in the sky like a moon that grew larger with each passing year. Carbon-sheathed, iron-cored, and alive in ways that defied understanding. Within its crystalline heart pulsed Lux, a lattice of living light that bloomed when it encountered soul-rich environments.
-Everyone could see it.
-The doomsday clock written in stone and starlight.
-The world was dying around it. Not from the impact yet, but from knowing it was coming. Civilisation fractured under the weight of inevitability. Some built. Some fled. Some simply waited.
-Others refused to accept the ending.
-Across the broken remains of Ylvara, engineers, scholars, pilots, and survivors gathered into desperate coalitions. The technocratic order that once governed the world had collapsed. In its place emerged scattered projects, rival solutions, and fragile alliances dedicated to a single question.
-How do you stop a falling world?
-Some sought escape beyond the sky. Others studied Lunarkos itself, searching for weakness within its living structure. Vast machines were designed to redirect its descent. Lux research expanded beyond ethical limits. Biologists fought to stabilise poisoned ecosystems that might survive the aftermath. Archivists preserved knowledge in case nothing else endured.
-Even the sky filled with intervention. ESIG deployed its experimental DAEDALUS frames across Aerisu, pilots descending wherever catastrophe threatened population centres or research sites. Some worked for profit. Others simply refused to let the world end quietly.
-Hope and desperation filled the same air.
-Not everyone resisted the falling star.
-Across the world, a growing movement embraced the approaching collision as divine judgment. They spoke of the ancient moon goddess and declared the catastrophe a cleansing of humanity's corruption. Their voices spread through cities and ruins alike, preaching acceptance of the coming end.
-In the years ahead, their influence would reach further than anyone realised.
-And in that time between certainty and ending, something else began to take shape.
-The conditions that would one day create gods.`,
-    related: ["lunarkos", "coalition-against-lunarkos", "lunartics"]
+Its approach fractured what remained of civilisation. Across the broken territories of Ylvara, engineers, scholars, pilots and survivors formed coalitions to find a way to stop it. Some sought escape beyond the sky. Others studied Lunarkos for weaknesses in its living structure, while vast machines were designed to redirect its descent. Lux research expanded beyond ethical limits, biologists worked to stabilise poisoned ecosystems that might survive the aftermath, and archivists preserved knowledge in case nothing else endured.
+
+The collapse of the old technocratic order left these efforts scattered between rival projects, fragile alliances and competing solutions. Even ESIG turned its experimental DAEDALUS frames towards the crisis, deploying pilots across Aerisu wherever catastrophe threatened population centres or research sites. Some worked for profit. Others simply refused to let the world end quietly.
+
+Others accepted the coming collision. A growing movement declared it divine judgement, invoking the ancient moon goddess and proclaiming Lunarkos's arrival a cleansing of humanity's corruption. Its message spread through cities and ruins, preaching acceptance of the coming end.
+
+In the years ahead, its influence would reach further than anyone realised. And in that time, something else began to take shape: the conditions that would one day create gods.`,
+    related: ["lunarkos", "beneath-falling-moon", "coalition-against-lunarkos", "lunartics"]
   },
   {
     id: "beneath-falling-moon",
@@ -36,60 +28,45 @@ The conditions that would one day create gods.`,
     aliases: ["The World Beneath the Falling Moon"],
     category: "events",
     age: "age-of-gods",
-    short: "The Vanta Explosion had already rewritten geography. Entire regions of Ylvara turned to crystal. Survivors walked through fields of frozen citizens, their faces locked in expressions of terror or peace. The necroformed zones spread slowly, reality uncertain at their edges.",
+    short: "After the Vanta Explosion transformed Ylvara, Veyra remained crystallised at Elysium’s epicentre with her unborn daughter still alive. Connected to Aerisu through the crystal lattice, the child fed on soul-resonance, Lux and the echoes of Veyra’s final scream, becoming Voluntas, the Orphan and the Will Unborn. As she remained suspended for centuries, Aerisu itself began producing creatures to protect her, while the future gods began to emerge.",
     full: `The World Beneath the Falling Moon
+The Vanta Explosion had already rewritten the geography of Ylvara. Entire regions had become crystal, leaving survivors to walk among fields of citizens frozen in expressions of terror or peace. Necroformed zones continued to spread, their edges marked by increasingly uncertain reality.
 
-The Vanta Explosion had already rewritten geography. Entire regions of Ylvara turned to crystal. Survivors walked through fields of frozen citizens, their faces locked in expressions of terror or peace. The necroformed zones spread slowly, reality uncertain at their edges.
-Within the crystallised lattice of Elysium, something impossible endured.
-Veyra's body, preserved at the moment of detonation, encased in crystal at the epicentre. And within her womb, her daughter still lived.
-The child should have died.
-Yet the explosion had transformed her, connecting her to Aerisu itself through the crystalline lattice. She absorbed energy from the planet's core, feeding on soul-resonance, Lux fragments, and the lingering echoes of her mother's final scream.
-She became Voluntas.
-The Orphan.
-The Will Unborn.
-For centuries she remained suspended, her consciousness growing, her will hardening. The planet recognised her as kin. Creatures emerged to defend her. Amalgamations of stone and soul, born from Aerisu's desperate need to protect what remained of hope.
-Above the surface, the falling star continued its slow descent.
-Below the crystal sky, the world struggled to decide what it would become before the end arrived.
-And somewhere within that struggle, the future gods of Aerisu began their work.`,
+Within Elysium’s crystallised lattice, Veyra’s body remained preserved at the moment of detonation. Her daughter still lived within her womb.
+
+The child should have died. Instead, the explosion connected her to Aerisu through the crystalline lattice. She drew energy from the planet’s core, feeding on soul-resonance, fragments of Lux and the lingering echoes of her mother’s final scream.
+
+She became Voluntas, the Orphan, the Will Unborn.
+
+For centuries, she remained suspended within the crystal, her consciousness growing and her will hardening. Aerisu recognised her as kin, and creatures emerged to defend her: amalgamations of stone and soul formed from the planet’s desperate need to protect what remained of hope.
+
+Above the crystal sky, Lunarkos continued its descent. Beneath it, the world moved towards an uncertain future.
+
+And somewhere within that world, the future gods of Aerisu began their work.`,
     related: ["approaching-end", "voluntas", "the-crystallization"]
   },
   {
-    id: "lunartics",
-    name: "Lunartics",
-    aliases: ["The Lunartics"],
+    id: "lunartic-movement",
+    name: "Lunartic Movement",
+    aliases: ["The Lunartic Movement"],
     category: "events",
     age: "age-of-gods",
-    short: "The falling of Lunarkos divided the world. Many struggled to stop the descending star. Cities rebuilt laboratories in shattered districts. Engineers raised towers meant to measure the object's mass and trajectory.",
-    full: `The Lunartics
+    short: "During the Shattering, the Lunartic movement opposed efforts to prevent Lunarkos's descent, sabotaging research and protecting Voluntas. Their actions unknowingly kept Voluntas alive until Lunarkos arrived, allowing her to summon Bahamut and save Aerisu from the catastrophe they had embraced.",
+    full: `The approach of Lunarkos divided Aerisu. Across the fractured territories, engineers, scholars and pilots worked to prevent its descent, rebuilding laboratories, studying its structure and developing machines capable of altering its trajectory. ESIG deployed experimental DAEDALUS frames wherever catastrophe threatened population centres or research sites.
 
-The falling of Lunarkos divided the world.
-Many struggled to stop the descending star. Cities rebuilt laboratories in shattered districts. Engineers raised towers meant to measure the object's mass and trajectory. Pilots launched into the sky in experimental frames. Scholars argued over Lux, gravity, and the limits of planetary defense.
-A different voice spread through the ruins. Quiet at first. Patient. Certain. They believed the falling moon was not a catastrophe. They believed it was mercy.
-These followers became known as the Lunartics.
-Their doctrine grew from an older figure whose memory drifted through scattered myths. A girl born in the eastern lands of Hoshimira who suffered beneath a burning sky that never softened. The story said she prayed for relief from the relentless sun. The heavens answered her grief with a moon that would one day descend.
-In time that girl became remembered as Zuki, the Goddess of the Moon.
-Among the Lunartics, the story carried a clear meaning. The sun represented corruption, heat, and the long decay of the human soul. The Curse spreading through the world proved that corruption had already begun its harvest. Lunarkos arrived as the final correction.
-The moon would cleanse the earth.
-Attempts to stop it were treated as rebellion against a divine act.
-Lunartic gatherings appeared across fractured territories. Their followers formed quiet communities in abandoned towns, desert monasteries, and crystal-shadowed valleys. Many were ordinary survivors who had watched too much suffering to believe salvation could still exist.
-Others carried deeper conviction. They sabotaged research stations studying Lunarkos. Supply routes disappeared in the night. Equipment designed to measure the celestial body's structure returned broken or altered. Broadcast towers that called for resistance sometimes fell silent after Lunartic interference.
-Their actions rarely appeared violent on the surface. They spoke softly, often offering food and shelter to refugees while sharing their beliefs. The world had reached the final step of its story. Resistance only prolonged the agony.
-Let the moon arrive. Let the fire of the old world fade.
-Some members travelled farther than sermons. They infiltrated research programs attempting to alter Lunarkos's descent. They whispered doubts into the minds of pilots and engineers. Their influence reached individuals already burdened by exhaustion and fear.
-Research showed them the shape of it. Something beneath Elysium. A presence made of Vanta, drawing energy from the planet's core. They called it Voluntas. They understood her nature clearly: Vanta absorbs. Vanta consumes. Lux flows toward Vanta like water finding cracks. Lunarkos was made of Lux. Voluntas was made of Vanta. The mathematics was simple.
-She was pulling the moon toward impact.
-They opposed those who sought to kill her with total conviction. To destroy Voluntas would be to save the world. But the world deserved no saving. The world had corrupted itself beyond redemption. Lunarkos was mercy. Voluntas was the mechanism of that mercy.
-Anima, an emergent consciousness formed from the Curse's psychic residue, knew something different. She needed Voluntas alive. Not because Voluntas summoned Lunarkos, but because Voluntas was god of will and desire. When the moment came, when the sky broke, Voluntas would summon something else. Bahamut. The planet's own anguish given form. The will of Aerisu itself rising to meet the falling star.
-The Lunartics protected Voluntas believing they were hastening the apocalypse. They were actually preventing it. Anima did not tell them this. She did not need to. Their faith moved them in the direction the world needed them to move. They opposed the coalition's hunt with theological certainty, and their opposition bought time. Their doctrine held firm, and their firmness kept Voluntas alive long enough for the mechanism to trigger.
-The Lunartics succeeded. They got what they thought they wanted. The world fell. The sky broke. Lunarkos descended.
-And Voluntas summoned Bahamut.
-The world survived because of what the Lunartics opposed it surviving through. They preached apocalypse and enabled salvation. They were utterly, completely wrong about what Voluntas was, what she did, and what her existence meant.
-But they did not regret it. They got what they wanted. The world changed. The old order burned. Everything they had preached came true, even if it came true for reasons they could never understand.
-History would remember them as cultists. What it would not remember is that their opposition mattered. That their faith, however mistaken, kept alive the thing that saved the world from the thing they wanted to destroy it with.
-The Lunartics never commanded armies. They did not need them. Every year Lunarkos grew larger above Aerisu. Its presence hung over the world like a verdict already written.
-For many, hope demanded constant effort. For the Lunartics, the answer felt simple. The moon had come to finish what the sun began, and they had been right to let it come.
-When the sky broke, when Bahamut rose to meet Lunarkos, the Lunartics stood vindicated in their own eyes. The world had ended as they preached it would. That it had also been saved was a truth that belonged to different gods, different faiths, different stories altogether.
-They got what they wanted. They regretted nothing.`,
+Others believed Lunarkos should be allowed to descend. These followers became known as the Lunartics, regarding the coming collision as divine judgement and a cleansing of humanity's corruption. Their movement spread through abandoned towns, desert monasteries and crystal-shadowed valleys, where they offered food and shelter while preaching acceptance of the coming end.
+
+Their more committed members sabotaged research stations, disrupted supply routes, damaged equipment used to study Lunarkos and silenced broadcasts calling for resistance. Some infiltrated research programmes and influenced pilots and engineers already burdened by exhaustion and fear.
+
+Their investigations eventually led them beneath Elysium, where they discovered Voluntas, a Vanta-based presence drawing energy from Aerisu's core. They concluded that Voluntas was pulling Lunarkos towards the planet and opposed attempts to destroy her. To the Lunartics, preserving Voluntas meant preserving the mechanism of divine judgement.
+
+Anima understood the situation differently. She needed Voluntas alive because Voluntas was the god of will and desire. When Lunarkos descended, Voluntas would summon Bahamut, giving form to Aerisu's anguish and allowing the planet's will to rise against the falling star.
+
+Anima never revealed this to the Lunartics. Their opposition to the coalition hunting Voluntas kept her alive until the mechanism could trigger.
+
+When Lunarkos finally descended, Voluntas summoned Bahamut. The Lunartics had unknowingly preserved the means by which Aerisu survived the catastrophe they believed they were helping to bring.
+
+They regarded the result as a vindication of their faith. Lunarkos had arrived, the old world had fallen, and they had never regretted allowing it to happen. History remembered their belief in the apocalypse more readily than the role their actions played in preventing it.`,
     related: ["lunarkos", "zuki-kusanagi", "voluntas", "anima"]
   },
   {
@@ -98,13 +75,12 @@ They got what they wanted. They regretted nothing.`,
     aliases: ["Angels Reformed"],
     category: "events",
     age: "age-of-gods",
-    short: "In the chaos following the Vanta Explosion, the remnants of civilisation scavenged and rebuilt. Solmara's Autarch technology evolved. The Angels, those towering mechs once called guardians, were reformed. Fully flight-capable now, able to navigate ash-choked skies and hostile terrain.",
-    full: `The Angels Reformed
+    short: "The Angels were reformed after the Vanta Explosion from sacred guardians into flight-capable, reproducible platforms through ESIG's Project DAEDALUS, becoming instruments of both protection and control.",
+    full: `In the aftermath of the Vanta Explosion, the Angels were reformed from sacred guardian constructs into fully flight-capable machines able to navigate ash-choked skies and hostile terrain.
 
-In the chaos following the Vanta Explosion, the remnants of civilisation scavenged and rebuilt. Solmara's Autarch technology evolved. The Angels, those towering mechs once called guardians, were reformed. Fully flight-capable now, able to navigate ash-choked skies and hostile terrain.
-This was not accidental. The Exandrian Strategic Industries Group had been absorbing Autarch design lineage for years before the Explosion, quietly industrialising what had previously been sacred or singular. Project DAEDALUS gave that process a mandate. The reformed Angels were no longer guardian constructs built for specific places and specific peoples. They were platforms. Reproducible, deployable, deniable. The transition from Shorin no Okami standing alone in an Aokusan field watching over generations of children to DAEDALUS units shipping out under contract is not a long one when you measure it in design philosophy rather than years.
-They became symbols of both protection and control. In some regions, worshipped. In others, feared. The line between guardian and oppressor blurred as nations struggled to survive beneath a sky that promised annihilation. Communities that had grown up with a single Angel watching over them now watched unfamiliar units pass through on operations they were not told the purpose of. The same frame. Different intent. Most people could not tell the difference from the ground, which was, in certain quarters, considered a feature.
-Magic, once Zephyr's secret weapon, spread. Grimoires circulated. Heart Crystals were harvested. Sorcery evolved from desperate experimentation into structured practice. The world was transforming even as it prepared to end.`,
+The Exandrian Strategic Industries Group had already been industrialising Autarch technology for years. Project DAEDALUS formalised this process, turning designs once made for specific places and peoples into reproducible, deployable platforms. The transition from Shōrin no Ōkami watching over generations of children in an Aokusan field to DAEDALUS units shipped under contract reflected a fundamental change in purpose.
+
+The reformed Angels became symbols of both protection and control. Some communities worshipped them, others feared them, and many could no longer distinguish a guardian from a machine deployed to enforce someone else's interests.`,
     related: ["esig", "project-daedalus", "shorin-no-okami"]
   },
   {
@@ -113,47 +89,58 @@ Magic, once Zephyr's secret weapon, spread. Grimoires circulated. Heart Crystals
     aliases: ["The Coalition"],
     category: "events",
     age: "age-of-gods",
-    short: "I remember the years after the Vanta Explosion when Lunarkos hung in the sky above the opened wound of Ylvara. The world answered through many separate hands and minds moving at once. Each turned toward the same pull. The alignment rose from that shared urgency.",
-    full: `The Coalition Against Lunarkos - Summary
+    short: "The Coalition formed from independent efforts to prevent Lunarkos's descent, eventually converging on the crystalline presence beneath Elysium. Its prepared strike was overtaken by Lunarkos's arrival in Year 22 and the beginning of the Shattering.",
+    full: `The Coalition Against Lunarkos
+After the Vanta Explosion, the approach of Lunarkos drove separate factions and disciplines toward the same goal: preventing its descent. The Coalition formed through these parallel efforts, without a central command or founding banner.
 
-I remember the years after the Vanta Explosion when Lunarkos hung in the sky above the opened wound of Ylvara. The world answered through many separate hands and minds moving at once. Each turned toward the same pull. The alignment rose from that shared urgency. People reached for survival in their own shapes. Their efforts touched without command or banner. The Coalition took form in those quiet convergences where one path met another through the same question.
-Creatis shaped propulsion arrays that lifted the Angels higher and guided the same systems toward vessels built for the void beyond. Verdantia walked her cultivation frames across scarred lands, seeding hybrid flora and fungal strains that answered to new rhythms of soil and Lux. Aether traced the patterns in the falling moon and carried them into frameworks that lived outside ordinary time. Logaris anchored the bridge between what stood and what could endure. Xeraphina gathered pilots into coordinated motion. Their voices carried guidance across the fracture while CHOIR moved as one living current. Justicar held the line of consequence until the weight turned inward.
-All of it drew toward the presence beneath Elysium. The alignment saw the crystallised node there and felt its call to Lunarkos. Platforms stood ready for descent. Borers waited in their cradles. Frames rehearsed the strike. The moment approached in year twenty two when the window stood narrow enough that the action could still reach.
-Lunarkos arrived in that same year. The Shattering opened across the world. The prepared descent held in readiness as the sky broke and the ground answered. The presence beneath Elysium remained through the change, untouched in its crystal sleep. The alignment scattered into the new age, carrying its threads forward in those who crossed beyond the fracture.
-The work endures in the crystal forests that followed, in the quiet echoes that still guide across the scar, and in the knowledge that the world once reached in every direction at once toward the same light.`,
+Creatis developed propulsion arrays that raised Angels higher and adapted the same technology for vessels intended to reach beyond Aerisu. Verdantia deployed cultivation frames across scarred lands, developing hybrid flora and fungal strains suited to altered soil and Lux. Aether studied Lunarkos's patterns and translated them into frameworks that operated beyond ordinary time. Logaris maintained the connection between existing structures and those capable of enduring the coming catastrophe. Xeraphina coordinated pilots and carried guidance across the fracture through CHOIR, while Justicar maintained the line of consequence until its weight turned inward.
+
+Their efforts ultimately converged on the presence beneath Elysium, whose crystalline node was drawing Lunarkos towards Aerisu. Platforms were prepared for descent, borers placed in their cradles, and frames rehearsed the strike. By Year 22, the window for intervention had narrowed to a final opportunity.
+
+Lunarkos arrived that same year, beginning the Shattering before the Coalition could act. The prepared descent remained in readiness as the sky broke and the ground answered, while the presence beneath Elysium remained untouched within its crystal sleep.
+
+The Coalition scattered with the old world, its separate threads continuing into the new age through those who survived the fracture.`,
     related: ["lunarkos", "creatis", "verdantia", "aether", "xeraphina", "choir"]
   },
   {
     id: "the-shattering",
     name: "The Shattering",
-    aliases: ["The Shattering"],
+    aliases: ["Shattering", "Shattering of The Sky"],
     category: "events",
     age: "age-of-gods",
-    short: "I remember the moment the sky opened. The gods moved through their chosen paths with every shape of devotion the world still held. Aether carried knowledge into the Ethereal Plane where it could breathe beyond reach. Mnemotas grew there in the space outside time.",
-    full: `The Shattering
+    short: "Lunarkos's collision with Bahamut caused the Shattering, annihilating both and transforming Aerisu through volcanic upheaval, Vanta and Lux. Its surviving fragments formed the Moon, while eighty to ninety percent of humanity died and the gods ascended, their echoes becoming the divine presences of the new age.",
+    full: `As Lunarkos entered Aerisu's inner atmosphere, the gods carried out their final works. Aether carried knowledge into the Ethereal Plane, where it could survive beyond reach, while Mnemotas grew there outside ordinary time. The others continued their own preparations across the fractured world.
 
-I remember the moment the sky opened. The gods moved through their chosen paths with every shape of devotion the world still held. Aether carried knowledge into the Ethereal Plane where it could breathe beyond reach. Mnemotas grew there in the space outside time. The others built and prayed and moved in their own currents across the fracture. Their presence gathered in the air like a single held breath.
-Lunarkos entered the inner atmosphere. The planet answered from its own depths. Something rose through the mantle in a surge of anguish and will given form. The entity that took shape became known as Bahamut. Serpentine ridges ran along its length like living mountain chains. Obsidian scales caught the light in veins of flowing magma. Its head rose as a vertical spire that split into a roar shaped like cathedral thunder. Wings unfolded from continental shelves torn open and veined with liquid fire. They flexed the fabric of reality itself.
-Bahamut ascended and met Lunarkos in the upper stratosphere. The collision flared like a black sun born of soul-fire. Both presences annihilated in that single meeting. Fragments endured. Molten shards of Lunarkos carrying Lux fell across oceans and peaks. They cooled into a luminous ring that circled the world for centuries before drawing together into the scarred and veined Moon that watches us now.
-The emergence split the crust and opened the Varkane Abyss. Mega-volcanoes rose from the wound. Lava seas spread. Storm-wracked ranges lifted themselves into the changed sky. Volcanic winter settled across the continents. Ash veiled the light for decades. Temperatures fell in steady waves. Ash rain drifted over every remaining field.
-The boundary between soul and matter tore wide. Vanta flowed into the open world and carried Black Blood and dream-plagues through every current. Fragments of Lunarkos seeded crystal forests and impossible lifeforms that grew radiant amid the ruin. Eighty to ninety percent of the population passed in the immediate surge. The rest endured in pockets where the climate still allowed breath and the dreams could be outlived.
+The planet answered Lunarkos from its depths. A surge of anguish and will rose through the mantle, taking the form of Bahamut. Serpentine ridges ran along its length like living mountain chains, while obsidian scales caught the light of flowing magma. Its head rose as a vertical spire, its roar splitting the sky like cathedral thunder. Wings unfolded from continental shelves torn open and veined with liquid fire, distorting the fabric of reality as they moved.
+
+Bahamut ascended to meet Lunarkos in the upper stratosphere. Their collision flared like a black sun of soul-fire, annihilating both presences. Fragments of Lunarkos survived, carrying Lux across oceans and mountains. These molten shards cooled into a luminous ring that circled Aerisu for centuries before gathering into the scarred, veined Moon that remains in the sky.
+
+The collision tore open the planet's crust and formed the Varkane Abyss. Mega-volcanoes rose from the wound, lava seas spread across the land, and storm-wracked ranges emerged beneath a sky darkened by ash. Volcanic winter followed, lowering temperatures across the continents while ash veiled the light for decades.
+
+The boundary between soul and matter ruptured. Vanta entered the open world, carrying Black Blood and dream-plagues through every current. Lunarkos's surviving fragments seeded crystal forests and other lifeforms that flourished amid the devastation. Between eighty and ninety percent of the population died in the immediate catastrophe. The survivors endured in isolated regions where the climate remained habitable and the effects of the dream-plagues could be survived.
 
 The Echoes Remain
-The gods ascended through the Shattering. Their mortal forms dissolved into the surge. Their echoes remained shaped by Lux and Vanta and the weight of every choice carried to that threshold. They became presences. Embodiments of the extremes humanity had touched. The world remembers them as witnesses. As proof that meaning persists even when the sky breaks open.`,
+
+The gods ascended through the Shattering, their mortal forms dissolving into the surge. Their echoes remained, shaped by Lux, Vanta and the choices that had carried them to that moment. These echoes became the presences remembered as the gods of the new age.`,
     related: ["bahamut", "lunarkos", "post-shatter", "varkane-abyss"]
   },
   {
     id: "post-shatter",
     name: "Post-Shatter",
-    aliases: ["Post-Shatter"],
+    aliases: ["Post-Shattering"],
     category: "events",
     age: "age-of-gods",
-    short: "Centuries after The Shattering the continents had changed beyond recognition. The old nations lingered only in memory. Their ruins stood claimed by crystal forests and Lux-touched ecosystems. Magic flowed through daily life.",
-    full: `The World Transformed - Post-Shatter
+    short: "The centuries following the Shattering saw humanity rebuild beneath the newly formed Moon, within landscapes transformed by Lunarkos's fragments, Vanta and Lux. Crystal ecosystems spread across the world, while magic, sorcery and Soul-powered technology became part of everyday life.",
+    full: `The World Transformed
+Centuries after The Shattering, Aerisu's continents bore little resemblance to the world before the Shattering. The old nations survived largely through their ruins and memory, their remains overtaken by crystal forests and Lux-touched ecosystems.
 
-Centuries after The Shattering the continents had changed beyond recognition. The old nations lingered only in memory. Their ruins stood claimed by crystal forests and Lux-touched ecosystems. Magic flowed through daily life. Grimoires passed hand to hand. Heart Crystals were gathered from the old bones of the land. Sorcery found its place in makeshift academies. The line between machine and spell blurred until mechs ran on Soul Shards and weapons rose from crystallized Vanta.
-Creatures born of the fallen shards moved through the wilds in forms both beautiful and vast. The Moon hung overhead as a constant companion. Its light cast shadows that moved with their own quiet intent. And at the heart of everything preserved in crystal waited Voluntas. The Will Unborn. The last god. The presence that carried the promise the world had not yet finished becoming.
-Humanity endured. It endured as it chose to become.`,
-    related: ["the-shattering", "voluntas"]
+Magic became part of daily life. Grimoires circulated between communities, Heart Crystals were harvested from the transformed land, and sorcery entered makeshift academies. Machine and magic increasingly converged, with mechs powered by Soul Shards and weapons formed from crystallised Vanta.
+
+Life also changed with the appearance of creatures born from Lunarkos's fallen fragments, ranging from radiant forms to immense beings that moved through the transformed wilds.
+
+Above it all hung the Moon, formed from the remnants of the falling star. Within the crystal that preserved Elysium, Voluntas remained suspended as the Will Unborn, the last of the new gods to awaken.
+
+Humanity survived the Shattering by adapting to the world it left behind.`,
+    related: ["the-shattering", "voluntas", "varkane-abyss"]
   },
 );

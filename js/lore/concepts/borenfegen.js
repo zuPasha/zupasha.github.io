@@ -23,8 +23,8 @@ The first generations were visibly artificial, but each improved until the heigh
   // Spectrum of Being
   {
     id: "spectrum-of-being",
-    name: "The Spectrum of Being",
-    aliases: ["Spectrum of Being", "Naturals", "Artificials", "Enhanced"],
+    name: "Spectrum of Being",
+    aliases: ["The Spectrum of Being", "Naturals", "Artificials", "Enhanced"],
     category: "concepts",
     age: "age-of-knowledge",
     short: "The Orthogenesis project divided people into Naturals, Enhanced and Artificials. Naturals were born through inheritance and chance, Enhanced were modified after birth, and Artificials were the Borenfegens, whose personhood remained legally contested.",

@@ -4,6 +4,27 @@ window.LORE_ENTRIES = window.LORE_ENTRIES || [];
 // Order: Autarchs, Primarchs, Thanatarchs, Luminaries, Pyraeon, Solarii, Vesperites, Yorushika, Psycrata, AEvicara, Odyraphim, Vantari, Hollowed, Duskwalkers
 
 window.LORE_ENTRIES.push(
+
+  {
+    id: "lunartics",
+    name: "The Lunartics",
+    aliases: ["Lunartic"],
+    category: "concepts",
+    age: "age-of-gods",
+    short: "A religious ideology of the Shattering that regarded Lunarkos as divine judgement and salvation. Lunartics believed Voluntas enabled its descent and that resisting it prolonged humanity's suffering. Some scholars consider the ideology an echo of the older Luminary tradition, though no direct connection has been established.",
+    full: `Let the Moon Come
+A religious ideology that emerged during the Shattering, centred on Lunarkos as divine judgement and salvation. Lunartics taught that humanity should accept its descent rather than resist it.
+
+The tradition drew upon scattered myths of a girl from eastern Hoshimira who suffered beneath a burning sky and prayed for relief. According to the tradition, the heavens answered with a moon that would one day descend. The girl became remembered as Zuki, Goddess of the Moon.
+
+Lunartic theology regarded the Sun as the source and symbol of humanity's corruption, with the Curse representing its culmination. Lunarkos was therefore understood as the cleansing of a world that had reached the end of its course. Resistance to its descent was considered resistance to divine judgement.
+
+Their beliefs concerning Voluntas followed the same doctrine. Lunartics believed her Vanta drew Lunarkos's Lux towards Aerisu and that her survival was necessary for its arrival. She was consequently understood as an instrument through which the promised descent would occur.
+
+The ideology has since survived only through historical records, scattered accounts and theological interpretation. Some scholars have proposed that Lunartic belief was an echo of the older Luminary ideology, particularly in its conception of divine purpose and humanity's place within a greater order. No surviving evidence establishes a direct connection between the two, and the resemblance remains a matter of interpretation.`,
+    related: ["lunarkos", "zuki-kusanagi", "voluntas", "anima"]
+  },
+  
   // Autarchs
   {
     id: "autarchs",

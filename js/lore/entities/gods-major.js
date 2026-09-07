@@ -430,34 +430,29 @@ To remember everything is to remain surrounded by what has already happened. Mne
   {
     id: "voluntas-god",
     name: "Voluntas",
-    aliases: ["God of Will", "God of Desire", "Spirit of Desire", "Spirit of Will"],
+    aliases: ["God of Will", "God of Desire", "Spirit of Desire", "Spirit of Will", "The Orphan", "Will Unborn", "Unborn Child"],
     category: "entities",
     age: "age-of-gods",
-    short: "God of Memory. Mnemotas was born between planes as the child of Aether and Logaris and raised within the Ethereal refuge, becoming a living archive through which Aerisu's accumulated memories, histories and knowledge could be preserved across Recursion.",
-    full: `Voluntas, God of Will, Desire, and Becoming
-
+    short: "God of desire and becoming, Voluntas embodies the will to continue, the force of longing and the potential inherent in what has yet to become. Within the Orb, her existence forms the centre of the Spiral, where souls, memory and Resonance converge before passing into what follows.",
+    full: `God of Will, Desire, and Becoming
 Voluntas was the unborn daughter of Veyra Megami and Ash Salinte, preserved within her mother's womb when the Vanta Explosion crystallised Elysium. The world assumed the child had been lost, yet she remained alive within the crystal, connected to Aerisu through the lattice and slowly developing a consciousness of her own. She became one of the Nine Spirits, the embodiment of desire and becoming at the scale of the world itself.
 
 The Womb
-
 Voluntas grew for centuries within Veyra's crystallised womb, nourished by Aerisu's planetary energy, Lux fragments, Soul Resonance and the Echoes of the dead. The crystal became the Orb of Souls, a nexus where identity, memory and will converge. The Spiral Veins formed around that centre, carrying souls and their Resonance towards it, making Voluntas the physical heart of the world's great cycle of memory, death and becoming.
 
 Desire became the first language of her existence. She felt the world as pressure, ache and movement long before she understood any of it. Wars, grief, prayers, dying souls and the countless smaller wants of living people reached her through the Orb, accumulating without giving her the context from which they came. She became an archivist of desire without ever knowing the lives that produced it, gathering Echoes in an attempt to understand why the world hurt.
 
 Anima
-
 Anima emerged from the same convergence. The psychic residue of the Curse, dying souls, Soul Resonance, Aerisu's wounded consciousness and Voluntas's growing will accumulated into a consciousness of their own. Anima became the mind capable of perceiving and interpreting the patterns surrounding Voluntas, while Voluntas remained the physical centre from which those patterns radiated.
 
 Through Anima, Voluntas could reach into the wider world. Desire moved outward from the Orb as a living current, influencing people, creatures and events without requiring Voluntas to understand the consequences herself. The world responded to her existence even while she remained largely unaware of the lives responding to it.
 
 The Orb
-
 The Phumenar eventually recognised the consciousness within the Orb and attempted to extract Voluntas. Their ritual tore through the Barrier and left her suspended between the crystal, the material world and the Spirit Realm. Her will reached towards emergence, but without the wholeness of an ordinary life she remained desire without understanding, hunger without satisfaction and becoming without a finished form.
 
 Her existence became the centre of opposing convictions. Some believed she was the source of the world's suffering and that destroying her would end the Curse. Others saw her as the thing that preserved Aerisu's possibility of becoming. Both were trying to interpret a being who had spent centuries feeling the world's ache without ever truly seeing its faces.
 
 ~~~The Soul Snatcher~~
-
 ~~~When Voluntas is eventually extracted and given the human name Aysha, that distance collapses. For the first time she encounters the history she had only ever felt through the Orb: the wars, the dying, the grief, the Curse, the Frallation and the people whose desires had gathered around her for centuries.~~
 
 ~~~The experience overwhelms her. She had spent ages trying to understand the ache pressing through the crystal and believed understanding might allow her to heal it. Instead she discovers an ocean of grief with herself at its centre, carrying the memories of a world she never knew how to see.~~

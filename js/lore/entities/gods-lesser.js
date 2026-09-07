@@ -72,7 +72,7 @@ A Spirit may be worshipped as a god, remembered as an ancestor, feared as a mons
   {
     id: "hvitara",
     name: "Hvitara",
-    aliases: ["Hvitara", "Serpent of the Northern Sea", "Frost Mother", "Winter Queen"],
+    aliases: ["Hvítara", "Serpent of the Northern Sea", "Frost Mother", "Winter Queen"],
     category: "entities",
     age: "age-of-fairytales",
     short: "Hvitara is a fragment of Bahamut born in the Shattering, whose encounter with Susanoo transformed her from a creature of freezing destruction into an enduring symbol of healing and fertility among the Norrvekt.",

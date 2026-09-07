@@ -11,7 +11,7 @@ window.LORE_ENTRIES.push(
     age: "age-of-men",
     short: "Places contains Aerisu's locations, from the world and its nations to regions, cities and significant sites.",
     full: `Locations and environments across Aerisu, from the world itself to nations, regions, cities and significant sites.
-    
+
 Places describes the current form of each location while tracing the history that shaped it. Entries cover both inhabited territories and extraordinary locations, including the underworld and other places central to Aerisu's history.`,
     related: ["aerisu"]
   },
@@ -23,18 +23,13 @@ Places describes the current form of each location while tracing the history tha
     aliases: ["Aerisu", "Verdant", "The World"],
     category: "places",
     age: "age-of-men",
-    short: "The world where VantaPsy takes place. A planet scarred by the Shattering, marked by the Curse and a Moon born from cosmic collision. Divided into West (Varkane and frozen north) and East (Solmara, Fengua, Hoshimira, Sahran, Atenara, Ereboska, and the fractured Crown Nations).",
-    full: `Aerisu. Fractured Skies, Restless Lands
-I remember Aerisu before it had an anchor, a world drifting in its own temperament without a moon to steady the tides or patient light to calm continents shifting like unsettled dreams. Then the sky broke. Lunarkos fell, Bahamut rose to meet it, and the heavens took their wound. A pale, veined scar of a Moon remains, attempting a fragile balance over a soul trembling between mountain and trench, silence and storm.
-From a distance, people divide the world into West and East, but those lines blur where oceans stitch them together and rifts cut through. Beneath it all, the Curse hums quietly, tying everything into one uneasy whole.
+    short: "Aerisu is the world of VantaPsy, a planet reshaped by the Shattering and divided broadly between its Western and Eastern lands. Its nations, rifts, oceans and hidden Veins remain interconnected through Resonance, Echoes and the continuing influence of Lux, Vanta and the Curse.",
+    full: `Fractured Skies, Restless Lands
+Aerisu is a world marked by the Shattering, when Lunarkos and Bahamut tore through the heavens and remade the planet. The Moon now hangs above it as the most visible remnant of that event, while the resulting scars, rifts and altered landscapes continue to shape its peoples and environments. The Curse runs through this world alongside Lux and Vanta, linking its living systems, cultures and histories through the same underlying structure of Resonance.
 
-West - Forged in Fire and Ice
-The West feels sharp, jagged, carved from fire and ice. Volcanoes rise in the south where Autarchs build fortresses from ash and blackened stone, while frozen realms huddle beneath polar winds in the north, their faith stretched toward distant Hoshimira. Smaller nations cling to the remains of broken empires, trapped between domination and defiance. The West is less a story than a scaffold, a structure where ambition grinds itself against stone and flame until something breaks.
+Aerisuan geography is broadly divided between the West and East, though the distinction is cultural as much as physical. The West is dominated by extremes of fire and ice, fractured nations and the enduring legacy of human ambition, while the East contains the major centres of culture, faith and conflict surrounding Vaelmir, the Ocean Maw. Solmara, Fengua and Hoshimira border the inland sea, with Sahran and the Geode beyond it, while Atenara, the Vantari lands and the Crown Nations occupy the surrounding regions.
 
-East - Pulse of Conflict and Soul
-The East breathes differently. This is where conflict thinks about itself, where culture, faith, and consequence collide. The mainland stretches from pole to pole around Vaelmir, the Ocean Maw, whose abyss whispers memory and monstrosity to anyone who listens too long. Solmara, Fengua, and Hoshimira rise around it, with the deserts of Sahran beyond, the sun-steeped south of Atenara, the strongholds of the Vantari, and the fractured Crowns locked in wars that never seem to end. This is where humanity argues with its own soul in a world that may never have had one to begin with.
-
-Together, West and East form Aerisu, one arm heavy with ambition, the other pulsing with life. An ocean lies between them, but no true boundary. The world is whole in its fracture, every step and silence sending ripples across both lands. Above it all, the sky waits, no longer moonless, never forgiving.`,
+The world remains interconnected despite these divisions. Oceans carry trade between continents, rifts connect distant regions and the Veins run beneath the surface, while Echoes allow events, ideas and consequences to persist across generations. Every nation carries the effects of those that came before it, and the shape of Aerisu continues to change through the accumulation of what has already happened.`,
     related: ["lunarkos", "bahamut", "age-of-men", "hoshimira", "solmara", "sahran"]
   },
   // Hoshimira
@@ -44,13 +39,15 @@ Together, West and East form Aerisu, one arm heavy with ambition, the other puls
     aliases: ["Hoshimira"],
     category: "places",
     age: "age-of-men",
-    short: "A mountain realm of wind, lanterns, and stillness. Breath is sacred, and every echo remembers the ancestors. Home to Aokusa, the Golden Heart and the goddess Eirimegami. Later became vassal to Solmara.",
-    full: `Hoshimira - The Lunar Mountains
-Hoshimira rests in the southern mountains south of Solmara, a realm of high peaks, misted valleys, and sacred ranges where the air itself feels deliberate. Its traditions grew from harmony with nature, spiritual discipline, and careful attention to moments passing. The Moon's rise gave those beliefs a rhythm that shaped what would later be called Vesperitism.
+    short: "Nation of mountainous provinces in southern Aerisu, known for lunar tradition, spiritual discipline, self-sufficiency and harmony with nature.",
+    full: `The Lunar Mountains
+Nation of mountainous provinces in southern Aerisu, centred on lunar tradition, spiritual discipline, self-sufficiency and harmony with nature.
 
-The land divides into mountainous provinces, each carrying its own spirit and strength. Stormlashed Seiryu listens to wind and thunder. Volcanic Kazanami holds heat beneath restraint. The sacred peaks of Tenseikoku stand quiet and watchful, heavy with reverence.
+Hoshimira occupies the southern mountain ranges below Solmara, where high peaks and misted valleys shaped a culture of patience, restraint and self-sufficiency. Its mountainous provinces each developed distinct traditions, while remaining bound by shared Hoshimiran customs and reverence for the natural world.
 
-Isolation became the nation's centre. The mountains taught self-sufficiency, meditation, and patience. After the Moon's creation, lunar reverence settled into daily life, shaping prayer, travel, and restraint. Hoshimira learned to endure rather than expand. Its relationships beyond the peaks are careful ones, approached through measured trade, pilgrimage routes, and defensive planning. Hoshimiran life blends ritual with necessity, valuing resilience, patience, and power that waits. Strength held back on purpose. A belief that balance is something you practice every day, quietly, until the mountain itself recognises you.`,
+The Shattering and creation of the Moon deepened these traditions into the foundations of Vesperitism. Lunar cycles became woven into prayer, festivals, travel and civic life, while monasteries, martial orders and mountain communities preserved the discipline of living carefully within the land's rhythms.
+
+Hoshimira maintains cautious relations with its neighbours through trade, pilgrimage and defensive agreements. Its strength lies in endurance and preparation, with power deliberately held in reserve rather than pursued for expansion.`,
     related: ["vesperites", "orisol", "aokusa", "tenseikoku", "shinkiri", "sengetsuki", "fengua"]
   },
   {

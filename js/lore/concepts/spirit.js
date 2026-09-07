@@ -12,11 +12,27 @@ window.LORE_ENTRIES.push(
     category: "concepts",
     age: "age-of-fairytales",
     short: "The Gods remain in the Spirit Realm. Their presence shapes reality through quiet, pervasive currents that touch every corner of Aerisu.",
-    full: `The Nine Spirits remain within the Spirit Realm, their presence reaching into Aerisu through subtle currents of Resonance. Their influence appears through the principles they embody, sometimes as inspiration, recurring patterns, heightened emotion or changes in the world itself.
+    full: `The Nine Spirits remain within the Spirit Realm, their presence reaching into Aerisu through currents of Resonance. Their influence manifests through the principles they embody, shaping the material world through recurring patterns, sudden inspiration, heightened emotion and changes in the behaviour of places and living things.
 
-Creatis appears through invention and sudden inspiration. Verdantia moves through growth and reclamation. Aether reveals structure through space, stars and Recursion. Logaris carries knowledge through clarity and understanding. Mnemotas preserves and layers memory. Elysia intensifies emotion. Anima opens awareness towards death and its threshold. Justicar manifests consequence. Voluntas awakens desire and the drive to become.
+Creatis manifests through invention and inspiration.
 
-Their influence can be found throughout Aerisu, from crystal forests and Soul Shards to the patterns of human thought and the strange behaviour of places shaped by accumulated Resonance. They remain the great presences of the Spirit Realm, shaping the world through the principles that flow from them.`,
+Verdantia through growth and reclamation.
+
+Aether through space, stars and Recursion.
+
+Logaris through knowledge, clarity and understanding.
+
+Mnemotas through memory and its accumulation.
+
+Elysia through heightened emotion.
+
+Anima through awareness of death and its threshold.
+
+Justicar through consequence.
+
+Voluntas through desire and the drive to become.
+
+These influences permeate Aerisu, from the growth of crystal forests and formation of Soul Shards to patterns of thought and places altered by accumulated Resonance. The Spirits do not need to enter the material world for their domains to shape it. Their presence alone is enough.`,
     related: ["nine-spirits", "primal-dichotomy"]
   },
 

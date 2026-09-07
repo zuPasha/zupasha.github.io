@@ -147,7 +147,9 @@ Sacred Air does not wilt easily. Even when dried, its petals retain their distin
     short: "The Vireliax is a Vaelmilic War seaborne dreadnought over a hundred metres long, built with a quake-tempered obsidian and kyrite semi-submersible hull, six decks, a triple keel and deep-sea submersibles. Crewed by Norrvekts and supported by Sahrani engineers and labourers, she has survived seven voyages through the Maw storms, a record unmatched by any modern vessel.",
     full: `Semi-submersible Dreadnought of The Ocean Maw
 They call the Vireliax a legend of the Vaelmiric seas, one of the last Norrvektstan seaborne dreadnoughts to survive the Vaelmiric War. She is a feat of military engineering pressed into a single shape, built to endure depths and storms that would destroy lesser ships.
+
 Her black hull stretches more than a hundred metres and rises six decks, four below the waterline. Alchemical veins glow faintly along its surface, while quake-tempered obsidian reinforced with kyrite gives the hull a semi-submersible frame capable of withstanding abyssal pressure. A triple keel keeps her steady in seas where storms would tear lesser ships apart.
+
 Her command bridge is sparse and dim, combining analogue instrumentation with the gem-based interfaces common to modern engineering, crewed by Norrvekts. Mid-decks hold social halls and messes where the crew can eat and rest between voyages. Lower levels contain quarters, archives and engines worked and maintained by Sahrani labourers. The lowest deck carries submersibles designed to descend into trenches the sea itself seems reluctant to acknowledge.
 There are rooms absent from every manifest: experimental chambers, data vaults and spaces left over from expeditions whose records were never made public. Despite her age, the Vireliax has survived seven deep-sea voyages through the Maw storms, a record no modern vessel has matched.
 She still stands at the edge of human ambition, staring into the abyss.`,
@@ -158,13 +160,16 @@ She still stands at the edge of human ambition, staring into the abyss.`,
   {
     id: "shorin-no-okami",
     name: "Shorin no Okami",
-    aliases: ["Shorin no Okami"],
+    aliases: ["Shōrin no Ōkami"],
     category: "substances",
     age: "age-of-men",
     short: "Shorin no Okami is an Autarch mech abandoned in Aokusa after the Angels were recalled, where it has stood for centuries and become part of the Festival of Bloom. Those who gaze into lantern flames near it sometimes experience visions of battles, leading to an enduring debate over whether the machine preserves memories, echoes past events, or reveals atrocities yet to come.",
     full: `Shorin no Okami still stands in Aokusa, where the Autarchs built it to guard the basin, its terraces, and the people living between the mountains and the sky. When the Angels were recalled and Solmaran authority shifted into new political forms, the mech was left behind. No retrieval order survives in any archive, so whether it was forgotten or deliberately abandoned remains unknown.
+
 Over the centuries, vines climbed its plating and doves settled between its joints. During the Festival of Bloom, children carry flowers and small offerings to its feet, while lanterns are hung from the vines. By nightfall, the mech stands among the lights as music and dancing continue around it.
+
 The festival is also when stories of Shorin no Okami surface. Girls most often, though not exclusively, who stare too long into a lantern flame near the mech sometimes find themselves elsewhere, witnessing battles in unfamiliar terrain. They describe sounds that linger after the vision ends, and some accounts are so consistent across generations that they appear to depict the same events: moments of catastrophic contact witnessed from close to the ground.
+
 Whether these visions are memories preserved within the machine, echoes of what it was built to withstand, or glimpses of what is yet to come remains unresolved. The offerings continue regardless. Whatever Shorin no Okami contains, generations of people have chosen to stand beneath it with a small light in their hands and look up. After enough centuries, perhaps that is how something earns its name.`,
     related: ["aokusa", "angels-reformed"]
   },
@@ -210,12 +215,12 @@ The flame Veyra lit in the sewers of Elysium, which still burns, was fed by a fr
   {
     id: "orb-of-souls",
     name: "Orb of Souls",
-    aliases: ["The Orb", "The Orb of Souls", "Veyra's Womb","The Womb"],
+    aliases: ["The Orb", "The Orb of Souls", "Veyra's Womb", "The Womb", "presence beneath Elysium"],
     category: "substances",
     age: "age-of-fairytales",
-    short: "The Orb of Souls is a vast nexus of soul resonance at the centre of the Spirit Realm, believed by the Phumenar to be a repository of souls and accumulated knowledge. It is also Veyra's womb, a crystal formed by the Vanta Explosion around the unborn Voluntas, who grew within it across centuries under Anima's observation.",
+    short: "The Orb of Souls is a vast nexus of soul resonance at the centre of the Spirit Realm beyond the Spiral Veins of Elysium, believed by the Phumenar to be a repository of souls and accumulated knowledge. It is also Veyra's womb, a crystal formed by the Vanta Explosion around the unborn Voluntas, who grew within it across centuries under Anima's observation.",
     full: `Veyra's Womb
-At the centre of the Spirit Realm, beyond the Hell of Elysium, lies the Orb of Souls. The first Phumenar to encounter it perceived a sphere that seemed transparent and opaque, warm and cold, singing and silent at once. They understood it as a repository of souls, where the dead gathered and knowledge accumulated.
+At the centre of the Spirit Realm, beyond the Spiral Veins of Elysium, lies the Orb of Souls. The first Phumenar to encounter it perceived a sphere that seemed transparent and opaque, warm and cold, singing and silent at once. They understood it as a repository of souls, where the dead gathered and knowledge accumulated.
 
 In this, they were partly correct. The Orb contains a nexus of soul resonance where identity, memory and will converge, making it a concentrated expression of the architecture of consciousness itself.
 
@@ -238,6 +243,23 @@ In Aerisu, Vanta manifests as a tangible, corrosive force: a memetic, parasitic 
 
 Vanta exists at the intersection of the metaphysical and material. It is the substance of the Curse and the physical expression of soul hunger, giving form to the void at the root of Vanta: the absence that drives desire and, when left unchecked, becomes a living and contagious force.`,
     related: ["vanta-concept", "crystal-vantablack", "physical-curse"]
+  },
+  // Dréagbann
+  {
+    id: "dreagbann",
+    name: "Dréagbann",
+    aliases: ["Dreagbann"],
+    category: "substances",
+    age: "age-of-fairytales",
+    short: "A Spirit-bane blade forged from Lux-touched materials to kill Lady Draka after her transformation into the first Draken.",
+    full: `Dréagbann is a Spirit-bane blade forged for King Draco to kill Lady Draka after her transformation into the first Draken.
+
+The weapon was made from Lux-touched metals and crystal-infused stone taken from the ruins of Elysium. Its steel was quenched in Elysium's streams and blessed by priests.
+
+Dréagbann pierced Draka's heart and ended her transformation. Afterward, Draco carried the blade to Lupellyn and cast it into the in-land ocean, unwilling to keep a weapon created for such a purpose.
+
+The blade remained submerged for centuries before resurfacing when it was needed again.`,
+    related: ["fengua", "susanoo", "orb-of-souls"]
   },
 
   // The Grimoire
@@ -421,8 +443,8 @@ From a distance, root structures define the body's silhouette, while script reve
   // Performed Frallation Marks
   {
     id: "performed-marks",
-    name: "Performed Frallation Marks",
-    aliases: [],
+    name: "Performed Frall Marks",
+    aliases: ["Performed Frallation Marks"],
     category: "substances",
     age: "age-of-knowledge",
     short: "Performed Frallation marks imitate root structures or script through deliberate skin markings, remaining fixed where true Frallation continues to change.",
@@ -617,7 +639,7 @@ Lux therefore serves as both a healing and controlling force, with its effects e
 {
   id: "crystal-vantablack",
   name: "VantaBlack",
-  aliases: ["VantaBlack", "Vanta Shard", "Vanta Stone", "Vanta Gem", "Vanta Crystal"],
+  aliases: ["VantaBlack", "Vanta Shard", "Vanta Stone", "Vanta Gem", "Vanta Crystal", "Crystallised Vanta"],
   category: "substances",
   age: "age-of-decay",
   short: "VantaBlack is a crystalline form of condensed Vanta associated with absence, erasure and increasingly severe effects on cognition, identity and existence.",
@@ -631,6 +653,23 @@ Vanta was once theorised to originate in the Geode beneath Tayran, but surveys e
 The most concentrated black-tier deposits thin reality itself, making the boundary between the material and Spirit Realms permeable. Exposure can produce profound existential distress and the sensation of becoming less real while remaining physically present. Leaked reports describe effects that unmake concepts, erase bodies and the memory that they existed, and leave gaps in causality. Possession is illegal or tightly restricted across most of Aerisu, while Vantari nations such as Ereboska and Necrovia treat the most powerful forms as sacred and as deterrents against foreign aggression.
 
 Vanta was once widely theorised to have originated with Bahamut during the Shattering, when the planetary defence tore through the mantle and exposed concentrated entropy. Comprehensive study now shows that Vanta exists within everything capable of conscious existence, making VantaBlack one of the most dangerous substances known to Aerisu.`,
+  related: ["vanta-substance", "crystal-lux", "crystal-mauri", "bahamut", "geode", "vanta-concept", "primal-dichotomy"]
+},
+
+{
+  id: "wishbottle",
+  name: "Wish Bottle",
+  aliases: ["Wish Bottle Shrine"],
+  category: "substances",
+  age: "age-of-decay",
+  short: "Wish bottles stand in quiet corners of Sengetsuki, where travellers rest and the city holds its breath.",
+  full: `Wish bottles stand in quiet corners of Sengetsuki, where travellers rest and the city holds its breath. Each bottle is large, embroidered with threads that catch the dim light. A purple flame burns inside, steady and eternal. Beside each bottle rests a small pillow for kneeling, a low table with parchment and a writing brush, and a single flower that never wilts.
+
+The ritual is simple. You kneel, take a strip of parchment, and write your current state. Not a wish for the future, but a record of the present. The worry pressing on your chest. The confusion that will not settle. The small joy you are afraid to name. You roll the paper and drop it into the bottle. The purple flame consumes it instantly. The smoke carries something away, and what remains is lighter.
+
+The memory of that moment, that emotion, that fragment of self, is preserved because the gods listen. Elysia, goddess of emotion and the human psyche, understands your struggle. She sees what you have written and pleads with Mnemotas, god of memory, and Aether, goddess of the cosmic frame, to keep you in their records. They weave your echo into the fabric of the Loop, so that even when the Folding resets, something of you remains.
+
+Some say Voluntas also listens. The goddess of will and desire, still unborn in her crystal womb, reaches out through the flame. For a brief moment, she strips away your wanting, your hunger, your restless longing. What remains is clarity, a quiet space where nothing presses against you. The calm does not last. Desire always returns, no matter how much you pray. But in that instant, you remember what it feels like to be free.`,
   related: ["vanta-substance", "crystal-lux", "crystal-mauri", "bahamut", "geode", "vanta-concept", "primal-dichotomy"]
 },
 

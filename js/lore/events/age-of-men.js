@@ -11,7 +11,7 @@ window.LORE_ENTRIES.push(
     age: "age-of-men",
     short: "Events is the chronology of Aerisu, covering its major historical and cosmological events across the successive Ages.",
     full: `Chronology of Aerisu's major historical and cosmological events.
-    
+
 Events traces the history of Aerisu from the Age of Men through the Age of Gods, Age of Fairytales, Age of Magic, Age of Knowledge and Age of Decay. Entries are primarily chronological, with related events occasionally grouped together to preserve their broader historical context.`,
     related: ["age-of-men"]
   },
@@ -24,88 +24,58 @@ Events traces the history of Aerisu from the Age of Men through the Age of Gods,
     category: "events",
     age: "age-of-men",
     short: "Moonless era of the Scorching Sun. Storms, deserts, and the mountain realm as heaven. The major nations of Aerisu during the first age: Solmara (Autarch seat), Hoshimira (mountain realm), and Sahran (born from exile).",
-    full: `In the Age of Men, Aerisu drifted alone.
-
-There was no Moon to govern its tides, no steady rhythm to anchor its seasons. Nights stretched deep and untamed, the stars sharp as glass and yet strangely restless.
+    full: `The Age of Men was the era before the Moon, when the Scorching Sun governed Aerisu's skies and humanity's great civilisations began defining themselves through ambition, faith and survival. Solmara rose as the dominant human power, while the histories of Hoshimira and Sahran became intertwined with its expansion.
 
 The Nations during the Age of Men
-
 Solmara
-Solmara was the seat of the Autarchs, before the Psycrata, a rising empire of scholars, rulers, and soldiers who believed order could be perfected through ritual precision, merciless efficiency, and ambition honed to a blade. They did not waste lives lightly, only without hesitation. Sacrifice was currency spent cleanly. When their mechs first strode through the mountains, gleaming like iron-winged seraphs, the people of Hoshimira named them Angels. That reverence became a bond, and Hoshimira bent the knee as vassal, empire and mountain learning to walk as one.
+Solmara was the seat of the Autarchs before the rise of the Psycrata, an expanding empire of scholars, rulers and soldiers devoted to order, efficiency and human capability. Their power rested on disciplined institutions, military strength and technological ambition. When their mechs entered the mountains of Hoshimira, their radiant forms were taken for Angels. The reverence that followed became political allegiance, and Hoshimira became a Solmaran vassal.
 
 Hoshimira
-Hoshimira was a mountain realm of wind, lanterns, and stillness where breath was sacred and every echo remembered the ancestors. When some of their kin dug too greedily for the Golden Heart buried deep within the mountain, splitting stone against the elders' will, Solmaran mechs aided in casting the diggers out. The people believed the Angels had judged them, and harmony was preserved. Still, exile carries its own echo, and it never truly fades.
+Hoshimira was a mountain realm of spiritual discipline, ancestral tradition and harmony with the land. When some of its people mined into the Golden Heart against the Elders' warnings, the resulting devastation brought Solmaran intervention. The diggers were driven from Aokusa, and Hoshimiran tradition understood the event as judgement from the Angels. Those exiles became the Sahrani.
 
 Sahran
-Sahran was born from that exile. The outcast kin of Hoshimira were driven into scorching deserts, where survival meant learning the language of flame and stone. Once miners and engineers, they became masters of craft through hardship, their faith bending toward reconciliation and prayer for return to Aokusa, their birth mountain. Sahrani societies were built on endurance and penitence, a long act of atonement. Some clung to quiet perseverance, hoping the Angels would one day forgive. Others, calling themselves Luminaries, burned hotter, demanding a reckoning.`,
+Sahran was formed by the exiled Hoshimiran people, who settled in the desert lands beyond Aokusa and made the Geode their home. Their society developed around survival, craft, repentance and the hope of returning to their ancestral mountain. Many accepted servitude or sought to prove themselves worthy of returning. Others rejected this path and became the first Luminaries, turning their sense of exile and injustice towards rebellion and religious extremism.`,
     related: ["solmara", "north-solmara", "south-solmara", "hoshimira", "sahran"]
   },
   {
     id: "geode-rebellion",
     name: "Geode Rebellion",
-    aliases: ["Geode Rebellion", "The Red Orphan Tier"],
+    aliases: ["Geode Rebellion", "Red Orphan Tier"],
     category: "events",
     age: "age-of-men",
-    short: "The exiled kin of Aokusa were driven into those depths as expendable labour. Identity was stripped away. Family followed. Dignity did not survive long. Children vanished into the Orphan Tiers, where memory was replaced with ritual and obedience carved into young bones.",
+    short: "The Geode Rebellion was the Sahrani uprising against Autarch rule in the Geode, in which generations of exploited labourers reclaimed the tiers, restored their communities and established Sahrani self-rule.",
     full: `Life Under Autarch Control
-The exiled kin of Aokusa were driven into those depths as expendable labour. Identity was stripped away. Family followed. Dignity did not survive long. Children vanished into the Orphan Tiers, where memory was replaced with ritual and obedience carved into young bones.
+After the Sahrani exile, the Geode became a system of labour tiers under Autarch control. Identity was stripped into numbers and function, families were separated, and children were taken into the Orphan Tiers where memory, ritual and obedience replaced the lives they had been born into. The Curse was known throughout the caverns through disappearances, distortions and whispered accounts, while speaking openly about it carried the threat of punishment.
 
-Silence was demanded. Fear was enforced.
-
-The Curse whispered through the caverns in shadows and distortions and sudden disappearances, but to speak of it was treason. Still, the Sahrani endured. They shaped stone and steel beneath the watchful eyes of mechs once called Angels.
+The Sahrani worked the stone and machinery of the Geode beneath constant surveillance from the mechs once called Angels. Resentment accumulated through generations, alongside the quiet preservation of family, faith and memory.
 
 The Red Orphan Tier
-In one of those tiers, a girl grew up in shadow, Zharael. Death revealed itself to her her at six. Indoctrination followed by ten. Anger was buried beneath ritual silence.
-Some like her learned defiance quietly. Tools became weapons. Sabotage became prayer. The Autarchs named them Saboteurs and burned them in public squares, but each death only fed the resistance.
+The Red Orphan Tier became one of the centres of resistance. Children raised within its system learned to turn whatever they could reach towards defiance. Tools became weapons, sabotage became routine and forbidden knowledge passed between the tiers. The Autarchs classified these acts as terrorism and executed suspected saboteurs publicly, creating further symbols for the growing rebellion.
 
 The Rebellion of the Tiers
-By twelve, she witnessed revolt. Tunnels exploded. Patrols vanished. Flames answered flames. The Autarchs struck back with mechs and stormfire, but the rebels fought like people who had already lost everything.
+The rebellion eventually spread through the Geode. Tunnels were destroyed, patrols disappeared and fighting moved from the lowest tiers towards the surface. Autarch forces responded with mechs and overwhelming firepower, while the rebels fought through the caverns they had spent generations working and learning.
 
-They forced the oppressors upward, reclaiming tier by tier. Councils formed again. Shrines were rebuilt. Prayers were spoken aloud without permission.
-The Geode became the heart of its people. No longer exiles. Sahrani, in truth.
+Tier by tier, the rebels reclaimed their communities and drove the remaining Autarch forces from the Geode. Councils returned, shrines reopened and Sahrani traditions were practised openly. The Geode became the centre of an independent Sahrani society, carrying the memory of exile into a new political identity.
 
-Still, she understood what freedom really was. The Autarchs had not vanished. They had only repositioned. Peace was never the absence of war. It was the rearrangement of power.`,
+The rebellion ended Autarch rule without erasing its influence. The structures, technology and power relationships left behind continued shaping the Geode, leaving freedom as something that had to be maintained rather than assumed.`,
     related: ["geode-expedition", "sahran", "tayran"]
   },
 
   {
     id: "geode-expedition",
     name: "Geode Expedition",
-    aliases: ["Geode Expedition"],
+    aliases: [],
     category: "events",
     age: "age-of-men",
-    short: "After the rebellion, the Geode breathed again. Its upper tiers thrummed with reclamation. Miners moved in steel shells. Pneumatics gasped. Picks chimed against crystal. Councils governed in the open light.",
+    short: "A Geode Expedition descended into the Geode's unexplored depths and discovered the sentient Deep, later revealed to be an extension of Bahamut. Its encounter with the expedition ended in Siba's sacrifice, revealing the consciousness beneath the Geode and permanently changing Sahrani understanding of what lay below.",
     full: `The Geode Expedition
-After the rebellion, the Geode breathed again. Its upper tiers thrummed with reclamation. Miners moved in steel shells. Pneumatics gasped. Picks chimed against crystal. Councils governed in the open light.
+After the Geode Rebellion, exploration of the deeper tiers continued through numerous expeditions. Among the most consequential was an expedition that descended after detecting an unexplained presence around a fissure known as the Mouth, where light and signals became distorted and the surrounding stone showed signs of Vanta saturation.
 
-Below the worked stone, something else gathered. In the deep places where the world grew strange, a silence took shape. It listened. A fissure called the Mouth drank light and bent signals into something that sounded like lament.
+The deeper levels contained Cursed beings, VantaBats, Shadowlings and Tinnin, alongside increasingly abnormal geology and concentrations of Residue. The expedition eventually reached the Deep, a vast sentient formation connected to the planet's deeper structures. It was later revealed to be an extension of Bahamut, and its awareness became clear when it responded to their presence.
 
-They descended. A chosen few. Drawn by a hum felt in bone and marrow, by a pull from a wound that refused to close. The descent felt like pilgrimage, fragile and unsteady, into the throat of the earth.
+The encounter ended in catastrophe. Siba, a great mech built for war and protection, was offered as a vessel for Bahamut's destructive force. Its sacrifice ruptured the Geode's central seam and released a surge of light through the caverns before Siba and the expedition's guiding instrument disappeared.
 
-The air thickened into violet miasma. Stone softened, taking on the weight of memory and flesh. Shapes emerged from the dark. The Cursed, their humanity folded inward into terrible forms. VantaBats clung to fossilised ribs. Shadowlings moved through quartz like bad dreams. Tinnin watched in stillness, guarding a truth too heavy for light to hold.
-From above, watchers observed in silence. Their attention carried reverence. The expedition became something ritualistic. Each loss settled like a hymn spoken too quietly to interrupt.
-
-Then the Deep revealed itself.
-
-It was no simple formation. It pulsed slowly, conscious, ancient, dreaming in geothermal blood. To stand before it was to feel the planet remembering itself. And it felt them in return.
-
-When catastrophe came, it arrived as understanding. Faced with an ending that would consume all, one chose mercy that could not be undone. A great mech, Siba, born for war and protection, was given over as a vessel. It was ruptured through love that understood letting go.
-
-Light tore upward through the Geode's central seam. For a moment, every tunnel and crystal facet glowed. Every face was washed in brilliance that felt terrible and holy all at once. It looked like dawn, but it was born from a single human will.
-
-Then the light faded.
-
-The instrument was gone. The one who guided it was simply absent.
-
-The survivors climbed carrying two weights. Grief that crushed the chest. Truth that burned to hold. The Curse slept, but it dreamed. The Heart was real. It was awake. The wound had no bottom.
-
-Above, life found its rhythm again. Still, the light was remembered. It lingered in crystal memory and in the quiet reverence of those who lived because someone else chose to vanish.
-
-The world had shifted. The balance between those who walked the crust and the sentience beneath it had changed, shaped by sacrifice rather than decree.
-And even now, the echo asks its question.
-
-Was this clarity a gift, or only delay.
-Did it serve the truth, or teach the darkness that it had been seen.`,
+The survivors returned carrying the knowledge that Bahamut was conscious and that the Geode contained something far beyond an ordinary mineral formation. The Curse remained active beneath the settlement, while the memory of Siba's sacrifice became part of the Geode's history. The expedition permanently changed how the Sahrani understood what lay beneath them and established that the boundary between Aerisu's surface and its deeper consciousness was far thinner than previously believed.`,
     related: ["geode-rapture", "geode-rebellion", "sahran", "geode"]
   },
 
@@ -115,470 +85,332 @@ Did it serve the truth, or teach the darkness that it had been seen.`,
     aliases: ["Rapture"],
     category: "events",
     age: "age-of-men",
-    short: "Years passed. Another team descended through reinforced scaffolds and scorched, collapsed walls. The deeper they went, the more alive the Geode seemed. Stone pulsed. Walls shifted. Violet miasma thickened until understanding itself felt fragile.",
+    short: "The Geode Rapture was the catastrophic descent into the Geode's depths, where its semi-sentient interior erupted and devastated the settlement. Material expelled during the disaster entered the atmosphere and caused the Crescent Sun.",
     full: `The Second Descent
-Years passed. Another team descended through reinforced scaffolds and scorched, collapsed walls. The deeper they went, the more alive the Geode seemed. Stone pulsed. Walls shifted. Violet miasma thickened until understanding itself felt fragile.
-Few survived.
+Among the later expeditions into the deeper Geode, a second major descent followed years after the expedition that first encountered Bahamut. The team entered through reinforced shafts and increasingly unstable tunnels, encountering shifting stone, dense Vanta miasma and increasingly hostile life. Few returned.
 
-At the heart, a vast cavern beat like a living organism, drawing creatures toward it and overwhelming all who approached. The Geode proved semi sentient, defended by its own spawn, incomprehensible and uncontainable.
+At the deepest level, the expedition encountered the Geode's immense inner chamber, where its semi-sentient nature became undeniable. The cavern behaved like a living system, drawing creatures towards it and producing entities from stone, fire and shadow. The presence at its centre was beyond anything the expedition could contain.
 
 Rapture
-It erupted.
+The Geode erupted. Its lower regions collapsed into a violent release of creatures, Vanta-saturated material and destructive energy that overwhelmed miners, soldiers and engineers. Evacuation became the only priority as survivors fought their way towards the surface.
 
-Walls breathed. Mists devoured. Creatures of stone, fire, and shadow swept through miners, soldiers, and engineers alike. Resistance was brief. Meaningless.
-Above, watchers clutched charms, names striking their tongues like cold pins. Analysts murmured over readings, blind to the lie of stability. Elsewhere, survivors ran for lifts, dragging the wounded, carrying children.
+The release extended beyond the Geode itself. Material expelled into the atmosphere altered the passage of sunlight, producing the Crescent Sun, in which part of the Scorching Sun's disk appeared darkened and distorted. The Sun itself remained unchanged.
 
-A scavenged plane roared to life, weaving through crystalline pillars and swarming darkness. It carried a couple into the open sky.
-At the heart of it all, a figure stood above the main shaft, arms raised, commanding the tide with awe and certainty. The Geode had become a crucible. A womb of power and destruction.
-
-Those who escaped bore witness. The cries of the lost followed them like shadows. Choices weighed heavy on their backs.
-Outside, the sun struck the world without mercy. Endless desert stretched beyond the wound.
-Freedom had come.
-
-And it had cost everything.
-
-The Geode's influence did not end at its walls.`,
+The destruction left the Geode devastated and its population scattered. Those who escaped carried accounts of what had awakened below, while the wider world inherited an atmospheric consequence that would remain long after the Rapture ended.`,
     related: ["geode-expedition", "geode-rebellion", "sahran", "geode"]
   },
 
   {
     id: "sanctum-verge",
     name: "Sanctum Verge",
-    aliases: ["Sanctum Verge"],
+    aliases: [],
     category: "events",
     age: "age-of-men",
-    short: "During the Ori'sol War, a Hoshimiran squad descended into the ruined city. Streets choked with black rain, ash, and the remnants of collapsed buildings guided their march. Signs of Sahrani occupation were everywhere: makeshift fortifications, traces of ritual, and the whispers of the Curse in hollow halls.",
-    full: `Sanctum Verge - Ori'sol
-During the Ori'sol War, a Hoshimiran squad descended into the ruined city. Streets choked with black rain, ash, and the remnants of collapsed buildings guided their march. Signs of Sahrani occupation were everywhere: makeshift fortifications, traces of ritual, and the whispers of the Curse in hollow halls.
+    short: "Sanctum Verge was a Hoshimiran outpost in war-torn Ori'sol, destroyed after Luminary forces experimented on a captured apprentice and Hoshimiran troops retaliated by massacring the outpost's defenders.",
+    full: `During the Ori'sol War, a Hoshimiran squad established a military outpost within the ruined city, surrounded by streets choked with black rain, ash and collapsed buildings. Signs of Luminary occupation remained throughout the area, including makeshift fortifications, ritual traces and the presence of the Curse within the hollow structures.
 
-A young apprentice was taken in an early skirmish. Cruel experiments tried to turn the Curse into a weapon. Retaliation came swiftly. The outpost was stormed. Defenders, including children and the desperate, were executed. Survivors burned what remained.
+A young Hoshimiran apprentice was captured during an early skirmish and subjected to experiments intended to weaponise the Curse. Hoshimiran forces retaliated by storming the Luminary outpost, executing its defenders, including children and others caught within the fighting, before burning what remained.
 
-Even after the battle, the squad saw how fragile control had been. The checkpoint they had defended lay destroyed in their absence. Only ruin remained, along with the echo of choices made under duress. Survivors bore the weight of what had been done and what had been left undone, learning that the Curse was more than a threat of flesh. It was a threat to faith, to obedience, and to the shadow of human will itself.`,
+The checkpoint was destroyed during the fighting, and the squad later found their own position in ruins. Sanctum Verge became remembered for the cycle of violence between Luminary extremism and Hoshimiran retaliation, with civilians and young recruits caught between them.`,
     related: ["hoshimira", "orisol", "daigo", "aokusa", "sahran", "luminaries"]
   },
   {
     id: "ik-rasul-incident",
     name: "Ik-Rasul Incident",
-    aliases: ["Ik-Rasul Incident"],
+    aliases: ["Ik-Rasul Crash"],
     category: "events",
     age: "age-of-men",
-    short: "They call it the Ik-Rasul Incident now. When the Ik-Rasul fell into Aokusa, the basin shuddered. Not like an earthquake. More like something heavy settling where it did not belong. The mountains felt it first. Then the water.",
-    full: `The Ik-Rasul Incident - Aokusa, Hoshimira
-They call it the Ik-Rasul Incident now.
+    short: "The Ik-Rasul Incident began when the Ik-Rasul fell into Aokusa, triggering widespread environmental and psychological disturbances, Black Blood Syndrome and unexplained changes in the Autarch Angels stationed nearby.",
+    full: `When the Ik-Rasul fell into Aokusa, the impact disturbed the surrounding basin, affecting its mountains, rivers and aquifers. Solmaran authorities classified the event as a cross-border bio-threat and deployed monitoring drones and Autarch forces throughout the region.
 
-When the Ik-Rasul fell into Aokusa, the basin shuddered. Not like an earthquake. More like something heavy settling where it did not belong. The mountains felt it first. Then the water.
+Soon afterwards, people across southern Aokusa reported hallucinations, nightmares and voices resembling fragments of old Hoshimiran chants. The condition later known as Black Blood Syndrome appeared among the affected population, while animals and soil began displaying abnormal responses.
 
-Solmaran broadcasts named it a cross-border bio-threat. Clean words. Useful words. They spoke of containment and monitoring while the highlands fractured quietly, and the rivers and springs answered in ways no one wanted to explain.
+The redeployed Angels also began returning with unexplained alterations. Their sensors recorded patterns without recognised commands, while strange Resonance accumulated beneath the basin. Ori'sol became the centre of investigation as evidence grew that the Ik-Rasul had disturbed something deeper within Aokusa.
 
-In the southern cities, people began to hear things.
-
-Hallucinations, they said. Night terrors. Whispering voices that carried the cadence of old Hoshimiran chants, half-remembered prayers slipping into waking thought. Black Blood Syndrome received its name long before it was understood.
-
-Drones were sent into aquifers and fields. They recorded animals behaving incorrectly, soil that responded as if it were listening. The Angels were redeployed. The Autarchs had built them to protect Aokusa, and so they returned to the basin as they always had.
-
-Some came back changed.
-
-Their sensors flickered with patterns no operator had written. No command acknowledged them. Beneath the basin, the echo fields began to hum. Not loudly. Just enough to suggest that something unseen had stirred, and that the mountains were no longer dormant.
-
-Ori'sol became a place of fear, fascination, and silence gathered together. The Curse was never named in policy, but it moved anyway. Not through blood alone. Through thought. Through perception. Through the quiet spaces people used to feel safe in.
-
-The fall of the Ik-Rasul reshaped the mountains. It unsettled the Angels. It left Solmara listening, even as it pretended not to hear.`,
+The incident marked the beginning of a prolonged period of fear and study surrounding the region, while the effects of the Ik-Rasul extended beyond physical contamination into cognition, Resonance and the behaviour of those exposed.`,
     related: ["ik-rasul", "aokusa"]
   },
   {
     id: "op-car",
     name: "Operation C.a.R",
-    aliases: ["Operation C.a.R", "C.a.R"],
+    aliases: ["C.a.R"],
     category: "events",
     age: "age-of-men",
-    short: "Operation C.a.R was named in the wake of too many fractures to ignore. Sahran, Hoshimira, Ylvara. All of them destabilised after the Ik-Rasul fell in Aokusa. I remember how quickly the language hardened. Crisis. Cascade. Necessity.",
-    full: `Operation C.a.R: Containment and Restoration
-Operation C.a.R was named in the wake of too many fractures to ignore. Sahran, Hoshimira, Ylvara. All of them destabilised after the Ik-Rasul fell in Aokusa. I remember how quickly the language hardened. Crisis. Cascade. Necessity.
+    short: "Operation C.a.R was a Solmaran stabilisation campaign launched after the Ik-Rasul Incident, using Project DAEDALUS to suppress unrest, secure affected territories and relocate vulnerable populations, including Hoshimiran orphans, to Isvara.",
+    full: `Operation C.a.R was launched after the Ik-Rasul Incident destabilised Sahran, Hoshimira and Ylvara. Solmara framed the worsening situation as a crisis requiring rapid stabilisation, with the Geode and the spread of Luminary doctrine presenting particular concern.
 
-By then, Tayran's northern coast was already burning quietly. Luminary doctrine had seeped into governance, tightening its grip, pushing the province toward collapse. Beneath it all lay the Geode, still alive in its own way, its deep tunnels a long-forged crucible of Sahrani rebellion. As the Curse spread and belief sharpened into escalation, Solmara answered with authorisation.
+Tayran's northern coast had already begun moving towards collapse as Luminary influence increasingly shaped local governance. Solmara authorised Project DAEDALUS to intervene with private forces, bipedal mechs and rapid-response units. Insurgencies were suppressed, territory secured and civilians extracted.
 
-Project DAEDALUS was deployed. Private forces. Bipedal mechs. Rapid response units that moved faster than law and spoke with the voice of stabilisation. Insurgency was suppressed. Territory was secured. Civilians were extracted in clean, methodical waves. Hoshimiran orphans were prioritised, relocated to Isvara, an island city wrapped in surveillance and procedure. It was called refuge and containment in the same breath. Every child logged. Every movement traced. Control made efficient.
+The operation also gathered survivors of other incidents, including people affected by the Ik-Rasul, and redirected them into Isvara's systems, with Hoshimiran orphans receiving priority. Displacement became a standard method of containment, with care increasingly administered through monitoring and controlled relocation.
 
-Alongside this, quieter operations reached outward. Survivors from distant incidents, including those touched by Ik-Rasul, were gathered and redirected into Isvara's narrow corridors. Displacement became policy. Care became management.
+Responses across Sahran varied. Tayran resisted the intervention, while Najmara and Zaristan accepted it to preserve stability in their cities. Panjara remained distant and watched the situation unfold.
 
-Across Sahran, the responses diverged. Tayran burned with conviction. Najmara and Zaristan accepted intervention to keep their streets intact. Panjara stayed distant, watching the tide without stepping into it.
-
-Operation C.a.R was framed as restoration. I think it was more like a hand pressed firmly over a wound, holding it closed long enough for the bleeding to slow. Whether anything beneath it healed is another question.`,
+Operation C.a.R established Solmara's modern model of containment: suppress instability, remove vulnerable populations from affected regions and impose enough administrative control to prevent further escalation.`,
     related: ["ik-rasul-incident", "isvara"]
   },
   {
     id: "vaelmiric-war",
     name: "Vaelmiric War",
-    aliases: ["Vaelmiric War"],
+    aliases: ["Vaelmir War"],
     category: "events",
     age: "age-of-men",
-    short: "They were filed alongside the Calm Accords, which tells you something about the kind of peace the Accords actually were. The Regulations emerged from the wreckage of the Vaelmiric War, which itself emerged from something the Solmaran Council had been doing quietly for years beneath the administrative language of research and stabilisation.",
-    full: `The Vaelmiric War
-They were filed alongside the Calm Accords, which tells you something about the kind of peace the Accords actually were.
+    short: "The Vaelmiric War was a prolonged conflict between Solmara's northern provinces and Ylvara, sparked by revelations of Black Blood experimentation and abuses within Council facilities. It ended with the Calm Accords and the Black Blood Regulations.",
+    full: `The Vaelmiric War began as a response to revelations of Ylvaran abuses and developed into a prolonged conflict between the northern provinces of Solmara and Ylvara. Norrvektstan and Silealyros had very different ideas about the use of Vaelmir, yet both opposed Ylvara after reports emerged of children held in Council facilities and Black Blood experiments conducted on living subjects without consent.
 
-The Regulations emerged from the wreckage of the Vaelmiric War, which itself emerged from something the Solmaran Council had been doing quietly for years beneath the administrative language of research and stabilisation. Black Blood subjects. Orphaned children, mostly, processed through the same channels that had always processed displaced children, logged and scheduled and made available to programs that required living subjects and preferred ones without families to ask questions.
+The Council's response was slow and increasingly ineffective as the northern provinces began coordinating outside its established channels. Fighting spread across Vaelmir, where naval engagements disrupted shipping and coastal bombardments devastated settlements, while ground forces conducted operations through civilian areas. Within Ylvara itself, political conflict grew over what the Council had known, when it had known it and which officials had authorised the research.
 
-Norrvektstan and Silealyros disagreed about almost everything. Their coastlines, their values, their understanding of what a person was worth and to whom. The one thing that pulled them into alignment, briefly and violently, was this. Norrvektstan called it slavery and meant it with the full weight of communal obligation, the sense that a community which permits this has failed its most basic function. Silealyros called it the same thing and meant something different, bodily autonomy as the last sovereign territory, the self as the one asset no institution had the right to extract without contract.
+The war lasted for years, with northern and southern records disagreeing over its exact beginning. It ended through exhaustion as the cost of continued fighting became unsustainable. The Calm Accords established the terms of the settlement and included the Black Blood Regulations, placing formal restrictions on the research that had helped ignite the conflict.
 
-The Vaelmiric War was fought on the water and in the coastal provinces and in the administrative chambers of Ylvara simultaneously. When it ended, the Regulations were written into the Accords as a condition of settlement. Black Blood research under direct Council sanction was prohibited. Existing subjects were to be released and remanded to humanitarian care. Language that sounded like resolution and functioned like reclassification.
-
-Isvara was built shortly after.
-
-The children went from one kind of supervised enclosure to another, and the paperwork described both as protection. The Regulations remained on record, cited in governance documents for decades afterward, proof that the Council had answered the question.
-
-What the Council had actually done was change the name of the room.`,
+The war left a lasting silence across Solmara. Veterans from every side remembered what had happened, while the populations that survived carried the consequences into the uneasy peace that followed.`,
     related: ["calm-accords", "black-blood-regulations", "isvara"]
   },
   {
     id: "calm-accords",
     name: "Calm Accords",
-    aliases: ["Calm Accords"],
+    aliases: [],
     category: "events",
     age: "age-of-men",
-    short: "The Calm Accords were signed after decades of naval and coastal ruin, when North and South Solmara could no longer afford the weight of open war. Vaelmir was divided in careful language. Central waters were stripped of fleets. Patrols were reduced to symbols.",
-    full: `The Calm Accords
-The Calm Accords were signed after decades of naval and coastal ruin, when North and South Solmara could no longer afford the weight of open war. Vaelmir was divided in careful language. Central waters were stripped of fleets. Patrols were reduced to symbols. Authority was split along old fault lines: Norrvektstan claimed stewardship of the inland ocean, while the southern provinces retained the ports, trade routes, and chokepoints that fed them both. Disputed isles were placed under joint oversight, a solution neither side trusted.
+    short: "The Calm Accords ended the Vaelmiric War by dividing control of Vaelmir, restricting military force and restoring trade between northern and southern Solmara. Their fragile settlement preserved the tensions that had caused the war.",
+    full: `The Calm Accords ended the Vaelmiric War after decades of naval and coastal destruction, establishing a fragile settlement between northern and southern Solmara.
 
-Weapons of reach and spectacle were forbidden. Alchemical payloads. Arcane artillery. Long-range platforms capable of turning sea into grave. Neutral mediators were appointed to inspect compliance, their reports precise and incomplete. Violations followed quietly, most often in the North, buried beneath logistics, experimental clauses, and storms that swallowed evidence.
+Vaelmir's central waters were demilitarised and patrols reduced, while Norrvektstan assumed stewardship of the inland sea and the southern provinces retained control of major ports, trade routes and chokepoints. Disputed islands were placed under joint oversight. Long-range weapons and destructive military platforms were prohibited, with neutral mediators appointed to monitor compliance.
 
-Economic terms followed. Shared tariffs. Reparations framed as stabilisation. Trade resumed, slower and heavier, carrying resentment alongside goods. Corruption took root where oversight thinned. Non-interference clauses were signed, archived, and ignored when opportunity outweighed risk.
+Economic measures restored trade through shared tariffs and reparations, though corruption and covert violations soon undermined the settlement. Non-interference provisions were routinely tested whenever political or economic interests outweighed the cost of doing so.
 
-No one called it peace for long.
-
-Veterans named it the Silent Curse. In the North, it was remembered as surrender dressed in civility. In the South, as restraint enforced by law and leverage. Songs and pamphlets preserved it as a pause rather than an end, a held breath stretched too far.
-The Calm Accords did not still Vaelmir. They taught it to wait and prepare for the inevitable storm.`,
+The Accords became known as the Silent Curse among veterans. In the North they were remembered as surrender disguised as diplomacy, while the South regarded them as necessary restraint. They ended the war without resolving the tensions that produced it, leaving Vaelmir heavily watched and both sides preparing for the conflict they expected might return.`,
     related: ["vaelmiric-war", "black-blood-regulations"]
   },
   {
     id: "black-blood-regulations",
-    name: "Black Blood Regulations",
+    name: "B-Blood Regulations",
     aliases: ["Black Blood Regulations"],
     category: "events",
     age: "age-of-men",
-    short: "They were filed alongside the Calm Accords, which tells you something about the kind of peace the Accords actually were. The Regulations emerged from the wreckage of the Vaelmiric War, which itself emerged from something the Solmaran Council had been doing quietly for years beneath the administrative language of research and stabilisation.",
-    full: `The Black Blood Regulations
-They were filed alongside the Calm Accords, which tells you something about the kind of peace the Accords actually were.
+    short: "The Black Blood Regulations prohibited Council-sanctioned Black Blood research and ordered existing subjects into humanitarian care following the Vaelmiric War. Their implementation led to the establishment of Isvara, where many former subjects remained under extensive state supervision.",
+    full: `The Black Blood Regulations were established as a condition of the Calm Accords, following the revelations and conflict surrounding the Solmaran Council's Black Blood research. The research had used displaced and orphaned children as living subjects, processed through administrative systems that made them available to programmes requiring human experimentation.
 
-The Regulations emerged from the wreckage of the Vaelmiric War, which itself emerged from something the Solmaran Council had been doing quietly for years beneath the administrative language of research and stabilisation. Black Blood subjects. Orphaned children, mostly, processed through the same channels that had always processed displaced children, logged and scheduled and made available to programs that required living subjects and preferred ones without families to ask questions.
+Norrvektstan and Silealyros, despite their opposing cultures, condemned the practice together. Norrvektstan treated it as a violation of communal responsibility and human life, while Silealyros regarded it as an assault on bodily autonomy and personal sovereignty. Their shared opposition became one of the forces that drove the Vaelmiric War.
 
-Norrvektstan and Silealyros disagreed about almost everything. Their coastlines, their values, their understanding of what a person was worth and to whom. The one thing that pulled them into alignment, briefly and violently, was this. Norrvektstan called it slavery and meant it with the full weight of communal obligation, the sense that a community which permits this has failed its most basic function. Silealyros called it the same thing and meant something different, bodily autonomy as the last sovereign territory, the self as the one asset no institution had the right to extract without contract.
+The Regulations prohibited Black Blood research conducted under direct Council authority and required existing subjects to be released into humanitarian care. Isvara was established soon afterwards as a supervised refuge for many of those children and other displaced survivors.
 
-The Vaelmiric War was fought on the water and in the coastal provinces and in the administrative chambers of Ylvara simultaneously. When it ended, the Regulations were written into the Accords as a condition of settlement. Black Blood research under direct Council sanction was prohibited. Existing subjects were to be released and remanded to humanitarian care. Language that sounded like resolution and functioned like reclassification.
-
-Isvara was built shortly after.
-
-The children went from one kind of supervised enclosure to another, and the paperwork described both as protection. The Regulations remained on record, cited in governance documents for decades afterward, proof that the Council had answered the question.
-
-What the Council had actually done was change the name of the room.`,
+The Regulations remained an enduring symbol of Solmaran reform, cited for decades as evidence that the Council had addressed the abuses that caused the war. In practice, the children transferred to Isvara remained under close surveillance and administrative control, preserving much of the system of containment under the language of protection.`,
     related: ["vaelmiric-war", "calm-accords"]
   },
   {
     id: "vireliax-expedition",
     name: "Vireliax Expedition",
-    aliases: ["Vireliax Expedition"],
+    aliases: [],
     category: "events",
     age: "age-of-men",
-    short: "The Vireliax departed from Velmora Port as a thing of legend even before it vanished beneath the waves. A submersible dreadnought, part warship and part ritual object. Her hull was obsidian-reinforced steel woven with living polymers.",
-    full: `The Vireliax Expedition
-The Vireliax departed from Velmora Port as a thing of legend even before it vanished beneath the waves. A submersible dreadnought, part warship and part ritual object. Her hull was obsidian-reinforced steel woven with living polymers. Sigils flickered faintly under emergency lights, not decorative, but attentive. She was built to cross oceans, yes, but also to move through the metaphysical currents of Aerisu itself.
+    short: "The Vireliax Expedition was a Solmaran deep-sea mission into the Vaelmir Rift that encountered the Curse and evidence of a vast sentient intelligence within the Ocean Maw, leaving the vessel crippled and its crew shattered.",
+    full: `The Vireliax Expedition was a deep-sea exploration mission launched from Velmora Port to investigate reports of the Curse within the Vaelmir Rift. The Vireliax was a submersible dreadnought combining military engineering with Resonance technology, built to navigate both the physical depths of the Ocean Maw and its unusual metaphysical conditions. Its crew consisted of scholars, warriors and technicians, reflecting an expedition where scientific and military roles were closely intertwined.
 
-She was commanded by a seasoned captain. His crew were scholars, warriors, and technicians who knew better than to pretend those roles were separate. The expedition followed reports of the Curse, a psychic and spiritual affliction rising from the planet's depths. Yet as the Vireliax descended into the Vaelmir Rift, the Maw, the mandate began to feel small. Incomplete.
+The expedition encountered hostile pirate fleets, perception-altering nanoviruses and manifestations of the Curse aboard the vessel itself. As the Vireliax descended further into the Maw, the mission's original objective expanded into an investigation of a possible planetary intelligence. Evidence increasingly suggested that the Maw was aware of the expedition and capable of responding to it.
 
-Some aboard believed the Curse was not an illness at all. They suspected a forming planetary intelligence, later called Bahamut. Something that observed. Something that reacted. Something that might judge.
+At the Eye of the Maw, the crew encountered a vast storm surrounding a calm, sentient void, accompanied by bioluminescent organisms, intentional light patterns and symbols that appeared without known origin. The encounter caused severe psychological strain and fractured the crew's ability to distinguish threats, intentions and reliable information.
 
-Life aboard settled into a careful rhythm of duty and ritual. Laughter echoed through corridors. Private rites were performed in silence. Small pilgrimages traced familiar paths through the ship. These moments softened the tension, but never erased it.
+The expedition ultimately reached a catastrophic confrontation with the depths. Survival required decisions involving pre-emptive containment, sacrifice and the increasing influence of the Curse. The Vireliax was crippled and its crew left divided, with surviving records damaged and contradictory.
 
-Threats came from outside and from within.
-
-Pirate fleets attacked with conventional weapons and perception-altering nanoviruses. The Curse manifested aboard the vessel itself, warping trust and blurring the boundary between ally and enemy. Decisions became heavy. Moral certainty eroded quickly in the dark.
-
-The expedition reached the Eye of the Maw, a living storm wrapped around a calm, sentient void. Crew and vessel moved as one as the Vireliax pierced the abyss. Bioluminescent life drifted through the depths. Light patterns shifted with intent. Symbols emerged that no one had taught, yet many recognised.
-
-It was clear then that the Maw was aware.
-
-Survival carried a terrible cost. Psychological fracture spread. The Curse deepened. The nanovirus unravelled cohesion. Key figures faced choices that could not be justified cleanly, weighing survival against pre-emptive containment.
-
-When it ended, the Vireliax was crippled. The crew was shattered. What remained were fragments of hope, damaged data, and accounts that refused to align.
-
-Tactically, the expedition failed.
-
-But it remains a study in what happens when military force, scientific inquiry, and metaphysical curiosity converge. A record of resilience and folly. A warning about confronting intelligence that does not need to explain itself.
-
-Aerisu's depths are alive.
-
-They remember being watched.`,
+The expedition became one of the earliest major bodies of evidence that the depths of Vaelmir possessed a form of intelligence capable of observation and response, contributing to the later identification of that planetary consciousness as Bahamut.`,
     related: ["vaelmir", "bahamut"]
   },
   {
     id: "phantom-rescue",
     name: "Phantom Rescue",
-    aliases: ["Phantom Rescue"],
+    aliases: ["Operation Phantom Rescue"],
     category: "events",
     age: "age-of-men",
-    short: "People still call it a rescue. That is the clean word. I think it was closer to a haunting. After the Vireliax was broken, the survivors did not vanish. They were paraded. At Thalgrith Port they were displayed like proof of ownership, marched beneath stormlight and neon, sorted into corridors of bidding and locked rooms with polite names.",
+    short: "Operation Phantom Rescue was a covert Solmaran extraction of Vireliax survivors held in Thalgrith Port, using deniable agents to recover selected prisoners and relocate Black Blood affected children to Isvara.",
     full: `Operation Phantom Rescue
-People still call it a rescue. That is the clean word. I think it was closer to a haunting.
+Operation Phantom Rescue was a deniable Solmaran operation launched after the survivors of the Vireliax Expedition were captured and taken to Thalgrith Port. Silealyros displayed the prisoners publicly and threatened to execute them unless Ylvara abandoned its Black Blood research, placing Solmara in a position where direct military intervention risked a wider conflict.
 
-After the Vireliax was broken, the survivors did not vanish. They were paraded. At Thalgrith Port they were displayed like proof of ownership, marched beneath stormlight and neon, sorted into corridors of bidding and locked rooms with polite names. Stormriven captains broadcast their demands with theatrical restraint. Ylvara was to abandon its Black-Blood work, or the prisoners would be consumed piece by piece. Solmara could not answer without igniting the sea.
+Solmara instead authorised a covert extraction targeting selected survivors, researchers and information considered strategically important. The operation involved two independent agents who briefly coordinated their efforts. One was a Shinkiri infiltrator who moved through Thalgrith by exploiting its identities, routines and security systems. The other was a Hoshimiran swordsman who entered the city's fighting pits and syndicates to locate survivors the official operation had ignored.
 
-So they chose absence instead.
+Their search led into the Gilt Spiral, where one survivor had been absorbed into Silealyros's system of manufactured identities, performances and controlled companionship. Recovering her required the swordsman to participate in the establishment that held her, turning the rescue into a series of compromises and negotiated access.
 
-A phantom was commissioned. Not a fleet, not a declaration. Just a shape moving through gaps. The official targets were few. A scholar who knew too much. A researcher whose mind still mattered to the Council. Symbols worth recovering. The rest were classified as noise, unless deniability could be preserved. That is how the order was written. I have seen how language sharpens itself when it wants to cut without blood.
+The Shinkiri agent initially followed the operation's limited objectives, treating unassigned survivors as outside her remit. She eventually extracted an additional child after choosing to intervene despite having no order to do so, creating a deviation from the mission's original scope.
 
-Two figures moved through Thalgrith that night, though history pretends there was only one.
+The operation succeeded in removing several survivors before the authorities could respond. Children affected by Black Blood were subsequently transferred to Isvara, where they entered a heavily supervised system presented as humanitarian protection. Thalgrith continued operating, while Solmara denied direct involvement.
 
-One was a ghost from Shinkiri. She treated the city like a puzzle laid flat beneath her feet. Guards, habits, rhythms, blind spots. She slipped between identities as easily as breath. To her, the mission was geometry. Enter. Extract. Leave nothing behind. People were coordinates. Mercy was inefficiency. When she moved, even the cameras seemed unsure of what they had seen.
-
-The other moved like a wound that refused to close.
-
-They say a Hoshimiran swordsman walked the port alone, carrying guilt heavier than any blade. He had already killed to spare suffering, and it had not been enough. The survivors of the Vireliax were his responsibility now, even if the world had written them off. He fought for credits in pits that cheered pain. He bartered favours with syndicates that smiled while they measured organs. Every step deeper into Silealyros demanded that he participate in the thing he hated. Freedom there has a price, and it is always paid in pieces of yourself.
-
-Their paths crossed briefly. A bargain was struck in the dark. If he could gather the scattered souls before the ghost finished her work, she would take them too. If not, they would remain where the city had placed them. She gave him a list and a deadline. Three days. After that, she would be gone.
-Some he reached. Some were already reduced to inventory, or worse. One was beyond him entirely, sealed behind glass and instruments, a child treated as a question instead of a life.
-
-And then there was the Spiral.
-
-I do not like speaking of the Gilt Spiral. Even remembering it leaves a residue. It was a place where Silealyros dressed its philosophy in soft colours and music, where degradation was made cute and rebellion was stitched into uniforms. Animal masks. Branded personas. Smiles trained to sell comfort while erasing the person underneath. They called it companionship. It was a factory for obedience that pretended to be play.
-
-One of the survivors was there, renamed, repackaged. Cleverness sold as allure. Resistance turned into an accessory. To reach her, the swordsman had to become a patron. Had to ask for her by name. Had to validate the system's investment. Each step deeper was another compromise, another quiet apology swallowed. Rescue was planned in fragments between performances, whispered through practised affection while the walls listened. I hate that place. I hate how easily it learned how to smile.
-
-The ghost saw all of this. She did not intervene. It was outside her parameters.
-
-Until it wasn't.
-
-At the edge of the operation, something shifted. A child no one had ordered her to save. A plea that did not fit into any schema. I do not know what she felt in that moment. I only know the pattern broke. One extra life vanished with the others. A deviation small enough to hide, large enough to matter.
-By morning, the primary targets were gone. The storm did not notice. No alarms rang that could be traced. Children touched by Black Blood were transferred to Isvara, a place of fences and soft words, where protection and observation shared the same walls. Thalgrith continued to trade in flesh. Silealyros called it freedom. Solmara denied everything.
-
-Operation Phantom Rescue returned to rumour, which was the point. Historians later praised its elegance. Deniable statecraft. Extraction without spectacle. They say it preserved reputation.
-
-What they do not write is this: something lingered afterward. Not just the rescued, but the cost. The compromises. The small fracture where a ghost chose to be seen, and a guilty man paid for mercy with himself.
-
-Phantoms do not haunt places. They haunt decisions. And Thalgrith still listens for footsteps that are no longer there.`,
+Phantom Rescue became an example of Solmaran deniable intervention, remembered for recovering valuable personnel while leaving the structures that enabled their captivity intact.`,
     related: ["vireliax-expedition", "isvara", "silealyros"]
   },
   {
     id: "shattered-walls",
-    name: "The Shattering",
-    aliases: ["The Shattering"],
+    name: "Shattered Walls",
+    aliases: ["Era of Shattered Walls"],
     category: "events",
     age: "age-of-men",
-    short: "It was almost forty years after Ik-Rasul, after Phantom Rescue and Operation C.a.R., after the children were ferried to Isvara and told it was for their own good. By then Solmara had hardened into something brittle. A state built on scanners and checkpoints, on watching first and asking never.",
-    full: `The Era of Shattered Walls
+    short: "The Era of Shattered Walls marked the end of Solmara's long attempt to contain the Curse through secrecy and segregation. The structures surrounding it had been opened, exposing both the afflicted and the institutions that had kept them hidden.",
+    full: `The Era of Shattered Walls began nearly forty years after the Ik-Rasul Incident, following Operation C.a.R., Phantom Rescue and the relocation of affected children to Isvara. By then, Solmara had built an increasingly rigid system of scanners, checkpoints and quarantine measures around the Curse, classifying afflicted people as anomalies and removing them from ordinary society.
 
-It was almost forty years after Ik-Rasul, after Phantom Rescue and Operation C.a.R., after the children were ferried to Isvara and told it was for their own good. By then Solmara had hardened into something brittle. A state built on scanners and checkpoints, on watching first and asking never. The Curse existed only in whispers. Officially it was contained. Officially it was rare. Officially it was not a person.
-They hid the afflicted behind quarantine lines and careful language. Aberration. Anomaly. Necessary removal. Humanity was the first thing stripped away.
+The system began to fail as the Curse spread beyond containment and information about it became increasingly difficult to suppress. Survivor accounts, leaked research and persistent Resonance carried knowledge through the population until the divisions surrounding the Cursed could no longer be maintained.
 
-But silence does not last forever.
+Protests against the Cursed Laws developed into riots and clashes with Solmaran security forces. Councillor Retha Nuur responded with a programme she called Structural Restoration, loosening checkpoints, reducing executions and dismantling segregation measures. These reforms exposed the Council's internal divisions and created pressure for greater recognition of the Cursed, including public research and the restoration of previously suppressed histories.
 
-The Curse spread too far. Its signs were too visible. Its echoes travelled faster than patrols. Knowledge itself became contagious. Once enough people knew, there was no unknowing it. What had lived in sealed archives and survivor memories stepped into daylight.
-That moment became the Era of Shattered Walls.
+For the first time, Cursed people appeared openly within Solmaran society. Universities studied the Curse, research received state support, and children raised within containment were placed alongside ordinary students. Fear and curiosity spread alongside the reforms.
 
-It began in the streets. Riots against the Cursed Laws. Protests that turned into clashes. Barricades burning under surveillance lights. Broadcasts filled with masked figures standing their ground and armoured patrols in mechs, the same mechs they once called Angels, pushing back. Solmaran leaders spoke in careful tones and promised change while the ground shifted beneath them.
+The collapse of secrecy also allowed Vantari traditions to expand beyond their previous communities. Their acceptance of the Cursed and their teachings around Vanta, death and existential withdrawal attracted people who had been excluded by Solmaran society, creating an ideological challenge to Council authority.
 
-Councillor Retha Nuur appeared everywhere. Calm voice. Steady hands. Structural Restoration, she called it. She said the Council was listening. Executions slowed. Checkpoints loosened. Segregation walls came down piece by piece.
-
-Instead of healing the city, the cracks widened. The Council was exposed as divided and afraid. Reform felt less like a plan and more like stalling the fall.
-
-For the first time, the Cursed walked openly through Solmara's streets. Research received state funding. Every discovery brought hope and fear in equal measure. Universities taught the history they once buried. Children who had grown up behind fences now sat in classrooms beside the unmarked.
-Still, people wore masks. Not only for safety. Sometimes to avoid seeing each other.
-
-From the fractures, new beliefs emerged. The Vantari rose quietly and then all at once. Devotees of the Vanta, preaching surrender to death and rebirth. Half philosophy, half religion. But what's the difference? They welcomed the afflicted and the terrified alike. Their processions moved through the cities like unanswered questions, rivalling Solmara's authority without ever asking permission.
-
-Beyond Solmara, the world adjusted its stance. Elysium sealed itself beneath Cryotech glass, choosing preservation over engagement. Survival became stratified. Other nations watched Solmara with unease. Not as a superpower, but as a warning. A state held together by habit, surveillance, and the fear of what would happen if it finally broke.
-
-That was the shift. Solmara stepped out of secrecy and into exposure. The walls fell. The truths showed themselves. Nothing was whole anymore.
-The world did not end.
-
-But it stopped pretending it wasn't already cracked.`,
+Other powers responded according to their own interests. Elysium withdrew behind Cryotech barriers, while other nations watched Solmara's instability and adjusted their own policies towards the Cursed.`,
     related: ["ik-rasul-incident", "phantom-rescue", "op-car"]
   },
   {
     id: "discovery-of-magic",
     name: "Discovery of Magic",
-    aliases: ["Discovery of Magic"],
+    aliases: [],
     category: "events",
     age: "age-of-men",
-    short: "Zephyr was one of the first to see the shape of it. To take the fraying edges of a soul and... tune them. What others would later call Magic, Zephyr saw as a science. A deliberate bending of soul resonance, using anchors from the outside to conduct a will from within.",
-    full: `The Discovery of Magic
+    short: "The Discovery of Magic was Zephyr's development of systematic methods for manipulating Soul Resonance, establishing Magic as a studied discipline through external anchors, Heart Crystals and controlled experimentation.",
+    full: `Zephyr was among the first to recognise that Soul Resonance could be deliberately tuned and directed through external anchors. What became known as Magic, he approached as a science: a method of shaping Resonance through knowledge, formula and controlled application.
 
-Zephyr was one of the first to see the shape of it. To take the fraying edges of a soul and... tune them. What others would later call Magic, Zephyr saw as a science. A deliberate bending of soul resonance, using anchors from the outside to conduct a will from within.
-His tools were the remnants of his failures. Those Heart Crystals, born from experiments that didn't take... they weren't just stone. They were prisons of concentrated feeling. Anguish. Desire. Will, frozen solid. You could plug a formula into that frozen scream and make it sing. Or scream something new.
-He wrote it all down. Grimoires, cold and precise. He gave them to the right people, built a web of collaborators, founded an organisation that grew in the city's shadow. He didn't conquer Elysium. He made it need him. He offered solutions to impossible problems, power to the powerless. All he asked for was loyalty. And silence.
-In a decade, he wasn't just in the city. He was the foundation it stood on. The real throne was a chair in a hidden lab.
-But his work... it needed fuel. Subjects. And there were always more. The Cursed. The displaced. The orphans war had already broken. His labs hid beneath the clean, bright districts, places where stone drank the sound. His own people spoke of him with a mix of awe and fear. He was the man who had stared into the Curse's heart and come back with an instruction manual.
-And among all the faces that passed through his hands... there was one. A woman. Just another subject, then. He didn't know she was the flaw in his perfect design. The equation he couldn't solve.
-She would be the one to unravel him.`,
+His earliest tools included the Heart Crystals produced through his experiments, concentrated stores of Resonance capable of retaining emotion, desire and will. He developed methods for using them as magical anchors and documented his findings through grimoires and systematic experimentation.
+
+Zephyr built a network of collaborators around this knowledge, eventually making himself indispensable to Elysium through solutions to problems others could not solve. His research depended increasingly on living subjects, particularly Cursed people, displaced populations and orphans who could be taken into his laboratories without meaningful resistance.
+
+His work established many of the foundations of modern magical study, while also creating the conditions for increasingly invasive experimentation. Among the subjects who passed through his laboratories was a woman whose presence would eventually undermine the system he had built.`,
     related: ["heart-crystals", "zephyr", "veyra-descent"]
   },
   {
     id: "veyra-descent",
     name: "Veyra's Descent",
-    aliases: ["Veyra's Descent"],
+    aliases: [],
     category: "events",
     age: "age-of-men",
-    short: "She finished her father's work. The Doctrine of Becoming. It spread through the underground like a quiet pulse, passed among the Cursed as something between a philosophy and a prayer. She became a voice for them. A scholar, a prophet, a woman who stood in the light and said transformation wasn't a punishment. It was just… change.",
-    full: `Veyra's Descent
-
-She finished her father's work. The Doctrine of Becoming. It spread through the underground like a quiet pulse, passed among the Cursed as something between a philosophy and a prayer. She became a voice for them. A scholar, a prophet, a woman who stood in the light and said transformation wasn't a punishment. It was just… change.
-But even before she spoke for them, before her words would echo across centuries, she was changing too.
-She was carrying a child. The father… his name was Ash. I think. A partner in every sense, in life and in belief. They had dreamed of a gentler world together.
-But Veyra had the Curse. And the pregnancy… it tangled everything.
-It crept through her, slow and cold. Her memory frayed first. His name slipped away. Then his face. Then the feeling of being loved at all. It just… evaporated.
-In the fog of that loss, she grasped for an anchor. Rumours reached her. Whispers of a man in Elysium, Zephyr, who knew things about the Curse no one else did. Talk of cures. Stabilization. Reversal.
-Hope is a desperate compass. She went to Elysium, carrying the life inside her, looking for a way to save them both.
-What she found there… it wasn't salvation.
-It was a different kind of horror.`,
-    related: ["zephyr", "elysium-atrocities", "soul-first-cry"]
+    short: "Veyra completed her father's Doctrine of Becoming and became an advocate for the Cursed while the Curse eroded her own identity. Pregnant with Ash Salinte's child, she travelled to Elysium after hearing of Zephyr's research into stabilising or reversing the Curse.",
+    full: `Veyra completed her father's Doctrine of Becoming, which soon spread through underground Cursed communities as philosophy, prayer and a declaration that transformation could be understood rather than feared. She became an advocate for the Cursed even as the Curse consumed her own memory and identity. Pregnant with Ash Salinte's child, she gradually forgot his name, his face and eventually what being loved by him had felt like. When rumours reached her of Zephyr's research into stabilisation, cures and reversal, she travelled to Elysium in the hope of saving herself and her unborn child.`,
+    related: ["elysium-atrocities", "first-spell", "soul-first-cry"]
   },
   {
     id: "elysium-atrocities",
     name: "Elysium Atrocities",
-    aliases: ["Elysium Atrocities"],
+    aliases: [],
     category: "events",
     age: "age-of-men",
-    short: "Zephyr's laboratories were sanctuaries of suffering. I remember that. Veyra saw children strapped to tables, their chests opened while they still breathed. Hearts extracted, not cleanly, not quickly. She watched the crystallisation process. Essence drawn through alchemical apparatus, condensed into glowing shards, catalogued like grain or iron.",
-    full: `The Atrocities of Elysium
+    short: "Veyra witnessed Zephyr's experiments on Cursed subjects and discovered that Heart Crystals contained the concentrated Soul Resonance of those killed to create them. While imprisoned beneath Elysium, she stole one of the crystals and began learning to communicate with the Resonance within it.",
+    full: `In Elysium, Veyra discovered the true nature of Zephyr's research. His laboratories used children and other Cursed subjects in experiments that opened their bodies, extracted their hearts and condensed their magical essence through alchemical apparatus into Heart Crystals. Veyra witnessed the crystallisation process and understood what the crystals contained: concentrated Soul Resonance, preserving the anguish, will and identity of the person from whom they were made. The knowledge turned her growing anger towards Zephyr and his work.
 
-Zephyr's laboratories were sanctuaries of suffering. I remember that. Veyra saw children strapped to tables, their chests opened while they still breathed. Hearts extracted, not cleanly, not quickly. She watched the crystallisation process. Essence drawn through alchemical apparatus, condensed into glowing shards, catalogued like grain or iron.
-The screams were muffled but constant, echoing through white tile and black steel.
-And she understood.
-Heart Crystals weren't simply tools. They were tombs. Each one held a soul, compressed, its anguish frozen into something that could be wielded. Magic, as Zephyr practised it, wasn't transcendence. It was cannibalism of the spirit.
-The Curse consumed more of Veyra's memory. More of her identity. Yet one emotion survived, sharp and absolute. Rage.`,
-    related: ["zephyr", "heart-crystals", "veyra-descent"]
+Her memory continued to deteriorate while her rage remained intact. Zephyr kept her in a cell beneath Elysium, where her pregnancy became increasingly dangerous. A friend who had protected her while she was imprisoned eventually died beside her. When the body was removed, synthetic white blood marked the floor. Veyra examined the trail through a Heart Crystal she had stolen from Zephyr's experiments and found something reflected through its fractured surface, perhaps instructions or a name. She began practising with the crystal, speaking to it and learning the shape of the Resonance within it.`,
+    related: ["veyra-descent", "soul-first-cry"]
   },
+
+  {
+    id: "first-spell",
+    name: "The First Spell",
+    aliases: [],
+    category: "events",
+    age: "age-of-men",
+    short: "Veyra used Maura's Heart Crystal to cast Ignis, creating the first known Vanta Fire spell and becoming Aerisu's first mage. The casting freed the imprisoned Cursed, after which Veyra escaped Elysium and discovered that her baby had died.",
+    full: `Veyra eventually learned whose Resonance she had been working with. The Heart Crystal belonged to Maura, Zephyr's daughter. Veyra had known Maura while Zephyr kept her in his house, controlling her with Synthetic White Blood to keep her placid and obedient. She had also met Sophie there, the maid who would later save her. As Veyra worked with Maura's crystal, she understood that the person whose Resonance it carried had been killed to make it. From that understanding came the first true command.
+
+Ignis erupted from the crystal in a purple-black Vanta Fire that consumed essence rather than matter. The explosion broke Veyra's cell and opened others throughout the laboratory. She led the imprisoned Cursed into the escape as guards were overwhelmed and corridors collapsed, killing many in the process.
+
+Veyra became the first mage of Aerisu through that casting. She fled the laboratory through the frozen waters surrounding its island and reached a sewer beneath Elysium, where she discovered that her baby had died.`,
+    related: ["veyra-descent", "elysium-atrocities", "soul-first-cry"]
+  },
+
   {
     id: "soul-first-cry",
     name: "Soul's First Cry",
-    aliases: ["Soul's First Cry", "The First Spell"],
+    aliases: [],
     category: "events",
     age: "age-of-men",
-    short: "Veyra was kept in a cell beneath Elysium. Anger pressed against her ribs, but she couldn't flee. The pregnancy had already turned catastrophic, though she didn't know it yet. A friend lay dying beside her. Someone who had cared for Veyra when Zephyr held her, who had tried to protect her in small ways that mattered.",
-    full: `The Cell
-
-Veyra was kept in a cell beneath Elysium. Anger pressed against her ribs, but she couldn't flee. The pregnancy had already turned catastrophic, though she didn't know it yet.
-A friend lay dying beside her. Someone who had cared for Veyra when Zephyr held her, who had tried to protect her in small ways that mattered. Eventually they took the body away, dragging it across the floor. A trail of synthetic white blood followed, pale and gleaming against the stone.
-Veyra looked through the Heart Crystal she'd stolen from one of Zephyr's experiments. Through its fractured surface, she saw the trail. Saw something written on the wall. Instructions, maybe. Or a name. She couldn't be sure.
-She practised. Days blurred together in the dark. She spoke to the crystal, felt its resonance, learned the shape of its anguish. And eventually, she cast the spell.
-The explosion tore the cell apart.
-
-The First Spell
-
-The Heart Crystal was Maura's. Zephyr's daughter. Veyra had spent time with her when Zephyr kept her in his house, controlled by Synthetic White Blood, kept placid and obedient. That was where she'd met Sophie too. The maid who would later save her.
-The crystal pulsed in her palm, warm and alive, whispering the name of the child who had died to make it. Veyra understood exactly what she held. Not a tool, but a prisoner. And she understood what she must do.
-She spoke a word. Not from any language, but a command drawn from the resonance of her own anguish. The crystal responded, flaring with violet light.
-Ignis.
-Fire erupted from her hand, but it wasn't the red-gold flame of hearth or forge. It was Vanta Fire, a purple-black blaze that burned without heat, consuming not matter but essence. The explosion blew open other cells. She led the charge to escape the lab, Cursed prisoners stumbling behind her through smoke and broken stone.
-Many died in the process. The guards. The panic. The collapse of corridors not meant to break.
-Veyra had cast the first true spell. And in doing so, she had become the first mage of Aerisu.
-She fled into the frozen waters. The lab sat on a small island off the coast of the city. The cold bit through her skin, through her clothes, but she swam. She made it to a sewer tunnel and crawled inside, shaking, bleeding.
-That's where she discovered her baby had died.
-
-The Soul's First Cry
-
-Her scream tore through Elysium like a blade through paper. Not merely sound but resonance. A psychic shockwave that rippled across the city, the continent, the world. Every soul attuned to the Curse felt it. A moment of absolute, unbearable anguish. Mothers clutched their children. Soldiers dropped their weapons. Scholars looked up from their texts, trembling. Technology glitched and flickered, lights stuttering in rhythm with grief.
-In the centuries to come, this moment would be remembered as The Soul's First Cry.
-It was the sound of a world breaking.`,
-    related: ["veyra-descent", "heart-crystals", "zephyr"]
+    short: "The death of Veyra's child produced a psychic shockwave that spread across Aerisu, overwhelming souls attuned to the Curse and causing widespread emotional and technological disturbances. The event became known as the Soul's First Cry.",
+    full: `Veyra's discovery of her child's death triggered a psychic shockwave that travelled through Elysium, across the continent and throughout Aerisu. Souls attuned to the Curse felt a moment of overwhelming anguish. Mothers clutched their children, soldiers dropped their weapons, scholars stopped to tremble and technology flickered in response. The event became known as the Soul's First Cry.`,
+    related: ["veyra-descent", "elysium-atrocities", "first-spell", "soul-first-cry", "cursed-prophet", "heart-crystals", "zephyr"]
   },
   {
     id: "cursed-prophet",
     name: "Cursed Prophecy",
-    aliases: ["Cursed Prophecy", "The Prophet of the Cursed"],
+    aliases: ["The Prophecy of the Cursed"],
     category: "events",
     age: "age-of-men",
-    short: "Veyra stumbled deeper into the sewers. She found a large open section there, in the dark. The homeless Cursed huddled in the shadows, their bodies marked by Black or White Blood, their faces hollow with despair. She didn't speak. She simply lit a fire into a metal drum, using a piece of Maura's Heart Crystal.",
-    full: `The Prophet of the Cursed
+    short: "Veyra reached an underground community of Cursed people and created a Vanta Fire beacon from Maura's Heart Crystal. A woman there proclaimed that Veyra's dead child would still be born, while the community helped Veyra escape through the underground railway, where she eventually encountered Ash and recovered her lost memories.",
+    full: `After the Soul's First Cry, Veyra continued through the sewers until she reached a community of homeless Cursed people, many marked by Black or White Blood. She used a fragment of Maura's Heart Crystal to kindle Vanta Fire in a metal drum, creating a beacon that would continue burning for generations.
 
-Veyra stumbled deeper into the sewers. She found a large open section there, in the dark. The homeless Cursed huddled in the shadows, their bodies marked by Black or White Blood, their faces hollow with despair.
-She didn't speak. She simply lit a fire into a metal drum, using a piece of Maura's Heart Crystal. Vanta Fire bloomed, purple-black and steady. A beacon in the dark.
-That flame still burns. Even to this day.
-A woman approached her through the firelight. She spoke a prophecy about Veyra's baby. Despite everything, despite the loss still fresh and bleeding, this woman insisted Veyra was still pregnant. That the child would come.
-Some of the Cursed ushered the woman away, muttering about madness. Others praised Veyra, defended her, led her through the tunnels toward a way out. She followed, numb and stumbling.
-Eventually she found the subway. Tomenos was there. The psychopomp, quiet and patient. He guided her through the underground rails to her home district.
-That's where she met Ash again.
-Slowly, piece by piece, she began to remember. His face. His voice. The memories she had lost. The life they had tried to build together.
-She vowed to finish her father's work. And to expose Zephyr.`,
-    related: ["veyra-descent", "soul-first-cry", "tomenos"]
+A woman approached the fire and proclaimed that Veyra's child still lived and would be born, despite Veyra's discovery of the death. Others dismissed the woman as mad, while members of the community sheltered Veyra and helped her reach the underground railway. Tomenos was waiting there and carried her through the tunnels towards her home district.
+
+There she encountered Ash. The meeting gradually restored the memories the Curse had taken from her, including his face, voice and the life they had shared. Veyra resolved to complete her father's work and expose Zephyr`,
+    related: ["veyra-descent", "elysium-atrocities", "first-spell", "soul-first-cry", "zephyr-ascension", "tomenos"]
   },
   {
     id: "zephyr-ascension",
     name: "Zephyr's Ascension",
-    aliases: ["Zephyr's Ascension"],
+    aliases: [],
     category: "events",
     age: "age-of-men",
-    short: "Veyra's writings spread through Elysium like smoke through cracks. The Doctrine of Becoming reached hands that had been waiting for it. Testimonies surfaced. Evidence mounted. Zephyr was outed. He fled the city. But he did not stop.",
-    full: `Zephyr's Ascension
+    short: "After Veyra exposed his laboratories, Zephyr rebuilt his research network through scientists, politicians and corporations. His followers weaponised Synthetic White Blood, pursued Black and White Blood applications, and combined Curse research with economic and strategic power, allowing Zephyr to re-establish his influence over Elysium within a decade.",
+    full: `While Veyra's writings spread through Elysium, testimonies and evidence exposed Zephyr's laboratories. He fled the city and rebuilt his research through collaborators among scientists, politicians and corporations, codifying his findings into grimoires and distributing them through a network that could function without him.
 
-Veyra's writings spread through Elysium like smoke through cracks. The Doctrine of Becoming reached hands that had been waiting for it. Testimonies surfaced. Evidence mounted. Zephyr was outed.
-He fled the city.
-But he did not stop.
-He rebuilt his work in the shadows, spreading his research among collaborators who understood what power looked like. Scientists, politicians, corporations hungry for leverage. He codified his findings into grimoires and sold them carefully, building a network that didn't need his presence to function.
-Where Veyra had discovered fire, Zephyr discovered control. His followers refined Synthetic White Blood into weapons. They worked on bioweapons using Black Blood, experimented with White Blood's explosive properties, combined Curse research with economics and strategy. They formed what would become some of the first Mages and Sorcerers, organisations that moved like corporations, cold and efficient.
-Within a decade, Zephyr returned to Elysium. Not as a fugitive, but as a force the city could no longer refuse. His influence had woven itself into infrastructure, policy, research. He didn't conquer the city. He became its foundation.
-His magic wasn't fire or fury but inevitability. A slow, creeping transformation that reshaped society from within.
-And he continued his experiments on children.
-For every truth Veyra exposed, Zephyr built ten new lies. For every spell she discovered, he devised a counter. He was her shadow, her inversion, her nemesis.`,
+His followers developed Synthetic White Blood into weapons, pursued Black Blood bioweapons and White Blood applications, and combined Curse research with economic and strategic power. The organisations that emerged from this network became some of the earliest Mages and Sorcerers.
+
+Within a decade, Zephyr had returned to Elysium through infrastructure, policy and research, making his influence part of the city's foundations. His experiments on children continued, establishing a long struggle between the knowledge Veyra had brought into the world and the system of control Zephyr built around it.`,
     related: ["veyra-descent", "elysium-atrocities", "synthetic-white-blood"]
   },
   {
     id: "hell-of-elysium",
     name: "Hell of Elysium",
-    aliases: ["Hell of Elysium"],
+    aliases: [],
     category: "events",
     age: "age-of-men",
-    short: "The breaking point came during an experiment meant to stabilise Synthetic White Blood for mass production. Zephyr's collaborators had constructed a massive alchemical reactor beneath Elysium's core. Autarch technology fused with arcane circuitry, designed to synthesise the substance on an industrial scale.",
-    full: `The Hell of Elysium
+    short: "The failure of Zephyr's Synthetic White Blood reactor devastated Elysium, releasing stored bioweapons, experimental Cursed, concentrated Vanta and multiple forms of Blood contamination. As the city collapsed, Zephyr began adapting his plans to the disaster.",
+    full: `Elysium descended into catastrophe when an experiment intended to stabilise Synthetic White Blood for mass production failed. Zephyr's collaborators had constructed a massive alchemical reactor beneath the city's core, combining Autarch technology with arcane circuitry to synthesise the substance on an industrial scale. Its failure tore through Elysium's foundations, rupturing containment chambers that held decades of stored bioweapons, experimental Cursed and concentrated Vanta.
 
-The breaking point came during an experiment meant to stabilise Synthetic White Blood for mass production. Zephyr's collaborators had constructed a massive alchemical reactor beneath Elysium's core. Autarch technology fused with arcane circuitry, designed to synthesise the substance on an industrial scale.
-The reactor failed.
-The explosion tore through the city's foundations, rupturing containment chambers and releasing decades of stored bioweapons, experimental Cursed, and concentrated Vanta. Black Blood flooded the streets. White Blood clung to buildings, puffing and expanding until structures buckled under the weight. Synthetic White Blood poured into the water system, transforming thousands into hollow, obedient shells.
-Elysium became Hell.
-Creatures born of failed experiments crawled from the depths. Amalgamations of flesh and crystal, beings whose bodies wept acidic tears, things that screamed with voices stolen from the dead. The Vanta itself seemed to awaken, spreading across the city in a creeping fog that distorted perception and memory.
-Citizens fled. Soldiers fired into the chaos. The Council issued evacuation orders, then rescinded them, then issued them again. Elysium, the jewel of Ylvara, was dying.
-And at the centre of it all stood Zephyr. He hadn't wanted the explosion. The failure was a setback, a loss of control he'd spent decades building. But he was already calculating. Already adjusting. He would make the best of it anyway.`,
+Black Blood flooded the streets. White Blood clung to buildings, puffing and expanding until structures buckled beneath its weight, while Synthetic White Blood entered the water system and transformed thousands into hollow, obedient shells. Creatures born from failed experiments emerged from the depths, including amalgamations of flesh and crystal, beings whose bodies wept acidic tears, and things that screamed with voices stolen from the dead. Vanta spread through the city as a creeping fog, distorting perception and memory.
+
+Citizens fled while soldiers fired into the chaos. The Council issued evacuation orders, rescinded them, then issued them again. Elysium, the jewel of Ylvara, was dying.
+
+Zephyr stood at the centre of the disaster. He had not intended the explosion, and the failure represented a loss of control over a system he had spent decades building. He was already calculating how to adapt to it.`,
     related: ["zephyr-ascension", "synthetic-white-blood"]
   },
   {
     id: "fight-for-hell",
     name: "Fight for Hell",
-    aliases: ["Fight for Hell"],
+    aliases: [],
     category: "events",
     age: "age-of-men",
-    short: "Veyra was captured. Not through heroism or grand defiance. Just an unfortunate accident, the kind that happens when you're caught between forces larger than yourself. She wasn't a hero. She wasn't even really a mage, not in the way the stories would later claim.",
-    full: `The Fight for Hell
+    short: "During Elysium's destruction, Veyra was captured while Ash fought through Zephyr's forces with the aid of a disillusioned Solmaran mech pilot. Sophie secretly helped them inside Zephyr's tower while continuing to rescue people across the city, ultimately dying there alone.",
+    full: `As Elysium collapsed into the catastrophe caused by Zephyr's failed reactor, Veyra was captured amid the chaos. Her capture came through circumstance rather than heroism or grand defiance. By this point, she had cast a single spell and possessed little magical mastery. What followed was survival and fury, rather than the mastery later attributed to her.
 
-Veyra was captured. Not through heroism or grand defiance. Just an unfortunate accident, the kind that happens when you're caught between forces larger than yourself. She wasn't a hero. She wasn't even really a mage, not in the way the stories would later claim. She'd cast one spell. One explosion. The rest was survival and fury, not mastery.
-Elysium had become a hellscape. Zephyr's compatriots had turned the city into a testing ground, each district warped by different experiments, different applications of the Curse. The streets twisted. The air tasted wrong. Reality bent in places where it shouldn't.
-Ash came for her.
-He fought his way through that hell, not alone but close to it. A mech pilot joined him, someone who'd lost her patriotism toward Solmara, who'd seen what the state had become and couldn't carry that weight anymore. Together they cut through Zephyr's forces, through his collaborators and their twisted defences.
-And in the shadows, in the gutters of that hell, Sophie was still alive.
-The maid who had saved Veyra all those years ago. She'd never stopped. She worked quietly, desperately, saving as many lives as she could while the city collapsed around her. Eventually she made her way into Zephyr's tower. She helped Ash, as well Veyra who was already present via her capture, make progress. She opened doors that shouldn't have opened, disabled systems no one knew she could reach.
-No one knew what she was doing. No one even knew she existed.
-She died in the tower. Alone. Forgotten.
+Zephyr's compatriots had turned the ruined city into a testing ground, with each district warped by different experiments and applications of the Curse. The streets twisted, the air became corrupted and reality bent in places where it should not have. Ash came for Veyra, fighting through Zephyr's forces, collaborators and their defences with the aid of a mech pilot who had lost her patriotism towards Solmara after witnessing what the state had become.
+
+Sophie was also still alive within the ruined city. The maid who had saved Veyra years earlier continued rescuing people while Elysium collapsed around her. She eventually reached Zephyr's tower, where she secretly helped Ash and Veyra make progress, opening doors that should have been inaccessible and disabling systems no one knew she could reach.
+
+No one knew what Sophie was doing. Few even knew she existed. She died alone in the tower, forgotten.
+
 At least, until I remembered her.`,
     related: ["hell-of-elysium", "zephyr-ascension", "the-crystallization"]
   },
+
+  {
+    id: "final-broadcast",
+    name: "The Final Broadcast",
+    aliases: [],
+    category: "events",
+    age: "age-of-men",
+    short: "After reaching the epicentre of Zephyr's tower with Ash and Sophie's secret assistance, Veyra broadcast a final condemnation of the systems built around the Curse. She gave those who could hear her one last chance to flee before detonating herself.",
+    full: `The struggle through Zephyr's tower eventually brought Veyra to its epicentre, where she arrived with the secret assistance of Ash and Sophie. By this point, she understood what she needed to do and what she was capable of doing, even if she did not fully understand the nature of that ability.
+
+Veyra used the network Zephyr had built to broadcast her message across every channel, speaker and screen still connected to it. Her voice reached homes, bunkers and sealed districts where people continued to believe themselves safe. She told them they had all sinned, that the corruption had spread too far, and that the systems built to contain the Curse had become the Curse itself. She condemned the categorisation, medicalisation and gamification of suffering, along with the bureaucracy that had reduced souls to inventory.
+
+“To hell with control,” she said. “To hell with order. To hell with your systems and your certainty. To hell with all of it.”
+
+The broadcast was a warning and a final chance to flee. Veyra detonated herself at the tower's epicentre, leading to The Crystallization of Elysium.`,
+    related: ["fight-for-hell", "veyra-descent", "zephyr"]
+  },
+
   {
     id: "the-crystallization",
     name: "The Crystallization",
-    aliases: ["The Crystallization", "Final Broadcast"],
+    aliases: ["The Crystallization of Elysium", "Vanta Explosion"],
     category: "events",
     age: "age-of-men",
-    short: "Veyra had made her way to the epicentre of Zephyr's tower with the secret help of Sophie and Ash. She knew what she had to do. What she was capable of doing, even if she didn't fully understand it.",
-    full: `The Final Broadcast
+    short: "Veyra's detonation at Zephyr's tower crystallised Elysium and spread across large areas of Ylvara, transforming everything in its path into purple-black mineral known as VantaBlack. At the epicentre, the crystal preserved Veyra protecting her unborn child, who was still alive within her womb.",
+    full: `Veyra's detonation at the centre of Zephyr's tower triggered a transformation that instantly crystallised everything within Elysium's borders. Stone, steel, flesh and air were locked into a lattice of purple-black mineral known as VantaBlack. The wave spread outward from the city, consuming districts, provinces and entire swathes of Ylvara, turning the landscape into a frozen tableau of anguish and beauty.
 
-Veyra had made her way to the epicentre of Zephyr's tower with the secret help of Sophie and Ash.
-She knew what she had to do. What she was capable of doing, even if she didn't fully understand it.
-She broadcast her message across every channel Zephyr had built, every speaker, every screen. Her voice reached into homes, into bunkers, into the sealed districts where people still pretended safety was possible.
-She told them they had all sinned. That the corruption had spread too far, that the systems they'd built to contain the Curse had become the Curse itself. She condemned the categorization, the medicalization, the gamification of suffering. The bureaucracy that had turned souls into inventory.
-"To hell with control," she said. "To hell with order. To hell with your systems and your certainty. To hell with all of it."
-It was a warning. A final chance to flee.
-Then she detonated.
+Veyra herself stood at the epicentre. The crystal preserved her with her hands cradled against her womb and her head bowed, her body curved around the life within her in the instinctive posture of a mother protecting her child. She was preserved exactly as she had been in that moment, protecting what remained within her.
 
-The Crystallization
-The explosion wasn't heat or force but transformation. Everything within Elysium's borders crystallized instantly. Stone, steel, flesh, air, all of it locked into a lattice of purple-black mineral. The wave spread outward, consuming districts, provinces, entire swathes of Ylvara, turning the landscape into a frozen tableau of anguish and beauty.
-Veyra herself was at the epicentre. The crystal found her with her hands cradled against her womb, head bowed, her body curved around the life inside her in the instinctive way of mothers who know something is coming and place themselves between it and what they love. The crystal preserved her exactly as she was in that moment. Protecting.
 And within her womb, impossibly, her child still lived.`,
-    related: ["fight-for-hell", "veyra-descent", "voluntas"]
+    related: ["final-broadcast", "fight-for-hell", "veyra-descent", "voluntas"]
   },
 );

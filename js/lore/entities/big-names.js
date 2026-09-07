@@ -1,470 +1,10 @@
 window.LORE_ENTRIES = window.LORE_ENTRIES || [];
 
-// === BIG NAMES ===
-// Order: The Phumenar, Tomenos, Zorya Chernaya, Vorograv, Zorya's Daughters,
-// Xeraphina, CHOIR, CHOIR Members, ESIG, Project DAEDALUS, D.E.A.D.,
+// === Big Names ===
 // The Sphinx, Falak, Anqa, Qayyin, The Ashtar,
 // The Diviners, Children of Isvara, Zephyr
 
 window.LORE_ENTRIES.push(
-
-  // CHOIR
-
-{
-  id: "choir",
-  name: "CHOIR",
-  aliases: ["CHOIR", "Angels"],
-  category: "entities",
-  age: "age-of-gods",
-  short: "CHOIR was a seven-pilot formation of ESIG's Project DAEDALUS whose coordinated interventions during the Shattering became the origin of the seven Angels remembered throughout the Age of Fairytales.",
-  full: `Mechanised Angels
-CHOIR was a formation of ESIG's Project DAEDALUS during the Shattering, whose aerial combat frames could enter regions where ordinary forces collapsed under Lux distortions and Vanta activity. People began calling the machines Angels, an old word whose meaning survived after its origin was forgotten.
-
-Its seven pilots came together through repeated operations in which survival depended on cooperation rather than hierarchy, each carrying a distinct role that later became inseparable from the Angel remembered in their name. Xeraphina coordinated the group; Azryel specialised in long-range targeting and battlefield observation; Lumeira maintained its broadcast networks after working as a communications technician; Gavrien served as a high-velocity courier; Ramyra salvaged damaged Autarch machines; Thamiel specialised in defensive operations around civilian structures; and Iophiel brought the observational discipline of her work as a Diviner researcher.
-
-After the Shattering, the machines were gone and the pilots scattered, leaving behind the image of seven figures descending from the sky with burning wings of light. The Age of Fairytales gathered their deeds, disciplines and sacrifices into a celestial pattern, remembering each as an Angel associated with one of the seven virtues. Their history became myth through the Echoes they left behind, until CHOIR itself was remembered less as a military formation than as seven Angels who had answered the sky together.`,
-
-  related: ["xeraphina", "azryel", "lumeira", "gavrien", "ramyra", "thamiel", "iophiel", "esig", "project-daedalus"]
-},
-
-// Xeraphina
-
-{
-  id: "xeraphina",
-  name: "Xeraphina",
-  aliases: ["Xeraphina", "Angel of Diligence", "God of War"],
-  category: "entities",
-  age: "age-of-gods",
-  short: "Xeraphina was a contract pilot chosen by Anima who became the leader of CHOIR and was later revered as both the Angel of Diligence and the God of War through the echo of her life and accomplishments.",
-  full: `Angel of Diligence and God of War
-Xeraphina was a contract pilot in the Age of Gods who had already made her peace with the ending. With Lunarkos growing larger each year, she drank, gambled and sought sensation, refusing team assignments and working alone because she saw little reason to prepare for a future she believed was already ending.
-
-Anima chose her for her competence and the emptiness left by that resignation. Its influence moved through her mech's systems until the purpose behind her selection became clear, and she turned herself towards it completely. As a member of CHOIR she became its calm centre, coordinating seven pilots whose different strengths depended upon one another, and her willingness to continue acting when the outcome was already known came to embody the virtue of Diligence.
-
-She died at the hand of her son, Justicar, whose certainty led him to kill her in the name of justice. The act became part of the Echo that shaped them both: Justicar came to understand that certainty without context could become murder, while Xeraphina's continued action in the face of inevitable destruction became the foundation of her later reverence as the Angel of Diligence.
-
-Her accomplishments were eventually gathered into the figure of the God of War, whose Echo strengthened warriors and engineers alike. Argestian engineers later gave her name to a motorbike company because they needed a word for the tradition of building things that continue to work when everything around them is failing.`,
-
-  related: ["anima", "justicar", "choir"]
-},
-
-// Azryel
-
-{
-  id: "azryel",
-  name: "Azryel",
-  aliases: ["Azryel", "Angel of Chastity"],
-  category: "entities",
-  age: "age-of-gods",
-  short: "Azryel was a CHOIR pilot specialising in long-range targeting and battlefield observation who became remembered as the Angel of Chastity.",
-  full: `Angel of Chastity
-Azryel was a CHOIR pilot specialising in long-range targeting and battlefield observation. His place within CHOIR required distance, restraint and exact attention, allowing him to observe without surrendering judgement to the immediacy of the fight.
-
-Later traditions remembered those qualities through the virtue of Chastity, interpreting his discipline as mastery of desire and attention. He could remain focused upon what stood before him without turning possession into purpose, becoming the Angel of Chastity in traditions that saw his distant watch as a form of reverence for what belonged to the world beyond himself.
-
-His Echo endured through the image of the Angel who watched, measured and acted only when the moment required it.`,
-
-  related: ["choir"]
-},
-
-// Lumeira
-
-{
-  id: "lumeira",
-  name: "Lumeira",
-  aliases: ["Lumeira", "Angel of Charity"],
-  category: "entities",
-  age: "age-of-gods",
-  short: "Lumeira was a CHOIR pilot and former communications technician whose work keeping the seven connected became the foundation of her remembrance as the Angel of Charity.",
-  full: `Angel of Charity
-Lumeira was a CHOIR pilot and former communications technician who maintained CHOIR's broadcast networks, keeping the seven pilots in constant contact across distant regions. Her work allowed separate people, machines and decisions to remain part of the same action, preserving the Resonance that made CHOIR function as a whole.
-
-The Age of Fairytales remembered this as Charity, the virtue through which something of oneself is given so that another may continue becoming. Lumeira became the Angel of Charity because her strength was carried through others: information passed through her, intentions became shared understanding, and the work of one pilot could reach another without becoming possession.
-
-Her Echo became associated with connection itself, and later depictions of her treated the Angel as one who kept souls from becoming isolated from one another.`,
-
-  related: ["choir"]
-},
-
-// Gavrien
-
-{
-  id: "gavrien",
-  name: "Gavrien",
-  aliases: ["Gavrien", "Angel of Gratitude"],
-  category: "entities",
-  age: "age-of-gods",
-  short: "Gavrien was a CHOIR pilot specialising in high-velocity entry and rapid message delivery who became remembered as the Angel of Gratitude.",
-  full: `Angel of Gratitude
-Gavrien was a CHOIR pilot specialising in high-velocity entry and rapid message delivery. His frame could reach places the rest of CHOIR could not reach in time, carrying what another person needed across dangerous distance so that work already begun could continue.
-
-His place within the seven became associated with Gratitude, expressed through recognition of what had already been given and the willingness to carry it forward. The Angel of Gratitude came to represent the understanding that every action enters a chain larger than the person who performs it, receiving what others have done and returning it through service.
-
-His Echo therefore became tied to continuity between acts, where what one person gives acquires further consequence through the hands of another.`,
-
-  related: ["choir"]
-},
-
-// Ramyra
-
-{
-  id: "ramyra",
-  name: "Ramyra",
-  aliases: ["Ramyra", "Angel of Humility"],
-  category: "entities",
-  age: "age-of-gods",
-  short: "Ramyra was a CHOIR pilot and salvager whose work recovering useful remnants from damaged Autarch machines became the basis of her remembrance as the Angel of Humility.",
-  full: `Angel of Humility
-Ramyra was a CHOIR pilot and salvager familiar with dismantling damaged Autarch machines. She understood how much of a destroyed system could remain useful after the larger structure had failed, recovering components that others had already considered lost.
-
-The virtue later attributed to her was Humility, shaped through her familiarity with remnants, dependence and the value of individual parts within a larger whole. She became the Angel of Humility because she worked without requiring the whole to revolve around her, recognising that something discarded could still matter and that no part of a functioning system existed entirely by itself.
-
-Her Echo became especially strong among those who preserved, repaired and rebuilt, where value was found in what remained rather than measured only by what had once stood complete.`,
-
-  related: ["choir"]
-},
-
-// Thamiel
-
-{
-  id: "thamiel",
-  name: "Thamiel",
-  aliases: ["Thamiel", "Angel of Temperance"],
-  category: "entities",
-  age: "age-of-gods",
-  short: "Thamiel was a CHOIR pilot specialising in defensive operations whose measured use of force became the foundation of his remembrance as the Angel of Temperance.",
-  full: `Angel of Temperance
-Thamiel was a CHOIR pilot specialising in defensive operations, positioning his frame between threats and civilian structures when CHOIR operations brought fighting close to populated areas. His role demanded force without excess, because every action taken around a civilian structure carried consequences beyond the battlefield itself.
-
-The Age of Fairytales remembered this discipline as Temperance, the ability to hold power within purpose rather than allowing force to become its own justification. Thamiel became the Angel of Temperance because he represented controlled strength, where protection required neither hesitation nor needless destruction.
-
-His Echo endured in the idea that power remains useful only while it remains subject to judgement, proportion and care for what stands around it.`,
-
-  related: ["choir"]
-},
-
-// Iophiel
-
-{
-  id: "iophiel",
-  name: "Iophiel",
-  aliases: ["Iophiel", "Angel of Patience"],
-  category: "entities",
-  age: "age-of-gods",
-  short: "Iophiel was a CHOIR pilot and former Diviner researcher whose patient analysis of unstable conditions became the foundation of her remembrance as the Angel of Patience.",
-  full: `Angel of Patience
-Iophiel was a CHOIR pilot and former Diviner researcher who applied observational analysis during missions. Her training taught her to remain with an uncertain pattern long enough for evidence to accumulate, especially when unstable conditions made immediate interpretation dangerous.
-
-Later traditions remembered this as Patience. Iophiel became the Angel of Patience because she allowed understanding to develop before turning observation into conviction, preserving the space in which an incomplete truth could still become clearer.
-
-Her Echo became associated with those who waited for a pattern to reveal itself rather than forcing certainty upon it, and with the understanding that interpretation itself carries consequence once it enters the world.`,
-
-  related: ["choir"]
-},
-
-  // ESIG
-  {
-    id: "esig",
-    name: "E.S.I.G",
-    aliases: ["Exandrian Strategic Industries Group", "ESIG", "E.S.I.G"],
-    category: "entities",
-    age: "age-of-gods",
-    short: "E.S.I.G. was Exandria's industrial holding structure for deniable state work, created to absorb the costs of decisions the Council could not publicly own.",
-    full: `Exandrian Strategic Industries Group
-E.S.I.G. was the infrastructure, the holding structure, the name on the contract that made the contract deniable.
-
-It emerged from Exandria's industrial basin through the convergence of syndicate capital and Council authorisation, becoming the organisation through which necessary work could be conducted at a remove. Project DAEDALUS became its most significant programme and its most carefully obscured, allowing the Council to pursue work that required deniability while E.S.I.G. absorbed the moral and political cost of the decisions behind it.
-
-After Operation C.a.R., E.S.I.G. expanded into further contracts and programmes, carrying the same function into whatever new structures the changing world required. Whether it still operates under the name E.S.I.G. is difficult to answer cleanly. Organisations like it do not need to survive as names. They restructure, change ownership, replace logos and divide into new entities, while the function persists beneath them.`,
-    related: ["project-daedalus", "dead", "operation-car"]
-  },
-
-  // Project DAEDALUS
-  {
-    id: "project-daedalus",
-    name: "Project DAEDALUS",
-    aliases: ["Project DAEDALUS"],
-    category: "entities",
-    age: "age-of-gods",
-    short: "Project DAEDALUS was E.S.I.G.'s most significant military programme, adapting ancient Autarch war-mechs into aerial combat platforms whose legacy became the Angels of the Age of Fairytales.",
-    full: `DAEDALUS was E.S.I.G.'s most significant military programme, a private weapons project approved by the Council and buried beneath layers of deniability. Its platforms were developed for rapid-response combat, high-risk deployments, artifact recovery and containment, sent into places where conventional forces could no longer operate.
-
-Its foundations were older than Solmara. DAEDALUS descended from the Autarch war-mechs, ancient guardians built to endure when their makers could not. During the Shattering, those machines learned to fly, becoming the frames later used by CHOIR.
-
-The machines were deployed quietly, sent wherever the world became too unstable, dangerous or inconvenient for ordinary forces. Their purpose changed with the hands that controlled them. Guardian became weapon, weapon became symbol, and symbol became story. In the Age of Fairytales, the machines were remembered as Angels. In the Age of Decay, their descendants are assets.
-
-They endured because their design outlasted the people who gave it purpose. Old machines preserve the logic of what they were built to do, even after the world around them has forgotten why.`,
-    related: ["esig", "dead", "operation-car"]
-  },
-
-  // D.E.A.D.
-  {
-    id: "dead-agency",
-    name: "D.E.A.D",
-    aliases: ["Daedalus Expeditionary Agency for Deployment", "D.E.A.D"],
-    category: "entities",
-    age: "age-of-knowledge",
-    short: "D.E.A.D. was a contracted expeditionary agency descended from Project DAEDALUS, operating inherited Autarch technology through work designed to remain outside any single nation's direct accountability.",
-    full: `Daedalus Expeditionary Agency for Deployment
-D.E.A.D. emerged centuries after Project DAEDALUS had passed into institutional memory. E.S.I.G. retained its lineage through an unbroken chain of design philosophy linking the modern agency to something older, built for purposes that had long since outgrown their original justification.
-
-Officially, D.E.A.D. is a contracted expeditionary service handling guard work, extraction and neutralisation, operating in environments where conventional forces cannot function. Its work remains deliberately distributed across clients, keeping the agency at a remove from any single nation's responsibility.
-
-Its inventory reflects the inheritance: mechs descended from Autarch frames, armoured ground vehicles and airships that carry the DAEDALUS name most visibly. The technology survived because the function remained useful, passing from one institution to another while its history became increasingly difficult to separate from the systems built around it.
-
-D.E.A.D. survives because too many people find it useful and too few want to own what it does. The acronym is deliberate. They know what they inherited, and decided to say it first.`,
-    related: ["esig", "project-daedalus"]
-  },
-
-  // The Phumenar
-  {
-    id: "phumenar",
-    name: "The Phumenar",
-    aliases: ["Phumenar"],
-    category: "entities",
-    age: "age-of-fairytales",
-    short: "The Phumenar were a network of city-states whose pursuit of understanding led them to study the Barrier, seek the Orb of Souls and ultimately create the Rift Between Realms.",
-    full: `The First Seekers of the Orb
-In the early Age of Fairytales, the Phumenar emerged as a network of city-states bound by a shared philosophy: that the soul exists to seek, to press beyond every known boundary, unravel mysteries and claim power through understanding.
-
-Voluntas reached them most strongly through the Barrier. Her raw hunger fed their natural curiosity until it became focused obsession. They studied the Barrier to understand why magic had become constrained, catalogued the Laws of the Spirits and traced patterns of divine influence. Eventually, they came to believe that the source of all power lay beyond the Barrier, in the Orb of Souls.
-
-Their greatest achievement was the Rift Between Realms. Through centuries of study, the Phumenar learned to touch the Barrier directly, using Lux shards as anchors and Vanta corruption as a solvent to open a passage from the material world into the Spirit Realm.
-
-What they found there moved beyond ordinary understanding.`,
-    related: ["orb-of-souls", "spirit-realm", "rift"]
-  },
-
-  // Tomenos
-  {
-    id: "tomenos",
-    name: "Tomenos",
-    aliases: ["Vein Trains"],
-    category: "entities",
-    age: "age-of-fairytales",
-    short: "Vein Trains travel through the currents beneath Aerisu, carrying passengers through the world's hidden Veins, while Tomenos's train gathers memories surrendered by travellers and preserves them within objects left aboard.",
-    full: `The conductor of the Vein Trains
-Vein Trains travel through the currents that run beneath Aerisu, following the world's hidden arteries through caverns and passages that connect distant regions. Their engines hum with a quiet energy as they carry passengers through darkness and memory, and their presence feels as ancient as the Veins themselves.
-
-One such train belongs to Tomenos, who has driven its tunnels for longer than he can remember. Passengers may surrender memories when they board Tomenos's train, leaving objects behind to serve as vessels for those moments. A bobblehead might hold the warmth of a childhood summer, a comic book the memory of a first love, or a Rubik's cube a moment of perfect clarity. The exchange leaves the traveller lighter as the memory settles into its vessel.
-
-Some travellers keep their memories and leave at the next station. Others remain aboard, carried through the hidden circulation of the planet. Tomenos continues his route, gathering the memories of the dead as they pass quietly through the ancient Veins.`,
-    related: ["veins", "spiral-veins"]
-  },
-
-  // Zorya Chernaya
-  {
-    id: "zorya-chernaya",
-    name: "Zorya Chernaya",
-    aliases: ["Zorya", "Chernaya", "Burned Queen", "Hell Mother", "Abyss Mother", "Mother of Varkane"],
-    category: "entities",
-    age: "age-of-fairytales",
-    short: "Zorya Chernaya, the Burned Queen, rules the Varkane Abyss after overthrowing Vorograv, whom she slew with a sword forged from his own horn, and now holds back the corruption within the depths.",
-    full: `Hell Mother of the Varkane Abyss
-Zorya Chernaya ruled the lands that became Varkane with an absolute hand. Power flowed through her without limit, and she spent it on spectacles of torment, executions staged as grand performances and betrayals that fractured bloodlines. Her subjects carried her name like a bruise that never faded. She wore blackened iron as a crown.
-
-The Shattering came in fire and rupture. The heat fused her crown into her skull, melting iron into bone as a single blackened crest. Her flesh charred to ash and coal. The Curse recognised her and refused her release.
-
-Vorograv rose from the deepest reaches of the Abyss, born of the same cataclysm. He saw her crowned in melted iron and claimed her. In the warped ruins of her own castle, he bound her. She bore his spawn: succubi, incubi, gargoyles and seven daughters.
-
-She also birthed the hellhounds, with Cerberus foremost among them, three heads ever vigilant. He remained at her side, the only presence that carried warmth.
-
-Centuries passed. She endured because the Curse demanded it, and began chipping at Vorograv's horns while he slept. She entrusted the pieces to Cerberus and sent him through the Veins to Qayyin. He returned bearing a sword forged from the horn, and one stroke took Vorograv's head. The daughters knelt. Cerberus became her mount, and Zorya declared herself queen of the depths.
-
-She rules there still, terrible with purpose, keeping the worst of the corruption from spilling unchecked. Above, her image appears in Varkane's shadowed stone, with candles burning for her in darkened alcoves. She walks the Veins as the Burned Queen, holding back the devourer within the dark.`,
-    related: ["vorograv", "varkane-abyss", "qayyin"]
-  },
-
-  // Vorograv
-  {
-    id: "vorograv",
-    name: "Vorograv",
-    aliases: ["The Tempter"],
-    category: "entities",
-    age: "age-of-fairytales",
-    short: "Vorograv, the Tempter, emerged from the Shattering and ruled the Varkane Abyss until Zorya Chernaya slew him with a sword forged from his own horn, leaving his severed head bound to her belt.",
-    full: `Vorograv, the Tempter
-
-Vorograv emerged from the wound. When Bahamut tore upward through the earth to clash with Lunarkos across the sky, the Shattering tore open the veil between soul and matter. From that planetary anguish, he took shape: the adversary, the Tempter. Horns spiralled from his skull, and his eyes glowed with the red of fresh magma.
-
-He saw Zorya Chernaya drifting across the ash fields and recognised her instantly. Cruelty had marked her in life. He claimed her, bound her and used her body to birth the inhabitants of his domain. Demons poured forth: succubi and incubi, vessels of hunger, lesser fiends steeped in spite and gargoyles risen from living stone.
-
-Then came the daughters. Seven, each forged in a distinct corruption. He took them to his bed, mother and daughters alike, and ruled with absolute certainty.
-
-He overlooked Zorya's slow chipping at his horns. One stroke severed his head. He died grinning, his body dissolving into ash and Vanta while his head endured, preserved and still smiling. Zorya bound it to her belt.
-
-Some still call to him, offering blood, memory and desire. Others name him the enemy to oppose. Both truths hold. He lingers as a severed head on Zorya's belt, his grin enduring as a reminder that patience can outlast tyranny.`,
-    related: ["zorya-chernaya", "varkane-abyss"]
-  },
-
-  // Zorya's Seven Daughters of Vice
-  {
-    id: "zoryas-daughters",
-    name: "Daughters of Vice",
-    aliases: ["Zorya's Daughters", "Seven Daughters of Vice"],
-    category: "entities",
-    age: "age-of-fairytales",
-    short: "Zorya's Seven Daughters of Vice are demon nobility born from her suffering under Vorograv, each embodying one of the seven vices and governing a domain of the Varkane Abyss beneath their mother.",
-    full: `Zorya's Seven Daughters of Vice
-Zorya's Seven Daughters of Vice emerged from her suffering under Vorograv, shaped from fragments of her cruelty fused with his corruption. They stand as demon nobility above the swarming succubi, incubi and lesser fiends. Vanta courses through their veins like blood, and they drink it from creatures touched by hunger, longing or need.
-
-Gordyna embodies pride made self-aware. She glides through the hellscape as though every twisted spire exists to accentuate her perfection. She feeds on accomplishment, drawing it away until her victims can no longer recall why they once cared.
-
-Lakoma wears greed as flesh. She hoards memories, magic, trinkets and souls, feeding on ambition and leaving apathy in its place. Thin and skeletal, she serves Zorya through fear and cold calculation.
-
-Pohotna embodies lust that devours connection. Her beauty burns like flame. She feeds on longing, drawing it out and replacing it with disgust. Crimson and black fabrics cling to her without fulfilment.
-
-Zavista embodies envy, hollowed by constant comparison. She beholds what others possess and hungers until the wanting carves her empty. She feeds on comparison, leaving behind the certainty that even possession would fail to satisfy.
-
-Obzera embodies gluttony, forever unsated. She consumes without pause, yet the void endures. She feeds on satisfaction and leaves only gnawing insufficiency.
-
-Gneva embodies wrath without cause. Fury surges through her, seeking every target or none. She feeds on anger, drawing it forth and leaving exhaustion behind.
-
-Lena embodies sloth entwined with despair. Every motion drags beneath the weight of existence. She feeds on motivation, leaving the heavy conviction that nothing holds value.
-
-Beneath Zorya, the seven govern their respective domains. Fear and resentment coil within them, yet they cannot overthrow her. She knows their patterns and restrains them through precise understanding of their limits. Her daughters are her legacy, her enduring punishment and her duty.`,
-    related: ["zorya-chernaya", "vorograv", "varkane-abyss"]
-  },
-
-  // Gordyna
-
-{
-  id: "gordyna",
-  name: "Gordyna",
-  aliases: ["Gordyna", "Daughter of Pride"],
-  category: "entities",
-  age: "age-of-fairytales",
-  short: "Gordyna is Zorya's eldest daughter of vice, embodying pride and feeding on the sense of accomplishment that gives achievement its meaning.",
-  full: `Daughter of Pride
-Gordyna was born from Zorya Chernaya's suffering under Vorograv, shaped by the cruelty that had marked her mother and the corruption imposed upon her. Of the seven daughters, she is the most openly convinced of her own superiority.
-
-She glides through the hellscape as though every twisted spire exists to accentuate her perfection. She feeds on accomplishment, drawing away the satisfaction attached to achievement until her victims can remember what they achieved without remembering why it mattered.
-
-Her domain is filled with monuments, trophies and works of art whose creators have long since forgotten their purpose. Gordyna surrounds herself with them as proof of her superiority, though their abundance only feeds the vanity she can never exhaust.
-
-Zorya tolerates her daughter's arrogance because it is predictable. Gordyna knows this and resents the restraint, yet has never found a way to turn her pride into an advantage against her mother.`,
-  related: ["zoryas-daughters", "zorya-chernaya", "vorograv", "varkane-abyss"]
-},
-
-// Lakoma
-
-{
-  id: "lakoma",
-  name: "Lakoma",
-  aliases: ["Lakoma", "Daughter of Greed"],
-  category: "entities",
-  age: "age-of-fairytales",
-  short: "Lakoma is Zorya's daughter of greed, hoarding memories, magic, trinkets and souls while feeding on ambition.",
-  full: `Daughter of Greed
-Lakoma was born from Zorya Chernaya's suffering under Vorograv, carrying the same capacity for cruelty in a form shaped by possession and want. She is thin and skeletal, her body reflecting a hunger that nothing she acquires can satisfy.
-
-She hoards memories, magic, trinkets and souls with equal determination. Their value is secondary to the fact that they belong to her. She feeds on ambition, drawing out the desire to achieve and accumulate until those she drains are left apathetic.
-
-Her domain resembles an endless treasury, packed with things taken from across the Abyss. Nothing is discarded. Every object is catalogued, guarded and added to the collection, while Lakoma constantly searches for something else to possess.
-
-She serves Zorya through fear and cold calculation, making her useful where brute force would be wasteful. Of the seven, she is among the most deliberate in choosing when to act and what to take.`,
-  related: ["zoryas-daughters", "zorya-chernaya", "vorograv", "varkane-abyss"]
-},
-
-// Pohotna
-
-{
-  id: "pohotna",
-  name: "Pohotna",
-  aliases: ["Pohotna", "Daughter of Lust"],
-  category: "entities",
-  age: "age-of-fairytales",
-  short: "Pohotna is Zorya's daughter of lust, feeding on longing and consuming the connection that gives desire its meaning.",
-  full: `Daughter of Lust
-Pohotna was born from Zorya Chernaya's suffering under Vorograv, shaped by the corruption of desire and the hunger that defined his domain. Her beauty burns like flame, drawing the attention of those who enter her presence.
-
-Crimson and black fabrics cling to her without fulfilment. She feeds on longing, drawing it out of her victims and leaving disgust where desire once stood. The connection between the person and whatever they desired is consumed along with the hunger itself.
-
-Her domain is a place of perpetual temptation, where promises remain just beyond reach. Those who enter can see everything they desire, yet every attempt to possess it leaves them more repulsed than before.
-
-Pohotna enjoys the attention her nature commands, though she despises genuine attachment when she encounters it. Zorya understands this weakness and uses it to keep her daughter obedient.`,
-  related: ["zoryas-daughters", "zorya-chernaya", "vorograv", "varkane-abyss"]
-},
-
-// Zavista
-
-{
-  id: "zavista",
-  name: "Zavista",
-  aliases: ["Zavista", "Daughter of Envy"],
-  category: "entities",
-  age: "age-of-fairytales",
-  short: "Zavista is Zorya's daughter of envy, feeding on comparison until possession itself becomes incapable of bringing satisfaction.",
-  full: `Daughter of Envy
-Zavista was born from Zorya Chernaya's suffering under Vorograv, shaped by the instinct to measure oneself against what others possess. She is perpetually drawn towards whatever appears more desirable in another's hands.
-
-She feeds on comparison, intensifying the feeling that another's possessions, achievements or relationships are somehow worth more. Even when her victims obtain what they coveted, the satisfaction quickly disappears and another object of comparison takes its place.
-
-Her domain is crowded with reflections and imitations. Every possession can be seen beside something seemingly better, creating an endless hierarchy in which no one can ever feel secure in what they have.
-
-Zavista is particularly difficult for her sisters to tolerate. She measures herself against each of them, envying their domains, strengths and place beside Zorya, while never recognising that the same impulse makes her resent anything she already possesses.`,
-  related: ["zoryas-daughters", "zorya-chernaya", "vorograv", "varkane-abyss"]
-},
-
-// Obzera
-
-{
-  id: "obzera",
-  name: "Obzera",
-  aliases: ["Obzera", "Daughter of Gluttony"],
-  category: "entities",
-  age: "age-of-fairytales",
-  short: "Obzera is Zorya's daughter of gluttony, consuming without end and feeding on the satisfaction of having enough.",
-  full: `Daughter of Gluttony
-Obzera was born from Zorya Chernaya's suffering under Vorograv, shaped by an appetite that could never reach an end. She consumes constantly, yet the void within her remains.
-
-She feeds on satisfaction, taking away the feeling of having had enough. Those caught in her influence continue consuming long after their hunger should have ended, left with a gnawing sense of insufficiency.
-
-Her domain is an immense place of abundance, where food, drink and other forms of gratification are constantly replenished. Nothing remains consumed for long before another offering appears, ensuring that appetite never has to confront absence.
-
-Obzera is among the simplest of Zorya's daughters to understand and among the hardest to satisfy. She rarely schemes against her mother because the Abyss itself provides her with an endless supply of things to consume.`,
-  related: ["zoryas-daughters", "zorya-chernaya", "vorograv", "varkane-abyss"]
-},
-
-// Gneva
-
-{
-  id: "gneva",
-  name: "Gneva",
-  aliases: ["Gneva", "Daughter of Wrath"],
-  category: "entities",
-  age: "age-of-fairytales",
-  short: "Gneva is Zorya's daughter of wrath, embodying fury without cause and feeding on anger until it burns itself away.",
-  full: `Daughter of Wrath
-Gneva was born from Zorya Chernaya's suffering under Vorograv, shaped by cruelty stripped of purpose or restraint. Fury surges through her constantly, seeking a target whether one exists or not.
-
-She feeds on anger, drawing it from those around her until their fury is exhausted. Victims who arrive consumed by resentment can leave drained of the very emotion that brought them there.
-
-Her domain is a landscape of perpetual conflict. Arguments become battles, battles become massacres and the resulting anger draws more inhabitants into the cycle. Gneva needs no reason to begin a fight and rarely needs to finish one.
-
-Zorya keeps her daughter close when violence serves a purpose and restrained when it does not. Gneva accepts the restraint only because Zorya is one of the few beings in the Abyss capable of imposing it upon her.`,
-  related: ["zoryas-daughters", "zorya-chernaya", "vorograv", "varkane-abyss"]
-},
-
-// Lena
-
-{
-  id: "lena",
-  name: "Lena",
-  aliases: ["Lena", "Daughter of Sloth"],
-  category: "entities",
-  age: "age-of-fairytales",
-  short: "Lena is Zorya's daughter of sloth, feeding on motivation and leaving behind the conviction that effort has no value.",
-  full: `Daughter of Sloth
-Lena was born from Zorya Chernaya's suffering under Vorograv, shaped by the exhaustion and despair buried beneath prolonged suffering. Every movement seems to drag beneath the weight of existence itself.
-
-She feeds on motivation, draining the impulse to act, pursue goals or change one's circumstances. Those under her influence gradually become convinced that effort cannot alter what awaits them and that nothing holds enough value to justify action.
-
-Her domain is almost completely still. Structures are left unfinished, fires burn unattended and paths disappear beneath accumulated dust. Its inhabitants remain where they are, unable to summon the will to leave.
-
-Lena rarely interferes with her sisters and shows little interest in challenging Zorya. Her greatest danger lies in what happens when her influence spreads unchecked, as entire places can become inert without a single act of violence.`,
-  related: ["zoryas-daughters", "zorya-chernaya", "vorograv", "varkane-abyss"]
-},
 
   // The Sphinx
   {
@@ -634,5 +174,64 @@ His answer was Synthetic White Blood, developed from his experiments on the Whit
 
 Zephyr was not satisfied with puppets. His research expanded into bioweapons, sorcery and the cold calculus of markets, until he learned to treat the Curse itself as a resource. His experiments, often performed on the youngest and most lost, sought the soul's raw substance. He found a way to draw it out and crystallise it in mineral, producing what he called Heart Crystals. Later, everyone else would know them as Soul Shards.`,
     related: ["blood-types", "veyra-megami", "soul-shards"]
+  },
+
+  // Zharael
+  {
+    id: "zharael",
+    name: "Zharael",
+    aliases: ["The Red Orphan", "The Ashen Prophet"],
+    category: "entities",
+    age: "age-of-men",
+    short: "Sahrani strategist of the Geode council who engineered the Rapture, survived centuries in the Veins, and returned to raise Falak's corpse and lead the Luminary horde into the Orb War.",
+    full: `Zharael was one of the Sahrani Geode's most influential strategists and one of its most dangerous dissidents. She understood the Geode's history, its captivity beneath the Autarchs and the limitations of the freedom Sahran had won better than most of those around her. Her failure was not in recognising what was wrong, but in deciding that she alone understood what should replace it.
+
+The Red Orphan
+Born beneath Tier Twelve in the Red Orphan Tier, Zharael grew up among the machines and labourers of the crystal forge. Her mother, Yulaha, was a machine-binder who maintained the Autarch drill rigs. Zharael's childhood was shaped by industrial violence, forced labour and the quiet suppression of faith. The death of a Cursed child during an Autarch purge ended whatever obedience remained in her.
+
+When the Sahrani rebellion drove the Autarchs from the Geode, Zharael did not regard it as a true liberation. The machines, structures and systems of control remained, while the Autarchs simply withdrew. She believed they had not been defeated, only forced to change their position.
+
+Decades later, Zharael became a strategist on the Sahrani Council. She advocated increasingly dangerous expeditions into the Curse wells, believing that the Geode could not be freed while its foundations remained untouched. She cultivated the trust of those around her, particularly Ayn, aligning his desire to protect Sahran with her own increasingly radical conclusions.
+
+The expedition she engineered descended into the Geode's depths and released the forces contained there. As the Geode broke and the Ifrit, VantaBats, Tinnin and Shadowlings emerged, Zharael revealed that the catastrophe had been deliberate. She believed the destruction of the Geode and the release of its buried horrors could burn away the old order and allow a truer people to emerge.
+
+The horde turned upon her. In the final moments, Zharael recognised what she had unleashed, but too late to undo it.
+
+The Ashen Prophet
+The Curse preserved what remained of her, and the Vantari found and sheltered her beneath the earth. During the centuries that followed, Zharael learnt their practices of death-gardening: the cultivation of death, residue and divine corruption into new forms of life.
+
+While she remained beneath the world, her philosophy survived through the Luminaries, a hidden faith devoted to purification through flame. When Zharael eventually returned to the Geode, they received her as both prophet and proof of their doctrine.
+
+At the corpse of Falak, they enacted the practices Zharael had learnt from the Vantari. Blood, bone and the crystallised remains of the dead were cultivated within the god's divine residue until Falak's corpse awakened, giving rise to a vast horde of corrupted beings.
+
+Zharael led the Luminaries and their horde towards Hoshimira, beginning the conflict that would become the Orb War. General Darius pursued her with the Ashtar, and the confrontation drew Sahran, Hoshimira and the surrounding powers into a war that would reshape the region.
+
+Zharael was ultimately killed at the foot of the Orb of Souls. Unlike before, she did not return.
+
+Her Luminary Legacy
+Zharael had been right about the Autarchs. She had been right that Sahrani freedom was conditional, and that the Geode could not remain unchanged forever. What destroyed her was the certainty that recognising those truths gave her the right to decide what everyone else needed.
+
+The Luminaries became the continuation of that belief long after her death: a people convinced that destruction could be purification, and that something better could only emerge once everything standing in its way had been burned away.`,
+    related: ["luminaries", "ayn", "the-geode", "geode-rapture", "vantari", "falak", "vanta", "orb-war", "convergence-orb", "hoshimiran-appeal", "darius", "ashtar"]
+  },
+
+  // General Darius
+  {
+    id: "darius",
+    name: "General Darius",
+    aliases: ["Darius"],
+    category: "entities",
+    age: "age-of-magic",
+    short: "General Darius was a Pasha of the Ashtar and commander of Sahran's forces during the War for the Orb of Souls. He led the pursuit of Zharael and the Luminary horde from Sahran into Hoshimira and ultimately into Elysium, where he confronted and killed Zharael at the Orb of Souls. Darius survived the war and returned to Sahran with the remaining Ashtar.",
+    full: `General Darius was a Pasha of the Ashtar and one of Sahran's foremost military commanders during the War for the Orb of Souls. He commanded the Ashtar forces deployed against the Luminary horde under Zharael, leading the pursuit from Sahran into Hoshimira and ultimately into the ruins of Elysium.
+
+Darius was regarded as a disciplined and methodical commander, shaped by the traditions of the Ashtar and the soul-steel bond between pilot and Gundvar. His approach to warfare relied on coordination between machines and pilots rather than individual displays of strength, allowing the Ashtar to operate as a unified force even across difficult terrain.
+
+His pursuit of Zharael became one of the defining campaigns of his career. The Luminary retreat into Hoshimira forced the Ashtar into foreign territory, contributing to the wider escalation that eventually drew multiple nations into the conflict surrounding the Orb of Souls. Darius nevertheless continued the pursuit, considering the Luminary threat too dangerous to leave unchecked.
+
+At Elysium, Darius and the Ashtar entered the Veins behind the Luminaries and became one of the forces converging upon the Orb. His command ultimately brought him face to face with Zharael, whom he killed at the conclusion of the battle.
+
+Darius survived the war and returned to Sahran with the remaining Ashtar. The losses suffered during the campaign became part of the order's history, while the war itself reinforced Sahran's investment in the Ashtar and its Gundvar programme.`,
+    related: ["zharael", "ashtar", "orb-war", "convergence-orb", "hoshimiran-appeal"]
   }
 );

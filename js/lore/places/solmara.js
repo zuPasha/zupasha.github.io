@@ -42,6 +42,24 @@ Culture is transactional. Conversation carries value. Friendship implies exchang
 The south holds the pulse of Solmara, its administrative and cultural heart. Ylvara sits at the centre with capital Elysium and the University of Castellenza marking it as the heartland of governance and policy. Velascia lies to the southwest, a city of theatre, art, and maritime commerce. Exandria spreads northeast as the industrial and syndicate hub, home to the DAEDALUS project. Argestia lines the southeastern coast, its Sahrani influenced factories sustaining the Council's naval and research programs. Together, the southern provinces balance Solmara's northern edge, carrying the echo of ambition, calculated, patient, inevitable.`,
     related: ["solmara", "ylvara", "exandria", "argestia"]
   },
+
+  {
+    id: "velstheim",
+    name: "Velstheim",
+    aliases: ["Velstheim"],
+    category: "places",
+    age: "age-of-fairytales",
+    short: "A kingdom in Ylvara that rose near Elysium during the later Age of Fairytales, becoming a centre of reverence for Veyra and later renowned for its dragon-slaying traditions.",
+    full: `Velstheim was a kingdom in Ylvara that rose during the later Age of Fairytales near the ruins of Elysium. Veyra's crystallised tomb could cast pale light across the city's walls, and her proximity shaped Velstheim's religious traditions and political culture.
+
+The people revered Veyra as the Mother of Aerisu and Voluntas as the Will Unborn. Shrines and altars were dedicated to Veyra, while pilgrims approached Elysium from afar to pray for her continued vigil.
+
+Magic was deeply integrated into Velstheim's society. Sorcery was studied in academies, grimoires circulated widely and fragments of Bahamut and Lunarkos could be found throughout the surrounding wilds. Knights trained to defend the kingdom against supernatural threats, while nobles and scholars pursued influence and knowledge through the Mother's name.
+
+Velstheim later became closely associated with the Draken Genesis. The transformation of Lady Draka and the spread of her corruption established dragon-slaying as a defining part of the kingdom's culture, eventually influencing similar traditions across Ylvara.`,
+    related: ["draken-genesis", "lady-draka", "king-draco"]
+  },
+
   {
     id: "vaelmir",
     name: "Vaelmir",
@@ -57,6 +75,22 @@ Vaelmir is shaped by extremes. Thermohaline currents tear through the depths lik
 The Eye - Heart of Vaelmir
 At the centre of the Maw lies the Eye, a place of stillness inside the storm. Waves slow, wind softens to a whisper, dark water turns inward spiralling toward the abyss. Clouds coil overhead like a cathedral pierced by pale shafts of light. The Eye unsettles perception. Reflections shimmer wrong, particles hang suspended, instruments flicker and hesitate. Faint glows rise from below, suggesting life that has learned to exist without asking permission. It feels like a pause. Not peace, but preparation. Ordered. Vast. Heavy with dread.`,
     related: ["solmara", "vireliax-expedition"]
+  },
+  {
+    id: "lupellyn",
+    name: "Lupellyn",
+    aliases: ["Lupellyn"],
+    category: "places",
+    age: "age-of-men",
+    short: "A 22,000 km² inland ocean shaped like a wolf, bordering southern Solmara, Hoshimira and Fengua, with the island of Isvara near its head.",
+    full: `Lupellyn is the second-largest inland ocean in Aerisu, covering approximately 22,000 km². It lies in the centre of the eastern continent, its coastline forming the shape of a wolf.
+
+The ocean borders Ylvara, Hoshimira, particularly the region of Shinkiri, and Seryu in Fenghua. Its position places it at the meeting point of several cultures and territories, while its immense waters form a significant natural boundary between them.
+
+Near the head of the wolf-shaped coastline lies Isvara, the site of a Solmaran-Hoshimiran institution for the containment and observation of children.
+
+Lupellyn has also served as a place of concealment. After killing Lady Draka, King Draco travelled there and cast Dréagbann into its depths, where the Spirit-bane blade remained hidden for centuries.`,
+    related: ["draken-genesis", "isvara", "children-of-isvara"]
   },
   {
     id: "isvara",

@@ -31,9 +31,13 @@ Vanta therefore underlies growth, choice and transformation. It gives existence 
     short: "The Curse is the pathological expression of Vanta, arising when lack and desire become self-consuming and erode the soul's ability to act with clarity and responsibility. Cursed souls develop destructive patterns of Resonance that can distort their choices, relationships and Echoes.",
     full: `The Cursed Soul
 The Curse is the tangible consequence of a soul unmoored from its own essence. To fall to the Curse is to descend into Vanta, the root condition of lack and longing. Untended, Vanta becomes dangerous, collapsing inward as numbness or expanding outward as insatiable hunger.
+
 Those who succumb to the Curse have lost continuity with their humanity. The collapse of the Six Steps of Being Human leads inevitably to corruption.
+
 The Cursed manifest in archetypes. The Hollow denied their lack. The Devourer consumed by desire. The Zealot enslaved to dogma. The Wraith consumed by regret. The Tyrant denying responsibility. The Echoless leaving only distortion.
+
 The Curse is also a mirror, reflecting what happens when lack, desire, and responsibility are ignored. Systems, cultures, and individuals that numb themselves or justify harm embody aspects of the Curse.
+
 Redemption is possible but rare. Those on the edges may yet be guided back. For the truly Cursed, the path is nearly closed.`,
     related: ["vanta-concept", "physical-curse", "memetic-curse"]
   },
@@ -73,7 +77,7 @@ The Memetic Curse is especially difficult to contain because its transmission oc
   // Truth, Conviction and Interpretation
   {
     id: "truth-conviction",
-    name: "Truth, Conviction and Interpretation",
+    name: "Truth, Conviction",
     aliases: ["Truth", "Conviction", "Interpretation"],
     category: "concepts",
     age: "age-of-decay",

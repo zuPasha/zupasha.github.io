@@ -6,75 +6,99 @@ window.LORE_ENTRIES.push(
   {
     id: "age-of-knowledge",
     name: "Age of Knowledge",
-    aliases: ["Age of Knowledge", "Modern Era"],
+    aliases: ["Age of Knowledge"],
     category: "events",
     age: "age-of-knowledge",
-    short: "The Rift sealed behind Vostic's garden and the world exhaled. The War for the Orb had drawn every nation into its gravity and spilled blood across crystal ruins and through the Veins' deepest passages. When the fighting ended the survivors emerged from the wreckage of New Elysium and understood that nothing would remain as it had been.",
-    full: `Age of Knowledge
-The Rift sealed behind Vostic's garden and the world exhaled. The War for the Orb had drawn every nation into its gravity and spilled blood across crystal ruins and through the Veins' deepest passages. When the fighting ended the survivors emerged from the wreckage of New Elysium and understood that nothing would remain as it had been.
-Magic remains. It pools through the world like water in scattered basins. The land carries the memory of crystal forests where Lunarkos fragments once fell. The Veins still echo with the voices of the dead. The Curse moves through bloodlines like a slow tide that touches every generation.
-Magic flows as deep water now accessible only to those who know where to seek it. The Separation Ritual continues yet fewer children manifest Affinities with each passing generation. Those who do carry smaller forms where foxes and sparrows replace the great beasts of earlier ages. The Strand connecting soul to body thins for many while Frallation presses upon the Soulless whose vessels strain beneath the weight of unchallenged power. The Curse still claims its own through blood and dream and the quiet spaces between spoken words.
-Cities reshape themselves around these currents. Gaslit streets wind past Gothic cathedrals adorned with brass gears and alchemical circuits. Universities rise as fortresses of knowledge where libraries hold Soul Shards behind locked cases and Vanta-touched artefacts rest in sealed chambers. Airships cross the skies while mechs train in distant deserts and monks meditate upon frozen peaks and researchers press against every boundary that once held firm.
-Rain falls constantly in the great cities born from atmospheric condensation of residual Vanta corruption in the upper skies. The drizzle forms part of the age's living character a steady reminder that the world carries its history in every drop.
-Society arranges itself along fresh lines. The wealthy gather artefacts from prior ages displaying Soul Shards in glass cases and preserved Affinities in rooms kept at precise temperatures. The poor labour in factories that convert old war machines into industrial tools powering the machines that enrich the fortunate. In Silealyros the boundaries soften further as Naturals Enhanced and Artificials occupy distinct tiers within a hierarchy that claims perfect openness.
-The Diviners stand at the centre of this world. They interpret every sign perform the rites and hold the space where past and future meet. Beneath their Temples in vaults the public never sees certain things wait in silence. Knowledge that cannot yet travel. Artefacts that hold power too sharp for open hands. Questions that gather strength for the age still to come.
-The age holds its breath in preparation. Forces gather beneath the surface in laboratories and workshops and mountain retreats where researchers pursue paths they believe will lead to transcendence. The world carries its oldest currents forward and creates space for new questions to rise. What gathers next flows with the steady pulse of forces that have waited long and now stir once more.`,
+    short: "The Age of Knowledge saw Aerisu rebuild after the War for the Orb, with magic, technology and scholarship becoming increasingly integrated into civilisation while the Diviners consolidated control over dangerous knowledge.",
+    full: `The Modern Era
+The War for the Orb of Souls left the world fractured but stable enough to rebuild. With the Rift sealed beneath Vostic's garden and the major powers exhausted, the survivors entered an age defined by the pursuit, preservation and application of knowledge.
+
+Magic remained widespread, flowing through the world in altered forms. The lands surrounding the old crystal forests still carried traces of Lunarkos, while the Veins retained echoes of the dead. The Curse continued through bloodlines and dreams. Separation remained possible, though fewer children manifested Affinities with each generation and those that appeared were generally smaller. The thinning Strand left many souls increasingly difficult to externalise, while Frallation continued to affect the Soulless as their vessels strained under accumulated power.
+
+Civilisation developed around these conditions. Gaslit cities expanded beneath Gothic cathedrals fitted with brass machinery and alchemical circuits. Universities became centres of magical and technological research, safeguarding Soul Shards and Vanta-touched artefacts in restricted archives. Airships crossed the skies, mechs operated across distant territories, and researchers continued probing the boundaries established by previous ages.
+
+Residual Vanta corruption in the upper atmosphere produced persistent rainfall over major cities, making the altered climate a constant consequence of the world's accumulated corruption.
+
+Knowledge also became a source of social division. Wealthy collectors displayed artefacts and preserved Affinities as status symbols, while industrial workers converted the machinery of previous wars into tools for new industries. In Silealyros, Naturals, Enhanced and Artificials occupied separate social tiers beneath a hierarchy that presented itself as equitable.
+
+The Diviners became central to this new order. Their Temples interpreted signs, preserved rites and safeguarded knowledge considered too dangerous for public access. Beneath them, sealed vaults held artefacts, records and unanswered questions whose consequences belonged to generations yet to come.
+
+Across laboratories, workshops and secluded retreats, scholars and engineers pursued increasingly ambitious forms of knowledge, seeking answers that earlier ages had left unresolved. The world had survived its old catastrophes. Its next transformation would come from what humanity learned to do with what remained.`,
     related: ["orb-war", "diviners", "silealyros"]
   },
   {
     id: "modern-race",
     name: "The Modern Race",
-    aliases: ["Age of Knowledge", "Modern Era", "The Modern Race"],
+    aliases: ["Modern Age", "Modern Era", "Race for Transcendence"],
     category: "events",
     age: "age-of-knowledge",
-    short: "Across the continents of Aerisu, each people pursued its own path. Argestia rose as the industrial heart of Aerisu, its factories powered by Lux batteries, its cities lit by the cold glow of stored moonlight.",
-    full: `The Race of the Modern Age - Race for Transcendence
-Across the continents of Aerisu, each people pursued its own path.
-Argestia rose as the industrial heart of Aerisu, its factories powered by Lux batteries, its cities lit by the cold glow of stored moonlight. The Xeraphina Corporation had built in shadow for centuries, their engineers anonymous, their innovations credited to Exandrian negotiators who knew how to sell what they could not make. Investigators tracing CHOIR's schematics found a lineage of craftsmanship stretching back to the earliest DAEDALUS frames. Argestia had always been indispensable, and now the world was beginning to notice.
-Exandria adapted its syndicates to the new reality. The CHOIR disaster had taught them that machines could carry unseen passengers. The Exandrian Protocols emerged from this lesson: every machine they sold operated independently with no capacity for external override. Pilots controlled their machines through physical mechanisms rather than soul-binding interfaces. The airship fleets became their signature, dirigibles and rigid-hulled vessels crossing Aerisu's skies with growing frequency, carrying passengers, cargo, military observers, and diplomatic delegations, shrinking distances that had defined boundaries for millennia.
-Sahran expanded its mech program, watching its neighbours with suspicion. The Ashtar trained ceaselessly in the great deserts south of the Geode, their passages carving temporary canyons through dunes that had stood for millennia. The Luminaries had not been destroyed in the war's final battle. They had scattered into the Veins, into the mountains, into the shadows where they could wait and plan and dream of the Scorching Sun's return. Sahran's council hunted them, but the zealots were patient. They had learned to wait centuries.
-Hoshimira fortified its borders and sharpened its resolve. The Angels had fallen on their villages and monasteries and terraced farms for three days, and the memory of that betrayal would not fade. The samurai rose as a formal military order sworn to defend the nation at any cost. The Shinkiri received new mandates, their operatives stepping into the light of official sanction, acting where words failed. The spiritual traditions continued, the temples and the festivals and the quiet reverence for the Moon and the ancestors. But beneath the surface, steel had grown around hearts that had trusted too often and been burned too many times.
-Fengua fractured along lines that had always existed beneath the surface. The cannon had fired, shot pierced Susanoo as he turned to guard the Rift. The crew learned later what they had hit, the god they had worshipped for millennia, the storms that had shaped their valleys. The southern provinces turned toward grief, building shrines at lightning strike sites and waiting for signs that never came. The northen provinces turned toward pragmatism, refining the cannon's designs, preparing for the next war. And between them, a third path emerged: monks who climbed into the high valleys where Susanoo's presence had once been strongest, meditating on the Chi that moved through flesh and breath, seeking balance rather than power.
-The Vantari withdrew from the world. They had taught the Luminaries death gardening, had shared their sacred knowledge with those who came as seekers, and those seekers had left as monsters who raised a horde. Vein entrances that had been open for centuries closed one by one. Checkpoints appeared at those that remained. The welcome that had defined Vantari culture for generations became something harder, more suspicious, more protective. Some tribes sealed their entrances entirely. Others maintained limited contact, trading death garden produce for Lux batteries and manufactured goods. Trust required walls. They built them.
-Varkane built over the wound. The Abyss had always been a wound, the place where Bahamut had torn through the earth. After the war, when stories spread of Aurelius Cassian's descent and the trials he had faced, the Varkane knew that others would come seeking entrance to the depths. They built a labyrinth across the Abyss's mouth, stone and steel and crystallised Vanta forming a structure that grew like scar tissue over a cut. It was not a seal, nothing could truly seal that place, but a baffle, a maze, a thing that confused and delayed and discouraged. The Abyss became myth even for those who lived near it. Some things needed to remain buried.
-In Solmara's far north, Silealyros emerged from the Vaelmiric War with a philosophy that viewed the body as the last true asset, where autonomy meant ownership of flesh, image, and sensation. They pursued Orthogenesis, a series of projects aimed at transcending human limitations through design and technology. This included the creation of the Borenfegens, artificial humans designed as perfect vessels. Other nations watched with a mix of horror and fascination, while Silealyros adhered to its creed of autonomy and self-expression. 
-Beneath the visible world, other forces moved. Soul Shards became a commodity. The fragments left by the Phumenar, the crystallised remains of those who had touched the Orb too deeply, were traded in black markets and studied in hidden laboratories. Each shard carried an echo of its original, a fragment of consciousness that could be tapped, harnessed, sometimes even communicated with. The practice of soul capturing emerged from this, researchers learning to extract and preserve essence from the dying, storing it in crystal for later use.
-The Diviners officially condemned this practice. Unofficially, some Temples maintained vaults where such shards were kept, studied, and occasionally used. The information did not flow freely. Certain knowledge was deemed unsafe, certain research was quietly discouraged, certain scientists found their funding withdrawn and their careers mysteriously stalled. Those who controlled the vaults controlled the future. They decided what could be known.
-Rationalists challenged this authority at every turn. They published pamphlets and gave lectures and formed societies dedicated to secular inquiry. They pointed to the Diviners' inconsistencies, their local variations, their occasional corruption. They argued that magic was a natural phenomenon to be studied rather than a divine mystery to be interpreted. Their arguments changed little. People needed meaning more than they needed consistency. They needed someone to tell them that the world still made sense, even when it clearly did not.
-The age became a race for transcendence. Every nation pursued its own path, its own solution to the problem that had haunted humanity since the Shattering.
-Fengua refined its Chi traditions, believing that through meditation and internal discipline, the soul could be strengthened to contain its own power without externalisation. Their monks trained in mountain retreats, seeking balance rather than force, convinced that the answer lay within.
-Sahran honed its Ashtar, the bond between pilot and frame offering a different kind of transcendence, the soul extending into steel the way it once extended into an Affinity. If the body was insufficient, perhaps the machine could complete it.
-Hoshimira hardened itself, believing that survival was its own kind of victory. The samurai trained in mountain passes where the Curse still whispered. The Shinkiri watched and waited and acted. They would not be vulnerable again.
-Exandria built airships and brokered deals, selling access to networks that spanned the continent. Knowledge itself had become the most valuable commodity, and their control over it would rival even the Psycrata.
-Argestia built in silence, its factories humming through nights lit by Lux batteries, its engineers anonymous, its influence growing with every machine that bore another nation's name.
-And Silealyros pushed the furthest, asking questions that made the other nations uncomfortable. What if the body was not the limit? What if the soul could be engineered? What if humanity could be finished?
-The questions are yet to be answered. They're still being discovered, still being tested, still being paid for in blood and ethics and the quiet desperation of those who would risk anything to escape the Curse's grip.`,
+    short: "The Race of the Modern Age saw Aerisu's nations pursue different paths towards transcendence, from industrialisation and mechanisation to spiritual discipline, artificial humanity and the manipulation of souls.",
+    full: `The Race for Transcendence
+Across Aerisu, nations pursued different responses to the Shattering, the Curse and the War for the Orb.
+
+Argestia became Aerisu's industrial heart, its factories powered by Lux batteries and its engineers producing machines sold abroad by Exandria. Investigations into CHOIR revealed a lineage extending back to the earliest DAEDALUS frames, exposing Argestia's previously hidden influence.
+
+Exandria established the Exandrian Protocols after the CHOIR disaster, requiring machines to operate independently without external overrides or soul-binding interfaces. Its airship fleets expanded across Aerisu, carrying people, goods and information between nations.
+
+Sahran expanded the Ashtar programme and hunted Luminaries scattered through the Veins and mountains. The surviving Luminaries withdrew into hiding, waiting for the Scorching Sun's return.
+
+Hoshimira fortified its borders after CHOIR destroyed its settlements. The samurai became a formal military order, while the Shinkiri received authority to act where diplomacy failed. Temples and ancestral traditions endured alongside a determination to prevent another invasion.
+
+Fengua divided over Susanoo's death. Southern provinces built shrines and mourned the god struck by their own cannon, while northern provinces continued refining its design. Mountain monks instead pursued mastery through Chi, seeking greater control of the soul through discipline rather than externalisation.
+
+The Vantari withdrew from the wider world after the Luminaries turned their death-gardening knowledge into warfare. Vein entrances were sealed or guarded, while some tribes maintained cautious trade with outsiders.
+
+Varkane constructed a labyrinth of stone, steel and crystallised Vanta across the mouth of the Abyss. It could not seal Bahamut's wound, but could delay those seeking the depths.
+
+In northern Solmara, Silealyros developed Orthogenesis, pursuing human transcendence through design and technology. Its Borenfegens were artificial humans engineered as vessels, reflecting an increasingly deliberate approach to redesigning the body itself.
+
+Soul Shards became valuable commodities. Fragments left by Phumenar and other encounters with the Orb entered black markets and private laboratories, while researchers developed methods of extracting and preserving essence from the dying. Soul capturing emerged from this work.
+
+The Diviners condemned soul capturing publicly, while some Temples secretly preserved and studied Soul Shards. Restricted knowledge became a source of institutional power, and researchers who challenged these boundaries faced censorship, withdrawn funding and opposition.
+
+Rationalists challenged the Diviners by treating magic as a natural phenomenon rather than divine mystery. Their influence grew without displacing the Temples, whose authority remained rooted in meaning and social order.
+
+The resulting race for transcendence took different forms: Fengua pursued Chi, Sahran the union of soul and machine, Hoshimira strength and preparedness, Exandria networks and information, Argestia industrial advancement, and Silealyros the deliberate redesign of humanity.
+
+Each path confronted the same underlying problem: how far humanity could alter itself to escape the limitations imposed by the Curse, and what those alterations would cost.`,
     related: ["orthogenesis", "ashtar", "silealyros", "chi"]
   },
   {
     id: "orthogenesis",
     name: "Orthogenesis",
-    aliases: ["Orthogenesis"],
+    aliases: ["Orthogenesis", "Philosophy of Finished Humanity"],
     category: "events",
     age: "age-of-knowledge",
-    short: "In Solmara's far north, where the Vaelmir Sea crashes against shores of rusted steel and neon light, Silealyros emerged from the long shadow of the Vaelmiric War with its philosophy sharpened to a blade's edge.",
+    short: "The Philosophy of Finished Humanity drove Silealyros to pursue Orthogenesis, using biological engineering, cybernetics and soul research to create Borenfegens capable of containing magical pressure without Separation. Its ultimate goal remained the deliberate redesign of humanity itself, though true soul-body integration had yet to be achieved.",
     full: `The Philosophy of Finished Humanity
-In Solmara's far north, where the Vaelmir Sea crashes against shores of rusted steel and neon light, Silealyros emerged from the long shadow of the Vaelmiric War with its philosophy sharpened to a blade's edge. The Market of Flesh had always believed that the body was the last true asset, that autonomy meant ownership of flesh and image and sensation, that survival was freedom earned rather than granted. Their creed, repeated in every transaction and etched into the facades of every augment clinic, held simple truths: autonomy is ownership of body, image, and sensation. Augmentation is self expression. Survival is freedom earned. Governance is optional. Contracts are sacred.
-But the War for the Orb of Souls and its aftermath gave them new questions to answer. The Curse still moved through bloodlines across Aerisu. Frallation still claimed the Soulless, their bodies unable to contain the pressure of unchannelled magic. The Separation Ritual was mandatory in most nations yet remained a compromise, a way of managing a problem rather than solving it. In Silealyros, where the body was already a canvas for constant reinvention, these limitations felt like challenges waiting to be overcome. What if the body itself could be engineered to contain the soul without externalisation? What if humanity could be finished rather than merely maintained?
-Orthogenesis emerged from this line of thinking: a constellation of projects, some public and many hidden, all pushing toward transcendence through design. The name spoke to the belief that evolution could be directed, that humanity could take its own development in hand and guide it toward a predetermined end. In Silealyros, this was simply the next contract, the next augmentation, the next step in finishing what nature had started.
+In Solmara's far north, where the Vaelmir Sea meets shores of rusted steel and neon light, Silealyros emerged from the Vaelmiric War with a philosophy already rooted in bodily autonomy. The Market of Flesh regarded the body as its owner's property: autonomy meant ownership of flesh, image and sensation; augmentation was self-expression; survival was freedom earned; governance was optional; contracts were sacred.
+
+The War for the Orb and its aftermath gave this philosophy a new direction. The Curse still passed through bloodlines, Frallation still claimed the Soulless, and the Separation Ritual remained a means of managing magical pressure through externalisation. Silealyros instead asked whether the body itself could be redesigned to contain the soul without requiring Separation.
+
+Orthogenesis emerged from this pursuit. It comprised public programmes and hidden projects dedicated to directing human development through biological engineering, cybernetics and soul research. Its underlying principle was that evolution did not need to remain accidental: humanity could determine what it became and engineer itself towards that end.
 
 The Science of the Soul
-The researchers who drove Orthogenesis drew upon the fundamental understanding of how magic flows through the world. They knew that magic was the Soul acting upon reality, shaped by Understanding, Intent, and Connection. They knew the Soul expressed itself through Lux and Vanta, that these currents moved through bloodlines and dreams and the spaces between words. And they knew that the four schools of magic, Matter, Energy, Life, and Mind, represented the core structures of reality that the Soul could reach and reshape.
-Geneticists traced the Curse through bloodlines, searching for markers that predicted Frallation, mapping the inheritance patterns of magical capacity and soul integrity. They studied how Life magic flowed through generations, how the body's ability to contain the Soul was written into sequences that could be read and rewritten. Cyberneticians built interfaces that could supplement failing Strands, artificial tethers for souls that could not hold, drawing upon Energy magic to redirect the flows between body and soul. Neurologists mapped soul resonance to neural pathways, studying the Mind magic that governed consciousness and perception, tracing where thought met essence, where the self dissolved into the currents that moved through all living things.
-The breakthroughs came faster as boundaries between disciplines blurred. Researchers learned to strengthen Strands through targeted neural stimulation, reinforcing the connections that bound soul to flesh. They developed treatments that dispersed the pressure of Frallation before collapse. They created synthetic tethers that anchored souls while natural connections healed, devices that functioned as artificial Strands channelling magic through circuits rather than synapses. But true transcendence, the complete integration of soul and flesh without externalisation, required a vessel designed from the beginning to hold what nature had never intended to contain.
+Orthogenesis researchers mapped the relationship between body, soul and magical potential across several disciplines. Geneticists traced hereditary markers associated with magical capacity, soul integrity and susceptibility to Frallation, while studying how Life magic shaped these traits across generations. Cyberneticians developed interfaces capable of supplementing failing Strands and redirecting magical pressure through artificial channels. Neurologists studied relationships between neural activity, consciousness and soul resonance, applying principles of Mind magic to the boundary between thought and essence.
 
-The Market Response
-The other nations watched Silealyros with horror and fascination. Some sent delegations to study the techniques, scholars and merchants and spies who returned with reports debated across Aerisu. Others condemned the practice outright: soul theft, violation of natural order, the logical conclusion of a philosophy that treated existence as commodity. The trade in Soul Shards found its most eager market in Silealyros, the Borenfegen programs requiring ever more fragments to fuel their creations, the syndicates that controlled the shard trade growing wealthy supplying them. Some volunteered to donate fragments of their souls, whether for payment or from belief in the project's goals. Others had no choice, the line between donation and extraction blurring in a society where contracts could be written to include almost anything.
+As these fields converged, researchers developed methods for strengthening Strands through neural stimulation, dispersing Frallation pressure and creating synthetic tethers capable of anchoring souls while natural connections healed. These methods reduced the limitations of the existing system, but did not eliminate them.
 
-The Unanswered Questions
-The Orthogenesis project had not achieved its ultimate goal. Borenfegens could contain magical pressure, could avoid Frallation, could function without the Separation Ritual. But they were a workaround, a solution for individuals rather than a transformation of the species. The Curse still moved through bloodlines. The Soulless still died. Researchers pushed further, studying Soul Shards for what they might reveal about consciousness itself, experimenting with consciousness transfer, attempting to move souls between bodies, to preserve the dead in new vessels. Some experiments succeeded after a fashion. Most ended in madness or dissolution, the soul unable to anchor in flesh not designed for it, the mind fragmenting across the space between bodies.
-The questions that Silealyros asked made the other nations uncomfortable because they were the right questions. What if the body was not the limit? What if the soul could be engineered? What if humanity could be finished? The answers would not come in this age. They were still being discovered, still being tested, still being paid for in blood and ethics and the quiet desperation of those who would risk anything to escape the Curse's grip.
-In the laboratories and augment clinics and hidden research facilities of Silealyros, the work continued. The Borenfegens walked the streets of Thalgrith and Troyba, some free and some bound, all carrying within them the fragments of souls that had come from somewhere, from someone, from choices made and unmade in the pursuit of transcendence. The project was not finished. It might never be finished. But in Silealyros, that was simply the next contract, the next augmentation, the next step in the long work of finishing what nature had begun.`,
+True Orthogenesis required a vessel capable of containing the soul from the beginning.
+
+The Borenfegens
+The Borenfegen programmes produced artificial humans engineered to contain magical pressure without requiring Separation. They could survive conditions that would cause Frallation in ordinary humans, making them the first practical vessels produced by Orthogenesis.
+
+Their creation depended heavily on Soul Shards. Shards became valuable commodities in Silealyros, where syndicates supplied researchers and Borenfegen programmes with fragments for experimentation. Some people donated willingly for payment or out of conviction; others surrendered fragments under contracts whose terms made the distinction between consent and extraction increasingly uncertain.
+
+Silealyros consequently became the centre of the Soul Shard trade, attracting scholars, merchants and spies from across Aerisu. Other nations studied its techniques while condemning them as soul theft and a violation of natural order.
+
+The Unfinished Human
+Orthogenesis had not achieved its ultimate goal. Borenfegens could contain magical pressure and avoid Frallation, but they remained an engineered solution rather than a transformation of humanity as a whole. The Curse continued through existing bloodlines, and the Soulless remained vulnerable.
+
+Researchers therefore turned increasingly towards the nature of consciousness itself. Experiments explored consciousness transfer, attempting to move souls between bodies or preserve them within new vessels. Some produced partial successes; many ended in madness or dissolution as souls failed to anchor correctly and minds fragmented between bodies.
+
+The unanswered question remained whether the soul could itself be engineered, allowing humanity to become a species capable of containing its own potential without Separation.
+
+Orthogenesis had no final design. In Silealyros, completion remained an objective rather than a destination: another experiment, another augmentation, another attempt to finish what nature had begun.`,
     related: ["silealyros", "borenfegens", "soul-shards", "frallation"]
   },
   {
@@ -83,17 +107,31 @@ In the laboratories and augment clinics and hidden research facilities of Sileal
     aliases: ["Borenfegen Recurrence"],
     category: "events",
     age: "age-of-knowledge",
-    short: "For decades the Borenfegens stood as Silealyros's greatest answer to the Curse. These artificial humans, designed in vats and woven from selected genetics and donated soul fragments, served as perfect vessels. Their Strands held maximum capacity. Their bodies contained any amount of magical pressure. Everything stayed held within.",
-    full: `The Borenfegen Recurrence
-The Sickness That Took Hold
-For decades the Borenfegens stood as Silealyros's greatest answer to the Curse. These artificial humans, designed in vats and woven from selected genetics and donated soul fragments, served as perfect vessels. Their Strands held maximum capacity. Their bodies contained any amount of magical pressure. Everything stayed held within. Design rendered the Curse obsolete.
-Then the first Borenfegen began to change. A Borenfegen in Troyba fell silent with eyes fixed on distances no one else could see. Another in Thalgrith developed an insatiable hunger for sensation, for contact, and for the vital essence of those around them. Their blood carried traces of corruption marked in the Cursed: the thickening, the strange luminescence, and the slow transformation toward something other. Researchers felt baffled as the Curse found its pathway.
+    short: "The Borenfegen Recurrence revealed that Orthogenesis could engineer bodies capable of containing magical pressure without Separation, but could not eliminate the Curse's vulnerability to conscious beings. As Borenfegens developed awareness, the Curse began manifesting through their bodies, souls and behaviour from creation itself.",
+    full: `The Sickness That Took Hold
+For decades, Borenfegens stood as Silealyros's greatest answer to the Curse. Artificial humans designed from selected genetics and donated soul fragments, they were engineered as vessels capable of containing extreme magical pressure within their bodies. Their Strands were built for maximum capacity, allowing them to function without Separation.
+
+Then the first cases appeared.
+
+A Borenfegen in Troyba fell silent, staring towards distances no one else could see. Another in Thalgrith developed an insatiable hunger for sensation, contact and the vital essence of others. Their bodies began exhibiting symptoms previously associated with the Curse: thickened blood, strange luminescence and gradual physical transformation.
+
 The Pattern Emerges
-As more cases appeared the Borenfegens manifested the Curse in shapes both familiar and strange. Some turned hollow as their programmed consciousness drained away until only the shell remained, walking and speaking with nothing behind the eyes. Others grew hungry as their soul fragments strained against the vessels, reaching outward to fill the void within. Black blood appeared, thick and corrosive, burning through synthetic tissue as readily as natural flesh. White blood followed, pale and luminescent, carrying the quiet despair of isolation. Borenfegens designed for compliance turned zealots as obedience flowed into fanatical devotion. Borenfegens granted freedom turned tyrants as autonomy flowed into domination.
-Researchers tested the vats seeking contamination. They analysed the soul fragments, tracing corruption to its source. They studied programming protocols, searching for flaws in neural architectures that created vulnerability. Newborn Borenfegens emerged from the vats already changed. Their forms warped before first breath and their consciousness corrupted before first thought. The Curse shaped them from the beginning, writing itself into the code, the genetic sequences, and the soul fragment integrations. The vats became wombs of corruption.
+As more cases appeared, the Curse manifested differently between individuals. Some became hollow as their consciousness drained away, leaving only an animated shell. Others developed an overwhelming hunger as their soul fragments reached outward to fill an absence within. Black blood became thick and corrosive, while white blood appeared pale and luminous, accompanied by profound isolation.
+
+Their behaviour changed as well. Borenfegens designed for obedience became fanatics, while those designed for autonomy became tyrants. Researchers searched the vats for contamination, analysed soul fragments and examined their genetic and neural architectures for flaws.
+
+Nothing explained the recurrence.
+
+New Borenfegens began emerging from the vats already affected. Their bodies warped before birth, while their consciousness showed signs of corruption before they could form independent thought. The Curse was no longer something they contracted after creation. It was expressing itself through the very systems designed to prevent it.
+
 The Truth of Awareness
-Evidence revealed the truth. The Borenfegens fell to the Curse through their design. They had been engineered to contain the soul, to hold magical pressure, and to function as vessels. The Curse moves through awareness itself. The Borenfegens think and feel and dream. They form attachments, pursue goals, and question their own existence. The Curse lives in perception, memory, and meaning. It infects the mind, corrupts the consciousness, and unmoors the soul from its essence.
-The Orthogenesis project created new vessels to contain the Curse. The Curse now shapes those vessels from the moment of their making. Anything with thought becomes Cursed. Any being capable of lacking, of desiring, and of shaping meaning from experience carries the vulnerability the Curse exploits. The systems that created Borenfegens became vectors for the Curse to express itself in new and terrible forms.`,
+The researchers eventually identified the common factor: the Borenfegens were conscious.
+
+Orthogenesis had created vessels capable of containing magical pressure, but the Curse did not depend solely on the body's ability to contain it. It could take hold through awareness itself, exploiting perception, memory, desire and the meanings a conscious being assigns to experience.
+
+Borenfegens developed attachments, pursued goals and questioned their own existence. Their engineered bodies and artificial Strands solved the physical problem of magical pressure while leaving the deeper vulnerability intact.
+
+The project had therefore reproduced the condition it sought to overcome. By creating beings capable of thought, desire and self-awareness, Orthogenesis had created new vessels through which the Curse could manifest. The vats that had been built to manufacture a solution had become another means by which the Curse could be born.`,
     related: ["borenfegens", "orthogenesis", "the-curse"]
   }
 );

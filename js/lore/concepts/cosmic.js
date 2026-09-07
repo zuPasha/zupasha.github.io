@@ -51,7 +51,13 @@ The Law of Displacement
     category: "concepts",
     age: "age-of-gods",
     short: "Asymptote of Decay describes recursive patterns in which accumulated wounds, unresolved desire and historical residue reinforce conditions of collapse, drawing individuals, civilisations and systems towards dissolution.",
-    full: `The geometry of mourning shapes the architecture of the world. Every breath approaches absence. The mathematics of desire calculates the exact weight of a collapsing kingdom, pulling existence continuously toward dissolution. The Spiral remembers itself by folding its accumulated wounds into the next cycle, gathering sediment and ash layer upon patient layer. Civilisations, gods, and memories descend together, drawn by the increasing gravity of a system carrying the residue of its own history. Entropy acts as the sacred engine of time, slowly winding the universe closer to the quiet threshold of Voluntas. Reality rebuilds itself from these distorted remnants, carrying the heavy resonance of old scars into new configurations. The Curse echoes when longing outlives its name, cementing the world into a pattern that reproduces the conditions of its own collapse.`,
+    full: `The geometry of mourning shapes the architecture of the world. Every breath approaches absence. The mathematics of desire calculates the exact weight of a collapsing kingdom, pulling existence continuously toward dissolution.
+    
+    The Spiral remembers itself by folding its accumulated wounds into the next cycle, gathering sediment and ash layer upon patient layer. Civilisations, gods, and memories descend together, drawn by the increasing gravity of a system carrying the residue of its own history.
+    
+    Entropy acts as the sacred engine of time, slowly winding the universe closer to the quiet threshold of Voluntas. Reality rebuilds itself from these distorted remnants, carrying the heavy resonance of old scars into new configurations.
+    
+    The Curse echoes when longing outlives its name, cementing the world into a pattern that reproduces the conditions of its own collapse.`,
     related: ["looped-eternity", "recursive-bloom", "echoes"]
   },
 
@@ -63,7 +69,13 @@ The Law of Displacement
     category: "concepts",
     age: "age-of-gods",
     short: "Recursive Bloom describes the transformation of accumulated history, death and consequence into material for growth, adaptation and new connection, allowing each recurrence to carry its inheritance into new forms.",
-    full: `Accumulated history provides the fertile soil for new complexity. Every ending flowers forward. The Spiral shifts its axis, and we breathe inside the turning. Death leaves a resonant residue that nourishes the roots of the next iteration, and those roots keep the shape of old wounds. The world transforms its heavy inheritance into adaptation and profound connection. Ereboska bloomed from nothing, proving that understanding residue shapes growth. Necromantic horticulture cultivates the quiet echoes of fallen lives into vibrant petals, allowing life to enter the same recursive system as the elements. Every fracture becomes a new constellation, and every scar becomes a new language. The loop sustains the fabric of time through these micro-echoes of growth, turning the weight of consequence into the very structure of continuation.`,
+    full: `Accumulated history provides the fertile soil for new complexity. Every ending flowers forward. The Spiral shifts its axis, and we breathe inside the turning.
+    
+    Death leaves a resonant residue that nourishes the roots of the next iteration, and those roots keep the shape of old wounds. The world transforms its heavy inheritance into adaptation and profound connection.
+    
+    Ereboska bloomed from nothing, proving that understanding residue shapes growth. Necromantic horticulture cultivates the quiet echoes of fallen lives into vibrant petals, allowing life to enter the same recursive system as the elements.
+    
+    Every fracture becomes a new constellation, and every scar becomes a new language. The loop sustains the fabric of time through these micro-echoes of growth, turning the weight of consequence into the very structure of continuation.`,
     related: ["looped-eternity", "asymptote-of-decay", "echoes"]
   },
 
@@ -75,7 +87,13 @@ The Law of Displacement
     category: "concepts",
     age: "age-of-gods",
     short: "Chimeric Design describes the natural interdependence of systems across Aerisu, where distinct histories, structures and relationships overlap to shape one another while retaining their individual identities.",
-    full: `Chimeric Design describes the causal architecture through which distinct systems overlap, shaping and sustaining one another across every scale of existence. Nothing within Aerisu develops in isolation; a dialect carries the debris of ancient conquests, a weathered shrine rests against a concrete railway wall, and a soul forms through the quiet collision of memory, lineage, and immediate choice. Components continuously reproduce the larger network that encompasses them, allowing mechanical, ecological, and cultural structures to interlock until cause and effect become indistinguishable. It is the natural condition of a living world, where separate histories mingle without losing their individual weight, binding the mundane to the sacred through functional interdependence.`,
+    full: `Chimeric Design describes the causal architecture through which distinct systems overlap, shaping and sustaining one another across every scale of existence.
+    
+    Nothing within Aerisu develops in isolation; a dialect carries the debris of ancient conquests, a weathered shrine rests against a concrete railway wall, and a soul forms through the quiet collision of memory, lineage, and immediate choice.
+    
+    Components continuously reproduce the larger network that encompasses them, allowing mechanical, ecological, and cultural structures to interlock until cause and effect become indistinguishable.
+    
+    It is the natural condition of a living world, where separate histories mingle without losing their individual weight, binding the mundane to the sacred through functional interdependence.`,
     related: ["chimericism", "looped-eternity", "asymptote-of-decay", "aevicara", "echoes"]
   },
 
@@ -87,7 +105,11 @@ The Law of Displacement
     category: "concepts",
     age: "age-of-gods",
     short: "Chimericism is the forced accumulation of incompatible souls, Resonances or systems into a single composite, producing immense power while leaving its constituent parts fundamentally unintegrated.",
-    full: `Chimericism arises when integration is forced through accumulation rather than genuine relationship, binding disparate systems into a fragile, composite whole. Where natural harmony allows separate threads to participate in one another, Chimericism consumes them, grafting stolen souls, fragmented beasts, or incompatible magic together to force scale and power. The resulting entity carries immense resonance, yet its constituent parts remain fundamentally unintegrated, trapped in an internal collision of competing desires and borrowed memories. It represents a distorted response to lack, gathering souls to suffocate isolation only to create a vessel whose primary engine is the perpetual hunger of its unassimilated parts.`,
+    full: `Chimericism arises when integration is forced through accumulation rather than genuine relationship, binding disparate systems into a fragile, composite whole.
+    
+    Where natural harmony allows separate threads to participate in one another, Chimericism consumes them, grafting stolen souls, fragmented beasts, or incompatible magic together to force scale and power. The resulting entity carries immense resonance, yet its constituent parts remain fundamentally unintegrated, trapped in an internal collision of competing desires and borrowed memories.
+    
+    It represents a distorted response to lack, gathering souls to suffocate isolation only to create a vessel whose primary engine is the perpetual hunger of its unassimilated parts.`,
     related: ["chimeric-design", "looped-eternity", "asymptote-of-decay", "aevicara", "echoes"]
   },
 

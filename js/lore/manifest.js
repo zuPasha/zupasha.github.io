@@ -28,6 +28,7 @@ window.LORE_MANIFEST = [
   "js/lore/events/age-of-gods.js",
   "js/lore/events/age-of-fairytales.js",
   "js/lore/events/age-of-magic.js",
+  "js/lore/events/orb-war.js",
   "js/lore/events/age-of-knowledge.js",
   "js/lore/events/age-of-decay.js",
 
@@ -38,6 +39,9 @@ window.LORE_MANIFEST = [
 
   "js/lore/entities/gods-major.js",
   "js/lore/entities/gods-lesser.js",
+  "js/lore/entities/angels.js",
+  "js/lore/entities/underworld.js",
+  "js/lore/entities/fairytales.js",
   "js/lore/entities/big-names.js",
 
   "js/lore/concepts/soul.js",
