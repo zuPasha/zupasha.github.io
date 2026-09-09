@@ -32,10 +32,17 @@ window.LORE_MANIFEST = [
   "js/lore/events/age-of-knowledge.js",
   "js/lore/events/age-of-decay.js",
 
+  "js/lore/places/world.js",
   "js/lore/places/hoshimira.js",
   "js/lore/places/sahran.js",
   "js/lore/places/solmara.js",
+  "js/lore/places/fengua.js",
+  "js/lore/places/atenara.js",
+  "js/lore/places/varkane.js",
+  "js/lore/places/ereboska.js",
+  "js/lore/places/crown-nations.js",
   "js/lore/places/places.js",
+  "js/lore/places/underworld.js",
 
   "js/lore/entities/gods-major.js",
   "js/lore/entities/gods-lesser.js",
@@ -55,5 +62,9 @@ window.LORE_MANIFEST = [
   "js/lore/concepts/philosophies.js",
   "js/lore/concepts/cosmology.js",
 
-  "js/lore/substances/substances.js",
+  "js/lore/substances/cosmic.js",
+  "js/lore/substances/bio.js",
+  "js/lore/substances/equipment.js",
+  "js/lore/substances/artefacts.js",
+  "js/lore/substances/crystals.js"
 ];

@@ -72,7 +72,7 @@ They regarded the result as a vindication of their faith. Lunarkos had arrived, 
   {
     id: "angels-reformed",
     name: "Angels Reformed",
-    aliases: ["Angels Reformed"],
+    aliases: [],
     category: "events",
     age: "age-of-gods",
     short: "The Angels were reformed after the Vanta Explosion from sacred guardians into flight-capable, reproducible platforms through ESIG's Project DAEDALUS, becoming instruments of both protection and control.",
@@ -86,7 +86,7 @@ The reformed Angels became symbols of both protection and control. Some communit
   {
     id: "coalition-against-lunarkos",
     name: "The Coalition",
-    aliases: ["The Coalition"],
+    aliases: ["Coalition"],
     category: "events",
     age: "age-of-gods",
     short: "The Coalition formed from independent efforts to prevent Lunarkos's descent, eventually converging on the crystalline presence beneath Elysium. Its prepared strike was overtaken by Lunarkos's arrival in Year 22 and the beginning of the Shattering.",

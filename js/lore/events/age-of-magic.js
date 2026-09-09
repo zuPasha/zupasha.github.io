@@ -6,7 +6,7 @@ window.LORE_ENTRIES.push(
   {
     id: "age-of-magic",
     name: "Age of Magic",
-    aliases: ["Age of Magic"],
+    aliases: ["Medieval"],
     category: "events",
     age: "age-of-magic",
     short: "The Age of Magic saw magic become fully integrated into Aerisu's civilisations, driving advances in scholarship, industry, technology and warfare while magical creatures and ancient traditions became established parts of everyday life.",
@@ -35,7 +35,7 @@ The Age of Magic was defined by the integration of magic into civilisation. Indu
   {
     id: "aurelius-journey",
     name: "Aurelius' Journey",
-    aliases: ["Aurelius"],
+    aliases: [],
     category: "events",
     age: "age-of-magic",
     short: "Aurelius’ Journey follows the deposed King Aurelius Cassian from the fall of Caelmont to the Orb of Souls, through trials of desire, memory and sacrifice that ultimately force him to abandon the hunger that drove him.",
@@ -55,7 +55,7 @@ Aurelius' Price of Purpose introduces Seriphax and Jun Wenzhi's divided loyaltie
 Aurelius at the Spiral brings the group through the Spiral and to the Rift, where Aurelius confronts the emptiness behind his desire for the Orb and Susanoo sacrifices himself to open the way.
 
 Aurelius at the Orb brings the journey to crystallised Elysium, where Aurelius confronts Mikazuki, kills her in his fixation on the Orb, and finally abandons that pursuit. Vostic seals the Rift through his own sacrifice, and Aurelius eventually returns Dréagbann to Lupellyn while keeping the Sacred Air flower.`,
-    related: ["aurelius-deposition", "orb-war", "witch-hunts"]
+    related: ["aurelius-deposition", "orb-war", "severa-valmont"]
   },
 
   {
@@ -76,7 +76,7 @@ Aurelius wandered until Veyra Megami began appearing in his dreams. Her fragment
 Solivara Venn, sent by the Psycrata to observe the deposed king, found him and joined his journey. The dreams led them to Lupellyn, where a Fae offered Aurelius Dréagbann, the sword King Draco had cast into the depths after killing Lady Draka. To claim it, Aurelius had to admit the truth behind his refusal of Separation: he had feared that externalising the soul would expose his own inadequacy and make him replaceable.
 
 With Dréagbann in hand, Aurelius continued towards Elysium.`,
-    related: ["aurelius-journey", "witch-hunts", "veyra-megami", "solivara-venn"]
+    related: ["aurelius-journey", "severa-valmont", "veyra-megami", "solivara-venn"]
   },
 
   {
@@ -114,7 +114,7 @@ The Crossing
 Yrsa secured passage aboard her cousin's knarrs, carrying the group across the sea towards Varkane. They reached the black shores of the Abyss after three weeks and descended into its depths with Vostic as their guide.
 
 The hellscape eventually opened into the domain of Cerberus. The three-headed guardian questioned each traveller about what they had lost, what they would sacrifice and what they sought. Mikazuki answered by revealing her memories and visions. Aurelius could offer only his losses and his desire to reach the Orb. Cerberus allowed them to pass.`,
-    related: ["aurelius-gifts", "aurelius-desires", "geode", "vostic", "varkane-abyss", "cerberus"]
+    related: ["aurelius-gifts", "aurelius-seven-daughters", "the-geode", "vostic", "varkane-abyss", "cerberus"]
   },
 
   {
@@ -168,7 +168,7 @@ At the Rift, Susanoo blocked their path. He had guarded Voluntas for centuries a
 Before the confrontation could begin, the Fenguan cannon fired from above. Susanoo sensed its aim towards New Elysium and rose through the earth to intercept it. The weapon pierced his body and drove him back into the chamber, opening the way to the Rift. Mortally wounded, he looked to Aurelius and entrusted Voluntas to him before dying.
 
 The group crossed the Rift.`,
-    related: ["aurelius-price", "aurelius-end", "susanoo", "voluntas", "anima", "spiral"]
+    related: ["aurelius-price", "aurelius-end", "susanoo", "voluntas", "anima", "the-spiral"]
   },
 
   {
@@ -209,10 +209,10 @@ Aurelius left Elysium carrying Dréagbann and the Sacred Air flower. He wandered
 Eventually he returned to Lupellyn and cast Dréagbann back into its depths. He kept the flower.
 
 The Fool's journey ended with Aurelius no longer seeking something to possess or prove. He had lost his kingdom, his memories, his purpose and the woman who had loved him, but had finally learned what his desire had been unable to teach him: what he chose to protect mattered more than what he sought to obtain.`,
-    related: ["aurelius-revelation", "orb-war", "mikazuki-shinobu", "vostic", "dréagbann", "lupellyn"]
+    related: ["aurelius-revelation", "orb-war", "mikazuki-shinobu", "vostic", "dreagbann", "lupellyn"]
   },
   {
-    id: "witch-hunts",
+    id: "severa-valmont",
     name: "Witch Hunts",
     aliases: ["Severa Valmont", "Severa"],
     category: "events",

@@ -8,7 +8,7 @@ window.LORE_ENTRIES.push(
   {
     id: "frallation",
     name: "Frallation",
-    aliases: ["Frallation"],
+    aliases: [],
     category: "concepts",
     age: "age-of-magic",
     short: "Frallation is the body's collapse under the pressure of an internalised soul, caused when the soul cannot be externalised through Separation. It progresses from tremors, heat and crowded senses to Resonant markings beneath the skin and eventual physical failure, though a rare late Separation can allow the soul to detach without destroying the body.",

@@ -196,7 +196,7 @@ They endured because their design outlasted the people who gave it purpose. Old 
 
   // D.E.A.D.
   {
-    id: "dead-agency",
+    id: "dead",
     name: "D.E.A.D",
     aliases: ["Daedalus Expeditionary Agency for Deployment"],
     category: "entities",

@@ -117,7 +117,7 @@ The Law of Displacement
   {
     id: "echoes",
     name: "Echoes",
-    aliases: ["Echo", "Echoes"],
+    aliases: ["Echo"],
     category: "concepts",
     age: "age-of-gods",
     short: "An Echo is a consequence that persists beyond its original cause, carried through memory, relationships, inherited behaviour, culture, technology, myth, physical change and other forms of Resonance. Echoes allow what has happened to remain causally present, where it can be reproduced, transformed or given new meaning as it enters another configuration.",
@@ -151,7 +151,7 @@ The association became inseparable from the Moon after Lunarkos appeared and Zuk
   {
     id: "stars",
     name: "Stars",
-    aliases: [],
+    aliases: ["Star"],
     category: "concepts",
     age: "age-of-gods",
     short: "Stars are distant lights whose appearance carries information from the past, making them natural records of what has already occurred. In the context of the Looped Eternity, many scholars regard them as cosmic Echoes, traces of previous configurations that continue to reach the present through light and Recursion.",
@@ -170,5 +170,21 @@ No single interpretation governs the heavens. A constellation can carry differen
 
 Some scholars believe Pixpsy radiance is related to the same phenomenon that makes stars visible. Others associate their light with the memories carried within their souls. Both ideas remain open.`,
     related: ["echoes", "moon", "sun", "looped-eternity"]
+  },
+
+  // The Folding
+  {
+    id: "the-folding",
+    name: "The Folding",
+    aliases: ["temporal recursion"],
+    category: "concepts",
+    age: "age-of-decay",
+    short: "A temporal recursion that overtook Sengetsuki after the Nightjar crash, causing places, moments and events to repeat across overlapping cycles. ~~~Its true source is Voluntas, whose arrival in the material world created the conditions for the phenomenon.~~",
+    full: `The Folding is a temporal recursion affecting Sengetsuki, causing moments, places and events to repeat across overlapping cycles. Streets lead to places they should not, buildings exist in multiple states, and people can encounter echoes of moments they have already lived.
+
+The phenomenon began after the Nightjar crash, coinciding with Voluntas entering the material world. Those caught within the recursion experience its effects unevenly, with some memories and events repeating while others pass normally.
+
+The Diviners have been unable to fully explain or stop the Folding. ~~~Its true cause lies with Voluntas, whose presence in the material world created the conditions for the recursion.~~`,
+    related: ["echoes", "jenova-expedition", "sun", "looped-eternity"]
   }
 );

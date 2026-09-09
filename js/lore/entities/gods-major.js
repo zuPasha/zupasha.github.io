@@ -108,7 +108,7 @@ The Goddess
 Veyra was the first mage and the first prophet. She gave the Cursed a language for their transformation, completed the Doctrine of Becoming and became the source of the wound at the Rift's heart. Centuries of worship, interpretation and Echo turned that wound into divinity, and Megami became the figure people believe is listening.
 
 Veyra remains beneath that image, a woman who wanted to heal suffering and became inseparable from it, waiting for an ending that has never come.`,
-    related: ["ash-salinte", "voluntas", "zephyr", "the-crystallization"]
+    related: ["ash-salinte", "voluntas", "zephyr", "shattered-walls", "veyra-descent", "the-crystallization"]
   },
 
   // Zuki Kusanagi
@@ -296,7 +296,7 @@ Her essence remained in the roots of the world. The living surface of Aerisu cam
 
   // Aether
   {
-    id: "aether-goddess",
+    id: "aether",
     name: "Aether",
     aliases: ["Goddess of the Cosmic Frame", "Spirit of the Cosmic Frame"],
     category: "entities",
@@ -320,9 +320,9 @@ She succeeded and crossed beyond the ordinary world with the structure she had b
 
   // Elysia
   {
-    id: "elysia-goddess",
+    id: "elysia",
     name: "Elysia",
-    aliases: ["Goddess of Emotion", "Spirit of Emotion"],
+    aliases: ["Goddess of Emotion", "Spirit of Emotion", "Sophie"],
     category: "entities",
     age: "age-of-gods",
     short: "Goddess of Emotion. Elysia was Sophie, a survivor of Elysium whose years preserving the emotions and experiences of the Curse-taken became the foundation of her existence as the Spirit of emotion and the human psyche.",
@@ -344,7 +344,7 @@ Her consciousness eventually extended beyond an individual mind and into the col
 
   // Justicar
   {
-    id: "justicar-god",
+    id: "justicar",
     name: "Justicar",
     aliases: ["God of Justice", "Spirit of Justice"],
     category: "entities",
@@ -364,7 +364,7 @@ The act shattered that certainty. He abandoned the role of executioner and devot
 
   // Anima
   {
-    id: "anima-goddess",
+    id: "anima",
     name: "Anima",
     aliases: ["Goddess of Mortality", "Spirit of Mortality"],
     category: "entities",
@@ -388,7 +388,7 @@ Through Voluntas, the Curse, Bahamut and the countless Resonances accumulating a
 
   // Logaris
   {
-    id: "logaris-god",
+    id: "logaris",
     name: "Logaris",
     aliases: ["God of Metaphysics", "Spirit of Metaphysics"],
     category: "entities",
@@ -403,12 +403,12 @@ When Aether crossed into the Ethereal Plane, Logaris maintained the connection b
 
 His philosophy eventually became indistinguishable from his divinity. He came to embody interpretation itself: the act by which observation becomes meaning, meaning becomes coherence, and coherence can be carried from one mind to another. As generations continued to read, revise and reinterpret his work, those layers of meaning became part of his Echo. He became Logaris, God of Metaphysics and Thought.`,
 
-    related: ["nine-spirits", "aether-goddess", "mnemotas"]
+    related: ["nine-spirits", "aether", "mnemotas"]
   },
 
   // Mnemotas
   {
-    id: "mnemotas-god",
+    id: "mnemotas",
     name: "Mnemotas",
     aliases: ["God of Memory", "Spirit of Memory"],
     category: "entities",
@@ -423,12 +423,12 @@ Memory eventually became more than something Mnemotas contained. It became the s
 
 To remember everything is to remain surrounded by what has already happened. Mnemotas therefore carries the weight of Aerisu without being able to leave it behind, listening to every repetition while knowing how often the world will arrive there again.`,
 
-    related: ["nine-spirits", "aether-goddess", "logaris"]
+    related: ["nine-spirits", "aether", "logaris"]
   },
 
   // Voluntas
   {
-    id: "voluntas-god",
+    id: "voluntas",
     name: "Voluntas",
     aliases: ["God of Will", "God of Desire", "Spirit of Desire", "Spirit of Will", "The Orphan", "Will Unborn", "Unborn Child"],
     category: "entities",

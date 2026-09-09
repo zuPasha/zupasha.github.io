@@ -31,6 +31,21 @@ window.LoreRenderer = (function () {
     { id: 'bestiary',   label: 'Bestiary' }
   ];
 
+  // Place entries are organised spatially rather than by age. TIERS is
+  // the seven-rung ladder a place.tier value can occupy; place.parent
+  // holds the id of the entry one tier up (null only for the World
+  // entry). Children are never stored directly — they're computed on
+  // the fly with a filter pass, same as neighbours already are.
+  var TIERS = [
+    { id: 'world',      label: 'World' },
+    { id: 'realm',      label: 'Realm' },
+    { id: 'continent',  label: 'Continent' },
+    { id: 'nation',     label: 'Nation' },
+    { id: 'region',     label: 'Region' },
+    { id: 'settlement', label: 'Settlement' },
+    { id: 'landmark',   label: 'Landmark' }
+  ];
+
   var MOBILE_BREAKPOINT = 760;
   var GAP_COUNT = AGES.length - 1;
 
@@ -384,7 +399,7 @@ window.LoreRenderer = (function () {
   function updateTimelineHeight() {
     var timeline = document.querySelector('.lore-timeline');
     if (timeline) {
-      var isCollapsed = timeline.classList.contains('is-collapsed');
+      var isCollapsed = timeline.classList.contains('is-collapsed') || timeline.classList.contains('is-places-hidden');
       var h = isCollapsed ? 0 : 96;
       document.documentElement.style.setProperty('--lore-timeline-h', h + 'px');
     }
@@ -544,6 +559,21 @@ window.LoreRenderer = (function () {
   function renderTimeline() {
       if (!els.timelineTrack) return;
 
+      // Places are organised spatially, not by age — the timeline
+      // doesn't map onto a hierarchy, so it's hidden for that tab
+      // rather than forced to represent geography it can't show.
+      // A dedicated class keeps this independent of the manual
+      // minimise toggle's own is-collapsed state.
+      var timelineEl = els.timelineTrack.closest('.lore-timeline');
+      if (timelineEl) {
+          timelineEl.classList.toggle('is-places-hidden', activeCategory === 'places');
+      }
+      updateTimelineHeight();
+      if (activeCategory === 'places') {
+          els.timelineTrack.innerHTML = '';
+          return;
+      }
+
       var activeEntry = activeEntryId ? findEntry(activeEntryId) : null;
       var activeAgeIndex = activeEntry ? ageIndex(activeEntry.age) : -1;
       var mobile = isMobile();
@@ -662,6 +692,34 @@ window.LoreRenderer = (function () {
   }
 
   // ============================================================
+  //  PLACE HIERARCHY — tier / parent helpers
+  // ============================================================
+  function tierLabel(tierId) {
+    var t = TIERS.filter(function (x) { return x.id === tierId; })[0];
+    return t ? t.label : tierId;
+  }
+
+  function childEntries(id) {
+    return entries.filter(function (e) { return e.category === 'places' && e.parent === id; });
+  }
+
+  // Walks parent pointers up to the root, returning ancestors in
+  // World-to-immediate-parent order (the entry itself is not included).
+  function ancestorChain(entry) {
+    var chain = [];
+    var current = entry;
+    var guard = 0;
+    while (current && current.parent && guard < 20) {
+      var parentEntry = findEntry(current.parent);
+      if (!parentEntry) break;
+      chain.unshift(parentEntry);
+      current = parentEntry;
+      guard++;
+    }
+    return chain;
+  }
+
+  // ============================================================
   //  SIDEBAR — tabs
   // ============================================================
   function renderTabs() {
@@ -713,8 +771,78 @@ window.LoreRenderer = (function () {
   // ============================================================
   //  SIDEBAR — entry list
   // ============================================================
+  function updateAgeFilterVisibility() {
+    var ageFilterEl = els.ageSelect ? els.ageSelect.closest('.lore-age-filter') : null;
+    if (ageFilterEl) {
+      // Places are organised spatially — the age dropdown has nothing
+      // to filter by there, so it just doesn't show for that tab.
+      ageFilterEl.style.display = activeCategory === 'places' ? 'none' : '';
+    }
+  }
+
+  // Nested tree for the Places tab: indented by tier, built by walking
+  // parent pointers once at render time (no stored children array).
+  // Defaults fully expanded; each branch collapses independently.
+  function renderPlacesTree() {
+    var placeEntries = entries.filter(function (e) { return e.category === 'places'; });
+    var roots = placeEntries.filter(function (e) {
+      var parentEntry = e.parent ? findEntry(e.parent) : null;
+      return !parentEntry || parentEntry.category !== 'places';
+    });
+
+    function renderNode(e, depth) {
+      var kids = placeEntries.filter(function (c) { return c.parent === e.id; });
+      var hasKids = kids.length > 0;
+      var isActive = e.id === activeEntryId;
+
+      var row = '<div class="lore-tree-row" style="padding-left:' + (depth * 14) + 'px">' +
+        (hasKids ?
+          '<button type="button" class="lore-tree-toggle" data-entry-id="' + e.id + '" aria-label="Collapse ' + escapeHtml(e.name) + '">&#9662;</button>' :
+          '<span class="lore-tree-spacer"></span>') +
+        '<button type="button" class="lore-entry-item lore-tree-item' + (isActive ? ' is-active' : '') + '" ' +
+        'data-entry-id="' + e.id + '" aria-current="' + (isActive ? 'true' : 'false') + '">' +
+        escapeHtml(e.name) + '</button>' +
+        '</div>';
+
+      if (!hasKids) return '<div class="lore-tree-node">' + row + '</div>';
+
+      var childrenHtml = kids.map(function (k) { return renderNode(k, depth + 1); }).join('');
+      return '<div class="lore-tree-node">' + row +
+        '<div class="lore-tree-children">' + childrenHtml + '</div></div>';
+    }
+
+    return roots.map(function (r) { return renderNode(r, 0); }).join('');
+  }
+
   function renderEntryList() {
     if (!els.entryList) return;
+
+    updateAgeFilterVisibility();
+
+    if (activeCategory === 'places' && !searchQuery) {
+      var treeHtml = renderPlacesTree();
+      els.entryList.innerHTML = treeHtml || '<p class="lore-entry-empty">No entries found.</p>';
+
+      els.entryList.querySelectorAll('.lore-tree-item').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          selectEntry(btn.getAttribute('data-entry-id'));
+          if (isMobile()) setSidebarOpen(false);
+        });
+      });
+
+      els.entryList.querySelectorAll('.lore-tree-toggle').forEach(function (toggle) {
+        toggle.addEventListener('click', function () {
+          var node = toggle.closest('.lore-tree-node');
+          var children = node ? node.querySelector(':scope > .lore-tree-children') : null;
+          if (!children) return;
+          var collapsed = children.classList.toggle('is-collapsed');
+          toggle.innerHTML = collapsed ? '&#9656;' : '&#9662;';
+          toggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+        });
+      });
+
+      return;
+    }
 
     var filtered = entries.filter(function (e) {
       var categoryMatch = e.category === activeCategory;
@@ -871,9 +999,15 @@ window.LoreRenderer = (function () {
       .filter(Boolean);
 
     var neighbours = neighbourEntries(entry.id);
+    var isPlaceWithTier = entry.category === 'places' && entry.tier;
+
+    var tierOrAgeBadge = isPlaceWithTier ?
+      '<span class="lore-badge lore-badge-tier">' + escapeHtml(tierLabel(entry.tier)) + '</span>' :
+      '<span class="lore-badge lore-badge-age">' + escapeHtml(ageLabel(entry.age)) + '</span>';
 
     var html = '' +
       '<article class="lore-entry">' +
+      renderBreadcrumb(entry) +
       '<div class="lore-entry-header">' +
       '<h2>' + escapeHtml(entry.name) + '</h2>' +
       '<div class="lore-toggle" role="group" aria-label="Description length">' +
@@ -882,10 +1016,11 @@ window.LoreRenderer = (function () {
       '</div>' +
       '</div>' +
       '<div class="lore-entry-badges">' +
-      '<span class="lore-badge lore-badge-age">' + escapeHtml(ageLabel(entry.age)) + '</span>' +
+      tierOrAgeBadge +
       '<span class="lore-badge">' + escapeHtml(categoryLabel(entry.category)) + '</span>' +
       '</div>' +
       '<div class="lore-prose">' + prose + '</div>' +
+      (isPlaceWithTier ? renderContains(entry) : '') +
       (relatedEntries.length ? renderRelated(relatedEntries) : '') +
       renderNavButtons(neighbours) +
       '</article>';
@@ -920,7 +1055,7 @@ window.LoreRenderer = (function () {
     });
   }
 
-  function renderRelated(relatedEntries) {
+  function renderRelated(relatedEntries, title) {
     var cards = relatedEntries.map(function (e) {
       return '' +
         '<button type="button" class="lore-related-card" data-entry-id="' + e.id + '">' +
@@ -928,7 +1063,36 @@ window.LoreRenderer = (function () {
         '<span class="related-snippet">' + escapeHtml(truncate(e.short ? stripColorMarkup(expungeText(e.short)) : '', 90)) + '</span>' +
         '</button>';
     }).join('');
-    return '<div class="lore-related"><h4>Related Entries</h4><div class="lore-related-grid">' + cards + '</div></div>';
+    return '<div class="lore-related"><h4>' + escapeHtml(title || 'Related Entries') + '</h4><div class="lore-related-grid">' + cards + '</div></div>';
+  }
+
+  // Breadcrumb above a place entry's title: World › Realm › ... › Nation.
+  // The entry's own name is the trailing, unlinked segment.
+  function renderBreadcrumb(entry) {
+    if (entry.category !== 'places' || !entry.tier) return '';
+    var chain = ancestorChain(entry);
+    if (!chain.length) return '';
+    var segments = chain.map(function (a) {
+      return '<a href="#" class="lore-crosslink lore-breadcrumb-link" data-entry-id="' + a.id + '">' + escapeHtml(a.name) + '</a>';
+    });
+    segments.push('<span class="lore-breadcrumb-current">' + escapeHtml(entry.name) + '</span>');
+    return '<nav class="lore-breadcrumb" aria-label="Location breadcrumb">' + segments.join('<span class="lore-breadcrumb-sep">&rsaquo;</span>') + '</nav>';
+  }
+
+  // "Contains" block below a place entry's prose — fed by children
+  // (parent pointers), the spatial counterpart to renderRelated's use
+  // of the related array for lore-relevant, non-structural links.
+  function renderContains(entry) {
+    var kids = childEntries(entry.id);
+    if (!kids.length) return '';
+    var cards = kids.map(function (e) {
+      return '' +
+        '<button type="button" class="lore-related-card" data-entry-id="' + e.id + '">' +
+        '<span class="related-name">' + escapeHtml(e.name) + '</span>' +
+        '<span class="related-snippet">' + escapeHtml(tierLabel(e.tier)) + '</span>' +
+        '</button>';
+    }).join('');
+    return '<div class="lore-related lore-contains"><h4>Contains</h4><div class="lore-related-grid">' + cards + '</div></div>';
   }
 
   function renderNavButtons(neighbours) {

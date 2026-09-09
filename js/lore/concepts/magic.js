@@ -8,7 +8,7 @@ window.LORE_ENTRIES.push(
   {
     id: "magic",
     name: "Magic",
-    aliases: ["Magic", "Potential"],
+    aliases: ["Potential", "Mauragic", "Magical"],
     category: "concepts",
     age: "age-of-magic",
     short: "Magic is potential expressed through Resonance, allowing a being or system to transform, affect or connect. Its workings are shaped by Understanding, Intent and Connection, and manifest through the Matter, Energy, Life and Mind schools, with Lux and Vanta expressing the opposing principles through which potential is directed.",
@@ -70,7 +70,7 @@ A practitioner therefore develops through how they direct potential as much as t
   {
     id: "psy",
     name: "Psy",
-    aliases: ["Psy"],
+    aliases: [],
     category: "concepts",
     age: "age-of-magic",
     short: "Psy is the Mind school of magic concerned with the soul, consciousness, memory, desire and connection, as well as the psychic aspect of Resonance through which thoughts, identities, emotions and ideas can affect one another. It includes practices such as thought manipulation, Psy hacking, Soul Capturing and soul transference.",
@@ -88,7 +88,7 @@ Because Psy works directly with patterns of mind and identity, its effects can p
   {
     id: "mythwrighting",
     name: "Mythwrighting",
-    aliases: ["Mythwrighting"],
+    aliases: [],
     category: "concepts",
     age: "age-of-magic",
     short: "Mythwrighting is a branch of Mind magic through which persistent stories and collective belief acquire Resonance, allowing their Echoes to influence reality and, through the Loop, reinforce the conditions of their own existence.",
@@ -100,11 +100,43 @@ The strength of a myth depends on the Resonance accumulated through belief and r
     related: ["schools-of-magic", "rise-of-myth"]
   },
 
+  // Soul Pathology
+  {
+    id: "soul-pathology",
+    name: "Soul Pathology",
+    aliases: [],
+    category: "concepts",
+    age: "age-of-knowledge",
+    short: "The study of the soul, its Resonance and its relationship with the body, including the causes and manipulation of soul fracture, transfer and alteration. Jenova Najma's research pushed the field into increasingly dangerous experimentation.",
+    full: `Soul Pathology a branch of Mind magic, and is the study of the soul as a system: its structure, Resonance, integrity and the ways it can be fractured, transferred or altered. The field examines conditions including soul fracture and the effects of interference with the soul's connection to the body.
+
+The discipline developed alongside broader Psy research, with particular interest in the relationship between consciousness, identity, memory and Resonance. Its applications include soul-energy transfer and the creation of Soulbound Magic, allowing researchers to manipulate the connection between soul and body without relying solely on conventional Separation.
+
+Jenova Najma became one of the field's most ambitious researchers, pursuing Soul Pathology in Veralisse through the Psycrata's archives and her own experiments. Her work eventually encompassed the transfer between Kiara and Koto, the study of Soulless subjects and the research that led to her pursuit of the Orb of Souls.`,
+    related: ["soulbound", "schools-of-magic", "psy", "jenova", "jenova-expedition"]
+  },
+
+  // Soulbound Magic
+  {
+    id: "soulbound",
+    name: "Soulbound Magic",
+    aliases: ["Soulbound", "soul transference", "soul-transfer", "soul transfer", "soul-transference"],
+    category: "concepts",
+    age: "age-of-knowledge",
+    short: "A branch of Psy that manipulates soul-energy and allows consciousness or essence to be transferred between living hosts. Jenova Najma's research made it one of the most advanced and dangerous applications of Soul Pathology.",
+    full: `The Transfer of Soul. Soulbound Magic is a branch of Psy developed through the manipulation of soul-energy, allowing Resonance and consciousness to be transferred between living hosts. It emerged from research into the relationship between soul and body and became one of the most advanced applications of Soul Pathology.
+
+The practice can stabilise an unstable soul, preserve consciousness or alter the distribution of essence between bodies. Its use carries significant risks when the receiving vessel cannot properly contain what is transferred, potentially resulting in instability, fracture or other lasting consequences.
+
+Jenova Najma developed Soulbound Magic through her research in Veralisse, eventually using it in her experiments on Kiara and Koto. Her work demonstrated both its potential and the consequences of treating the soul as something that could be moved and reshaped.`,
+    related: ["soul-pathology", "schools-of-magic", "psy", "jenova", "jenova-expedition"]
+  },
+
   // Crystals and Amplification
   {
     id: "crystal-amplification",
     name: "Crystal Amplification",
-    aliases: ["Crystal Amplification", "Crystal", "Crystals", "Amplify Magic"],
+    aliases: ["Crystal", "Crystals", "Amplify Magic"],
     category: "concepts",
     age: "age-of-magic",
     short: "Crystals amplify magic by lowering the Connection threshold required to channel an effect, allowing limited attunement to access greater potential. Their Resonance can favour particular effects, but reliance can create dependency by substituting external amplification for the development of one's own Resonance.",
@@ -115,14 +147,14 @@ This makes crystals useful across every school of magic. Lux shards favour stabl
 Amplification still depends on the mage. A crystal does not provide Understanding, Intent or genuine Connection of its own, and repeated reliance can weaken the mage's own attunement. The Soul begins to depend on the external source rather than developing its own Resonance, making withdrawal painful and reducing independent control.
 
 Some crystals are actively dangerous. Corrupted Lux can overwhelm perception with imposed order, while Vantagems can continuously reinforce obsessive patterns through their Vanta-saturated Resonance. Their use is therefore regulated differently across Aerisu, from controlled trade to outright prohibition.`,
-    related: ["magic", "crystal-vantablack", "crystal-lux", "crystal-naru", "crystal-ankaru", "crystal-raikamu", "crystal-mauri", "crystal-verdani", "soul-shards"]
+    related: ["magic", "vantablack", "lux", "naru", "ankaru", "raikami", "mauri", "verdani", "soul-shards"]
   },
 
   // Separation Ritual
   {
     id: "separation-ritual",
     name: "Separation Ritual",
-    aliases: ["Separation Ritual"],
+    aliases: [],
     category: "concepts",
     age: "age-of-magic",
     short: "The Separation Ritual externalises the soul's Resonance through the Strand, forming an Affinity through which a person's magical potential can be expressed. By directing Resonance outward, it prevents the pressure of an internalised soul from producing Frallation.",
@@ -140,7 +172,7 @@ Separation is therefore both a magical and developmental process. It allows the 
   {
     id: "affinities",
     name: "Affinities",
-    aliases: ["Affinities", "The Strand"],
+    aliases: ["Affinity", "The Strand"],
     category: "concepts",
     age: "age-of-magic",
     short: "An Affinity is the externalised manifestation of a person's soul, taking animal form and expressing aspects of their identity. It remains connected to the person through the Strand, the metaphysical tether through which Resonance, thought and feeling pass between body and Affinity.",

@@ -9,7 +9,7 @@ window.LORE_ENTRIES.push(
   {
     id: "concepts-overview",
     name: "Concepts Overview",
-    aliases: ["Concepts Overview"],
+    aliases: [],
     category: "concepts",
     age: "age-of-men",
     short: "Concepts contains Aerisu's philosophies, practices, beliefs, systems and fundamental ideas.",
@@ -23,7 +23,7 @@ Concepts covers cosmology, the nature of the soul, magic, philosophies, religiou
   {
     id: "soul",
     name: "The Soul",
-    aliases: ["Soul"],
+    aliases: ["Soul", "Souls"],
     category: "concepts",
     age: "age-of-magic",
     short: "The soul is the embodiment of what makes a person who they are, formed through memory, desire, relationships, choices and consequence. It develops through Resonance and Echo as a person moves through the world, continually carrying what came before into what they become.",
@@ -44,7 +44,7 @@ The soul is therefore an imprint upon the causal web, continually formed through
   {
     id: "soul-resonance",
     name: "Soul Resonance",
-    aliases: ["Soul Resonance", "Soul Essence", "Soul Residue", "Resonance", "Soul Signature", "soul-resonance", "Soul Connection", "psychic residue"],
+    aliases: ["Soul Essence", "Soul Residue", "Resonance", "Soul Signature", "soul-resonance", "Soul Connection", "psychic residue"],
     category: "concepts",
     age: "age-of-magic",
     short: "Soul Resonance is the measurable expression of potential as magic, forming a distinctive signature through interaction with the world. It can be detected and followed, carries consequences forward as Echoes, and provides the basis for Psy perception, magical tracking and the externalisation of the soul.",
@@ -58,14 +58,14 @@ Resonance is also what allows consequences to persist. Echoes are Resonance that
 Psy practitioners use Resonance to perceive souls, sense distant emotion and trace connections between living things. Electric magic is especially suited to reading it: passive Electric scans reveal strong residual signatures on nearby surfaces, while those trained in Chi can follow lingering trails across conductive materials such as metal, wet sand and crystal. Heavy Vanta saturation and magical interference can disrupt these trails.
 
 Resonance is therefore both the expression of potential and the record of its interaction with the world. It carries the shape of what has acted, allowing that potential and its consequences to be detected, followed and carried forward. The Resonance can be genuine even when the meaning assigned to it is wrong.`,
-    related: ["soul", "psy", "veins"]
+    related: ["soul", "psy", "the-veins"]
   },
 
   // Soul Capturing
   {
     id: "soul-capturing",
     name: "Soul Capturing",
-    aliases: ["Soul Capturing"],
+    aliases: ["Soul Extraction"],
     category: "concepts",
     age: "age-of-magic",
     short: "Soul Capturing is the extraction and preservation of a person's Soul Resonance, concentrating the Resonance that carries their identity, memories and Echoes into a stable vessel such as a Heart Crystal. The practice allows a person's accumulated Resonance to be stored, traded and used long after its original life has ended.",
@@ -76,14 +76,14 @@ The process varies in severity. Alchemical apparatus can extract Resonance gradu
 The practice is justified as preservation, necessity or commerce, yet its result is the same: a person's accumulated existence becomes something that can be stored, traded and used. Captured Resonance can retain traces of consciousness, leaving those within old crystals as aware as their remaining Resonance permits.
 
 Soul Capturing is condemned across most of Aerisu, but the resulting Heart Crystals remain valuable for their magical and practical uses, ensuring that the practice continues despite its reputation.`,
-    related: ["soul-shards", "heart-crystals", "zephyr"]
+    related: ["soul-shards", "zephyr"]
   },
 
   // Soulless
   {
     id: "soulless",
     name: "Soulless",
-    aliases: ["Soulless"],
+    aliases: ["Soullessness"],
     category: "concepts",
     age: "age-of-knowledge",
     short: "Those who fail the Separation Ritual are known as Soulless. Their potential remains internalised, preventing an Affinity from forming and magic from being safely channelled; social isolation and the pressure of unexpressed Resonance can reinforce the condition, eventually causing Frallation.",

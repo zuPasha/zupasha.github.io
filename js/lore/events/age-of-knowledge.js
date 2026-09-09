@@ -6,7 +6,7 @@ window.LORE_ENTRIES.push(
   {
     id: "age-of-knowledge",
     name: "Age of Knowledge",
-    aliases: ["Age of Knowledge"],
+    aliases: [],
     category: "events",
     age: "age-of-knowledge",
     short: "The Age of Knowledge saw Aerisu rebuild after the War for the Orb, with magic, technology and scholarship becoming increasingly integrated into civilisation while the Diviners consolidated control over dangerous knowledge.",
@@ -66,7 +66,7 @@ Each path confronted the same underlying problem: how far humanity could alter i
   {
     id: "orthogenesis",
     name: "Orthogenesis",
-    aliases: ["Orthogenesis", "Philosophy of Finished Humanity"],
+    aliases: ["Philosophy of Finished Humanity"],
     category: "events",
     age: "age-of-knowledge",
     short: "The Philosophy of Finished Humanity drove Silealyros to pursue Orthogenesis, using biological engineering, cybernetics and soul research to create Borenfegens capable of containing magical pressure without Separation. Its ultimate goal remained the deliberate redesign of humanity itself, though true soul-body integration had yet to be achieved.",
@@ -104,7 +104,7 @@ Orthogenesis had no final design. In Silealyros, completion remained an objectiv
   {
     id: "borenfegen-recurrence",
     name: "Borenfegen Recurrence",
-    aliases: ["Borenfegen Recurrence"],
+    aliases: [],
     category: "events",
     age: "age-of-knowledge",
     short: "The Borenfegen Recurrence revealed that Orthogenesis could engineer bodies capable of containing magical pressure without Separation, but could not eliminate the Curse's vulnerability to conscious beings. As Borenfegens developed awareness, the Curse began manifesting through their bodies, souls and behaviour from creation itself.",
@@ -133,5 +133,45 @@ Borenfegens developed attachments, pursued goals and questioned their own existe
 
 The project had therefore reproduced the condition it sought to overcome. By creating beings capable of thought, desire and self-awareness, Orthogenesis had created new vessels through which the Curse could manifest. The vats that had been built to manufacture a solution had become another means by which the Curse could be born.`,
     related: ["borenfegens", "orthogenesis", "the-curse"]
+  },
+  {
+    id: "soul-killer",
+    name: "Soul Killer Case",
+    aliases: ["Soul Killer"],
+    category: "events",
+    age: "age-of-knowledge",
+    short: "A late Age of Knowledge investigation into victims left hollowed of their sense of self, eventually revealing the Adjudicators and their use of the Chimeric Camera to impose their own judgments. Raziel Sapha exposed and dismantled the organisation, but the investigation left him permanently changed.",
+    full: `The Soul Killer Case was a series of murders in late Age of Knowledge Sengetsuki in which victims were found alive but hollowed of their sense of self. Detective Raziel Sapha took the case and eventually uncovered the Adjudicators, a secret society using the Chimeric Camera to impose their own judgments upon those they deemed guilty.
+
+The investigation led Raziel through Sengetsuki's criminal underworld, Soul Shard trafficking, forbidden rituals and the hidden gallery known as The Frame, where Ethevar Liss displayed the Camera's soul-captures to wealthy patrons. The evidence revealed that the victims were being judged and emptied rather than dying from Frallation.
+
+The Adjudicators had infiltrated the Diviner Councils for generations, operating their own system of judgment beneath the institutions they served. Raziel traced them to their headquarters in Sengetsuki, where Praetor Sevran attempted to recruit him before using the Camera against him. Raziel refused and, with the arrival of other Bureau officers, the Adjudicators were arrested and the Camera sealed within a Diviner vault.
+
+The investigation came at a heavy cost. The Camera had photographed Raziel, causing his own soul fracture and the gradual loss of his memories and his Affinity. Before the final confrontation, he left Luna-Bright the VantaBlack Shard and a note reading Honour the Chimeric Crest, and began forging a blade through his Tsukuyomi bloodline.
+
+The Adjudicators were dismantled, though their members later reformed under new names. Raziel survived and returned to his family, but he was no longer the same man, carrying the damage and unanswered questions left by the case.`,
+    related: ["raziel", "chimeric-camera", "adjudicators"]
+  },
+
+  // Jenova Expedition
+  {
+    id: "jenova-expedition",
+    name: "Jenova's Expedition",
+    aliases: ["The Nightjar Crash", "Nightjar Crash"],
+    category: "events",
+    age: "age-of-knowledge",
+    short: "An expedition led by Jenova Najma into the Veins and Spirit Realm in search of the Orb of Souls, culminating in the extraction of Voluntas from Veyra's Womb. Hvitara's pursuit forced the expedition back to the material world, ending with the destruction of the Nightjar and the scattering of its survivors.",
+    full: `Jenova Najma's expedition was mounted in search of the Orb of Souls, assembling a team drawn from D.E.A.D. and beyond. Jenova brought Bourne Nirvana, Raziel Sapha, Cosmo Mirosi, Noel Nura, Hiromi and her squad, with Mnemotas also accompanying the expedition as Hazury.
+
+The expedition departed Veralisse aboard the Nightjar, travelling west to the Varkane Abyss before descending through the Veins with the aid of a Vantari guide. They passed through the depths and eventually entered the Spirit Realm, where they encountered the domains of the Spirits before reaching Veyra's Womb.
+
+There, Jenova extracted Voluntas from the crystallised womb. The act awakened the attention of Hvitara, whose pursuit forced the expedition back through the Veins towards the material world. The Vantari guide sacrificed herself during their escape, while the expedition suffered further losses.
+
+The Nightjar emerged near the Varkane Abyss with Hvitara still pursuing them. The serpent struck the airship, causing catastrophic damage. Noel anchored the vessel to reality long enough for the others to escape the immediate danger, but the Nightjar ultimately crashed into Sengetsuki.
+
+The survivors were scattered. Jenova returned to Veralisse with Bourne and the twins, while Cosmo took Voluntas and later established Nightjar Home at the crash site. Hiromi survived and eventually left D.E.A.D., while Noel was displaced across temporal layers and Raziel returned to his family changed.
+
+The expedition's official account was an accident. Its true consequences would shape Sengetsuki for years to come.`,
+    related: ["jenova", "age-of-decay", "sengetsuki", "the-folding"]
   }
 );

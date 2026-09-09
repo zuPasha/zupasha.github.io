@@ -7,7 +7,7 @@
 :root {
   --lore-header-h: 72px;      /* corrected by renderer.js once the header loads */
   --lore-timeline-h: 96px;
-  --lore-sidebar-w: 280px;
+  --lore-sidebar-w: 380px;
   --lore-radius: 3px;
   --lore-node-dot: 9px;
 }
@@ -1037,4 +1037,102 @@
   background: var(--bg-hover, #3a3a3a);
   border-color: var(--text-dim, #888);
   color: var(--text, #eee);
+}
+/* ============================================================
+   PLACES — spatial hierarchy (tier/parent)
+   Breadcrumb, Contains block, tier badge, and the sidebar tree
+   that replaces the flat age-grouped list on the Places tab.
+   ============================================================ */
+
+/* ---- timeline hidden on the Places tab ---- */
+.lore-timeline.is-places-hidden {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0;
+  border-bottom: none;
+  transition: max-height 0.3s ease, padding 0.3s ease, border-color 0.3s ease;
+}
+
+/* ---- breadcrumb above a place entry's title ---- */
+.lore-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-dim);
+  margin-bottom: 0.7rem;
+}
+
+.lore-breadcrumb-link {
+  color: var(--ink-dim);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--vanta-dim);
+  transition: color 0.16s ease, border-color 0.16s ease;
+}
+
+.lore-breadcrumb-link:hover {
+  color: var(--vanta);
+  border-color: var(--vanta);
+}
+
+.lore-breadcrumb-sep {
+  color: var(--ink-dim);
+  opacity: 0.5;
+}
+
+.lore-breadcrumb-current {
+  color: var(--ink);
+}
+
+/* ---- tier badge (swaps in for the age badge on place entries) ---- */
+.lore-badge-tier { color: var(--gold, var(--vanta)); border-color: var(--vanta-dim); }
+
+/* ---- "Contains" block (children by parent, not the related array) ---- */
+.lore-contains h4 { color: var(--vanta); }
+
+/* ---- sidebar tree (Places tab) ---- */
+.lore-tree-node { display: block; }
+
+.lore-tree-row {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.lore-tree-toggle {
+  flex: 0 0 auto;
+  width: 1.2em;
+  height: 1.2em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  color: var(--ink-dim);
+  cursor: pointer;
+  font-size: 0.7rem;
+  padding: 0;
+  transition: color 0.16s ease;
+}
+
+.lore-tree-toggle:hover { color: var(--vanta); }
+
+.lore-tree-spacer {
+  flex: 0 0 auto;
+  width: 1.2em;
+  display: inline-block;
+}
+
+.lore-tree-item {
+  flex: 1 1 auto;
+}
+
+.lore-tree-children {
+  display: block;
+}
+
+.lore-tree-children.is-collapsed {
+  display: none;
 }

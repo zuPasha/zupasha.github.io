@@ -27,7 +27,7 @@
   --body: 'Work Sans', system-ui, sans-serif;
 
   /* layout */
-  --max: 1120px;
+  --max: 1220px;
   --gap: clamp(1.25rem, 3vw, 2.5rem);
 }
 

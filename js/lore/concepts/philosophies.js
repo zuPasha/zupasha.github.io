@@ -8,7 +8,7 @@ window.LORE_ENTRIES.push(
   {
     id: "lunartics",
     name: "The Lunartics",
-    aliases: ["Lunartic"],
+    aliases: ["Lunartic", "Lunartics"],
     category: "concepts",
     age: "age-of-gods",
     short: "A religious ideology of the Shattering that regarded Lunarkos as divine judgement and salvation. Lunartics believed Voluntas enabled its descent and that resisting it prolonged humanity's suffering. Some scholars consider the ideology an echo of the older Luminary tradition, though no direct connection has been established.",
@@ -29,7 +29,7 @@ The ideology has since survived only through historical records, scattered accou
   {
     id: "autarchs",
     name: "The Autarchs",
-    aliases: ["Autarch", "Autarchian", "Tarch"],
+    aliases: ["Autarchs", "Autarch", "Autarchian", "Tarch", "Tarchs"],
     category: "concepts",
     age: "age-of-knowledge",
     short: "Forever Forward. Existentialist philosophy centred on human self-determination, progress, authority and heroic service. Autarchianism became the dominant power of the Age of Men, originating in Solmara before later becoming centred in Varkane.",
@@ -52,7 +52,7 @@ Autarch ideals remain influential wherever progress, duty, technological mastery
   {
     id: "primarchs",
     name: "The Primarchs",
-    aliases: ["Primarch"],
+    aliases: ["Primarch", "Primarchs"],
     category: "concepts",
     age: "age-of-knowledge",
     short: "Order Through Progress. Autarch sect centred on nationalism, capitalism, institutional power and organised service to civilisation. Primarchs regard themselves as the original expression of the Autarch ideal, with Exandria its foremost example.",
@@ -71,7 +71,7 @@ Exandria is regarded as the foremost example of Primarch society, where industri
   {
     id: "thanatarchs",
     name: "The Thanatarchs",
-    aliases: ["Thanatarch"],
+    aliases: ["Thanatarch", "Thanatarchs"],
     category: "concepts",
     age: "age-of-knowledge",
     short: "Live Until Nothing Remains. Autarch sect centred on bodily autonomy, augmentation, extreme experience and defiance of death. Thanatarchs emerged from Silealyros's Market of Flesh and seek to extend personal sovereignty by pushing the body beyond its natural limits.",
@@ -88,9 +88,9 @@ Unlike the Primarchs, who build institutions for a future they expect to inherit
 
   // Norrvekt
   {
-    id: "norrvekt",
+    id: "norrvekts",
     name: "The Norrvekts",
-    aliases: ["Norrvekt"],
+    aliases: ["Norrvekt", "Norrvekts"],
     category: "concepts",
     age: "age-of-knowledge",
     short: "Humanity Together. Autarch sect centred on family, cooperation, communal responsibility and altruistic service. Norrvekt place human wellbeing at the heart of Autarchianism, treating progress as a means of protecting and strengthening people.",
@@ -191,7 +191,7 @@ The Solarii consider the Moon a corrupting presence, believing its influence enc
   {
     id: "vesperites",
     name: "The Vesperites",
-    aliases: ["Vesperite", "Vesperitism", "Moon Baby", "Nightstray", "Gloamer", "Sundrifter"],
+    aliases: ["Vesperites", "Vesperite", "Vesperitism", "Moon Baby", "Nightstray", "Gloamer", "Sundrifter"],
     category: "concepts",
     age: "age-of-knowledge",
     short: "In the Quiet Between. Hoshimiran faith centred on the Moon, stars, impermanence, harmony and acceptance. Originating in Hoshimira, Vesperitism spread across Aerisu as a flexible way of living that places spiritual value in family, community, ritual and the changing cycles of the world.",
@@ -233,7 +233,7 @@ Yorushika pacifism is therefore deliberately confrontational. They seek to under
   {
     id: "fenguans",
     name: "The Fenguan Faith",
-    aliases: ["Fenguan"],
+    aliases: ["Fenguan", "Fenguans"],
     category: "concepts",
     age: "age-of-knowledge",
     short: "Order Beneath Heaven. Fenguan faith centred on harmony, duty, ancestry, hierarchy and responsible knowledge. It teaches that society flourishes when people understand their place, fulfil their obligations and use knowledge to preserve harmony.",
@@ -313,34 +313,39 @@ Xeraphina Auto is one of the major powers associated with the Odyraphim. Togethe
     related: ["psycrata", "xeraphina"]
   },
 
-  // Vantari
-  {
-    id: "vantari",
-    name: "The Vantari",
-    aliases: ["Vantari", "Nihilist"],
-    category: "concepts",
-    age: "age-of-knowledge",
-    short: "Death Gives Life. Vanta-aligned tradition associated with the Curse, nihilism, withdrawal, death and existential lack. Vantari is also used broadly as a social label for people perceived as isolated, cursed or outside conventional society.",
-    full: `Death Gives Life
-Vanta-aligned tradition associated with the Curse, nihilism, withdrawal, death and the acceptance of existential lack.
+// Vantari
 
-Vantari is a broad term for people associated with Vanta and the Curse, encompassing a range of beliefs and practices that developed around the acceptance of darkness, desire and mortality. Some embrace the Curse deliberately, treating Vanta as a path towards understanding; others simply withdraw from society and become associated with its nihilistic reputation. The name is often applied loosely, sometimes describing entire communities rather than a coherent doctrine.
+{
+  id: "vantari",
+  name: "The Vantari",
+  aliases: ["Vantari", "Nihilist", "Nihilism"],
+  category: "concepts",
+  age: "age-of-knowledge",
+  short: "The cultural and spiritual tradition of Ereboska, centred on Vanta, death, Echoes, and the continuity between the living and the dead. Outside Ereboska, Vantari is also used loosely as a label for people associated with isolation, the Curse, or existential lack.",
+  full: `Death Gives Life
+Vantari is the cultural and spiritual tradition of Ereboska, shaped by generations of living alongside Vanta, death, Echoes, and the remnants of the Shattering. For the Vantari, death does not sever a relationship. It changes the way that relationship continues. Their traditions therefore centre on remembrance, responsibility to the dead, the cultivation of life from death, and the recognition of lack as a condition of existence.
 
-The tradition is strongly associated with Ereboska and its descendants, where generations of people learned to live alongside death, Vanta and the residue left by living things. Necromancy, Death Gardening and other practices emerged from this relationship and became closely associated with Vantari culture, even as their practitioners developed distinct traditions of their own.
+Vantari is not a single doctrine or organised faith. It is a way of understanding the world that permeates Ereboskan life, from Death Gardening and remembrance to the navigation of the Veins and the interpretation of spirits. Different communities and specialists emphasise different aspects of the tradition, while sharing an understanding that the living remain connected to those who came before them.
 
-Vantari thought tends towards the recognition of lack as fundamental to existence. Desire, decay, death and dissolution become subjects of contemplation and practice, while some seek meaning through accepting what others fear. The same ideas can lead towards disciplined study, ritual and transformation or towards nihilism, isolation and surrender to the Curse.
+The tradition treats Vanta as inseparable from existence. Lack creates desire, desire creates movement, and death marks the end of a life without erasing the consequences or memories that life leaves behind. The dead therefore remain present through their Echoes, their influence, their descendants, and the living things cultivated from their remains.
 
-Because of this breadth, Vantari has become a social category as much as an ideological one. The Hollowed embody its nihilistic extreme, while practitioners such as the Gedevari have developed more deliberate traditions around death and Resonance. Soulless and homeless people are also frequently labelled Vantari by others, associating their isolation, lack of belonging or perceived withdrawal with the darkness surrounding the term.
+Death Gardening is among the clearest expressions of this understanding. The residue left by death can be cultivated into new life, allowing gardens, memorial groves, food, medicine, materials, and other forms of growth to carry something of what has passed into what comes after. Necromancy developed alongside this tradition as a means of understanding and directing death's residue.
 
-The Diviners officially condemn Vantari traditions, particularly their relationship with the Curse and necromancy, while continuing to study the knowledge developed by those they condemn.`,
-    related: ["hollowed", "duskwalkers", "death-gardening"]
-  },
+The Gedevari are specialists within Vantari culture who devote themselves to this work, particularly Death Gardening, necromancy, ritual death, and the Veins. They preserve practical knowledge concerning the relationship between death, Resonance, growth, and the Echoes that remain.
+
+Vantari thought also recognises the danger of allowing acceptance of death to become surrender to it. Nihilism, apathy, and the romanticisation of destruction represent a distortion of the tradition in which the void is mistaken for peace and responsibility is abandoned. The Hollowed embody this extreme. They are regarded as a tragedy and a warning of what happens when the relationship between desire, consequence, and the wider Echo chain collapses.
+
+Because Vantari culture is closely associated with death and Vanta, outsiders frequently reduce the term to nihilism, necromancy, or death worship. The name is consequently used beyond Ereboska as a social label for people perceived as cursed, isolated, soulless, homeless, or otherwise outside conventional society. Such usage often bears little resemblance to the actual diversity of Vantari life.
+
+The Vantari are therefore defined less by worship than by relationship: with lack, with death, with the dead, with the land, and with what remains after a life has ended. Their central question is not how to escape death, but what should be allowed to grow from it.`,
+  related: ["ereboska", "gedevari", "death-gardening", "hollowed", "the-veins"]
+},
 
   // Hollowed
   {
     id: "hollowed",
     name: "The Hollowed",
-    aliases: ["Hollowed"],
+    aliases: ["Hollowed", "Hollowing"],
     category: "concepts",
     age: "age-of-knowledge",
     short: "Into the Void. Vantari sect centred on nihilism, despair, oblivion and surrender to the Curse. The Hollowed seek the dissolution of self through Vanta, embracing death and emptiness as the final form of release.",
@@ -359,7 +364,7 @@ Their symbol is the void, representing the unknown, the inevitable end and the a
   {
     id: "gedevari",
     name: "The Gedevari",
-    aliases: ["Gedevari", "Death Gardeners"],
+    aliases: ["Gedevari", "Death Gardeners", "Death Gardener"],
     category: "concepts",
     age: "age-of-knowledge",
     short: "From Death, Growth. Vantari sect centred on death gardening, necromancy and the cultivation of life through death. The Gedevari work with the Resonance of the dead to cultivate plants, perform Blossoming Death and develop many of Aerisu's foundational necromantic practices.",

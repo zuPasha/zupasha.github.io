@@ -8,7 +8,7 @@ window.LORE_ENTRIES.push(
   {
     id: "spirit-laws",
     name: "Laws of the Spirits",
-    aliases: [],
+    aliases: ["Spirits Laws"],
     category: "concepts",
     age: "age-of-fairytales",
     short: "The Gods remain in the Spirit Realm. Their presence shapes reality through quiet, pervasive currents that touch every corner of Aerisu.",
@@ -53,70 +53,72 @@ Vanta moves through desire and lack, giving force to change and transformation. 
 The Shattering changed the scale at which both could be expressed. Lunarkos released vast concentrations of Lux, while Bahamut exposed and dispersed immense Vanta through the world. Their presence became especially pronounced in the altered landscape that followed, with crystals, atmospheric changes, magical phenomena and living systems carrying stronger expressions of the same underlying forces.
 
 Lux and Vanta therefore form a persistent tension within Aerisu. Their interaction shapes magic, matter, life and the soul itself, expressing two fundamental responses to potential: connection towards what is, and desire towards what might be.`,
-    related: ["vanta-concept", "lux", "rift"]
+    related: ["vanta-concept", "lux", "the-rift"]
   },
 
-  // Spiral Journey
-  {
-    id: "spiral-journey",
-    name: "The Spiral Journey",
-    aliases: ["Spiral Journey"],
-    category: "concepts",
-    age: "age-of-fairytales",
-    short: "The Spiral Veins are a process. A journey that every soul must take. The stations are confrontations with the self, opportunities to see clearly what was avoided in life.",
-    full: `The Spiralling Return
-The Spiral is the passage through which souls descend from the living world towards the Orb at the centre of Aerisu. Each Region is shaped by one of the Spirits, while each Station asks the soul to confront a particular stage of becoming. The journey begins in Verdantia and passes through Anima, Elysia, Logaris, Creatis, Justicar, Aether and Mnemotas before reaching Voluntas within the Orb.
+// === Spiral Journey ===
 
-Region 1: Verdantia
-Verdantia is the living world, where souls are formed through experience, relationship and choice. Death brings the soul to the first threshold.
+{
+  id: "spiral-journey",
+  name: "The Spiral Journey",
+  aliases: ["Spiral Journey", "Seven Stations"],
+  category: "concepts",
+  age: "age-of-fairytales",
+  parent: "the-spiral",
+  short: "The journey of a soul through the Spiral, passing through eight regions and seven stations that confront the choices and consequences through which it became itself.",
+  full: `The Spiralling Return
+The Spiral Journey is the passage through which souls descend from Verdant towards the Orb. Each Region is shaped by one of the Spirits, while each Station confronts the soul with a stage of becoming. Only souls undertake the Journey, as its stations require the capacity to choose and take responsibility for those choices.
+
+Region 1: Verdant
+The living world, named after Verdantia, where the soul is formed through experience, relationship and choice.
 
 Station 0: The Toll
-Tomenos waits at the threshold and asks for memories as fare. The soul must surrender enough of its accumulated memory to become light enough to enter the Spiral. Those who refuse remain trapped as ghosts or Veinsick, their passage blocked by what they cannot relinquish.
+Tomenos takes memories as fare, requiring the soul to relinquish enough of its accumulated memory to enter the Spiral. Those who cannot relinquish them remain trapped as ghosts or Veinsick.
 
 Region 2: Anima
-Anima is the Region of mortality, where the soul confronts the fact of its own death and the boundaries surrounding it.
+The Region of mortality, where the soul confronts its own death.
 
 Station 1: To Truly Lack
-The soul must recognise what was genuinely absent from its life and name it without deception. Acceptance of lack opens the way towards Elysia, where that absence must be emotionally confronted.
+The soul recognises what was genuinely absent from its life and names it without deception.
 
 Region 3: Elysia
-Elysia is the Region of emotion, where every feeling reaches its full intensity.
+The Region of emotion, where desire and feeling reach their full intensity.
 
 Station 2: To Want with Compassion
-The soul encounters everything it ever desired and must choose between possession and compassion. It passes by recognising that desire requires consideration for others.
+The soul encounters what it desired and must choose between possession and compassion.
 
 Region 4: Logaris
-Logaris is the Region of clarity, where truth, contradiction and uncertainty surround the soul.
+The Region of clarity, where truth, contradiction and uncertainty surround the soul.
 
 Station 3: To Seek Clarity
-The soul must navigate conflicting voices and confront itself without the stories used to make reality bearable. Understanding must become the basis for what comes next.
+The soul confronts itself through confusion and conflicting truths, learning to see without the stories that obscured reality.
 
 Region 5: Creatis
-Creatis is the Region of action, filled with unfinished creations and the consequences of choices left unrealised.
+The Region of action, where unfinished creations and unrealised choices reveal what was done and left undone.
 
-Station 4: To Act with Noble Intent
-The soul witnesses the consequences of its actions and failures to act, then accepts ownership of what it caused. It must reach the end of the field and acknowledge: I did this. It was mine.
+Station 4: To Act or To Not Act with Noble Intent
+The soul confronts the consequences of its choices and accepts ownership of what it caused.
 
 Region 6: Justicar
-Justicar is the Region of consequence, where every soul becomes both judge and accused.
+The Region of consequence, where the soul encounters the effects its choices had upon others.
 
 Station 5: To Take Proper Responsibility
-The soul confronts the people and systems affected by its choices, follows those consequences through the lives they changed and accepts its place within that chain without excuse.
+The soul follows its consequences through the lives and systems they affected, accepting its place within that chain.
 
 Region 7: Aether
-Aether is the Region of cosmic order, where recurring patterns reveal the structure of Recursion itself. Souls encounter configurations repeating across changing perspectives until they understand their place within something larger.
+The Region of cosmic order, where recurring patterns reveal the structure of Recursion.
 
 Station 6: To Echo with Reverence
-The soul reaches a silent expanse and leaves something behind: a mark, a word, a name or another expression of existence. What it creates becomes its final Echo, carrying its life into the memory of what follows.
+The soul leaves something enduring behind, carrying its existence into what follows.
 
 Region 8: Mnemotas
-Mnemotas is the Region of memory, where the accumulated consequences of lives are preserved as Echoes.
+The Region of memory, where the accumulated consequences of existence are preserved as Echoes.
 
 Station 7: Individuation
-The soul confronts the whole of its history and integrates its experiences, choices, relationships and consequences into a coherent understanding of itself. It becomes the person that its own story has formed.
+The soul confronts its history and integrates its experiences, choices, relationships and consequences into an understanding of itself.
 
 Region 9: The Orb
-At the heart of the Spiral lies the Orb, Veyra's Womb and the domain of Voluntas. Here the soul enters the greater current of existence. Its memories, loves, losses and accumulated Resonance remain within the whole, becoming part of the Recursion that will shape what follows. This is return.`,
-    related: ["orb-of-souls", "tomenos", "the-spiral"]
-  }
+At the heart of the Spiral lies the Orb, Veyra's Womb and the domain of Voluntas. The soul enters the greater current of existence, its memories and accumulated Resonance becoming part of what follows. This is return.`,
+  related: ["the-spiral", "orb-of-souls", "tomenos"]
+},
 );

@@ -23,9 +23,9 @@ Vanta therefore underlies growth, choice and transformation. It gives existence 
 
   // Cursed Soul
   {
-    id: "cursed-soul",
-    name: "Cursed Soul",
-    aliases: ["The Cursed Soul", "Curse"],
+    id: "the-curse",
+    name: "The Curse",
+    aliases: ["Cursed Soul", "Curse"],
     category: "concepts",
     age: "age-of-decay",
     short: "The Curse is the pathological expression of Vanta, arising when lack and desire become self-consuming and erode the soul's ability to act with clarity and responsibility. Cursed souls develop destructive patterns of Resonance that can distort their choices, relationships and Echoes.",
@@ -55,14 +55,14 @@ Redemption is possible but rare. Those on the edges may yet be guided back. For 
 Other Cursed learn to channel their Vanta deliberately, retaining control while gaining heightened perception, prolonged life or extraordinary power. Their bodies still bear the marks of corruption, shaped by the particular way their descent developed. Black Blood tends towards outward aggression and destruction, while White Blood emerges from cold, oppressive conditions and turns suffering inward.
 
 Physical Cursing varies between individuals. Hallucination, silence, rage, obsession and bodily mutation can all emerge as different expressions of the same underlying corruption.`,
-    related: ["cursed-soul", "blood-types"]
+    related: ["the-curse", "blood-types"]
   },
 
   // Memetic Curse
   {
     id: "memetic-curse",
     name: "Memetic Curse",
-    aliases: ["Memes", "Memetic"],
+    aliases: ["Memes", "Memetic", "Meme"],
     category: "concepts",
     age: "age-of-decay",
     short: "The Memetic Curse is the cognitive transmission of the Curse through awareness, allowing dreams, language, symbols, memories and other forms of information to distort perception and identity.",
@@ -71,7 +71,7 @@ Physical Cursing varies between individuals. Hallucination, silence, rage, obses
 Once established, it distorts memory, perception and identity, making familiar thoughts and experiences increasingly unreliable. Affected minds may lose names and faces, develop compulsions or interpret altered perceptions as reality. The Curse can therefore propagate through ideas themselves, with repeated exposure allowing its patterns to spread between people.
 
 The Memetic Curse is especially difficult to contain because its transmission occurs through cognition and communication. Psy practitioners study its effects as a corruption of Resonance within the mind, while severe cases can produce psychological collapse, bodily alteration or withdrawal into silence.`,
-    related: ["cursed-soul", "physical-curse"]
+    related: ["the-curse", "physical-curse"]
   },
 
   // Truth, Conviction and Interpretation

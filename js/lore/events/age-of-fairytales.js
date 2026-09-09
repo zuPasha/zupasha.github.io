@@ -64,7 +64,7 @@ Scholars later named this shaping of cultural memory and social reality Mythwrig
   {
     id: "first-separation",
     name: "First Separation",
-    aliases: ["First Separation"],
+    aliases: [],
     category: "events",
     age: "age-of-fairytales",
     short: "The Phumenar attempted to free Voluntas from the Orb, leaving her suspended between the mortal, crystal and Spirit Realms and widening the Rift into a permanent passage. The ritual destroyed their civilisation, creating the first Pixpsy and transforming Veyra, while surviving Phumenar knowledge and will persisted within Soul Shards.",
@@ -88,7 +88,7 @@ Fragments of the Phumenar persisted as Soul Shards, carrying crystallised pieces
   {
     id: "ash-at-the-rift",
     name: "Ash at the Rift",
-    aliases: ["Ash at the Rift"],
+    aliases: [],
     category: "events",
     age: "age-of-fairytales",
     short: "Ash reached the Rift after fighting through the ruins of Elysium and found Veyra preserved within the crystal, her form corrupted from within by Vanta. Unable to accept her death, he attempted to seal the Rift using fragments of Phumenar knowledge, but Voluntas's partially emerged will kept it open. Ash then vowed to tend the living and remind the world that tomorrow exists. He descended from Elysium and began the journey that would make him the Warm Sun, leaving Veyra trapped at the Rift and Voluntas suspended between states.",
@@ -114,7 +114,7 @@ At the Rift remained Veyra, trapped and rotting, her Curse killing thousands in 
   {
     id: "eternal-rift-conflict",
     name: "Eternal Rift Conflict",
-    aliases: ["Eternal Rift Conflict"],
+    aliases: [],
     category: "events",
     age: "age-of-fairytales",
     short: "The centuries-long conflict between Susanoo and Daigo Kusanagi at the Rift, as Susanoo guards Voluntas while Daigo seeks to free her from the suffering caused by her existence.",

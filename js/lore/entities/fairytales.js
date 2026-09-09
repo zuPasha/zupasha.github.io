@@ -22,7 +22,7 @@ Believing consumption could fill the void and allow her to create the child she 
 The corruption eventually transformed her body. Scales covered her skin, her hands became talons, wings emerged from her back and her form became increasingly draconic. Her transformation culminated in a rampage through Velstheim, after which King Draco confronted and killed her with Dréagbann.
 
 Draka's death released the corruption within her into the surrounding land. This corruption became the source of the Drakens, giving her a legacy that extended far beyond her own life.`,
-    related: ["draken-genisis", "veyra-megami", "king-draco", "velstheim"]
+    related: ["draken-genesis", "veyra-megami", "king-draco", "velstheim"]
   },
 
   // King Draco
@@ -42,7 +42,7 @@ Draco knew what was happening and allowed it to continue. His guilt and failure 
 After Draka's transformation, Draco commissioned Dréagbann from materials taken from the ruins of Elysium and used it to kill her. Unable to keep the weapon afterwards, he carried it to Lupellyn and cast it into the in-land ocean.
 
 Draco returned to Velstheim and ruled for another twenty years before dying without an heir. His throne passed to a distant cousin, while the events surrounding Draka and their children gradually disappeared from official history.`,
-    related: ["draken-genisis", "veyra-megami", "lady-draka", "velstheim"]
+    related: ["draken-genesis", "veyra-megami", "lady-draka", "velstheim"]
   },
 
   // Aurelius Cassian
@@ -65,7 +65,7 @@ Aurelius travelled towards Elysium with Solivara Venn, Yrsa Halvard, Jun Wenzhi,
 At the threshold, Mikazuki confronted him after seeing the future in which he reached the Orb. She offered him another path and confessed her love for him, briefly breaking through his hunger. When the battle around them intensified, the hunger returned. Aurelius raised Dréagbann to stop Daigo Kusanagi and accidentally killed Mikazuki when she placed herself between him and the Orb.
 
 Her death broke the hunger that had consumed him. Aurelius left Elysium carrying her flower and eventually returned Dréagbann to Lupellyn, casting the sword into its depths. He continued wandering without a kingdom or fixed purpose, carrying Mikazuki's memory as he learned to live without being driven by the need to possess what he had lost.`,
-    related: ["severa-valmont", "solivara-venn", "yrsa-halvard", "jun-wenzhi", "mikazuki-shinobu", "vostic", "seriphax", "dregagbann", "orb-of-souls"]
+    related: ["severa-valmont", "solivara-venn", "yrsa-halvard", "jun-wenzhi", "mikazuki-shinobu", "vostic", "seriphax", "dreagbann", "orb-of-souls"]
   },
 
   // Solivara Venn
@@ -171,7 +171,7 @@ He passed through the Varkane Abyss, the Seven Daughters, Tomenos's train and th
 After Mikazuki Shinobu was killed at the Orb, Vostic entered the Rift and gathered the residue of the battlefield with the Vanta, Lux and soul energy bleeding from the wound. He wove Mikazuki's sacrifice into the death garden and sang the Vantari hymn of planting. His body dissolved into the garden, transforming his death into the means by which the Rift could begin to seal.
 
 Vostic became the seed from which the garden grew within the wound, preserving the sacrifice of the people who died around him and beginning the sealing of the Rift.`,
-    related: ["aurelius-cassian", "vantari", "death-gardening", "mikazuki-shinobu", "rift", "orb-of-souls"]
+    related: ["aurelius-cassian", "vantari", "death-gardening", "mikazuki-shinobu", "the-rift", "orb-of-souls"]
   },
 
   // Seriphax
@@ -193,6 +193,6 @@ When Anima activated the ancient machines surrounding the Orb, Seriphax felt the
 At Tomenos's train, Seriphax had no memories left to surrender. Instead, it gave up the hope that it would ever find a purpose. It continued into Elysium regardless and fought alongside the others during the War for the Orb.
 
 After the Rift was sealed, Seriphax remained at its edge. With its memories gone and its former purpose abandoned, it continued because continuing was what it chose to do, becoming a guardian of the sealed threshold.`,
-    related: ["aurelius-cassian", "anima", "tomenos", "vostic", "rift", "orb-of-souls"]
+    related: ["aurelius-cassian", "anima", "tomenos", "vostic", "the-rift", "orb-of-souls"]
   },
 );

@@ -6,82 +6,134 @@ window.LORE_ENTRIES.push(
   {
     id: "sahran",
     name: "Sahran",
-    aliases: ["Sahran"],
+    aliases: [],
     category: "places",
-    age: "age-of-men",
-    short: "A continent southeast of Ylvara and Hoshimira. Never fully healed after it was broken. Four provinces: Tayran, Najmara, Zaristan, Panjara. Defined by what happens when fear moves faster than truth.",
-    full: `Sahran - Fractured Lands of the South
-Southeast of Ylvara and Hoshimira lies Sahran, a continent that never fully healed after it was broken. I remember it as steadier once, before the Ik-Rasul fell in Aokusa and the Curse slid into coastal waters. It did not spread loudly. It travelled with nets and hulls, with trade routes and familiar tides. Fear followed close behind.
+    age: null,
+    tier: "nation",
+    parent: "verdant",
+    short: "A fractured continent southeast of Solmara and Hoshimira, divided into four provinces shaped by different responses to fear, instability and the Curse.",
+    full: `Fractured Lands of the South
 
-Each province bent in its own way. Tayran, along the northern coast, became the heart of the Luminary movement, burning with doctrine. Najmara, on the central plateau, chose caution, trading sovereignty for stability. Zaristan, to the north-east, made the same choice. Panjara, far to the south, remained distant, watching the continent fracture and learning what distance could and could not protect. Sahran is not defined by one ideology or one wound. It is defined by what happens when fear moves faster than truth.`,
-    related: ["tayran", "geode", "zaristan", "najmara", "panjara"]
+Sahran lies southeast of Solmara and Hoshimira, separated from the eastern mainland by a narrow sea. It is a continent of four distinct provinces, each shaped by its own history, culture and response to the forces that fractured Sahran.
+
+Tayran occupies the northern coast and became the centre of the Luminary movement, with the Geode at the heart of its history. Najmara rises across the central plateau, where finance, accounting and careful measurement became defining parts of its culture. Zaristan occupies the mountainous north-east and serves as Sahran's military bulwark, while Panjara stretches along the southern coast, known for its spices, coffee, fabrics and festivals.
+
+Sahran's cultures remain distinct, but they share the memory of a continent repeatedly forced to respond to threats beyond its control. The Curse reached its shores through trade and coastal routes, while the legacy of the Autarchs left deeper wounds in places such as the Geode. Sahran is defined not by a single ideology or history, but by the different ways its people learned to survive what came after.
+
+~~~Inspiration: Middle Eastern, South Asian and Central Asian blend. Fractured cultural landscape drawing from Turkish, Iranian, Afghan, Saudi Arabian and Indian influences.~~~
+`,
+    related: ["tayran", "najmara", "zaristan", "panjara"]
   },
+
   {
     id: "tayran",
     name: "Tayran",
-    aliases: ["Tayran"],
+    aliases: ["Tayrani", "Tayranis"],
     category: "places",
-    age: "age-of-men",
-    short: "Sahran's northern province. Home of the Luminary movement. At its heart lies the Geode. The province was shaped by the Geode's history of prison and rebellion.",
-    full: `Tayran - Home of the Luminaries
-Tayran sits along Sahran's northern coast, practical once, almost plain. Then it became the centre of the Luminary movement, watched by neighbours as a place where extremism could take root. At its heart lies the Geode, and everything in Tayran bends around it. The Geode shaped the province long before the Luminaries gave it a name. To the Autarchs, it was stone and light to be extracted. To the Sahrani, it was prison and proving ground. Children disappeared into the Orphan Tiers. Labour enforced with ritual cruelty. The Curse whispered through the tunnels.
+    age: null,
+    tier: "region",
+    parent: "sahran",
+    short: "Sahran's northern province and centre of the Luminary movement. The Geode lies at its heart, its history shaped by Autarch exploitation, imprisonment and rebellion.",
+    full: `Home of the Luminaries
 
-Over generations, that wound became a symbol. Rebellions bloomed in the depths. Councils rebuilt where overseers once stood. Yet the Geode was never passive. It pulsed. Creatures and phenomena rose to defend it. Tayran learned that ownership did not mean control.`,
-    related: ["sahran", "geode", "luminaries"]
+Tayran occupies Sahran's northern coast. The province became the centre of the Luminary movement, whose doctrine eventually spread beyond its borders. At its heart lies the Geode, a place whose history reaches back to the Autarchs and their exploitation of Sahrani land and people.
+
+The Geode was used as a mining operation and prison, with generations of Sahrani forced into its depths. The Orphan Tiers, the labour systems and the tunnels beneath the surface became part of Tayran's collective memory. The Curse eventually took root in the deeper reaches, where Vanta and the strange life within the Geode made the depths increasingly dangerous.
+
+The Geode also became a centre of resistance. Rebellions rose from within its tiers, and the struggle against its exploitation shaped later Sahrani politics. The Luminary movement inherited much of this history, transforming the memory of oppression into a doctrine of its own.
+
+~~~Inspiration: Turkish. Inspired by Istanbul, Cappadocia and Anatolia.~~~
+`,
+    related: ["sahran", "the-geode", "luminaries"]
   },
+
   {
-    id: "geode",
+    id: "the-geode",
     name: "The Geode",
-    aliases: ["The Geode"],
+    aliases: [],
     category: "places",
-    age: "age-of-men",
-    short: "The geode was an open wound in the desert, a hollow spine of crystal caverns torn open by Solmaran machines that never learned restraint. To the Autarchs, it was only stone and light waiting to be harnessed. To the Sahrani, it became something else entirely. A prison. A crucible.",
+    age: null,
+    tier: "settlement",
+    parent: "tayran",
+    short: "A vast crystal excavation in Tayran, once an Autarch mining prison. Its layered settlements descend into Vanta-tainted caverns where the old machinery gave way to something far stranger.",
     full: `The Geode
-The geode was an open wound in the desert, a hollow spine of crystal caverns torn open by Solmaran machines that never learned restraint. To the Autarchs, it was only stone and light waiting to be harnessed. To the Sahrani, it became something else entirely. A prison. A crucible.
 
-Over time, the wound deepened into a world of its own. Tier upon tier was carved into the ribs of the earth. The highest tier held the council chambers and overseers' quarters, reinforced dwellings plated with scavenged alloys and threaded with mineral conduits. Checkpoints stood watch there, cold and watchful.
-Below them spread the residential tiers. Homes clung to the rock like stacked clay bowls. Bridges of wood and rope crossed the great shaft. Pulley lifts creaked, cables hummed, and whole lives hung suspended above the abyss.
+The Geode was opened as an Autarch mining operation, its crystal caverns torn into the desert and reshaped into a vast subterranean settlement. What began as an extraction site became a prison, with generations of Sahrani workers forced into its depths.
 
-Beneath that lay the mid tiers, a sprawl of forges and tunnels. Miners chipped at veins of copper and quartz, and at firestones that glowed with captured heat, warm as embers held in the palm.
+The upper tiers contained council chambers, overseers' quarters and reinforced dwellings. Below them were residential tiers, connected by bridges, pulley lifts and platforms suspended around the great central shaft. Deeper tiers contained forges, tunnels and mining operations, where copper, quartz and firestones were extracted from the surrounding rock.
 
-Deeper still, the air changed. The lower tiers marked the beginning of Vanta territory. Caverns echoed strangely there. Shadows stirred when nothing passed. VantaBats nested in crystal ribs that glimmered like the inside of a throat. Few lingered long enough to listen.
-Beyond them stretched the black tiers, forbidden except to council sanctioned expeditions. The stone warped into something half organic. Walls pulsed faintly, veined as if alive. Vanta pooled thick in the air, carrying whispers that slipped into dreams. Creatures prowled there. Tinnin. Ifrit. Shadowlings. Things born from nightmare and geology at once.
+The lower tiers marked the beginning of Vanta territory. VantaBats nested among the crystal formations, while deeper caverns became increasingly hostile. The black tiers were restricted to council-sanctioned expeditions, their walls warped by Vanta and their depths inhabited by creatures including Tinnin, Ifrit and Shadowlings.
 
-At the center of it all fell the great shaft, a vertical chasm binding every tier together. Its walls shimmered with mineral seams and scaffolding. Bridges, chain lifts, and dangling platforms swayed like lanterns in the dark. From above, it looked endless.
-And at the bottom, if there even was a bottom, waited something older than the Geode itself. Some whispered its presence with trembling reverence. They spoke a name that was not quite a name. A god buried alive. Bahamut.`,
+At the centre of the Geode lies the great shaft, connecting its many tiers through a vertical chasm of scaffolding, bridges and mineral seams. Somewhere beneath it lies something older than the excavation itself. Sahrani stories name that presence as Bahamut, a god buried alive.
+
+~~~Inspiration: Turkish and Central Asian landscapes, particularly Cappadocia and other regions of Anatolia and Central Asia.~~~
+`,
     related: ["tayran", "bahamut", "geode-rebellion"]
   },
+
   {
     id: "zaristan",
     name: "Zaristan",
-    aliases: ["Zaristan", "Sahran"],
+    aliases: ["Zaristani", "Zaristanis"],
     category: "places",
-    age: "age-of-men",
-    short: "Sahran's mountainous north-eastern crown. Serves as the nation's military bulwark. Known for armies, fortifications, and poetry. The Curse rarely finds purchase here.",
-    full: `Zaristan - The Shield of Sahran
-Zaristan occupies the mountainous north-eastern crown of Sahran, considered the sister of Tayran. The province has served as Sahran's military bulwark for centuries, its people carrying that responsibility in their posture. Zaristanis are known for their armies, their fortifications, and their skill in the political management of conflict. Their dialect sounds harsher than other Sahran tongues, clipped and direct. Politically, Zaristan acts as mediator and enforcer, known for negotiating ceasefires and feared for breaking them. Zaristanis are also known for their poetry, long epics about fallen heroes and sieges that lasted generations. The Curse rarely finds purchase in Zaristan, perhaps because the people have already made peace with death.`,
+    age: null,
+    tier: "region",
+    parent: "sahran",
+    short: "Sahran's mountainous north-eastern province and military bulwark, known for its armies, fortifications, political mediation and epic poetry.",
+    full: `The Shield of Sahran
+
+Zaristan occupies the mountainous north-eastern crown of Sahran and is considered the sister province of Tayran. For centuries it has served as Sahran's military bulwark, with its people carrying the responsibilities of defence, diplomacy and conflict management.
+
+Zaristan is known for its armies and fortifications, as well as its role in the political management of conflict. Its leaders negotiate ceasefires and treaties, while its military remains prepared to enforce them when necessary. Zaristani speech is often described as harsher than that of other Sahrani cultures, clipped and direct.
+
+The province also has a strong poetic tradition. Long epics recount fallen heroes, historic sieges and wars that stretched across generations. The Curse rarely finds purchase in Zaristan, perhaps because its people have long treated death as an unavoidable part of life rather than something to be denied.
+
+~~~Inspiration: Iranian and Afghan. Inspired by Tehran, Kabul and the historic cultures of the Silk Road.~~~
+`,
     related: ["sahran"]
   },
+
   {
     id: "najmara",
     name: "Najmara",
-    aliases: ["Najmara", "Sahran"],
+    aliases: ["Najmaran", "Najmarans"],
     category: "places",
-    age: "age-of-men",
-    short: "Sahran's central plateau province. Famous for accountants and its tower. Known for arithmetic, ledgers, and careful tracking of value. Produces more auditors than the rest of Sahran combined.",
-    full: `Najmara - The Counting Province
-Najmara rises on Sahran's central plateau, where the air is drier and the sky seems wider. The province is famous for its accountants and its tower. Najmarans learn arithmetic before poetry, producing more certified auditors than the rest of Sahran combined. The joke across the continent is that Najmarans count their footsteps to ensure they are not cheated out of a single stride. Their clothing favours neutral colours, their speech measured. The tall building that dominates the capital houses the central bank, national archives, and offices of the most powerful merchant syndicates. Najmarans view the tower not as vanity but as necessity.`,
+    age: null,
+    tier: "region",
+    parent: "sahran",
+    short: "Sahran's central plateau province, defined by finance, accounting and the careful measurement of value. Its capital is dominated by a vast glass and steel tower.",
+    full: `The Counting Province
+
+Najmara rises across Sahran's central plateau, where the air is dry and the horizon stretches wide. The province is renowned for its accountants, producing more certified auditors than the rest of Sahran combined.
+
+Najmarans are taught arithmetic from an early age, and their culture places considerable value on precision, record-keeping and the careful measurement of value. Their clothing tends towards neutral colours, while their speech is measured and deliberate. A common joke across Sahran claims that Najmarans count their footsteps so they cannot be cheated out of a single stride.
+
+The capital is dominated by a vast glass and steel tower containing the central bank, national archives and offices belonging to powerful merchant syndicates. To Najmarans, the tower represents necessity rather than vanity. It is a physical expression of the systems through which the province keeps track of what Sahran owns, owes and exchanges.
+
+~~~Inspiration: Saudi Arabian. Inspired by Riyadh and Dubai, particularly their financial districts and modern urban architecture.~~~
+`,
     related: ["sahran"]
   },
+
   {
     id: "panjara",
     name: "Panjara",
-    aliases: ["Panjara", "Sahran"],
+    aliases: ["Panjaran", "Panjarans"],
     category: "places",
-    age: "age-of-men",
-    short: "Sahran's southern coast province. Known for spices, slow-roasted coffee, and vibrant fabrics. Warm and generous people. Elaborate festivals honour the sun.",
-    full: `Panjara - The Spice Coast
-Panjara stretches along Sahran's southern coast, where the sea air carries the scent of cardamom, clove, and black pepper. The province is known for its spices, slow-roasted coffee, and vibrant fabrics. A Panjaran market is a festival of scent and sight: stalls piled with cinnamon bark and dried chillies, bolts of silk in deep saffron and crimson, the low murmur of merchants perfected across generations. The people are warm and generous, inclined toward hospitality that can overwhelm. Panjarans are also known for elaborate festivals, where communities gather to dance, trade, and honour the sun with turmeric rice and flower garlands.`,
-    related: ["sahran"]
+    age: null,
+    tier: "region",
+    parent: "sahran",
+    short: "Sahran's southern coastal province, known for spices, coffee, colourful fabrics, hospitality and elaborate festivals with a strong Solarii presence.",
+    full: `The Spice Coast
+
+Panjara stretches along Sahran's southern coast, where the sea air carries the scent of cardamom, clove and black pepper. The province is known for its spices, slow-roasted coffee, colourful fabrics and rugs, with markets that bring together merchants, artisans and travellers from across the continent.
+
+Panjaran markets are vibrant places, filled with spices, textiles and the sounds of trade. Hospitality is an important part of local culture, and Panjarans are known for their warmth and generosity.
+
+The province is also known for elaborate festivals. Communities gather to dance, trade and celebrate beneath the sun, with food, flowers and traditional music forming part of the festivities. The Solarii faith has a particularly strong presence here, adding another layer to Panjara's longstanding relationship with the sun.
+
+~~~Inspiration: Indian. Inspired by Kerala, Goa and Tamil Nadu, particularly their coastal cultures, markets and festivals.~~~
+`,
+    related: ["sahran", "solarii"]
   },
 );

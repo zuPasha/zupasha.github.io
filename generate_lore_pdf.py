@@ -8,10 +8,15 @@ Key behaviours (kept in sync with the website's js/lore/ code):
     like loader.js does in the browser. Files not listed in the manifest are
     ignored (partial publishing works the same way as on the site).
   * The introduction is the "A Quick Primer" text from renderer.js.
-  * ~~expunged~~ passages are removed entirely from the PDF (the [EXPUNGED]
-    marker is a website-only affordance).
+  * ~~~…~~ markers are removed from the text, but the content inside them is kept in the PDF.
   * {{colour}}text{{/colour}} markup is rendered as real coloured text using
     the same palette as renderer.js.
+  * Place entries with a tier/parent (world → realm → continent → nation →
+    region → settlement → landmark) get a breadcrumb above their title, a
+    tier badge instead of an age badge, and a "Contains" line listing their
+    children — mirroring the site's breadcrumb / Contains block / tier
+    badge. A place entry with no tier yet falls back to the old age badge,
+    same fallback the renderer uses.
 """
 
 import sys
@@ -111,6 +116,19 @@ AGE_LABELS = dict(AGES)
 CATEGORY_LABELS = dict(CATEGORIES)
 CATEGORY_ORDER = [c for c, _ in CATEGORIES]
 
+# Mirrors renderer.js's TIERS — the spatial ladder place entries hang off
+# via tier/parent, instead of the age axis every other category uses.
+TIERS = [
+    ("world", "World"),
+    ("realm", "Realm"),
+    ("continent", "Continent"),
+    ("nation", "Nation"),
+    ("region", "Region"),
+    ("settlement", "Settlement"),
+    ("landmark", "Landmark"),
+]
+TIER_LABELS = dict(TIERS)
+
 # Same palette renderer.js allows the data files to request.
 LORE_COLORS = {
     "red": "#B64250",
@@ -125,7 +143,7 @@ LORE_COLORS = {
 }
 
 COLOR_TAG_RE = re.compile(r"\{\{(\w+)\}\}([\s\S]*?)\{\{/\1\}\}")
-EXPUNGE_RE = re.compile(r"~~[\s\S]*?~~")
+EXPUNGE_RE = re.compile(r"~~~([\s\S]*?)~~")
 
 # ============================================================
 #  VANTA PSY COLOURS
@@ -148,11 +166,11 @@ class VantaColours:
 # ============================================================
 
 def strip_expunged(text):
-    """Remove ~~expunged~~ passages entirely (PDF has no [EXPUNGED] marker)."""
     if not text:
         return text
-    cleaned = EXPUNGE_RE.sub('', text)
-    # Tidy the punctuation/whitespace left behind by a removed span.
+    # Remove markers but keep the content
+    cleaned = EXPUNGE_RE.sub(r'\1', text)
+    # Tidy whitespace (optional, but keeps formatting clean)
     cleaned = re.sub(r'[ \t]{2,}', ' ', cleaned)
     cleaned = re.sub(r' +([,.;:!?])', r'\1', cleaned)
     return cleaned
@@ -543,6 +561,35 @@ def get_age_label(age_id):
     if not age_id:
         return ''
     return AGE_LABELS.get(age_id, str(age_id).replace('-', ' ').title())
+
+
+def get_tier_label(tier_id):
+    if not tier_id:
+        return ''
+    return TIER_LABELS.get(tier_id, str(tier_id).replace('-', ' ').title())
+
+
+def ancestor_chain(entry, entries_by_id):
+    """Walk parent pointers up to the root. Mirrors renderer.js's
+    ancestorChain — returns ancestors World-to-immediate-parent order,
+    not including the entry itself."""
+    chain = []
+    current = entry
+    guard = 0
+    while current and current.get('parent') and guard < 20:
+        parent = entries_by_id.get(current['parent'])
+        if not parent:
+            break
+        chain.insert(0, parent)
+        current = parent
+        guard += 1
+    return chain
+
+
+def children_of(entry_id, entries):
+    """Mirrors renderer.js's childEntries — computed with a filter pass
+    rather than stored, so it can never drift out of sync with parent."""
+    return [e for e in entries if e.get('category') == 'places' and e.get('parent') == entry_id]
 
 
 # ============================================================
@@ -948,14 +995,28 @@ def generate_pdf(entries, output_path):
         for entry in grouped[category]:
             name = clean_plain(entry.get('name') or 'Unnamed')
             entry_id = entry.get('id')
-            age = get_age_label(entry.get('age'))
-            suffix = f'  <font color="#8c879a" size="8">{escape_xml(age)}</font>' if age else ''
+            tier = entry.get('tier')
+
+            if category == 'places' and tier:
+                # Indent by hierarchy depth instead of grouping by age —
+                # a flat mirror of the site's sidebar tree.
+                depth = len(ancestor_chain(entry, entries_by_id))
+                label = get_tier_label(tier)
+                toc_style = ParagraphStyle(
+                    name='CustomTOCTier', parent=styles['CustomTOC'],
+                    leftIndent=10 + depth * 10)
+            else:
+                depth = 0
+                label = get_age_label(entry.get('age'))
+                toc_style = styles['CustomTOC']
+
+            suffix = f'  <font color="#8c879a" size="8">{escape_xml(label)}</font>' if label else ''
             if entry_id:
                 story.append(Paragraph(
                     f'<a href="#{entry_id}" underlineColor="#8a67c2" underline="1" '
-                    f'underlineWidth="0.5">{name}</a>{suffix}', styles['CustomTOC']))
+                    f'underlineWidth="0.5">{name}</a>{suffix}', toc_style))
             else:
-                story.append(Paragraph(f'{name}{suffix}', styles['CustomTOC']))
+                story.append(Paragraph(f'{name}{suffix}', toc_style))
 
     story.append(PageBreak())
 
@@ -968,12 +1029,36 @@ def generate_pdf(entries, output_path):
             entry_id = entry.get('id', '')
             name = clean_plain(entry.get('name') or 'Unnamed Entry')
             anchor = f'<a name="{entry_id}"/>' if entry_id else ''
+            tier = entry.get('tier')
+            is_place_with_tier = (entry.get('category') == 'places' and bool(tier))
+
+            # Breadcrumb (World > Realm > ... > immediate parent), same
+            # ancestry the site walks for its breadcrumb above the title.
+            if is_place_with_tier:
+                chain = ancestor_chain(entry, entries_by_id)
+                if chain:
+                    crumb_parts = []
+                    for anc in chain:
+                        anc_id = anc.get('id')
+                        anc_name = clean_plain(anc.get('name') or anc_id or '')
+                        if anc_id:
+                            crumb_parts.append(
+                                f'<a href="#{anc_id}" color="#8c879a" underlineColor="#8a67c2" '
+                                f'underline="1" underlineWidth="0.5">{anc_name}</a>')
+                        else:
+                            crumb_parts.append(anc_name)
+                    crumb_text = ' <font color="#4f3c70">&#8250;</font> '.join(crumb_parts)
+                    story.append(Paragraph(crumb_text, styles['CustomBadge']))
+
             story.append(Paragraph(anchor + name, styles['CustomEntryTitle']))
 
             badges = []
-            age_label = get_age_label(entry.get('age'))
-            if age_label:
-                badges.append(age_label)
+            if is_place_with_tier:
+                badges.append(get_tier_label(tier))
+            else:
+                age_label = get_age_label(entry.get('age'))
+                if age_label:
+                    badges.append(age_label)
             badges.append(get_category_label(entry.get('category') or category))
             aliases = [clean_plain(a) for a in (entry.get('aliases') or []) if a]
             badge_line = escape_xml('  ·  '.join(badges))
@@ -1000,6 +1085,19 @@ def generate_pdf(entries, output_path):
                             f'underlineWidth="0.5">{clean_plain(rel.get("name") or rel_id)}</a>')
                 if links:
                     story.append(Paragraph("Related: " + ', '.join(links), styles['CustomRelated']))
+
+            # "Contains" — children by parent pointer, the spatial
+            # counterpart to Related, same as the site's Contains block.
+            if is_place_with_tier:
+                kids = children_of(entry_id, entries)
+                if kids:
+                    kid_links = [
+                        f'<a href="#{k.get("id")}" underlineColor="#8a67c2" underline="1" '
+                        f'underlineWidth="0.5">{clean_plain(k.get("name") or k.get("id"))}</a>'
+                        for k in kids if k.get('id')
+                    ]
+                    if kid_links:
+                        story.append(Paragraph("Contains: " + ', '.join(kid_links), styles['CustomRelated']))
 
             story.append(Spacer(1, 2 * mm))
             story.append(Paragraph('<font color="#4f3c70">&#8212;</font>', styles['CustomBadge']))

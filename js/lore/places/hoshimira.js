@@ -2,108 +2,270 @@ window.LORE_ENTRIES = window.LORE_ENTRIES || [];
 window.LORE_ENTRIES.push(
   // === PLACES ===
 
-  // Places Overview
-  {
-    id: "places-overview",
-    name: "Places Overview",
-    aliases: ["Places Overview"],
-    category: "places",
-    age: "age-of-men",
-    short: "Places contains Aerisu's locations, from the world and its nations to regions, cities and significant sites.",
-    full: `Locations and environments across Aerisu, from the world itself to nations, regions, cities and significant sites.
-
-Places describes the current form of each location while tracing the history that shaped it. Entries cover both inhabited territories and extraordinary locations, including the underworld and other places central to Aerisu's history.`,
-    related: ["aerisu"]
-  },
-
-  // Aerisu
-  {
-    id: "aerisu",
-    name: "Aerisu",
-    aliases: ["Aerisu", "Verdant", "The World"],
-    category: "places",
-    age: "age-of-men",
-    short: "Aerisu is the world of VantaPsy, a planet reshaped by the Shattering and divided broadly between its Western and Eastern lands. Its nations, rifts, oceans and hidden Veins remain interconnected through Resonance, Echoes and the continuing influence of Lux, Vanta and the Curse.",
-    full: `Fractured Skies, Restless Lands
-Aerisu is a world marked by the Shattering, when Lunarkos and Bahamut tore through the heavens and remade the planet. The Moon now hangs above it as the most visible remnant of that event, while the resulting scars, rifts and altered landscapes continue to shape its peoples and environments. The Curse runs through this world alongside Lux and Vanta, linking its living systems, cultures and histories through the same underlying structure of Resonance.
-
-Aerisuan geography is broadly divided between the West and East, though the distinction is cultural as much as physical. The West is dominated by extremes of fire and ice, fractured nations and the enduring legacy of human ambition, while the East contains the major centres of culture, faith and conflict surrounding Vaelmir, the Ocean Maw. Solmara, Fengua and Hoshimira border the inland sea, with Sahran and the Geode beyond it, while Atenara, the Vantari lands and the Crown Nations occupy the surrounding regions.
-
-The world remains interconnected despite these divisions. Oceans carry trade between continents, rifts connect distant regions and the Veins run beneath the surface, while Echoes allow events, ideas and consequences to persist across generations. Every nation carries the effects of those that came before it, and the shape of Aerisu continues to change through the accumulation of what has already happened.`,
-    related: ["lunarkos", "bahamut", "age-of-men", "hoshimira", "solmara", "sahran"]
-  },
-  // Hoshimira
+  // Hoshimira - Nation
   {
     id: "hoshimira",
     name: "Hoshimira",
     aliases: ["Hoshimira"],
     category: "places",
-    age: "age-of-men",
-    short: "Nation of mountainous provinces in southern Aerisu, known for lunar tradition, spiritual discipline, self-sufficiency and harmony with nature.",
+    age: null,
+    tier: "nation",
+    parent: "elyra",
+    short: "A mountainous nation in southern Aerisu shaped by lunar tradition, spiritual discipline, self-sufficiency and harmony with nature.",
     full: `The Lunar Mountains
-Nation of mountainous provinces in southern Aerisu, centred on lunar tradition, spiritual discipline, self-sufficiency and harmony with nature.
+Hoshimira occupies the southern mountain ranges below Solmara, where high peaks, misted valleys and isolated communities shaped a culture of patience, restraint and self-sufficiency. The nation is divided among several great mountain regions, each developing its own character while remaining bound by shared Hoshimiran customs and reverence for the natural world.
 
-Hoshimira occupies the southern mountain ranges below Solmara, where high peaks and misted valleys shaped a culture of patience, restraint and self-sufficiency. Its mountainous provinces each developed distinct traditions, while remaining bound by shared Hoshimiran customs and reverence for the natural world.
+The Shattering and the creation of the Moon deepened these traditions into the foundations of Vesperitism. Lunar cycles became woven into prayer, festivals, travel and civic life, while monasteries, martial orders and mountain communities preserved the discipline of living carefully within the land's rhythms.
 
-The Shattering and creation of the Moon deepened these traditions into the foundations of Vesperitism. Lunar cycles became woven into prayer, festivals, travel and civic life, while monasteries, martial orders and mountain communities preserved the discipline of living carefully within the land's rhythms.
+Hoshimira carries the memory of its relationship with Solmara closely. During the Age of Men, the arrival of Solmaran mechs in the mountains was interpreted as the descent of Angels, and the nation became a Solmaran vassal. The devastation surrounding the Golden Heart and the exile of those who became the Sahrani remain among the deepest wounds in Hoshimiran history.
 
-Hoshimira maintains cautious relations with its neighbours through trade, pilgrimage and defensive agreements. Its strength lies in endurance and preparation, with power deliberately held in reserve rather than pursued for expansion.`,
-    related: ["vesperites", "orisol", "aokusa", "tenseikoku", "shinkiri", "sengetsuki", "fengua"]
+The nation maintains cautious relations with its neighbours through trade, pilgrimage and defensive agreements. Its strength lies in endurance and preparation, with power deliberately held in reserve rather than pursued for expansion.
+
+~~~Inspiration: Japan, particularly rural, mountainous and spiritual Japan. Blends Shinto, Buddhist and samurai traditions with an isolationist mountain culture.~~`,
+    related: ["vesperites", "orisol", "aokiri", "aokusa", "tenseikoku", "shinkiri", "sengetsuki", "fengua"]
   },
+
+  // Seiryu - Region
   {
-    id: "orisol",
-    name: "Ori'sol",
-    aliases: ["Ori'sol", "City of the First Flame"],
+    id: "seiryu",
+    name: "Seiryu",
+    aliases: [],
     category: "places",
-    age: "age-of-men",
-    short: "The City of the First Flame. Once radiant with golden domes and sunstone ziggurats. Now a ruin consumed by acid rain, Black Flame creatures, and the Curse. A crucible where flame may cleanse or consume.",
-    full: `Ori'sol - City of the First Flame
-Origin of sun, cradle of fire, Ash Pit. Once, Ori'sol was radiant, golden domes rising against the sky, sunstone ziggurats crowning ceremonial paths untouched by shadow. The First Flame was said to have touched the soil itself. Exile and time hollowed it. Black crystal veins of the Curse spread through foundations, acid rain and rot consuming its halls. By the Age of Men, Ori'sol was battlefield and shrine alike, Sahrani Luminaries fighting to reclaim its sanctity, Hoshimiran troops seeking containment.
+    age: null,
+    tier: "region",
+    parent: "hoshimira",
+    short: "A north-western Hoshimiran region where mountain tradition meets the cosmopolitan influence of Fengua, Bayangara and the Crown Nations.",
+    full: `The Cosmopolitan Bridge
+Seiryu occupies the north-western edge of Hoshimira, where the mountain country opens towards Fengua and the wider trade routes beyond it. Its position has made it one of the nation's most outward-facing regions, with Hoshimiran traditions developing alongside influences carried across the surrounding seas.
 
-The Curse lingered like smoke. Black Flame creatures prowled the ruins, VantaBats nested in broken towers, crystalline horrors emerged from the depths, and Black Rain fell, streets whispering with memory, prayer, and lost hope. Sun charms, flame graffiti, and burnt offerings still mark the ruins. Ori'sol is no longer a city in the ordinary sense but a crucible and relic where flame may cleanse or consume.`,
-    related: ["hoshimira", "sanctum-verge", "aokusa", "sahran", "daigo"]
+The region's settlements are more urban and animated than much of Hoshimira. Mountain architecture sits beside modern commercial districts, dense streets and bright public spaces, while old shrines and family traditions remain woven into everyday life. Its proximity to Fengua has encouraged exchange in food, fashion, technology and philosophy, while connections with Bayangara and the Crown Nations have given Seiryu a broader cultural vocabulary than most Hoshimiran regions.
+
+Seiryu remains recognisably Hoshimiran beneath these influences. The discipline of the mountains survives in its schools, households and temples, but it is expressed through a culture more comfortable with movement, commerce and outside ideas.
+
+~~~Inspiration: Korean and Japanese influences with elements drawn from Indonesian and Americanised East Asian urban culture.~~`,
+    related: ["hoshimira", "fengua", "bayangara", "lupellyn"]
   },
+
+  // Kazanami - Region
   {
-    id: "aokusa",
-    name: "Aokusa",
-    aliases: ["Aokusa"],
+    id: "kazanami",
+    name: "Kazanami",
+    aliases: [],
     category: "places",
-    age: "age-of-men",
-    short: "A mist-wrapped mountain basin in Hoshimira. Birthplace of Zuki Kusanagi. Home to Shorin no Okami, the ancient mech that still stands watch. Site of the Ik-Rasul crash.",
-    full: `Aokusa - Mountainous Basin of Hoshimira
-Aokusa sits in a basin of mountains, wrapped in mist like a held breath. The slopes carry blue-leaved grass and flowering terraces that climb patiently toward the sky. Around the peaks stand vast crystals, pale and half-clear, their faces catching the sun, turning heat aside by day and bending warmth from mountain waters back down by night. A living balance that settles into your bones if you stay long enough to feel it.
+    age: null,
+    tier: "region",
+    parent: "hoshimira",
+    short: "A volcanic north-eastern region where Hoshimiran tradition meets industry, commerce and the controlled power of the mountains.",
+    full: `The Volcanic Industry
+Kazanami lies along Hoshimira's north-eastern mountains, where volcanic peaks hold heat beneath their snow and stone. The region's landscape is marked by old volcanic slopes, mineral-rich ground and settlements built around the difficult terrain.
 
-Below the basin lies Ori'sol, cradled by the jagged Aokusan heights. During the Festival of Bloom, the terraces fill with sound, lanterns swaying, people dancing as if the land is listening. It always has been. The angels stand above them, towering mechs left behind by the Autarchs who once ruled here. Most are rusted gone, but one still stands in an asymptote of decay.
+Kazanami developed a culture of restraint around this environment. Heat, pressure and eruption became familiar parts of life, giving the region a reputation for people who remain composed while carrying considerable force beneath the surface. Industry grew naturally around its volcanic resources, and the region became one of Hoshimira's more commercially ambitious centres.
 
-Shorin no Okami. Vines climb its frame. Doves rest on its shoulders. Offerings gather at its feet. It has watched generations pass without moving, and somehow that still counts as protection. This is where Zuki Kusanagi was born, before the Moon carried her name. She came from these terraces and quiet rhythms, from a place that understands balance without explaining it. When I think of Aokusa, something steadies, as if the mountain remembers even when I do not.`,
-    related: ["hoshimira", "shorin-no-okami", "zuki-kusanagi", "daigo"]
+Modern Kazanami is a meeting point between mountain tradition and urban enterprise. Formal businesses, powerful families and organised criminal networks operate alongside shrines, craftsmen and old communities. Its proximity to Ylvara and Argestia has brought further commercial and industrial influence, making Kazanami one of the places where Hoshimira's isolation has given way most visibly to the wider world.
+
+~~~Inspiration: Volcanic Japan. Inspired by Mount Fuji and other volcanic regions, with an Americanised Japanese industrial and commercial character.~~`,
+    related: ["hoshimira", "lupellyn", "ylvara", "argestia"]
   },
-  {
-    id: "shinkiri",
-    name: "Shinkiri",
-    aliases: ["Shinkiri", "Vanish", "Inryoku"],
-    category: "places",
-    age: "age-of-men",
-    short: "A city hidden in Hoshimira's mountains. Shaped by discipline, secrecy, and traditions that leave little room for mercy. Produced assassins and operatives who could perform the Vanish.",
-    full: `Shinkiri - Shadows of Inryoku
-Shinkiri lies deep within Inryoku, hidden among the folds of Hoshimira's mountains. A city shaped by discipline, secrecy, and traditions that leave little room for mercy, it was spoken of with lowered voices as a place where shadows were taught how to move. Training halls produced assassins, shinobi, operatives who worked unseen. Young girls were taken into hidden programs and raised for infiltration, observation, and elimination.
 
-What set Shinkiri apart was the Vanish, a skill whispered about rather than explained. Operatives could slip from sight, slide past perception, move through guarded spaces as if the world had forgotten to look at them. Some said it was discipline refined to perfection. Others called it technique. Still others believed it was something you were born with, or something that noticed you first. Whatever it was, it made Shinkiri feared. Failure left no trace, and neither did success.
-
-The city existed between story and certainty, a stage built entirely in shadow where body, mind, and silence were sharpened together, where survival depended on knowing exactly when to be seen.`,
-    related: ["hoshimira", "aokusa", "tsukiyomi"]
-  },
+  // Tenseikoku - Region
   {
     id: "tenseikoku",
     name: "Tenseikoku",
-    aliases: ["Tenseikoku", "The Sacred Peak", "Megami no Mine", "Megami-no-Mine"],
+    aliases: ["Tenseikoku"],
     category: "places",
-    age: "age-of-men",
-    short: "The highest peak in Hoshimira. Crowned by Megami-no-Mine, dwelling of the goddess Eirimegami. Pilgrims climb unmarked paths to receive the Sacred Air flower.",
-    full: `Tenseikoku - The Sacred Peak
-Tenseikoku rises above all other ranges in Hoshimira. At its crown stands Megami-no-Mine, the dwelling place of the goddess Eirimegami. The ascent is unmarked, pilgrims following snow-buried paths shaped by wind, silence, and instinct. At the summit, the Goddess of the Sacred Air appears behind a mirrored mask, offering no words, only a single blessing: the white flower known as Sacred Air. It signifies purity, healing, and shared intent, a bond between those who climbed and the will that received them. Not all who reach the peak are given the flower. Fewer still understand why.
+    age: null,
+    tier: "region",
+    parent: "hoshimira",
+    short: "Hoshimira's central and southern mountain heartland, home to the capital, its greatest sacred sites and the nation's most formal institutions.",
+    full: `The Heartland
+Tenseikoku forms the central and southern heart of Hoshimira, spreading across the nation's largest mountain range. Much of the region lies beneath snow, with high passes, secluded valleys and enormous peaks defining its landscape.
 
-The pilgrimage reflects Hoshimiran belief: endurance over triumph, humility before revelation, nature and divinity as forces that act with purpose rather than mercy. Those who return descend changed, carrying insight as much as blessing.`,
-    related: ["hoshimira", "eirimegami", "sacred-air"]
+The region is the political and spiritual centre of Hoshimira. Its capital stands among the mountains alongside government halls, major temples, commercial districts and institutions devoted to preserving Hoshimiran traditions. Religious and civic life are closely intertwined here, though neither is treated as separate from the practical responsibilities of governing a mountainous nation.
+
+At the highest reaches stands Megami-no-Mine, the sacred dwelling place of Eirimegami. The mountain has drawn pilgrims for generations, its unmarked paths demanding patience rather than ceremony. Those who reach its summit may receive the Sacred Air, a flower associated with purity, healing and the understanding that a gift carries a purpose beyond the person who receives it.
+
+Tenseikoku therefore represents Hoshimira at its most formal and concentrated: government, commerce, faith, scholarship and mountain tradition gathered beneath the highest peaks.
+
+~~~Inspiration: Sacred mountains and shrine Japan. Inspired by Kumano, Mount Koya and the Japanese Alps.~~`,
+    related: ["hoshimira", "megami-no-mine", "eirimegami", "sacred-air", "atenara"]
+  },
+
+  // Aokiri - Region
+{
+  id: "aokiri",
+  name: "Aokiri",
+  aliases: [],
+  category: "places",
+  age: null,
+  tier: "region",
+  parent: "hoshimira",
+  short: "A mountainous north-eastern region of Hoshimira defined by misty valleys, seasonal forests, flowering terraces and the legacy of the Golden Heart catastrophe. Its rural settlements remain scattered among landscapes still bearing scars from the disaster.",
+  full: `The Mist Valleys
+Aokiri occupies the north-eastern reaches of Hoshimira, where steep mountains surround fertile valleys, seasonal forests and scattered settlements. Mist settles heavily across the region, while flowering terraces and bluegrass fields occupy the slopes wherever cultivation allows. Its forests shift from blue-green in spring to peach, pink and violet in autumn.
+
+The region remains predominantly rural, with villages connected by mountain roads, old pilgrimage routes and forest trails. Local traditions follow the seasons and landscape, particularly mountains, boundaries and ancestral places.
+
+Aokiri's history is inseparable from the Golden Heart, the warm formation buried beneath its mountains. When miners breached its veins, the resulting catastrophe cracked the mountain, released ice and floodwater through its roots, and devastated the surrounding forests and valleys. The arrival of the Solmaran Angels and the later migration of survivors to Sahran became defining events in Hoshimiran history.
+
+The damage never fully disappeared. Ori'sol, abandoned settlements and altered mountain ecosystems remain among the clearest scars left by the catastrophe and the Curse.
+
+~~~Inspiration: Japanese highland regions such as Nagano and Gifu, particularly their mountain basins, seasonal forests, agricultural terraces and dispersed rural settlements.~~`,
+  related: ["hoshimira", "aokusa", "orisol", "golden-heart", "sahran"]
+},
+
+// Aokusa - Village
+{
+  id: "aokusa",
+  name: "Aokusa",
+  aliases: ["Akousa"],
+  category: "places",
+  age: null,
+  tier: "settlement",
+  parent: "aokiri",
+  short: "A small mountain village in Aokiri surrounded by flowering terraces and bluegrass fields, watched over by the abandoned mech Shorin no Okami. Its history is marked by the Golden Heart catastrophe, the later Ik-Rasul Incident, and the strange phenomena of the surrounding mountains.",
+  full: `Rural-Modern Fantasy
+Aokusa is a small mountain village in an Aokiri basin surrounded by flowering terraces, bluegrass fields and dense forest. Pale, semi-transparent crystals crown the surrounding peaks, moderating the basin's temperature and allowing cultivation to continue through the darkness.
+
+Farmers, herders and craftspeople maintain the terraces and preserve local traditions through shrines, boundary stones and seasonal offerings. The Festival of Bloom marks the harvest beneath the teal-leaved tree in the village square. Above the settlement stands Shorin no Okami, an abandoned Autarch mech whose rusting frame has become part of the landscape. Villagers still leave flowers at its feet, while some who linger near it report shared visions of battles from another time.
+
+The village was transformed by the Golden Heart catastrophe, when the formation beneath the mountain was breached and the basin's waters and ecology were disrupted. Much later, the Ik-Rasul Incident brought another crisis when the crashed aircraft disturbed the surrounding mountains and aquifers, followed by hallucinations, nightmares, Black-Blood Syndrome and abnormal changes in the local environment.
+
+Beyond the village, the surrounding wilderness is home to Kodama, Yamakage, the Kanashiki Echo Forest, the Path of Lit Lanterns, Curse-Wolves, Tengu and Yamababa. Aokusa has long treated the mountain as something that listens and remembers.
+
+~~~Inspiration: Japanese mountain villages and highland communities, particularly Nagano and Gifu, with elements drawn from Japanese mountain folklore and shrine traditions.~~`,
+  related: ["hoshimira", "aokiri", "golden-heart", "shorin-no-okami", "ik-rasul", "zuki-kusanagi", "daigo-kusanagi"]
+},
+
+// Ori'sol - City of the First Flame
+{
+  id: "orisol",
+  name: "Ori'sol",
+  aliases: ["Orisol", "City of the First Flame"],
+  category: "places",
+  age: null,
+  tier: "settlement",
+  parent: "aokiri",
+  short: "The ruined City of the First Flame in Aokiri, where golden architecture has been consumed by the Curse, acid rain and Black Flame creatures.",
+  full: `City of the First Flame
+Ori'sol was once a radiant city of golden domes and sunstone ziggurats, its ceremonial paths associated with the First Flame. The city became a place of religious significance and was remembered as a cradle of fire and a source of sacred light.
+
+Time and the Curse hollowed it. Black crystal veins spread through its foundations while acid rain and rot consumed its halls. By the Age of Men, Ori'sol had become both battlefield and shrine, with Sahrani Luminaries fighting to reclaim its sanctity while Hoshimiran forces sought to contain the corruption.
+
+The Curse still lingers through the ruins. Black Flame creatures prowl the streets, VantaBats nest in broken towers and crystalline horrors emerge from beneath the city. Black Rain falls across the remains, while fragments of prayer and memory seem to cling to the abandoned streets.
+
+Sun charms, flame graffiti and burnt offerings remain among the ruins. Ori'sol no longer functions as a city in the ordinary sense. It stands as a relic of faith and a place where the meaning of purification remains uncertain, since flame can cleanse what has been corrupted or consume what remains.
+
+~~~Inspiration: Sun temples, ancient ziggurats and sacred fire traditions.~~`,
+  related: ["hoshimira", "aokiri", "sanctum-verge", "sahran"]
+},
+
+  // Inryoku - Region
+  {
+    id: "inryoku",
+    name: "Inryoku",
+    aliases: ["Inryoku"],
+    category: "places",
+    age: null,
+    tier: "region",
+    parent: "hoshimira",
+    short: "A northern region of storm-cut mountains and shadowed forests, home to Shinkiri and its hidden traditions of espionage and assassination.",
+    full: `Storm and Shadow
+Inryoku lies in northern Hoshimira between Seiryu and Kazanami, beneath the southern edge of Lupellyn. Its northern reaches are shaped by the neighbouring land's harsher weather, with frequent thunderstorms, exposed rock and fast-running rivers descending through the mountains.
+
+Further south, dense forests gather around the valleys. Their heavy shade and difficult terrain gave rise to communities accustomed to moving quietly through the landscape, reading weather and terrain as carefully as any written map. Old paths disappear beneath roots and mist, while settlements remain concealed among the folds of the mountains.
+
+Deep within these forests lies Shinkiri. The city became the centre of a tradition built around secrecy, discipline and the manipulation of perception. Training halls produced assassins and operatives who learned to work unseen, while hidden programmes raised young girls for infiltration, observation and elimination.
+
+Inryoku's culture therefore treats silence as both a practical skill and a form of survival. Outsiders know the region mostly through stories of Shinkiri, while those who live there understand the mountains themselves as part of the same concealment.
+
+~~~Inspiration: Shadow and ninja Japan. Inspired by the historical ninja regions of Iga and Koga.~~`,
+    related: ["hoshimira", "shinkiri", "seiryu", "kazanami", "lupellyn"]
+  },
+
+  // Kurogane - Region
+  {
+    id: "kurogane",
+    name: "Kurogane",
+    aliases: [],
+    category: "places",
+    age: null,
+    tier: "region",
+    parent: "hoshimira",
+    short: "A north-western highland region of mountain passes, craft communities and difficult borders, serving as a crossroads between Hoshimira's neighbouring regions.",
+    full: `Kurogane occupies the north-western interior of Hoshimira, between Seiryu, Inryoku, Lupellyn and Tenseikoku. Long mountain ridges descend into river valleys, with high passes carrying roads between the northern regions, central highlands, Bayangara and the coast.
+
+Its settlements developed around these routes, supporting mountain agriculture, trade and skilled crafts. Tenseikoku's influence is strongest in the south, while the north retains closer ties to Seiryu and the lands beyond it, giving Kurogane a distinctly transitional character between Hoshimira's interior and its surrounding regions.
+
+~~~Inspiration: A synthesis of Hoshimiran mountain culture with Japanese highland settlements and regional trade communities.~~`,
+    related: ["hoshimira", "seiryu", "inryoku", "tenseikoku", "bayangara", "lupellyn"]
+  },
+
+  // Harumori - Region
+  {
+    id: "harumori",
+    name: "Harumori",
+    aliases: [],
+    category: "places",
+    age: null,
+    tier: "region",
+    parent: "hoshimira",
+    short: "An eastern Hoshimiran region devoted to military power, administration and national defence, facing Sahran across the strait.",
+    full: `Military Discipline
+Harumori occupies eastern Hoshimira between Tenseikoku, Aokiri and Atenara, facing Sahran across the strait. Its position has made the region one of the nation's principal defensive and administrative centres.
+
+Military institutions dominate much of Harumori's civic structure. Training grounds, fortifications and barracks occupy the valleys, while roads and mountain passes are maintained to allow soldiers and supplies to move rapidly between the coast and the interior. Samurai traditions remain influential in the region, particularly in its ideas of discipline, service and responsibility.
+
+Harumori also houses much of Hoshimira's administrative machinery. Government offices, military councils and regional authorities operate alongside older estates, shrines and martial schools. Political power here is expressed through duty and preparedness rather than spectacle.
+
+Its position opposite Sahran gives Harumori particular historical weight. The two lands share an ancestral connection through the Hoshimiran people who were exiled after the destruction surrounding the Golden Heart, making the strait between them both a boundary and a reminder of what Hoshimira once lost.
+
+~~~Inspiration: Samurai-era Japan, military administration and formal martial culture.~~`,
+    related: ["hoshimira", "tenseikoku", "aokiri", "atenara", "sahran"]
+  },
+
+  // Inryoku - Settlement
+  {
+    id: "shinkiri",
+    name: "Shinkiri",
+    aliases: ["Shinkiri", "Vanish"],
+    category: "places",
+    age: null,
+    tier: "settlement",
+    parent: "inryoku",
+    short: "A hidden city of Inryoku shaped by secrecy, discipline and the training of assassins and operatives skilled in the Vanish.",
+    full: `Shadows of Inryoku
+Shinkiri lies deep within Inryoku, hidden among the folds of Hoshimira's mountains. A city shaped by discipline, secrecy and traditions that leave little room for mercy, it was spoken of with lowered voices as a place where shadows were taught how to move.
+
+Training halls produced assassins, shinobi and operatives who worked unseen. Young girls were taken into hidden programmes and raised for infiltration, observation and elimination. The city's institutions treated silence, patience and bodily control as skills that could be refined until movement itself became difficult to perceive.
+
+What set Shinkiri apart was the Vanish, a skill whispered about rather than explained. Operatives could slip from sight, slide past perception and move through guarded spaces as if the world had forgotten to look at them. Some considered it discipline refined to perfection. Others called it technique. Still others believed it was something a person was born with, or something that noticed them first.
+
+Whatever its nature, the Vanish made Shinkiri feared. Failure left no trace, and neither did success. The city existed between story and certainty, a place where body, mind and silence were sharpened together, and survival depended on knowing exactly when to be seen.
+
+~~~Inspiration: Shadow and ninja Japan. Inspired by Iga-ryū and Koga-ryū traditions.~~`,
+    related: ["hoshimira", "inryoku", "aokusa", "tsukuyomi"]
+  },
+
+  // Tenseikoku - Landmark
+  {
+    id: "megami-no-mine",
+    name: "Megami-no-Mine",
+    aliases: ["The Sacred Peak", "Megami no Mine"],
+    category: "places",
+    age: null,
+    tier: "landmark",
+    parent: "tenseikoku",
+    short: "The highest sacred peak of Hoshimira, where Eirimegami dwells and pilgrims may receive the Sacred Air flower.",
+    full: `The Sacred Peak
+Megami-no-Mine rises above the mountains of Tenseikoku as the highest sacred peak in Hoshimira. The route to its summit is deliberately unmarked. Pilgrims follow snow, wind and instinct rather than guideposts, travelling through a landscape where the mountain itself becomes part of the pilgrimage.
+
+The ascent can take days. Those who climb may shelter beneath forgotten shrines and cross paths that disappear beneath snow, while the weather changes without warning. The mountain offers no assurance that endurance will be rewarded.
+
+At the summit lies the dwelling place of Eirimegami, Goddess of Sacred Air. She appears behind a mirrored mask and offers no words. Those she chooses may receive a white flower known as Sacred Air, its translucent petals holding droplets of dew despite the absence of a stem. The flower is associated with purity, healing and shared intent.
+
+The meaning of the pilgrimage lies beyond receiving the flower. Hoshimiran tradition understands the mountain as a place where endurance, humility and intention are brought into alignment. The Goddess does not simply reward those who arrive. What she gives, and whom she gives it to, carries its own purpose.
+
+~~~Inspiration: Sacred Japanese mountain pilgrimage. Inspired by Mount Fuji and other sacred Japanese peaks.~~`,
+    related: ["tenseikoku", "hoshimira", "eirimegami", "sacred-air"]
   }
 );

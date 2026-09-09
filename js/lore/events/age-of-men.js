@@ -20,7 +20,7 @@ Events traces the history of Aerisu from the Age of Men through the Age of Gods,
   {
     id: "age-of-men",
     name: "Age of Men",
-    aliases: ["Age of Men"],
+    aliases: [],
     category: "events",
     age: "age-of-men",
     short: "Moonless era of the Scorching Sun. Storms, deserts, and the mountain realm as heaven. The major nations of Aerisu during the first age: Solmara (Autarch seat), Hoshimira (mountain realm), and Sahran (born from exile).",
@@ -35,7 +35,7 @@ Hoshimira was a mountain realm of spiritual discipline, ancestral tradition and 
 
 Sahran
 Sahran was formed by the exiled Hoshimiran people, who settled in the desert lands beyond Aokusa and made the Geode their home. Their society developed around survival, craft, repentance and the hope of returning to their ancestral mountain. Many accepted servitude or sought to prove themselves worthy of returning. Others rejected this path and became the first Luminaries, turning their sense of exile and injustice towards rebellion and religious extremism.`,
-    related: ["solmara", "north-solmara", "south-solmara", "hoshimira", "sahran"]
+    related: ["solmara", "hoshimira", "sahran", "geode-rebellion"]
   },
   {
     id: "geode-rebellion",
@@ -76,7 +76,7 @@ The deeper levels contained Cursed beings, VantaBats, Shadowlings and Tinnin, al
 The encounter ended in catastrophe. Siba, a great mech built for war and protection, was offered as a vessel for Bahamut's destructive force. Its sacrifice ruptured the Geode's central seam and released a surge of light through the caverns before Siba and the expedition's guiding instrument disappeared.
 
 The survivors returned carrying the knowledge that Bahamut was conscious and that the Geode contained something far beyond an ordinary mineral formation. The Curse remained active beneath the settlement, while the memory of Siba's sacrifice became part of the Geode's history. The expedition permanently changed how the Sahrani understood what lay beneath them and established that the boundary between Aerisu's surface and its deeper consciousness was far thinner than previously believed.`,
-    related: ["geode-rapture", "geode-rebellion", "sahran", "geode"]
+    related: ["geode-rapture", "geode-rebellion", "sahran", "the-geode"]
   },
 
   {
@@ -97,7 +97,7 @@ The Geode erupted. Its lower regions collapsed into a violent release of creatur
 The release extended beyond the Geode itself. Material expelled into the atmosphere altered the passage of sunlight, producing the Crescent Sun, in which part of the Scorching Sun's disk appeared darkened and distorted. The Sun itself remained unchanged.
 
 The destruction left the Geode devastated and its population scattered. Those who escaped carried accounts of what had awakened below, while the wider world inherited an atmospheric consequence that would remain long after the Rapture ended.`,
-    related: ["geode-expedition", "geode-rebellion", "sahran", "geode"]
+    related: ["geode-expedition", "geode-rebellion", "sahran", "the-geode"]
   },
 
   {
@@ -112,7 +112,7 @@ The destruction left the Geode devastated and its population scattered. Those wh
 A young Hoshimiran apprentice was captured during an early skirmish and subjected to experiments intended to weaponise the Curse. Hoshimiran forces retaliated by storming the Luminary outpost, executing its defenders, including children and others caught within the fighting, before burning what remained.
 
 The checkpoint was destroyed during the fighting, and the squad later found their own position in ruins. Sanctum Verge became remembered for the cycle of violence between Luminary extremism and Hoshimiran retaliation, with civilians and young recruits caught between them.`,
-    related: ["hoshimira", "orisol", "daigo", "aokusa", "sahran", "luminaries"]
+    related: ["hoshimira", "orisol", "daigo-kusanagi", "aokusa", "sahran", "luminaries"]
   },
   {
     id: "ik-rasul-incident",
@@ -131,7 +131,7 @@ The incident marked the beginning of a prolonged period of fear and study surrou
     related: ["ik-rasul", "aokusa"]
   },
   {
-    id: "op-car",
+    id: "operation-car",
     name: "Operation C.a.R",
     aliases: ["C.a.R"],
     category: "events",
@@ -162,7 +162,7 @@ The Council's response was slow and increasingly ineffective as the northern pro
 The war lasted for years, with northern and southern records disagreeing over its exact beginning. It ended through exhaustion as the cost of continued fighting became unsustainable. The Calm Accords established the terms of the settlement and included the Black Blood Regulations, placing formal restrictions on the research that had helped ignite the conflict.
 
 The war left a lasting silence across Solmara. Veterans from every side remembered what had happened, while the populations that survived carried the consequences into the uneasy peace that followed.`,
-    related: ["calm-accords", "black-blood-regulations", "isvara"]
+    related: ["vaelmir", "calm-accords", "black-blood-regulations", "isvara"]
   },
   {
     id: "calm-accords",
@@ -178,7 +178,7 @@ Vaelmir's central waters were demilitarised and patrols reduced, while Norrvekts
 Economic measures restored trade through shared tariffs and reparations, though corruption and covert violations soon undermined the settlement. Non-interference provisions were routinely tested whenever political or economic interests outweighed the cost of doing so.
 
 The Accords became known as the Silent Curse among veterans. In the North they were remembered as surrender disguised as diplomacy, while the South regarded them as necessary restraint. They ended the war without resolving the tensions that produced it, leaving Vaelmir heavily watched and both sides preparing for the conflict they expected might return.`,
-    related: ["vaelmiric-war", "black-blood-regulations"]
+    related: ["vaelmiric-war", "vaelmir", "black-blood-regulations"]
   },
   {
     id: "black-blood-regulations",
@@ -194,7 +194,7 @@ Norrvektstan and Silealyros, despite their opposing cultures, condemned the prac
 The Regulations prohibited Black Blood research conducted under direct Council authority and required existing subjects to be released into humanitarian care. Isvara was established soon afterwards as a supervised refuge for many of those children and other displaced survivors.
 
 The Regulations remained an enduring symbol of Solmaran reform, cited for decades as evidence that the Council had addressed the abuses that caused the war. In practice, the children transferred to Isvara remained under close surveillance and administrative control, preserving much of the system of containment under the language of protection.`,
-    related: ["vaelmiric-war", "calm-accords"]
+    related: ["vaelmiric-war", "vaelmir", "calm-accords"]
   },
   {
     id: "vireliax-expedition",
@@ -212,7 +212,7 @@ At the Eye of the Maw, the crew encountered a vast storm surrounding a calm, sen
 The expedition ultimately reached a catastrophic confrontation with the depths. Survival required decisions involving pre-emptive containment, sacrifice and the increasing influence of the Curse. The Vireliax was crippled and its crew left divided, with surviving records damaged and contradictory.
 
 The expedition became one of the earliest major bodies of evidence that the depths of Vaelmir possessed a form of intelligence capable of observation and response, contributing to the later identification of that planetary consciousness as Bahamut.`,
-    related: ["vaelmir", "bahamut"]
+    related: ["vaelmir", "vaelmiric-war", "bahamut"]
   },
   {
     id: "phantom-rescue",
@@ -253,7 +253,7 @@ For the first time, Cursed people appeared openly within Solmaran society. Unive
 The collapse of secrecy also allowed Vantari traditions to expand beyond their previous communities. Their acceptance of the Cursed and their teachings around Vanta, death and existential withdrawal attracted people who had been excluded by Solmaran society, creating an ideological challenge to Council authority.
 
 Other powers responded according to their own interests. Elysium withdrew behind Cryotech barriers, while other nations watched Solmara's instability and adjusted their own policies towards the Cursed.`,
-    related: ["ik-rasul-incident", "phantom-rescue", "op-car"]
+    related: ["ik-rasul-incident", "phantom-rescue", "operation-car"]
   },
   {
     id: "discovery-of-magic",
@@ -269,7 +269,7 @@ His earliest tools included the Heart Crystals produced through his experiments,
 Zephyr built a network of collaborators around this knowledge, eventually making himself indispensable to Elysium through solutions to problems others could not solve. His research depended increasingly on living subjects, particularly Cursed people, displaced populations and orphans who could be taken into his laboratories without meaningful resistance.
 
 His work established many of the foundations of modern magical study, while also creating the conditions for increasingly invasive experimentation. Among the subjects who passed through his laboratories was a woman whose presence would eventually undermine the system he had built.`,
-    related: ["heart-crystals", "zephyr", "veyra-descent"]
+    related: ["soul-shards", "zephyr", "veyra-descent"]
   },
   {
     id: "veyra-descent",
@@ -317,7 +317,7 @@ Veyra became the first mage of Aerisu through that casting. She fled the laborat
     age: "age-of-men",
     short: "The death of Veyra's child produced a psychic shockwave that spread across Aerisu, overwhelming souls attuned to the Curse and causing widespread emotional and technological disturbances. The event became known as the Soul's First Cry.",
     full: `Veyra's discovery of her child's death triggered a psychic shockwave that travelled through Elysium, across the continent and throughout Aerisu. Souls attuned to the Curse felt a moment of overwhelming anguish. Mothers clutched their children, soldiers dropped their weapons, scholars stopped to tremble and technology flickered in response. The event became known as the Soul's First Cry.`,
-    related: ["veyra-descent", "elysium-atrocities", "first-spell", "soul-first-cry", "cursed-prophet", "heart-crystals", "zephyr"]
+    related: ["veyra-descent", "elysium-atrocities", "first-spell", "soul-first-cry", "cursed-prophet", "soul-shards", "zephyr"]
   },
   {
     id: "cursed-prophet",
@@ -345,7 +345,7 @@ There she encountered Ash. The meeting gradually restored the memories the Curse
 His followers developed Synthetic White Blood into weapons, pursued Black Blood bioweapons and White Blood applications, and combined Curse research with economic and strategic power. The organisations that emerged from this network became some of the earliest Mages and Sorcerers.
 
 Within a decade, Zephyr had returned to Elysium through infrastructure, policy and research, making his influence part of the city's foundations. His experiments on children continued, establishing a long struggle between the knowledge Veyra had brought into the world and the system of control Zephyr built around it.`,
-    related: ["veyra-descent", "elysium-atrocities", "synthetic-white-blood"]
+    related: ["veyra-descent", "elysium-atrocities", "blood-types"]
   },
   {
     id: "hell-of-elysium",
@@ -361,7 +361,7 @@ Black Blood flooded the streets. White Blood clung to buildings, puffing and exp
 Citizens fled while soldiers fired into the chaos. The Council issued evacuation orders, rescinded them, then issued them again. Elysium, the jewel of Ylvara, was dying.
 
 Zephyr stood at the centre of the disaster. He had not intended the explosion, and the failure represented a loss of control over a system he had spent decades building. He was already calculating how to adapt to it.`,
-    related: ["zephyr-ascension", "synthetic-white-blood"]
+    related: ["zephyr-ascension", "blood-types"]
   },
   {
     id: "fight-for-hell",

@@ -21,7 +21,7 @@ Voluntas reached them most strongly through the Barrier. Her raw hunger fed thei
 Their greatest achievement was the Rift Between Realms. Through centuries of study, the Phumenar learned to touch the Barrier directly, using Lux shards as anchors and Vanta corruption as a solvent to open a passage from the material world into the Spirit Realm.
 
 What they found there moved beyond ordinary understanding.`,
-    related: ["orb-of-souls", "spirit-realm", "rift"]
+    related: ["orb-of-souls", "spirit-realm", "the-rift"]
   },
 
   // Tomenos
@@ -38,7 +38,7 @@ Vein Trains travel through the currents that run beneath Aerisu, following the w
 One such train belongs to Tomenos, who has driven its tunnels for longer than he can remember. Passengers may surrender memories when they board Tomenos's train, leaving objects behind to serve as vessels for those moments. A bobblehead might hold the warmth of a childhood summer, a comic book the memory of a first love, or a Rubik's cube a moment of perfect clarity. The exchange leaves the traveller lighter as the memory settles into its vessel.
 
 Some travellers keep their memories and leave at the next station. Others remain aboard, carried through the hidden circulation of the planet. Tomenos continues his route, gathering the memories of the dead as they pass quietly through the ancient Veins.`,
-    related: ["veins", "spiral-veins"]
+    related: ["the-veins", "the-spiral"]
   },
 
   // Zorya Chernaya
@@ -120,7 +120,7 @@ Beneath Zorya, the seven govern their respective domains. Fear and resentment co
 {
   id: "gordyna",
   name: "Gordyna",
-  aliases: ["Gordyna", "Daughter of Pride"],
+  aliases: ["Daughter of Pride"],
   category: "entities",
   age: "age-of-fairytales",
   short: "Gordyna is Zorya's eldest daughter of vice, embodying pride and feeding on the sense of accomplishment that gives achievement its meaning.",
@@ -140,7 +140,7 @@ Zorya tolerates her daughter's arrogance because it is predictable. Gordyna know
 {
   id: "lakoma",
   name: "Lakoma",
-  aliases: ["Lakoma", "Daughter of Greed"],
+  aliases: ["Daughter of Greed"],
   category: "entities",
   age: "age-of-fairytales",
   short: "Lakoma is Zorya's daughter of greed, hoarding memories, magic, trinkets and souls while feeding on ambition.",
@@ -160,7 +160,7 @@ She serves Zorya through fear and cold calculation, making her useful where brut
 {
   id: "pohotna",
   name: "Pohotna",
-  aliases: ["Pohotna", "Daughter of Lust"],
+  aliases: ["Daughter of Lust"],
   category: "entities",
   age: "age-of-fairytales",
   short: "Pohotna is Zorya's daughter of lust, feeding on longing and consuming the connection that gives desire its meaning.",
@@ -180,7 +180,7 @@ Pohotna enjoys the attention her nature commands, though she despises genuine at
 {
   id: "zavista",
   name: "Zavista",
-  aliases: ["Zavista", "Daughter of Envy"],
+  aliases: ["Daughter of Envy"],
   category: "entities",
   age: "age-of-fairytales",
   short: "Zavista is Zorya's daughter of envy, feeding on comparison until possession itself becomes incapable of bringing satisfaction.",
@@ -200,7 +200,7 @@ Zavista is particularly difficult for her sisters to tolerate. She measures hers
 {
   id: "obzera",
   name: "Obzera",
-  aliases: ["Obzera", "Daughter of Gluttony"],
+  aliases: ["Daughter of Gluttony"],
   category: "entities",
   age: "age-of-fairytales",
   short: "Obzera is Zorya's daughter of gluttony, consuming without end and feeding on the satisfaction of having enough.",
@@ -220,7 +220,7 @@ Obzera is among the simplest of Zorya's daughters to understand and among the ha
 {
   id: "gneva",
   name: "Gneva",
-  aliases: ["Gneva", "Daughter of Wrath"],
+  aliases: ["Daughter of Wrath"],
   category: "entities",
   age: "age-of-fairytales",
   short: "Gneva is Zorya's daughter of wrath, embodying fury without cause and feeding on anger until it burns itself away.",
@@ -240,7 +240,7 @@ Zorya keeps her daughter close when violence serves a purpose and restrained whe
 {
   id: "lena",
   name: "Lena",
-  aliases: ["Lena", "Daughter of Sloth"],
+  aliases: ["Daughter of Sloth"],
   category: "entities",
   age: "age-of-fairytales",
   short: "Lena is Zorya's daughter of sloth, feeding on motivation and leaving behind the conviction that effort has no value.",
@@ -253,5 +253,23 @@ Her domain is almost completely still. Structures are left unfinished, fires bur
 
 Lena rarely interferes with her sisters and shows little interest in challenging Zorya. Her greatest danger lies in what happens when her influence spreads unchecked, as entire places can become inert without a single act of violence.`,
   related: ["zoryas-daughters", "zorya-chernaya", "vorograv", "varkane-abyss"]
-}
+},
+
+// Cerberus
+
+{
+    id: "cerberus",
+    name: "Cerberus",
+    aliases: ["Three-Headed Guardian", "Hellhound"],
+    category: "entities",
+    age: "age-of-fairytales",
+    short: "Cerberus is the three-headed hellhound who guards the entrance to the Varkane Abyss and serves as Zorya Chernaya's sole trusted companion, testing those who seek passage through the depths.",
+    full: `Three-Headed Guardian of the Varkane Abyss
+Cerberus is the three-headed hellhound who guards the entrance to the Varkane Abyss and serves as Zorya Chernaya's sole trusted companion. He was the foremost of the hellhounds born from Zorya's suffering under Vorograv, yet chose loyalty to her and remained at her side throughout her captivity.
+
+His guardianship is a test rather than a battle. Those who seek passage through the Abyss must answer three questions: what they have lost, what they would sacrifice and what they seek. Cerberus weighs the honesty and purpose behind each answer, allowing those who understand the cost of their journey to pass. He questioned Aurelius Cassian and his companions during their descent into Varkane, recognising their purpose despite their incomplete understanding.
+
+Cerberus's vigilance never falters, and Zorya trusts him with what she entrusts to no other. When she plotted Vorograv's death, she gave Cerberus pieces of his horns and sent him through the Veins to Qayyin. He returned with the sword forged from them, which Zorya used to sever Vorograv's head. Since then, Cerberus has remained her guardian and enforcer in the depths, his loyalty one of the few enduring bonds within the Varkane Abyss.`,
+    related: ["zorya-chernaya", "vorograv", "varkane-abyss", "qayyin", "aurelius-cassian"]
+  },
 );
