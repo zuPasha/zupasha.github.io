@@ -160,8 +160,8 @@ The Adjudicators were dismantled, though their members later reformed under new 
     aliases: ["The Nightjar Crash", "Nightjar Crash"],
     category: "events",
     age: "age-of-knowledge",
-    short: "An expedition led by Jenova Najma into the Veins and Spirit Realm in search of the Orb of Souls, culminating in the extraction of Voluntas from Veyra's Womb. Hvitara's pursuit forced the expedition back to the material world, ending with the destruction of the Nightjar and the scattering of its survivors.",
-    full: `Jenova Najma's expedition was mounted in search of the Orb of Souls, assembling a team drawn from D.E.A.D. and beyond. Jenova brought Bourne Nirvana, Raziel Sapha, Cosmo Mirosi, Noel Nura, Hiromi and her squad, with Mnemotas also accompanying the expedition as Hazury.
+    short: "An expedition led by Jenova into the Veins and Spirit Realm in search of the Orb of Souls, culminating in the extraction of Voluntas from Veyra's Womb. Hvitara's pursuit forced the expedition back to the material world, ending with the destruction of the Nightjar and the scattering of its survivors.",
+    full: `Jenova's expedition was mounted in search of the Orb of Souls, assembling a team drawn from D.E.A.D. and beyond. Jenova brought Bourne Nirvana, Raziel Sapha, Cosmo Mirosi, Noel Nura, Hiromi and her squad, with ~~~Mnemotas also accompanying the expedition as~~ Hazury.
 
 The expedition departed Veralisse aboard the Nightjar, travelling west to the Varkane Abyss before descending through the Veins with the aid of a Vantari guide. They passed through the depths and eventually entered the Spirit Realm, where they encountered the domains of the Spirits before reaching Veyra's Womb.
 
@@ -169,7 +169,7 @@ There, Jenova extracted Voluntas from the crystallised womb. The act awakened th
 
 The Nightjar emerged near the Varkane Abyss with Hvitara still pursuing them. The serpent struck the airship, causing catastrophic damage. Noel anchored the vessel to reality long enough for the others to escape the immediate danger, but the Nightjar ultimately crashed into Sengetsuki.
 
-The survivors were scattered. Jenova returned to Veralisse with Bourne and the twins, while Cosmo took Voluntas and later established Nightjar Home at the crash site. Hiromi survived and eventually left D.E.A.D., while Noel was displaced across temporal layers and Raziel returned to his family changed.
+The survivors were scattered. Jenova returned to Veralisse with Bourne and ~~~the twins~~, while Cosmo ~~~took Voluntas and later~~ established Nightjar Home at the crash site. Hiromi survived and eventually left D.E.A.D., while Noel was displaced across temporal layers and Raziel returned to his family changed.
 
 The expedition's official account was an accident. Its true consequences would shape Sengetsuki for years to come.`,
     related: ["jenova", "age-of-decay", "sengetsuki", "the-folding"]

@@ -46,6 +46,23 @@ window.LoreRenderer = (function () {
     { id: 'landmark',   label: 'Landmark' }
   ];
 
+  // Bestiary entries aren't organised by age either — they're organised
+  // by what a creature fundamentally is (entry.type, pointing at one of
+  // the classification entries below) and, optionally, what's happened
+  // to it since (entry.conditions, a stacking array of zero or more of
+  // the ids below). Classification entries themselves are ordinary
+  // bestiary entries with isClassification: true and no type of their
+  // own — creatures point at them the same way a place points at its
+  // parent. The dropdown itself is populated from whichever
+  // classification entries actually exist in the loaded data, so a new
+  // classification just needs an entry with isClassification: true and
+  // everything else picks it up automatically.
+  var BESTIARY_CONDITIONS = [
+    { id: 'cursed',   label: 'Cursed' },
+    { id: 'chimera',  label: 'Chimera' },
+    { id: 'enhanced', label: 'Enhanced' }
+  ];
+
   var MOBILE_BREAKPOINT = 760;
   var GAP_COUNT = AGES.length - 1;
 
@@ -54,6 +71,8 @@ window.LoreRenderer = (function () {
   var nameMap = [];
   var activeCategory = CATEGORIES[0].id;
   var activeAgeFilter = '';
+  var activeTypeFilter = '';
+  var activeConditionFilter = '';
   var activeEntryId = null;
   var descriptionMode = 'simple';
   var searchQuery = '';
@@ -188,12 +207,14 @@ window.LoreRenderer = (function () {
     wireStaticUI();
     buildSidebarStructure();
     createSearch();
+    createBestiaryFilters();
     wireEntryListScroll();
     watchHeaderHeight();
     createTooltip();
 
     renderTabs();
     renderAgeFilter();
+    renderBestiaryFilters();
     renderEntryList();
     renderTimeline();
     renderPrimer();
@@ -471,6 +492,51 @@ window.LoreRenderer = (function () {
   }
 
   // ============================================================
+  //  SIDEBAR — bestiary filters (classification / condition)
+  // ============================================================
+  // Built the same way createSearch() builds its own markup: the base
+  // HTML page has no bestiary-specific filter controls, so they're
+  // created once here and just shown or hidden per tab, the same
+  // pattern the age filter already uses (see updateAgeFilterVisibility).
+  function createBestiaryFilters() {
+    var header = els.sidebar.querySelector('.lore-sidebar-header');
+    if (!header) return;
+    if (header.querySelector('.lore-bestiary-filter')) return;
+
+    var typeWrap = document.createElement('div');
+    typeWrap.className = 'lore-age-filter lore-bestiary-filter';
+    typeWrap.innerHTML = '<label for="lore-type-select">Classification</label>' +
+      '<select id="lore-type-select"></select>';
+
+    var condWrap = document.createElement('div');
+    condWrap.className = 'lore-age-filter lore-bestiary-filter';
+    condWrap.innerHTML = '<label for="lore-condition-select">Condition</label>' +
+      '<select id="lore-condition-select"></select>';
+
+    var ageFilterEl = els.ageSelect ? els.ageSelect.closest('.lore-age-filter') : null;
+    if (ageFilterEl && ageFilterEl.parentNode) {
+      ageFilterEl.parentNode.insertBefore(typeWrap, ageFilterEl.nextSibling);
+      ageFilterEl.parentNode.insertBefore(condWrap, typeWrap.nextSibling);
+    } else {
+      header.appendChild(typeWrap);
+      header.appendChild(condWrap);
+    }
+
+    els.typeSelect = typeWrap.querySelector('#lore-type-select');
+    els.conditionSelect = condWrap.querySelector('#lore-condition-select');
+
+    els.typeSelect.addEventListener('change', function () {
+      activeTypeFilter = els.typeSelect.value;
+      renderEntryList();
+    });
+
+    els.conditionSelect.addEventListener('change', function () {
+      activeConditionFilter = els.conditionSelect.value;
+      renderEntryList();
+    });
+  }
+
+  // ============================================================
   //  CROSS-LINK MAP
   // ============================================================
   function buildNameMap() {
@@ -559,17 +625,18 @@ window.LoreRenderer = (function () {
   function renderTimeline() {
       if (!els.timelineTrack) return;
 
-      // Places are organised spatially, not by age — the timeline
-      // doesn't map onto a hierarchy, so it's hidden for that tab
-      // rather than forced to represent geography it can't show.
-      // A dedicated class keeps this independent of the manual
-      // minimise toggle's own is-collapsed state.
+      // Places are organised spatially and the bestiary by classification,
+      // neither by age — the timeline doesn't map onto either, so it's
+      // hidden for both tabs rather than forced to represent a structure
+      // it can't show. A dedicated class keeps this independent of the
+      // manual minimise toggle's own is-collapsed state.
+      var noTimeline = activeCategory === 'places' || activeCategory === 'bestiary';
       var timelineEl = els.timelineTrack.closest('.lore-timeline');
       if (timelineEl) {
-          timelineEl.classList.toggle('is-places-hidden', activeCategory === 'places');
+          timelineEl.classList.toggle('is-places-hidden', noTimeline);
       }
       updateTimelineHeight();
-      if (activeCategory === 'places') {
+      if (noTimeline) {
           els.timelineTrack.innerHTML = '';
           return;
       }
@@ -703,6 +770,46 @@ window.LoreRenderer = (function () {
     return entries.filter(function (e) { return e.category === 'places' && e.parent === id; });
   }
 
+  // ============================================================
+  //  BESTIARY — classification helpers
+  // ============================================================
+  // Same shape as childEntries/renderContains above, but keyed off
+  // entry.type instead of entry.parent, and always alphabetical since
+  // the bestiary has no inherent order to preserve.
+  function bestiaryChildEntries(id) {
+    return entries
+      .filter(function (e) { return e.category === 'bestiary' && e.type === id; })
+      .slice()
+      .sort(function (a, b) { return (a.name || '').localeCompare(b.name || ''); });
+  }
+
+  // Classification entries and the overview page (anything with no
+  // entry.type of its own) keep whatever order they were loaded in and
+  // sit at the top; actual creatures (anything with entry.type set,
+  // pointing at a classification) are alphabetised underneath them.
+  // Used both for the sidebar list and for Previous/Next so they stay
+  // in sync with each other.
+  function sortBestiaryEntries(list) {
+    var hubs = list.filter(function (e) { return !e.type; });
+    var creatures = list.filter(function (e) { return !!e.type; })
+      .slice()
+      .sort(function (a, b) { return (a.name || '').localeCompare(b.name || ''); });
+    return hubs.concat(creatures);
+  }
+
+  function renderBestiaryContains(entry) {
+    var kids = bestiaryChildEntries(entry.id);
+    if (!kids.length) return '';
+    var cards = kids.map(function (e) {
+      return '' +
+        '<button type="button" class="lore-related-card" data-entry-id="' + e.id + '">' +
+        '<span class="related-name">' + escapeHtml(e.name) + '</span>' +
+        '<span class="related-snippet">' + escapeHtml(truncate(e.short ? stripColorMarkup(expungeText(e.short)) : '', 90)) + '</span>' +
+        '</button>';
+    }).join('');
+    return '<div class="lore-related lore-contains"><h4>Creatures</h4><div class="lore-related-grid">' + cards + '</div></div>';
+  }
+
   // Walks parent pointers up to the root, returning ancestors in
   // World-to-immediate-parent order (the entry itself is not included).
   function ancestorChain(entry) {
@@ -769,15 +876,57 @@ window.LoreRenderer = (function () {
   }
 
   // ============================================================
+  //  SIDEBAR — bestiary filter options
+  // ============================================================
+  // Classification options come straight from the data (any bestiary
+  // entry with isClassification: true), sorted alphabetically like
+  // everything else in this tab — no hardcoded list to keep in sync.
+  function bestiaryClassifications() {
+    return entries
+      .filter(function (e) { return e.category === 'bestiary' && e.isClassification; })
+      .slice()
+      .sort(function (a, b) { return (a.name || '').localeCompare(b.name || ''); });
+  }
+
+  function renderBestiaryFilters() {
+    if (els.typeSelect) {
+      var typeHtml = '<option value="">All Classifications</option>';
+      typeHtml += bestiaryClassifications().map(function (c) {
+        return '<option value="' + c.id + '">' + escapeHtml(c.name) + '</option>';
+      }).join('');
+      els.typeSelect.innerHTML = typeHtml;
+      els.typeSelect.value = activeTypeFilter;
+    }
+    if (els.conditionSelect) {
+      var condHtml = '<option value="">All Conditions</option>';
+      condHtml += BESTIARY_CONDITIONS.map(function (c) {
+        return '<option value="' + c.id + '">' + c.label + '</option>';
+      }).join('');
+      els.conditionSelect.innerHTML = condHtml;
+      els.conditionSelect.value = activeConditionFilter;
+    }
+  }
+
+  function conditionLabel(id) {
+    var c = BESTIARY_CONDITIONS.filter(function (x) { return x.id === id; })[0];
+    return c ? c.label : id;
+  }
+
+  // ============================================================
   //  SIDEBAR — entry list
   // ============================================================
   function updateAgeFilterVisibility() {
     var ageFilterEl = els.ageSelect ? els.ageSelect.closest('.lore-age-filter') : null;
     if (ageFilterEl) {
-      // Places are organised spatially — the age dropdown has nothing
-      // to filter by there, so it just doesn't show for that tab.
-      ageFilterEl.style.display = activeCategory === 'places' ? 'none' : '';
+      // Places are organised spatially and the bestiary by classification
+      // rather than condition — the age dropdown has nothing to filter
+      // by in either tab, so it just doesn't show for them.
+      ageFilterEl.style.display = (activeCategory === 'places' || activeCategory === 'bestiary') ? 'none' : '';
     }
+
+    var showBestiaryFilters = activeCategory === 'bestiary';
+    if (els.typeSelect) els.typeSelect.closest('.lore-bestiary-filter').style.display = showBestiaryFilters ? '' : 'none';
+    if (els.conditionSelect) els.conditionSelect.closest('.lore-bestiary-filter').style.display = showBestiaryFilters ? '' : 'none';
   }
 
   // Nested tree for the Places tab: indented by tier, built by walking
@@ -845,10 +994,25 @@ window.LoreRenderer = (function () {
     }
 
     var filtered = entries.filter(function (e) {
-      var categoryMatch = e.category === activeCategory;
-      var ageMatch = activeAgeFilter === '' || e.age === activeAgeFilter;
-      return categoryMatch && ageMatch;
+      if (e.category !== activeCategory) return false;
+
+      if (activeCategory === 'bestiary') {
+        var typeMatch = activeTypeFilter === '' || e.type === activeTypeFilter;
+        var conditionMatch = activeConditionFilter === '' ||
+          (e.conditions && e.conditions.indexOf(activeConditionFilter) !== -1);
+        return typeMatch && conditionMatch;
+      }
+
+      return activeAgeFilter === '' || e.age === activeAgeFilter;
     });
+
+    // Classification entries and the overview page stay in their file
+    // order at the top of the list — only the creatures underneath them
+    // (anything with a type pointing at a classification) are sorted
+    // alphabetically.
+    if (activeCategory === 'bestiary') {
+      filtered = sortBestiaryEntries(filtered);
+    }
 
     if (searchQuery) {
       var query = searchQuery.toLowerCase();
@@ -893,14 +1057,16 @@ window.LoreRenderer = (function () {
     var lastAge = null;
 
     filtered.forEach(function (e) {
-      if (activeAgeFilter === '' && lastAge !== null && e.age !== lastAge) {
+      if (activeCategory !== 'bestiary' && activeAgeFilter === '' && lastAge !== null && e.age !== lastAge) {
         var ageLabelText = ageLabel(e.age);
         html += '<div class="lore-age-separator">' + ageLabelText + '</div>';
       }
       lastAge = e.age;
 
       var isActive = e.id === activeEntryId;
-      html += '<button type="button" class="lore-entry-item' + (isActive ? ' is-active' : '') + '" ' +
+      var itemClass = 'lore-entry-item' + (isActive ? ' is-active' : '') +
+        (e.isClassification ? ' lore-entry-classification' : '');
+      html += '<button type="button" class="' + itemClass + '" ' +
         'data-entry-id="' + e.id + '" aria-current="' + (isActive ? 'true' : 'false') + '">' +
         escapeHtml(e.name) + '</button>';
     });
@@ -1000,10 +1166,27 @@ window.LoreRenderer = (function () {
 
     var neighbours = neighbourEntries(entry.id);
     var isPlaceWithTier = entry.category === 'places' && entry.tier;
+    var isBestiary = entry.category === 'bestiary';
 
-    var tierOrAgeBadge = isPlaceWithTier ?
-      '<span class="lore-badge lore-badge-tier">' + escapeHtml(tierLabel(entry.tier)) + '</span>' :
-      '<span class="lore-badge lore-badge-age">' + escapeHtml(ageLabel(entry.age)) + '</span>';
+    var primaryBadge;
+    if (isPlaceWithTier) {
+      primaryBadge = '<span class="lore-badge lore-badge-tier">' + escapeHtml(tierLabel(entry.tier)) + '</span>';
+    } else if (isBestiary && entry.isClassification) {
+      primaryBadge = '<span class="lore-badge lore-badge-tier">Classification</span>';
+    } else if (isBestiary && entry.type) {
+      var typeEntry = findEntry(entry.type);
+      primaryBadge = '<a href="#" class="lore-badge lore-badge-tier lore-crosslink" data-entry-id="' + entry.type + '">' +
+        escapeHtml(typeEntry ? typeEntry.name : entry.type) + '</a>';
+    } else if (isBestiary) {
+      primaryBadge = '<span class="lore-badge lore-badge-tier">Bestiary</span>';
+    } else {
+      primaryBadge = '<span class="lore-badge lore-badge-age">' + escapeHtml(ageLabel(entry.age)) + '</span>';
+    }
+
+    var conditionBadges = (isBestiary && entry.conditions && entry.conditions.length) ?
+      entry.conditions.map(function (c) {
+        return '<span class="lore-badge lore-badge-condition">' + escapeHtml(conditionLabel(c)) + '</span>';
+      }).join('') : '';
 
     var html = '' +
       '<article class="lore-entry">' +
@@ -1016,11 +1199,13 @@ window.LoreRenderer = (function () {
       '</div>' +
       '</div>' +
       '<div class="lore-entry-badges">' +
-      tierOrAgeBadge +
+      primaryBadge +
+      conditionBadges +
       '<span class="lore-badge">' + escapeHtml(categoryLabel(entry.category)) + '</span>' +
       '</div>' +
       '<div class="lore-prose">' + prose + '</div>' +
       (isPlaceWithTier ? renderContains(entry) : '') +
+      (isBestiary && entry.isClassification ? renderBestiaryContains(entry) : '') +
       (relatedEntries.length ? renderRelated(relatedEntries) : '') +
       renderNavButtons(neighbours) +
       '</article>';
@@ -1109,13 +1294,25 @@ window.LoreRenderer = (function () {
   }
 
   function neighbourEntries(id) {
-    var idx = entries.findIndex(function (e) { return e.id === id; });
-    if (idx === -1 || entries.length < 2) return { prev: null, next: null };
-    var prevIdx = (idx - 1 + entries.length) % entries.length;
-    var nextIdx = (idx + 1) % entries.length;
+    var entry = findEntry(id);
+    var pool = entries;
+
+    // The bestiary has no manifest-defined order to walk — Previous/Next
+    // follows the same alphabetical order the sidebar list uses.
+    if (entry && entry.category === 'bestiary') {
+      pool = entries
+        .filter(function (e) { return e.category === 'bestiary'; })
+        .slice()
+        .sort(function (a, b) { return (a.name || '').localeCompare(b.name || ''); });
+    }
+
+    var idx = pool.findIndex(function (e) { return e.id === id; });
+    if (idx === -1 || pool.length < 2) return { prev: null, next: null };
+    var prevIdx = (idx - 1 + pool.length) % pool.length;
+    var nextIdx = (idx + 1) % pool.length;
     return {
-      prev: prevIdx === idx ? null : entries[prevIdx],
-      next: nextIdx === idx ? null : entries[nextIdx]
+      prev: prevIdx === idx ? null : pool[prevIdx],
+      next: nextIdx === idx ? null : pool[nextIdx]
     };
   }
 

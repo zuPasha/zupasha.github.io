@@ -17,6 +17,14 @@ Key behaviours (kept in sync with the website's js/lore/ code):
     children — mirroring the site's breadcrumb / Contains block / tier
     badge. A place entry with no tier yet falls back to the old age badge,
     same fallback the renderer uses.
+  * Bestiary entries are organised by classification rather than age, exactly
+    like renderer.js: an entry with isClassification: true is a hub and gets a
+    "Classification" badge plus a "Creatures" list of everything whose
+    entry.type points at it; a creature gets its classification's name as its
+    primary badge plus one badge per entry.conditions value (cursed / chimera /
+    enhanced). Hubs keep manifest order and sit first, creatures are
+    alphabetised beneath them, matching the site's sidebar and Previous/Next.
+    A bestiary entry with neither flag falls back to a plain "Bestiary" badge.
 """
 
 import sys
@@ -128,6 +136,15 @@ TIERS = [
     ("landmark", "Landmark"),
 ]
 TIER_LABELS = dict(TIERS)
+
+# Mirrors renderer.js's BESTIARY_CONDITIONS — the stacking states a creature
+# can be in, on top of whatever it fundamentally is (entry.type).
+BESTIARY_CONDITIONS = [
+    ("cursed", "Cursed"),
+    ("chimera", "Chimera"),
+    ("enhanced", "Enhanced"),
+]
+CONDITION_LABELS = dict(BESTIARY_CONDITIONS)
 
 # Same palette renderer.js allows the data files to request.
 LORE_COLORS = {
@@ -586,6 +603,29 @@ def ancestor_chain(entry, entries_by_id):
     return chain
 
 
+def get_condition_label(condition_id):
+    if not condition_id:
+        return ''
+    return CONDITION_LABELS.get(condition_id, str(condition_id).replace('-', ' ').title())
+
+
+def bestiary_children_of(entry_id, entries):
+    """Mirrors renderer.js's bestiaryChildEntries — creatures whose type
+    points at this classification, always alphabetical."""
+    kids = [e for e in entries
+            if e.get('category') == 'bestiary' and e.get('type') == entry_id]
+    return sorted(kids, key=lambda e: (e.get('name') or '').lower())
+
+
+def sort_bestiary_entries(items):
+    """Mirrors renderer.js's sortBestiaryEntries — hubs (no type of their
+    own) keep load order and sit first, creatures are alphabetised."""
+    hubs = [e for e in items if not e.get('type')]
+    creatures = sorted([e for e in items if e.get('type')],
+                       key=lambda e: (e.get('name') or '').lower())
+    return hubs + creatures
+
+
 def children_of(entry_id, entries):
     """Mirrors renderer.js's childEntries — computed with a filter pass
     rather than stored, so it can never drift out of sync with parent."""
@@ -931,6 +971,11 @@ def generate_pdf(entries, output_path):
     for entry in entries:
         grouped.setdefault(entry.get('category') or 'uncategorised', []).append(entry)
 
+    # The bestiary has no manifest-defined reading order — classifications
+    # first, then creatures alphabetically, same as the site.
+    if grouped.get('bestiary'):
+        grouped['bestiary'] = sort_bestiary_entries(grouped['bestiary'])
+
     ordered_categories = [c for c in CATEGORY_ORDER if grouped.get(c)]
     ordered_categories += [c for c in grouped if c not in CATEGORY_ORDER]
 
@@ -997,7 +1042,22 @@ def generate_pdf(entries, output_path):
             entry_id = entry.get('id')
             tier = entry.get('tier')
 
-            if category == 'places' and tier:
+            if category == 'bestiary':
+                # Creatures are indented one rung under their classification,
+                # a flat mirror of the site's bestiary sidebar.
+                if entry.get('isClassification'):
+                    label = 'Classification'
+                    toc_style = styles['CustomTOC']
+                elif entry.get('type'):
+                    type_entry = entries_by_id.get(entry.get('type'))
+                    label = clean_plain((type_entry or {}).get('name') or entry.get('type'))
+                    toc_style = ParagraphStyle(
+                        name='CustomTOCCreature', parent=styles['CustomTOC'],
+                        leftIndent=20)
+                else:
+                    label = ''
+                    toc_style = styles['CustomTOC']
+            elif category == 'places' and tier:
                 # Indent by hierarchy depth instead of grouping by age —
                 # a flat mirror of the site's sidebar tree.
                 depth = len(ancestor_chain(entry, entries_by_id))
@@ -1052,9 +1112,24 @@ def generate_pdf(entries, output_path):
 
             story.append(Paragraph(anchor + name, styles['CustomEntryTitle']))
 
+            is_bestiary = entry.get('category') == 'bestiary'
+
             badges = []
             if is_place_with_tier:
                 badges.append(get_tier_label(tier))
+            elif is_bestiary:
+                if entry.get('isClassification'):
+                    badges.append('Classification')
+                elif entry.get('type'):
+                    type_entry = entries_by_id.get(entry.get('type'))
+                    badges.append(clean_plain(
+                        (type_entry or {}).get('name') or entry.get('type')))
+                else:
+                    badges.append('Bestiary')
+                for condition in (entry.get('conditions') or []):
+                    label = get_condition_label(condition)
+                    if label:
+                        badges.append(label)
             else:
                 age_label = get_age_label(entry.get('age'))
                 if age_label:
@@ -1098,6 +1173,19 @@ def generate_pdf(entries, output_path):
                     ]
                     if kid_links:
                         story.append(Paragraph("Contains: " + ', '.join(kid_links), styles['CustomRelated']))
+
+            # "Creatures" — the bestiary counterpart to Contains, listing
+            # everything whose type points at this classification.
+            if is_bestiary and entry.get('isClassification'):
+                kids = bestiary_children_of(entry_id, entries)
+                if kids:
+                    kid_links = [
+                        f'<a href="#{k.get("id")}" underlineColor="#8a67c2" underline="1" '
+                        f'underlineWidth="0.5">{clean_plain(k.get("name") or k.get("id"))}</a>'
+                        for k in kids if k.get('id')
+                    ]
+                    if kid_links:
+                        story.append(Paragraph("Creatures: " + ', '.join(kid_links), styles['CustomRelated']))
 
             story.append(Spacer(1, 2 * mm))
             story.append(Paragraph('<font color="#4f3c70">&#8212;</font>', styles['CustomBadge']))

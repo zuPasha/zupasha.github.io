@@ -27,7 +27,7 @@ Eirimegami remains there, silent above the clouds. Perhaps that is the point. Th
   {
     id: "spirits",
     name: "Spirit Types",
-    aliases: ["Spirit", "God","Spirits", "Gods", "Yokai", "Kami", "Shen", "Gui"],
+    aliases: ["Spirit Classification"],
     category: "entities",
     age: "age-of-fairytales",
     short: "The Psycrata classify all known divine and spiritual beings as Spirits, while cultures commonly use the word god for Spirits whose power, influence or worship gives them a divine place in local tradition.",

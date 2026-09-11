@@ -1088,6 +1088,13 @@
 
 /* ---- tier badge (swaps in for the age badge on place entries) ---- */
 .lore-badge-tier { color: var(--gold, var(--vanta)); border-color: var(--vanta-dim); }
+.lore-badge-tier.lore-crosslink { text-decoration: none; cursor: pointer; }
+.lore-badge-condition { color: var(--red, var(--vanta)); border-color: var(--red-dim, var(--vanta-dim)); }
+
+.lore-entry-classification {
+  font-weight: 600;
+  color: var(--gold, var(--vanta));
+}
 
 /* ---- "Contains" block (children by parent, not the related array) ---- */
 .lore-contains h4 { color: var(--vanta); }

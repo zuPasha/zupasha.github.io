@@ -61,7 +61,7 @@ Lux and Vanta therefore form a persistent tension within Aerisu. Their interacti
 {
   id: "spiral-journey",
   name: "The Spiral Journey",
-  aliases: ["Spiral Journey", "Seven Stations"],
+  aliases: ["Spiral Journey", "Seven Stations", "The Toll"],
   category: "concepts",
   age: "age-of-fairytales",
   parent: "the-spiral",

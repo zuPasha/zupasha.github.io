@@ -17,7 +17,7 @@ Atenara lies south of Hoshimira along a warm stretch of the eastern mainland. It
 
 The nation is divided into four provinces. Melqara occupies the west, Khemru the centre, Kushara the east and Heliadis an island lying between the Atenaran mainland and Sahran. Their cultures differ considerably, but the Solarii faith connects them, with sun worship deeply embedded throughout Atenaran life.
 
-~~~Inspiration: Mediterranean, North African and European blend. A fusion of North African, Iberian, Egyptian, Nubian and Greek cultures.~~~
+~~~Inspiration: Mediterranean, North African and European blend. A fusion of North African, Iberian, Egyptian, Nubian and Greek cultures.~~
 `,
     related: ["melqara", "khemru", "kushara", "heliadis", "solarii", "hoshimira", "sahran"]
   },
@@ -35,7 +35,7 @@ The nation is divided into four provinces. Melqara occupies the west, Khemru the
 
 Melqaran culture is strongly maritime, with music serving as an important part of everyday life. Coastal strings and inland percussion come together in local traditions, reflecting the province's position between sea and interior.
 
-~~~Inspiration: Algerian and Spanish Andalusian blend. Inspired by Algiers, Granada and Seville.~~~
+~~~Inspiration: Algerian and Spanish Andalusian blend. Inspired by Algiers, Granada and Seville.~~
 `,
     related: ["atenara"]
   },
@@ -53,7 +53,7 @@ Melqaran culture is strongly maritime, with music serving as an important part o
 
 Its temples, obelisks and hypostyle halls remain among the clearest expressions of the faith's architectural and religious heritage.
 
-~~~Inspiration: Egyptian. Inspired by Luxor, Karnak and Giza.~~~
+~~~Inspiration: Egyptian. Inspired by Luxor, Karnak and Giza.~~
 `,
     related: ["atenara", "solarii"]
   },
@@ -71,7 +71,7 @@ Its temples, obelisks and hypostyle halls remain among the clearest expressions 
 
 The province maintains strong traditions of ancestral sun worship. Its culture is shaped by the relationship between land, river and community, giving Kushara a character distinct from the maritime west and temple-centred heartland of Atenara.
 
-~~~Inspiration: Nubian and Sudanese. Inspired by Meroë, Nubia and Sudan.~~~
+~~~Inspiration: Nubian and Sudanese. Inspired by Meroë, Nubia and Sudan.~~
 `,
     related: ["atenara", "sahran", "solarii"]
   },
@@ -89,7 +89,7 @@ The province maintains strong traditions of ancestral sun worship. Its culture i
 
 The province is known for philosophers and star-gazers, whose traditions developed alongside its temples and amphitheatres. Its relationship with the sea has also made Heliadis an important cultural crossroads between Atenara and Sahran.
 
-~~~Inspiration: Greek. Inspired by Athens, Santorini and Delos.~~~
+~~~Inspiration: Greek. Inspired by Athens, Santorini and Delos.~~
 `,
     related: ["atenara", "sahran", "solarii"]
   }

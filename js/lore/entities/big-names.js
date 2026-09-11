@@ -321,14 +321,14 @@ As he was taken away, Sevran warned Raziel that the Camera would eventually be u
     aliases: ["Raziel"],
     category: "entities",
     age: "age-of-knowledge",
-    short: "Raziel was a Tsukuyomi detective of the Sengetsuki Investigative Bureau whose life was shaped by the Soul Killer Investigation, his family, and his later expeditions with Jenova Najma. After returning changed from the search for the Orb of Souls, he eventually left on a solo expedition and disappeared, leaving Luna-Bright his unfinished history in the form of a completed blade, the VantaBlack Shard, and a note.",
+    short: "Raziel was a Tsukuyomi detective of the Sengetsuki Investigative Bureau whose life was shaped by the Soul Killer Investigation, his family, and his later expeditions with Jenova. After returning changed from the search for the Orb of Souls, he eventually left on a solo expedition and disappeared, leaving Luna-Bright his unfinished history in the form of a completed blade, the VantaBlack Shard, and a note.",
     full: `Raziel was a detective of the Sengetsuki Investigative Bureau and a Tsukuyomi. His Affinity was a dog named Coco. He was perceptive, unconventional, and deeply committed to his work, carrying a conviction that some things mattered more than survival.
 
 Raziel's first wife was Elamori, with whom he had a daughter, Luna-Bright. Elamori died from the Curse, leaving Raziel to raise Luna-Bright. He later married Sasha Sapha, and together they had two children, Zuki and Rakia. Sasha became Luna-Bright's mother in every way that mattered, and the three children were raised together.
 
 Raziel became involved in the Soul Killer Investigation, where his work brought him into contact with the Adjudicators and the Chimeric Camera. The investigation left lasting consequences for him and his family. His Affinity, Coco, began to fade, becoming translucent and eventually disappearing for hours at a time.
 
-Later, Raziel accepted Jenova Najma's invitation to join an expedition in search of the Orb of Souls. He travelled aboard the Nightjar with Jenova, Bourne Nirvana, Cosmo Mirosi, Noel Nura, Hiromi, and others. Mnemotas, who preferred to be called Hazury, was also present. Raziel remained suspicious of him, believing there was more to his presence than observation.
+Later, Raziel accepted Jenova's invitation to join an expedition in search of the Orb of Souls. He travelled aboard the Nightjar with Jenova, Bourne Nirvana, Cosmo Mirosi, Noel Nura, Hiromi, and ~~~Mnemotas, who preferred to be called~~ Hazury. Raziel remained suspicious of him, believing there was more to his presence than observation.
 
 Raziel returned from the expedition changed. He tried to resume his life as a husband and father, though he could no longer fully understand what had happened to him. He could remember that he loved his family, though not always why, and could remember being a detective without always remembering what justice felt like. He could not tell Sasha the full truth.
 
@@ -380,7 +380,7 @@ Luna-Bright retained the VantaBlack Shard and the note connected to it. Before l
   {
     id: "jenova",
     name: "Jenova Najma",
-    aliases: ["Jenova"],
+    aliases: ["Jenova", "Headmaster Najma", "Princ. Najma"],
     category: "entities",
     age: "age-of-knowledge",
     short: "Jenova Najma was a Diviner and researcher whose work in Soul Pathology led from Soulbound Magic and the soul-transfer of Kiara and Koto to the expedition that brought Voluntas into the material world. She later became First Diviner of Sengetsuki, continuing her research while quietly pursuing the consequences of what she had unleashed.",
@@ -401,10 +401,10 @@ Jenova returned to Veralisse with her twins and Bourne, rebuilding her position 
     aliases: ["Bourne"],
     category: "entities",
     age: "age-of-knowledge",
-    short: "Bourne Nirvana was a Borenfegen of the Orthogenesis project who became Jenova Najma's partner and the father of Kiara and Koto. After Jenova took control of him through his augmentations, he accompanied her on the expedition that brought Voluntas into the material world.",
+    short: "Bourne Nirvana was a Borenfegen of the Orthogenesis project who became Jenova's partner and the father of Kiara and Koto. After Jenova took control of him through his augmentations, he accompanied her on the expedition that brought Voluntas into the material world.",
     full: `Bourne Nirvana was a Borenfegen from Silealyros and one of the successes of the Orthogenesis project. His augmentations gave him exceptional strength and regeneration, while leaving him questioning whether he remained human enough to matter.
 
-He became a research partner and eventually the partner of Jenova Najma. Together they had twins, Kiara and Koto. When Kiara's unstable soul led Jenova to transfer part of Koto's essence into her, Bourne discovered what she had done and tried to stop her. Jenova activated the override protocols within his augmentations, suppressing his consciousness and leaving his body under her control.
+He became a research partner and eventually the partner of Jenova. Together they had twins, Kiara and Koto. When Kiara's unstable soul led Jenova to transfer part of Koto's essence into her, Bourne discovered what she had done and tried to stop her. Jenova activated the override protocols within his augmentations, suppressing his consciousness and leaving his body under her control.
 
 Jenova later recruited Bourne for her expedition in search of the Orb of Souls. He travelled with the expedition aboard the Nightjar, descending through the Veins and into the Spirit Realm, where the group's encounter with Veyra's Womb and the extraction of Voluntas led to Hvitara pursuing them back towards the material world.
 
@@ -435,14 +435,14 @@ The twins survived, though neither would escape the consequences of the procedur
     aliases: ["Cosmo"],
     category: "entities",
     age: "age-of-knowledge",
-    short: "Third Diviner of Sengetsuki and captain of the Nightjar, Cosmo Mirosi survived the expedition that brought Voluntas into the material world and raised her as Aysha at Nightjar Home. He protected her secret for years before being murdered by Bourne when he tried to confess what he knew.",
-    full: `Cosmo Mirosi was the owner of the Nightjar, an airship operated under contract with the Daedalus Expeditionary Agency for Deployment. He joined Jenova Najma's expedition to the Orb of Souls, serving as its pilot and carrying the expedition through the Veins and into the Spirit Realm.
+    short: "Third Diviner of Sengetsuki and captain of the Nightjar, Cosmo Mirosi survived the expedition that brought Voluntas into the material world and ~~~raised her as Aysha at Nightjar Home. He protected her secret for years before being murdered by Bourne when he tried to confess what he knew~~.",
+    full: `Cosmo Mirosi was the owner of the Nightjar, an airship operated under contract with the Daedalus Expeditionary Agency for Deployment. He joined Jenova's expedition to the Orb of Souls, serving as its pilot and carrying the expedition through the Veins and into the Spirit Realm.
 
-When Jenova extracted Voluntas from Veyra's Womb, the expedition was pursued by Hvitara. The Nightjar was damaged during their escape and crashed into Sengetsuki. Cosmo survived and took Voluntas from Jenova, believing her story that she was an orphan.
+When Jenova extracted Voluntas from Veyra's Womb, the expedition was pursued by Hvitara. The Nightjar was damaged during their escape and crashed into Sengetsuki. Cosmo survived and ~~~took Voluntas from Jenova, believing her story that she was an orphan~~.
 
-After the crash, Cosmo founded and ran Nightjar Home, where Voluntas grew up as Aysha Salinte. He protected her while quietly watching the strange effects spreading through Sengetsuki, including the Folding, and created the Burn Mark to shield Soulless from the Diviners' harvest.
+After the crash, Cosmo founded and ran Nightjar Home, where ~~~Voluntas grew up as Aysha Salinte. He protected her while quietly watching the strange effects spreading through Sengetsuki, including the Folding,~~ and created the Burn Mark to shield Soulless from the Diviners' harvest.
 
-Cosmo became one of Sengetsuki's Four Diviners while keeping what he knew about Aysha and the crash to himself.`,
+Cosmo became one of Sengetsuki's Four Diviners while ~~~keeping what he knew about Aysha and the crash to himself~~.`,
     related: ["jenova", "bourne", "jenova-expedition"]
   },
 
@@ -453,8 +453,8 @@ Cosmo became one of Sengetsuki's Four Diviners while keeping what he knew about 
     aliases: ["Noel"],
     category: "entities",
     age: "age-of-knowledge",
-    short: "A scholar of ancient history specialising in the Age of Magic, Noel Nura joined Jenova Najma's expedition to the Orb of Souls as an expert on ancient history and the creatures of the post-Shattering world. He was displaced across temporal layers during the Nightjar crash, leaving his daughter Nathalia searching for answers.",
-    full: `Noel Nura was a scholar of ancient history, specialising in the Age of Magic, and an expert on the beasts and monsters that emerged after the Shattering. He was recruited by Jenova Najma for her expedition in search of the Orb of Souls, bringing his knowledge into the Veins and Spirit Realm.
+    short: "A scholar of ancient history specialising in the Age of Magic, Noel Nura joined Jenova's expedition to the Orb of Souls as an expert on ancient history and the creatures of the post-Shattering world. He was displaced across temporal layers during the Nightjar crash, leaving his daughter Nathalia searching for answers.",
+    full: `Noel Nura was a scholar of ancient history, specialising in the Age of Magic, and an expert on the beasts and monsters that emerged after the Shattering. He was recruited by Jenova for her expedition in search of the Orb of Souls, bringing his knowledge into the Veins and Spirit Realm.
 
 During the expedition, Noel travelled aboard the Nightjar with Jenova, Bourne Nirvana, Cosmo Mirosi, Hiromi and Raziel Sapha. At Veyra's Womb, he witnessed the extraction of Voluntas before the expedition was pursued by Hvitara back towards the material world.
 
@@ -471,8 +471,8 @@ His disappearance left his eleven-year-old daughter Nathalia without him, and sh
     aliases: [],
     category: "entities",
     age: "age-of-knowledge",
-    short: "A D.E.A.D. veteran who joined Jenova Najma's expedition and survived the Nightjar crash that claimed members of her squad. She later established a mountain forge and quietly watched over the homeless camp near the crash site.",
-    full: `Hiromi was a veteran of D.E.A.D. operations who joined Jenova Najma's expedition to the Orb of Souls with her squad. She was among those who entered the Veins and travelled into the Spirit Realm aboard the Nightjar.
+    short: "A D.E.A.D. veteran who joined Jenova's expedition and survived the Nightjar crash that claimed members of her squad. She later established a mountain forge and quietly watched over the homeless camp near the crash site.",
+    full: `Hiromi was a veteran of D.E.A.D. operations who joined Jenova's expedition to the Orb of Souls with her squad. She was among those who entered the Veins and travelled into the Spirit Realm aboard the Nightjar.
 
 At the death garden, Hiromi and her squad fought through the growth blocking the passage, losing members of the squad in the process. During the expedition's return, the Nightjar crashed into Sengetsuki, scattering the survivors.
 

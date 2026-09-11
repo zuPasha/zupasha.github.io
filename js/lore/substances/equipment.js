@@ -108,8 +108,8 @@ These shields form the boundary between civilisation and the wild, allowing peop
     aliases: [],
     category: "substances",
     age: "age-of-knowledge",
-    short: "An Exandrian airship operated through ESIG and D.E.A.D., piloted by Cosmo Mirosi during Jenova Najma's expedition to the Orb of Souls. After the expedition's return from the Spirit Realm, it was struck by Hvitara and crashed into Sengetsuki, where the site later became Nightjar Home.",
-    full: `The Nightjar was an Exandrian airship owned through ESIG and operated under contract with the Daedalus Expeditionary Agency for Deployment. It was piloted by Cosmo Mirosi, who flew it during Jenova Najma's expedition in search of the Orb of Souls.
+    short: "An Exandrian airship operated through ESIG and D.E.A.D., piloted by Cosmo Mirosi during Jenova's expedition to the Orb of Souls. After the expedition's return from the Spirit Realm, it was struck by Hvitara and crashed into Sengetsuki, where the site later became Nightjar Home.",
+    full: `The Nightjar was an Exandrian airship owned through ESIG and operated under contract with the Daedalus Expeditionary Agency for Deployment. It was piloted by Cosmo Mirosi, who flew it during Jenova's expedition in search of the Orb of Souls.
 
 The Nightjar carried the expedition through the Veins and into the Spirit Realm. After Jenova extracted Voluntas from Veyra's Womb, Hvitara pursued the expedition back towards the material world, striking the ship and causing critical damage.
 

@@ -66,5 +66,8 @@ window.LORE_MANIFEST = [
   "js/lore/substances/bio.js",
   "js/lore/substances/equipment.js",
   "js/lore/substances/artefacts.js",
-  "js/lore/substances/crystals.js"
+  "js/lore/substances/crystals.js",
+
+  "js/lore/bestiary/classifications.js",
+  "js/lore/bestiary/creatures.js"
 ];

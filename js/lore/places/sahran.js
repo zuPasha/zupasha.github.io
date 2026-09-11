@@ -20,7 +20,7 @@ Tayran occupies the northern coast and became the centre of the Luminary movemen
 
 Sahran's cultures remain distinct, but they share the memory of a continent repeatedly forced to respond to threats beyond its control. The Curse reached its shores through trade and coastal routes, while the legacy of the Autarchs left deeper wounds in places such as the Geode. Sahran is defined not by a single ideology or history, but by the different ways its people learned to survive what came after.
 
-~~~Inspiration: Middle Eastern, South Asian and Central Asian blend. Fractured cultural landscape drawing from Turkish, Iranian, Afghan, Saudi Arabian and Indian influences.~~~
+~~~Inspiration: Middle Eastern, South Asian and Central Asian blend. Fractured cultural landscape drawing from Turkish, Iranian, Afghan, Saudi Arabian and Indian influences.~~
 `,
     related: ["tayran", "najmara", "zaristan", "panjara"]
   },
@@ -42,7 +42,7 @@ The Geode was used as a mining operation and prison, with generations of Sahrani
 
 The Geode also became a centre of resistance. Rebellions rose from within its tiers, and the struggle against its exploitation shaped later Sahrani politics. The Luminary movement inherited much of this history, transforming the memory of oppression into a doctrine of its own.
 
-~~~Inspiration: Turkish. Inspired by Istanbul, Cappadocia and Anatolia.~~~
+~~~Inspiration: Turkish. Inspired by Istanbul, Cappadocia and Anatolia.~~
 `,
     related: ["sahran", "the-geode", "luminaries"]
   },
@@ -66,7 +66,7 @@ The lower tiers marked the beginning of Vanta territory. VantaBats nested among 
 
 At the centre of the Geode lies the great shaft, connecting its many tiers through a vertical chasm of scaffolding, bridges and mineral seams. Somewhere beneath it lies something older than the excavation itself. Sahrani stories name that presence as Bahamut, a god buried alive.
 
-~~~Inspiration: Turkish and Central Asian landscapes, particularly Cappadocia and other regions of Anatolia and Central Asia.~~~
+~~~Inspiration: Turkish and Central Asian landscapes, particularly Cappadocia and other regions of Anatolia and Central Asia.~~
 `,
     related: ["tayran", "bahamut", "geode-rebellion"]
   },
@@ -88,7 +88,7 @@ Zaristan is known for its armies and fortifications, as well as its role in the 
 
 The province also has a strong poetic tradition. Long epics recount fallen heroes, historic sieges and wars that stretched across generations. The Curse rarely finds purchase in Zaristan, perhaps because its people have long treated death as an unavoidable part of life rather than something to be denied.
 
-~~~Inspiration: Iranian and Afghan. Inspired by Tehran, Kabul and the historic cultures of the Silk Road.~~~
+~~~Inspiration: Iranian and Afghan. Inspired by Tehran, Kabul and the historic cultures of the Silk Road.~~
 `,
     related: ["sahran"]
   },
@@ -110,7 +110,7 @@ Najmarans are taught arithmetic from an early age, and their culture places cons
 
 The capital is dominated by a vast glass and steel tower containing the central bank, national archives and offices belonging to powerful merchant syndicates. To Najmarans, the tower represents necessity rather than vanity. It is a physical expression of the systems through which the province keeps track of what Sahran owns, owes and exchanges.
 
-~~~Inspiration: Saudi Arabian. Inspired by Riyadh and Dubai, particularly their financial districts and modern urban architecture.~~~
+~~~Inspiration: Saudi Arabian. Inspired by Riyadh and Dubai, particularly their financial districts and modern urban architecture.~~
 `,
     related: ["sahran"]
   },
@@ -132,7 +132,7 @@ Panjaran markets are vibrant places, filled with spices, textiles and the sounds
 
 The province is also known for elaborate festivals. Communities gather to dance, trade and celebrate beneath the sun, with food, flowers and traditional music forming part of the festivities. The Solarii faith has a particularly strong presence here, adding another layer to Panjara's longstanding relationship with the sun.
 
-~~~Inspiration: Indian. Inspired by Kerala, Goa and Tamil Nadu, particularly their coastal cultures, markets and festivals.~~~
+~~~Inspiration: Indian. Inspired by Kerala, Goa and Tamil Nadu, particularly their coastal cultures, markets and festivals.~~
 `,
     related: ["sahran", "solarii"]
   },

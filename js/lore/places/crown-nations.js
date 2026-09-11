@@ -102,9 +102,7 @@ Sengetsuki is also caught within the Folding, a temporal recursion that has dest
 
 Its population reflects the wider Crown Nations. Vesperites maintain temples, Luminaries gather in hidden rooms, Autarch traditionalists preserve their beliefs, Vantari cultists move through the city's shadows, and Soulless communities live beneath the Brands and the threat of Frallation.
 
-The Four Diviners govern Sengetsuki through its institutions of magical knowledge and civic order. ~~~Jenova Najma presides from Floreat Academy, Bourne Nirvana serves as her enforcer and assistant, Cosmo Mirosi runs Nightjar Home, and Yengchen Zealous teaches at the Academy. The city also bears the aftermath of the Nightjar expedition, whose destruction brought Voluntas into the material world and left the Nightjar at the site where Nightjar Home was later established.~~
-
-~~~Inspiration: Seattle and the Pacific Northwest combined with a rural coastal town. Fog, rain, coffee and technology.~~`,
+The Four Diviners govern Sengetsuki through its institutions of magical knowledge and civic order. ~~~Jenova Najma presides from Floreat Academy, Bourne Nirvana serves as her enforcer and assistant, Cosmo Mirosi runs Nightjar Home, and Yengchen Zealous teaches at the Academy. The city also bears the aftermath of the Nightjar expedition, whose destruction brought Voluntas into the material world and left the Nightjar at the site where Nightjar Home was later established.~~`,
     related: ["sankoten", "yoshinara", "the-folding", "diviners", "floreat-academy", "nightjar-home", "nightjar", "soulless"]
   },
 
@@ -122,9 +120,7 @@ The Four Diviners govern Sengetsuki through its institutions of magical knowledg
 
 Cosmo raised and protected the children there while ~~~continuing his duties as Third Diviner. Among them was Aysha Salinte, the child brought into the material world during the Nightjar expedition. He kept the truth of her origins hidden while she grew up and pursued her own research into the strange events surrounding Sengetsuki~~.
 
-The home became part of the city's life after the crash, carrying the name of the ship whose destruction gave the site its history.
-
-~~~Inspiration: American orphanages and group homes.~~`,
+The home became part of the city's life after the crash, carrying the name of the ship whose destruction gave the site its history.`,
     related: ["nightjar", "sengetsuki", "cosmo-mirosi", "age-of-knowledge"]
   },
   
@@ -141,7 +137,7 @@ The home became part of the city's life after the crash, carrying the name of th
   full: `Let Your Mind Bloom
 Floreat Academy stands on a small island off the coast of Sengetsuki, accessible by causeway or ferry and connected to the city's wider transport network through an underwater tunnel and island station. Its grounds overlook the ocean, with gardens, rivers, waterfalls, bridges and statues surrounding the academy before a path descends towards the beach. The island's seclusion gives the Academy practical distance from the city while providing an enclosed environment for the study of magic, souls and Curse.
 
-The Academy is administered by the Psycrata and is currently presided over by Headmaster ~~~Jenova~~ Najma. Its name refers to the concepts of Death Gardening and Recursive Bloom, which hold that what has been cultivated through death and decay may produce new growth and understanding. This philosophy informs an institution concerned with knowledge, interpretation and the controlled study of phenomena that are poorly understood elsewhere.
+The Academy is administered by the Psycrata and is currently presided over by Princ. Najma. Its name refers to the concepts of Death Gardening and Recursive Bloom, which hold that what has been cultivated through death and decay may produce new growth and understanding. This philosophy informs an institution concerned with knowledge, interpretation and the controlled study of phenomena that are poorly understood elsewhere.
 
 The Academy occupies a former hospital specialising in children. Its mansion-like structure retains older hospital infrastructure alongside Varkane-influenced architecture, gargoyles, a mezzanine overlooking the central quad and an observatory tower that serves as a laboratory and place of magical study. Beneath the grounds lies an underground parking area and, deeper within the former hospital, a ~~~restricted archive containing patient records, research notes and experimental results from the institution's earlier work~~.
 

@@ -107,12 +107,12 @@ The strength of a myth depends on the Resonance accumulated through belief and r
     aliases: [],
     category: "concepts",
     age: "age-of-knowledge",
-    short: "The study of the soul, its Resonance and its relationship with the body, including the causes and manipulation of soul fracture, transfer and alteration. Jenova Najma's research pushed the field into increasingly dangerous experimentation.",
+    short: "The study of the soul, its Resonance and its relationship with the body, including the causes and manipulation of soul fracture, transfer and alteration. Jenova's research pushed the field into increasingly dangerous experimentation.",
     full: `Soul Pathology a branch of Mind magic, and is the study of the soul as a system: its structure, Resonance, integrity and the ways it can be fractured, transferred or altered. The field examines conditions including soul fracture and the effects of interference with the soul's connection to the body.
 
 The discipline developed alongside broader Psy research, with particular interest in the relationship between consciousness, identity, memory and Resonance. Its applications include soul-energy transfer and the creation of Soulbound Magic, allowing researchers to manipulate the connection between soul and body without relying solely on conventional Separation.
 
-Jenova Najma became one of the field's most ambitious researchers, pursuing Soul Pathology in Veralisse through the Psycrata's archives and her own experiments. Her work eventually encompassed the transfer between Kiara and Koto, the study of Soulless subjects and the research that led to her pursuit of the Orb of Souls.`,
+Jenova became one of the field's most ambitious researchers, pursuing Soul Pathology in Veralisse through the Psycrata's archives and her own experiments. Her work eventually encompassed the transfer between ~~~Kiara and Koto~~, the study of Soulless subjects and the research that led to her pursuit of the Orb of Souls.`,
     related: ["soulbound", "schools-of-magic", "psy", "jenova", "jenova-expedition"]
   },
 
@@ -123,12 +123,12 @@ Jenova Najma became one of the field's most ambitious researchers, pursuing Soul
     aliases: ["Soulbound", "soul transference", "soul-transfer", "soul transfer", "soul-transference"],
     category: "concepts",
     age: "age-of-knowledge",
-    short: "A branch of Psy that manipulates soul-energy and allows consciousness or essence to be transferred between living hosts. Jenova Najma's research made it one of the most advanced and dangerous applications of Soul Pathology.",
+    short: "A branch of Psy that manipulates soul-energy and allows consciousness or essence to be transferred between living hosts. Jenova's research made it one of the most advanced and dangerous applications of Soul Pathology.",
     full: `The Transfer of Soul. Soulbound Magic is a branch of Psy developed through the manipulation of soul-energy, allowing Resonance and consciousness to be transferred between living hosts. It emerged from research into the relationship between soul and body and became one of the most advanced applications of Soul Pathology.
 
 The practice can stabilise an unstable soul, preserve consciousness or alter the distribution of essence between bodies. Its use carries significant risks when the receiving vessel cannot properly contain what is transferred, potentially resulting in instability, fracture or other lasting consequences.
 
-Jenova Najma developed Soulbound Magic through her research in Veralisse, eventually using it in her experiments on Kiara and Koto. Her work demonstrated both its potential and the consequences of treating the soul as something that could be moved and reshaped.`,
+Jenova developed Soulbound Magic through her research in Veralisse, eventually using it in her experiments on ~~~Kiara and Koto~~. Her work demonstrated both its potential and the consequences of treating the soul as something that could be moved and reshaped.`,
     related: ["soul-pathology", "schools-of-magic", "psy", "jenova", "jenova-expedition"]
   },
 
