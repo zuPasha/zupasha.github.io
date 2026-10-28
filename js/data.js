@@ -538,6 +538,7 @@ const PORTFOLIO_DATA = {
   { src: "images/portfolio/illustration/VantaPsy_EoTA_Cover_notext.webp", alt: "Vantapsy Eota Cover Notext", caption: "" },
   { src: "images/portfolio/illustration/VantaPsy_EoTA_Cover_title.webp", alt: "Vantapsy Eota Cover Title", caption: "" },
   { src: "images/portfolio/illustration/aysha_ruin3.webp", alt: "Aysha Ruin", caption: "" },
+  { src: "images/portfolio/illustration/aysha_ruin_bg.webp", alt: "Aysha Ruin Bg", caption: "" },
   { src: "images/portfolio/illustration/kelly_tattoo_sketch.webp", alt: "Kelly Tattoo Sketch", caption: "" },
   { src: "images/portfolio/illustration/lz_selfie_small.webp", alt: "Lz Selfie Small", caption: "" },
   { src: "images/portfolio/illustration/anz_full.webp", alt: "Aysha and Zuki", caption: "" },
