@@ -6,172 +6,70 @@ const IMAGE_DATA = {
   screenshots: [
 
     {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_map.webp',
-      alt: 'Map view',
+      src: 'images/portfolio/screenshots/vp_screenshot_wolves.webp',
+      alt: 'Combat',
       caption: ''
     },
     {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_camera1.webp',
-      alt: 'Camera view',
+      src: 'images/portfolio/screenshots/vp_screenshot_luna_crit.webp',
+      alt: 'Combat Cut Ins',
       caption: ''
     },
     {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_combat_golem.webp',
-      alt: 'Combat vs golem',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_combat_onemore.webp',
-      alt: 'Combat - One More!',
-      caption: ''
-    },
-
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_luna_advantage_combat.webp',
-      alt: 'Luna advantage combat',
-      caption: ''
-    },
-    
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_mimic.webp',
-      alt: 'Mimic Fight',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_npc_ceda.webp',
-      alt: 'Talk w/ Ceda',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_npc_coris.webp',
-      alt: 'Talk w/ Coris',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_npc_fisherman.webp',
-      alt: 'Talk w/ Fisherman',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_npc_fmgirl.webp',
-      alt: 'Talk w/ Fmgirl',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_npc_hiromi.webp',
-      alt: 'Talk w/ Hiromi',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_npc_kiet.webp',
-      alt: 'Talk w/ Kiet',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_npc_mk.webp',
-      alt: 'Talk w/ MK',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_npc_snyrman.webp',
-      alt: 'Talk w/ Snyrm',
-      caption: ''
-    },
-
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_investigation1.webp',
-      alt: 'Investigation',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_question1.webp',
-      alt: 'Questioning Meya',
-      caption: ''
-    },
-
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_ovw_combat_elec.webp',
-      alt: 'Combat Elec',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_ovw_ice_platforms.webp',
-      alt: 'Ice Platforms',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_scene_luna_guitar.webp',
-      alt: 'Luna Guitar Scene',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_scene_hvm.webp',
-      alt: 'HvM Scene',
-      caption: ''
-    },
-    
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_exploration_cave1.webp',
-      alt: 'Cave exploration',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_exploration1.webp',
-      alt: 'Exploration 1',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_exploration2.webp',
-      alt: 'Exploration 2',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_exploration3.webp',
-      alt: 'Exploration 3',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_exploration4.webp',
-      alt: 'Exploration 4',
-      caption: ''
-    },
-
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_aysha_shop.webp',
-      alt: 'Aysha shop',
-      caption: ''
-    },
-
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_compendium_enemies.webp',
-      alt: 'Compendium enemies',
-      caption: ''
-    },
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_compendium_people.webp',
-      alt: 'Compendium people',
-      caption: ''
-    },
-    
-    {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_party_screen.webp',
+      src: 'images/portfolio/screenshots/vp_screenshot_party.webp',
       alt: 'Party Screen',
       caption: ''
     },
     {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_phone.webp',
-      alt: 'Phone Zuki',
+      src: 'images/portfolio/screenshots/vp_screenshot_ice_platforms.webp',
+      alt: 'Creating Ice Platforms',
       caption: ''
     },
+
     {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_puzzle_box.webp',
-      alt: 'Puzzle Box',
+      src: 'images/portfolio/screenshots/vp_screenshot_attacking_anvil.webp',
+      alt: 'Attacking Anvil',
       caption: ''
     },
     
     {
-      src: 'images/portfolio/screenshots/vp_v4_trailer_frame_traits.webp',
-      alt: 'Traits Screen',
+      src: 'images/portfolio/screenshots/vp_screenshot_puzzle.webp',
+      alt: 'Puzzle',
+      caption: ''
+    },
+    {
+      src: 'images/portfolio/screenshots/vp_screenshot_hiromi2.webp',
+      alt: 'Hiromi',
+      caption: ''
+    },
+    {
+      src: 'images/portfolio/screenshots/vp_screenshot_convo_luna.webp',
+      alt: 'Talk w/ Luna',
+      caption: ''
+    },
+    {
+      src: 'images/portfolio/screenshots/vp_screenshot_convo_coris.webp',
+      alt: 'Talk w/ Coris',
+      caption: ''
+    },
+    {
+      src: 'images/portfolio/screenshots/vp_screenshot_vixpsy.webp',
+      alt: 'Talk w/ Vixpsy',
+      caption: ''
+    },
+    {
+      src: 'images/portfolio/screenshots/vp_screenshot_scene.webp',
+      alt: 'Scene',
+      caption: ''
+    },
+    {
+      src: 'images/portfolio/screenshots/vp_screenshot_map.webp',
+      alt: 'Map',
+      caption: ''
+    },
+    {
+      src: 'images/portfolio/screenshots/vp_screenshot_phone.webp',
+      alt: 'Phone',
       caption: ''
     }
   ]
@@ -182,6 +80,19 @@ const IMAGE_DATA = {
 // ============================================================
 const PORTFOLIO_DATA = {
   featured: [
+
+    {
+      src: "images/portfolio/illustration/VantaPsy Key Art full_result.webp",
+      alt: 'VantaPsy Key Art',
+      caption: ''
+    },
+
+    {
+      src: "images/portfolio/illustration/album_art.webp",
+      alt: 'VantaPsy Album Art',
+      caption: ''
+    },
+
     {
       src: "images/portfolio/illustration/VantaPsy_EoTA_Cover_notext.webp",
       alt: 'EoTA cover art',
@@ -193,54 +104,49 @@ const PORTFOLIO_DATA = {
       caption: ''
     },
     {
-      src: "images/portfolio/character/fmgirl_shad.webp",
-      alt: 'Fmgirl Shad',
+      src: "images/portfolio/character/aysha_shop_image.webp",
+      alt: 'Aysha Shop Image',
       caption: ''
     },
     {
-      src: "images/portfolio/character/luna_new_design_purple_trans.webp",
-      alt: 'Luna Design',
+      src: "images/portfolio/character/cutin_char_luna.webp",
+      alt: 'Luna Cut in',
       caption: ''
     },
     {
-      src: "images/portfolio/character/fire_emblem_char_col1_trans.webp",
-      alt: 'Commision Work - Fire Emblem Char',
-      caption: 'Commissioned by JacStone24'
-    },
-    {
-      src: "images/portfolio/character/mothers_day.webp",
-      alt: 'Mothers Day',
+      src: "images/portfolio/character/zuki_full.webp",
+      alt: 'Zuki Full',
       caption: ''
     },
     {
-      src: "images/portfolio/character2/coris_base.webp",
-      alt: 'Coris Portrait',
+      src: "images/portfolio/character/hiromi_full.webp",
+      alt: 'Hiromi Full',
       caption: ''
     },
     {
-      src: "images/portfolio/character3/hikari_sketch.webp",
-      alt: 'Hikari Sketch',
+      src: "images/portfolio/character/kiet_full.webp",
+      alt: 'Kiet Full',
       caption: ''
     },
     {
-      src: "images/portfolio/illustration/anz_full.webp",
-      alt: 'Aysha and Zuki',
+      src: "images/portfolio/character/vixpsy_full.webp",
+      alt: 'Vixpsy Full',
       caption: ''
     },
     {
-      src: "images/portfolio/illustration/lz_selfie_small.webp",
-      alt: 'Luna and Zuki Selfie',
+      src: "images/portfolio/character2/phone_char_zuki.webp",
+      alt: 'Zuki Phone',
       caption: ''
     },
 
     {
-      src: "images/portfolio/character3/orto_aysha.webp",
-      alt: 'Aysha Sketch',
+      src: "images/portfolio/character2/karo_base2.webp",
+      alt: 'Karo Half',
       caption: ''
     },
     {
-      src: "images/portfolio/illustration/aysha_cover2.webp",
-      alt: 'Aysha Cover',
+      src: "images/portfolio/character2/fairy1_base2.webp",
+      alt: 'Fairy Half',
       caption: ''
     }
     
@@ -251,7 +157,24 @@ const PORTFOLIO_DATA = {
       label: 'Character Fullbody',
       icon: '🧍',
       images: [
-        
+
+        { src: "images/portfolio/character/aysha_full.webp", alt: "Aysha Full", caption: "" },
+        { src: "images/portfolio/character/aysha_shop_image.webp", alt: "Aysha Shop Image", caption: "" },
+        { src: "images/portfolio/character/zuki_full.webp", alt: "Zuki Full", caption: "" },
+        { src: "images/portfolio/character/cutin_char_luna.webp", alt: "Cutin Char Luna", caption: "" },
+        { src: "images/portfolio/character/cutin_char_zuki.webp", alt: "Cutin Char Zuki", caption: "" },
+        { src: "images/portfolio/character/fmgirl_full.webp", alt: "Fmgirl Full", caption: "" },
+        { src: "images/portfolio/character/haz_full.webp", alt: "Haz Full", caption: "" },
+        { src: "images/portfolio/character/hikari_full.webp", alt: "Hikari Full", caption: "" },
+        { src: "images/portfolio/character/hiromi_full.webp", alt: "Hiromi Full", caption: "" },
+        { src: "images/portfolio/character/kiet_full.webp", alt: "Kiet Full", caption: "" },
+        { src: "images/portfolio/character/luna_full.webp", alt: "Luna Full", caption: "" },
+        { src: "images/portfolio/character/meya_full.webp", alt: "Meya Full", caption: "" },
+        { src: "images/portfolio/character/rakia_full.webp", alt: "Rakia Full", caption: "" },
+        { src: "images/portfolio/character/raziel_full.webp", alt: "Raziel Full", caption: "" },
+        { src: "images/portfolio/character/sasha_full.webp", alt: "Sasha Full", caption: "" },
+        { src: "images/portfolio/character/vixpsy_full.webp", alt: "Vixpsy Full", caption: "" },
+        { src: "images/portfolio/character/xiro_full.webp", alt: "Xiro Full", caption: "" },
         
         { src: "images/portfolio/character/fmgirl_shad.webp", alt: "Fmgirl Shad", caption: "" },
         { src: "images/portfolio/character/aadam.webp", alt: "Aadam", caption: "" },
@@ -346,6 +269,20 @@ const PORTFOLIO_DATA = {
       label: 'Character Portraits',
       icon: '👤',
       images: [
+  
+  { src: "images/portfolio/character2/phone_char_zuki.webp", alt: "Phone Char Zuki", caption: "" },
+  { src: "images/portfolio/character2/dren_base2.webp", alt: "Dren Base2", caption: "" },
+  { src: "images/portfolio/character2/fairy1_base2.webp", alt: "Fairy1 Base2", caption: "" },
+  { src: "images/portfolio/character2/fairy2_base2.webp", alt: "Fairy2 Base2", caption: "" },
+  { src: "images/portfolio/character2/fm_base.webp", alt: "Fm Base", caption: "" },
+  { src: "images/portfolio/character2/karo_base2.webp", alt: "Karo Base2", caption: "" },
+  { src: "images/portfolio/character2/monkey1_base2.webp", alt: "Monkey1 Base2", caption: "" },
+  { src: "images/portfolio/character2/monkeyking_base2.webp", alt: "Monkeyking Base2", caption: "" },
+  { src: "images/portfolio/character2/bb_base.webp", alt: "Bb Base", caption: "" },
+  
+  { src: "images/portfolio/character2/snyrman_base2.webp", alt: "Snyrman Base2", caption: "" },
+  { src: "images/portfolio/character2/ss_base.webp", alt: "Ss Base", caption: "" },
+  { src: "images/portfolio/character2/troll_base2.webp", alt: "Troll Base2", caption: "" },
   
   { src: "images/portfolio/character2/ceda_base.webp", alt: "Ceda Base", caption: "" },
   { src: "images/portfolio/character2/coris_base.webp", alt: "Coris Base", caption: "" },
@@ -487,7 +424,7 @@ const PORTFOLIO_DATA = {
   { src: "images/portfolio/character2/Xiro_Young.webp", alt: "Xiro Young", caption: "" },
   { src: "images/portfolio/character2/Yengchen.webp", alt: "Yengchen", caption: "" },
   { src: "images/portfolio/character2/Zuki.webp", alt: "Zuki", caption: "" },
-  { src: "images/portfolio/character2/Zuki_Young.webp", alt: "Zuki Young", caption: "" }
+  { src: "images/portfolio/character2/Zuki_Young.webp", alt: "Zuki Young", caption: "" },
 ]
     },
 
@@ -534,7 +471,9 @@ const PORTFOLIO_DATA = {
       label: 'Illustration',
       icon: '🎨',
       images: [
-
+  
+  { src: "images/portfolio/illustration/VantaPsy Key Art full_result.webp", alt: "Vantapsy Key Art Full Result", caption: "" },
+  { src: "images/portfolio/illustration/album_art.webp", alt: "Album Art", caption: "" },
   { src: "images/portfolio/illustration/VantaPsy_EoTA_Cover_notext.webp", alt: "Vantapsy Eota Cover Notext", caption: "" },
   { src: "images/portfolio/illustration/VantaPsy_EoTA_Cover_title.webp", alt: "Vantapsy Eota Cover Title", caption: "" },
   { src: "images/portfolio/illustration/aysha_ruin3.webp", alt: "Aysha Ruin", caption: "" },
@@ -714,8 +653,10 @@ const PORTFOLIO_DATA = {
       label: 'Design',
       icon: '🖋️',
       images: [
-    
-  
+
+  { src: "images/portfolio/design/cutin_luna.webp", alt: "Cutin Luna", caption: "" },
+  { src: "images/portfolio/design/cutin_zuki.webp", alt: "Cutin Zuki", caption: "" },
+
   { src: "images/portfolio/design/tsupasai_1.webp", alt: "Tsupasai 1", caption: "" },
   { src: "images/portfolio/design/tsupasai_dark.webp", alt: "Tsupasai Dark", caption: "" },
   { src: "images/portfolio/design/tsupasai_mid.webp", alt: "Tsupasai Mid", caption: "" },
