@@ -52,6 +52,11 @@ document.addEventListener('DOMContentLoaded', function () {
   let panX = 0, panY = 0;
   const MAX_ZOOM = 10;
 
+  // Progressive loading state
+  let loadToken = 0;          // bumps on every image change, invalidates stale loads
+  let showingThumb = false;   // true while the low-res thumbnail stands in
+  const preloadCache = new Set();
+
   let isDragging = false;
   let hasDragged = false;
   let startX, startY, startPanX, startPanY;
@@ -62,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const rect = imgWrap.getBoundingClientRect();
     const w = rect.width, h = rect.height;
     if (w === 0 || h === 0) return 1;
-    return Math.min(w / naturalW, h / naturalH, 1);
+    return Math.min(w / naturalW, h / naturalH, showingThumb ? Infinity : 1);
   }
 
   // ----- apply the transform (translate + scale) -----
@@ -97,44 +102,96 @@ document.addEventListener('DOMContentLoaded', function () {
     applyTransform();
   }
 
-  // ----- image load handler -----
-  function onImageLoad() {
-    naturalW = lightboxImg.naturalWidth;
-    naturalH = lightboxImg.naturalHeight;
+  // ----- progressive image display -----
+  // Shows the (already cached) grid thumbnail immediately, scaled to the
+  // same fit as the final image, then swaps in the full-resolution file
+  // once it has downloaded. A token guards against late loads landing on
+  // the wrong image when the user navigates quickly.
+  function isPixelArt(src) {
+    return src.includes('pixel/') || src.includes('_sheet');
+  }
+
+  function display(loaded, src, isThumb) {
+    naturalW = loaded.naturalWidth;
+    naturalH = loaded.naturalHeight;
+    showingThumb = isThumb;
+    lightboxImg.src = src;
+    lightboxImg.style.visibility = 'visible';
+    resetZoom();
     requestAnimationFrame(resetZoom);
+  }
+
+  function preload(index) {
+    const img = allImages[index];
+    if (!img || preloadCache.has(img.src)) return;
+    preloadCache.add(img.src);
+    const p = new Image();
+    p.decoding = 'async';
+    p.src = img.src;
+  }
+
+  function loadLightboxImage() {
+    const img = allImages[currentIndex];
+    if (!img) return;
+    const token = ++loadToken;
+    const full = img.src;
+    const thumb = isPixelArt(full) ? full : toThumbSrc(full);
+    let fullShown = false;
+
+    // Hide whatever was there so the previous image never lingers
+    lightboxImg.style.visibility = 'hidden';
+    naturalW = 0;
+    naturalH = 0;
+
+    const fullLoader = new Image();
+    fullLoader.decoding = 'async';
+    fullLoader.onload = function () {
+      if (token !== loadToken) return;
+      fullShown = true;
+      preloadCache.add(full);
+      display(fullLoader, full, false);
+      // quietly warm the neighbours so next/prev feels instant
+      if (allImages.length > 1) {
+        preload((currentIndex + 1) % allImages.length);
+        preload((currentIndex - 1 + allImages.length) % allImages.length);
+      }
+    };
+    fullLoader.src = full;
+
+    if (thumb !== full) {
+      const thumbLoader = new Image();
+      thumbLoader.onload = function () {
+        if (token !== loadToken || fullShown) return;
+        display(thumbLoader, thumb, true);
+      };
+      thumbLoader.src = thumb;
+    }
   }
 
   // ----- update lightbox content -----
   function updateLightbox() {
     const img = allImages[currentIndex];
     if (!img) return;
-    lightboxImg.src = img.src;
     lightboxImg.alt = img.alt || '';
     lightboxCaption.innerHTML = linkify(img.caption || '');
     lightboxCounter.textContent = `${currentIndex + 1} / ${allImages.length}`;
-
-    if (img.src.includes('pixel/') || img.src.includes('_sheet')) {
-      lightboxImg.classList.add('pixelated');
-    } else {
-      lightboxImg.classList.remove('pixelated');
-    }
+    lightboxImg.classList.toggle('pixelated', isPixelArt(img.src));
+    loadLightboxImage();
   }
 
   // ----- open / close / navigation -----
   function openLightbox(index) {
     currentIndex = index;
-    updateLightbox();
-    lightboxImg.removeEventListener('load', onImageLoad);
-    lightboxImg.addEventListener('load', onImageLoad, { once: true });
-    if (lightboxImg.complete && lightboxImg.naturalWidth > 0) onImageLoad();
     lightboxOverlay.classList.add('is-open');
     document.body.style.overflow = 'hidden';
     hasDragged = false;
+    updateLightbox();
   }
 
   function closeLightbox() {
     lightboxOverlay.classList.remove('is-open');
     document.body.style.overflow = '';
+    loadToken++; // cancel any in-flight swap
     resetZoom();
   }
 
@@ -142,18 +199,12 @@ document.addEventListener('DOMContentLoaded', function () {
     if (allImages.length === 0) return;
     currentIndex = (currentIndex - 1 + allImages.length) % allImages.length;
     updateLightbox();
-    lightboxImg.removeEventListener('load', onImageLoad);
-    lightboxImg.addEventListener('load', onImageLoad, { once: true });
-    if (lightboxImg.complete && lightboxImg.naturalWidth > 0) onImageLoad();
   }
 
   function nextImage() {
     if (allImages.length === 0) return;
     currentIndex = (currentIndex + 1) % allImages.length;
     updateLightbox();
-    lightboxImg.removeEventListener('load', onImageLoad);
-    lightboxImg.addEventListener('load', onImageLoad, { once: true });
-    if (lightboxImg.complete && lightboxImg.naturalWidth > 0) onImageLoad();
   }
 
   // ----- event listeners -----
